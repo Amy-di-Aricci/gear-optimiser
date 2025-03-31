@@ -114,6 +114,6 @@ export type TWowItemOffhand = TWowItem & {
 }
 
 export type TWowItemMisc = TWowItem &{
-    slot: EItemSlot.NECK | EItemSlot.FINGER | EItemSlot.FINGER | EItemSlot.BACK;
+    slot: EItemSlot.NECK | EItemSlot.FINGER | EItemSlot.TRINKET | EItemSlot.BACK;
     itemType: EMiscType;
 }
