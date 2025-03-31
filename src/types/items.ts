@@ -73,7 +73,7 @@ export enum EDungeon{
     FLOOD = "FLOOD",
     ROOK = "ROOK",
     TOP = "TOP",
-    MEAD = "MEAD",
+    BREW = "BREW",
     PSF = "PSF"
 }
 
