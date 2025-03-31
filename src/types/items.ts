@@ -82,14 +82,25 @@ export enum ERaid{
     LOU = "LOU"
 }
 
+export enum ERaidBoss{
+    VEXIE = "VEXIE",
+    CAULDRON = "CAULDRON",
+    RIK = "RIK",
+    STIX = "STIX",
+    SPROCKET = "SPROCKET",
+    BANDIT = "BANDIT",
+    MUG_ZEE = "MUG_ZEE",
+    GALLYWIX = "GALLYWIX"
+}
+
 export type TRaidBoss = {
-    bossName: string;
+    bossName: ERaidBoss;
     raid: ERaid;
 }
 
 export type TLootSource = EDungeon | TRaidBoss;
 
-export type TWowItem = {
+export type TWowItemBase = {
     name: string;
     itemId: number,
     slot: EItemSlot;
@@ -99,21 +110,23 @@ export type TWowItem = {
     lootSource: TLootSource;
 }
 
-export type TWowItemWeapon = TWowItem & {
+export type TWowItemWeapon = TWowItemBase & {
     slot: EItemSlot.TWOHAND | EItemSlot.MAINHAND | EItemSlot.OFFHAND;
-    itemType: EWeaponType
+    weaponType: EWeaponType
 }
 
-export type TWowItemArmor = TWowItem & {
-    itemType: EArmorType;
+export type TWowItemArmor = TWowItemBase & {
+    armorType: EArmorType;
 }
 
-export type TWowItemOffhand = TWowItem & {
+export type TWowItemOffhand = TWowItemBase & {
     slot: EItemSlot.OFFHAND;
-    itemType: EOffhandType;
+    offhandType: EOffhandType;
 }
 
-export type TWowItemMisc = TWowItem &{
+export type TWowItemMisc = TWowItemBase &{
     slot: EItemSlot.NECK | EItemSlot.FINGER | EItemSlot.TRINKET | EItemSlot.BACK;
-    itemType: EMiscType;
+    miscType: EMiscType;
 }
+
+export type TWowItem = TWowItemWeapon | TWowItemArmor | TWowItemMisc | TWowItemOffhand;
