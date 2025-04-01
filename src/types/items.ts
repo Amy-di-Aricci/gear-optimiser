@@ -1,132 +1,145 @@
+import { ERole } from './roles';
+
 export enum EArmorType {
-    CLOTH = "CLOTH",
-    LEATHER = "LEATHER",
-    MAIL = "MAIL",
-    PLATE = "PLATE"
+  CLOTH = 'CLOTH',
+  LEATHER = 'LEATHER',
+  MAIL = 'MAIL',
+  PLATE = 'PLATE',
 }
 
-export enum EWeaponType{
-    DAGGER = "DAGGER",
-    FIST = "FIST",
-    AXE1H = "AXE1H",
-    MACE1H = "MACE1H",
-    SWORD1H = "SWORD1H",
-    POLEARM = "POLEARM",
-    STAFF = "STAFF",
-    AXE2H = "AXE2H",
-    MACE2H = "MACE2H",
-    SWORD2H = "SWORD2H",
-    WARGLAIVE = "WARGLAIVE",
-    BOW = "BOW",
-    CROSSBOW = "CROSSBOW",
-    GUN = "GUN",
-    WAND = "WAND"
+export enum EWeaponType {
+  DAGGER = 'DAGGER',
+  FIST = 'FIST',
+  AXE1H = 'AXE1H',
+  MACE1H = 'MACE1H',
+  SWORD1H = 'SWORD1H',
+  POLEARM = 'POLEARM',
+  STAFF = 'STAFF',
+  AXE2H = 'AXE2H',
+  MACE2H = 'MACE2H',
+  SWORD2H = 'SWORD2H',
+  WARGLAIVE = 'WARGLAIVE',
+  BOW = 'BOW',
+  CROSSBOW = 'CROSSBOW',
+  GUN = 'GUN',
+  WAND = 'WAND',
 }
 
-export enum EOffhandType{
-    OFFHAND = "OFFHAND",
-    SHIELD = "SHIELD"
+export enum EOffhandType {
+  OFFHAND = 'OFFHAND',
+  SHIELD = 'SHIELD',
 }
 
-export enum EMiscType{
-    NECK = "NECK",
-    FINGER = "FINGER",
-    TRINKET = "TRINKET",
-    BACK = "BACK",
+export enum EMiscType {
+  NECK = 'NECK',
+  FINGER = 'FINGER',
+  TRINKET = 'TRINKET',
+  BACK = 'BACK',
 }
 
 export enum EItemSlot {
-    HEAD = "HEAD",
-    SHOULDER = "SHOULDER",
-    BACK = "BACK",
-    CHEST = "CHEST",
-    WRIST = "WRIST",
-    HANDS = "HANDS",
-    WAIST = "WAIST",
-    LEGS = "LEGS",
-    FEET = "FEET",
-    NECK = "NECK",
-    FINGER = "FINGER",
-    TRINKET = "TRINKET",
-    MAINHAND = "MAINHAND",
-    OFFHAND = "OFFHAND",
-    TWOHAND = "TWOHAND"
+  HEAD = 'HEAD',
+  SHOULDER = 'SHOULDER',
+  BACK = 'BACK',
+  CHEST = 'CHEST',
+  WRIST = 'WRIST',
+  HANDS = 'HANDS',
+  WAIST = 'WAIST',
+  LEGS = 'LEGS',
+  FEET = 'FEET',
+  NECK = 'NECK',
+  FINGER = 'FINGER',
+  TRINKET = 'TRINKET',
+  MAINHAND = 'MAINHAND',
+  OFFHAND = 'OFFHAND',
+  TWOHAND = 'TWOHAND',
 }
 
-export enum EMainStat{
-    INT = "INT",
-    STR = "STR",
-    AGI = "AGI"
+export enum EMainStat {
+  INT = 'INT',
+  STR = 'STR',
+  AGI = 'AGI',
 }
 
-export enum ESecondaryStat{
-    CRIT = "CRIT",
-    HASTE = "HASTE",
-    VERS = "VERS",
-    MASTERY = "MASTERY"
+export enum ESecondaryStat {
+  CRIT = 'CRIT',
+  HASTE = 'HASTE',
+  VERS = 'VERS',
+  MASTERY = 'MASTERY',
 }
 
-export enum EDungeon{
-    DFC ="DFC",
-    ML = "ML",
-    WORK = "WORK",
-    FLOOD = "FLOOD",
-    ROOK = "ROOK",
-    TOP = "TOP",
-    BREW = "BREW",
-    PSF = "PSF"
+export enum EDungeon {
+  DFC = 'DFC',
+  ML = 'ML',
+  WORK = 'WORK',
+  FLOOD = 'FLOOD',
+  ROOK = 'ROOK',
+  TOP = 'TOP',
+  BREW = 'BREW',
+  PSF = 'PSF',
 }
 
-export enum ERaid{
-    NP = "NP",
-    LOU = "LOU"
+export enum ERaid {
+  NP = 'NP',
+  LOU = 'LOU',
 }
 
-export enum ERaidBoss{
-    VEXIE = "VEXIE",
-    CAULDRON = "CAULDRON",
-    RIK = "RIK",
-    STIX = "STIX",
-    SPROCKET = "SPROCKET",
-    BANDIT = "BANDIT",
-    MUG_ZEE = "MUG_ZEE",
-    GALLYWIX = "GALLYWIX"
+export enum ERaidBoss {
+  VEXIE = 'VEXIE',
+  CAULDRON = 'CAULDRON',
+  RIK = 'RIK',
+  STIX = 'STIX',
+  SPROCKET = 'SPROCKET',
+  BANDIT = 'BANDIT',
+  MUG_ZEE = 'MUG_ZEE',
+  GALLYWIX = 'GALLYWIX',
 }
 
 export type TRaidBoss = {
-    bossName: ERaidBoss;
-    raid: ERaid;
-}
+  bossName: ERaidBoss;
+  raid: ERaid;
+};
 
 export type TLootSource = EDungeon | TRaidBoss;
 
 export type TWowItemBase = {
-    name: string;
-    itemId: number,
-    slot: EItemSlot;
-    mainStats: Array<EMainStat>;
-    secondaryStats: Array<ESecondaryStat>;
-    specialEffect: string | null;
-    lootSource: TLootSource;
-}
+  name: string;
+  itemId: number;
+  slot: EItemSlot;
+  secondaryStats: Array<ESecondaryStat>;
+  specialEffect: string | null;
+  lootSource: TLootSource;
+};
 
 export type TWowItemWeapon = TWowItemBase & {
-    slot: EItemSlot.TWOHAND | EItemSlot.MAINHAND | EItemSlot.OFFHAND;
-    weaponType: EWeaponType
-}
+  slot: EItemSlot.TWOHAND | EItemSlot.MAINHAND | EItemSlot.OFFHAND;
+  weaponType: EWeaponType;
+  mainStats: Array<EMainStat>;
+};
 
 export type TWowItemArmor = TWowItemBase & {
-    armorType: EArmorType;
-}
+  armorType: EArmorType;
+};
 
 export type TWowItemOffhand = TWowItemBase & {
-    slot: EItemSlot.OFFHAND;
-    offhandType: EOffhandType;
-}
+  slot: EItemSlot.OFFHAND;
+  offhandType: EOffhandType;
+};
 
-export type TWowItemMisc = TWowItemBase &{
-    slot: EItemSlot.NECK | EItemSlot.FINGER | EItemSlot.TRINKET | EItemSlot.BACK;
-    miscType: EMiscType;
-}
+export type TWowItemMisc = TWowItemBase & {
+  slot: EItemSlot.NECK | EItemSlot.FINGER | EItemSlot.BACK;
+  miscType: EMiscType;
+};
 
-export type TWowItem = TWowItemWeapon | TWowItemArmor | TWowItemMisc | TWowItemOffhand;
+export type TWowItemTrinket = TWowItemBase & {
+  slot: EItemSlot.TRINKET;
+  roles: Array<ERole>;
+  mainStats: Array<EMainStat>;
+};
+
+export type TWowItem =
+  | TWowItemWeapon
+  | TWowItemArmor
+  | TWowItemMisc
+  | TWowItemOffhand
+  | TWowItemTrinket;
