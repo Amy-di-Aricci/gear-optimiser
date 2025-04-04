@@ -1,4 +1,4 @@
-import { ECharacterClass } from '../types/character';
+import { ECharacterClass } from '../types/spec';
 import { EArmorType, EMainStat } from '../types/items';
 
 export const classToArmorType = (characterClass: ECharacterClass): EArmorType => {

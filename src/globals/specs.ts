@@ -103,7 +103,7 @@ export const ALL_SPECS: Record<ECharacterSpecName, TCharacterSpec> = {
     role: ERole.HEALER,
     mainStat: EMainStat.INT,
     weaponTypes: [EWeaponType.MACE1H, EWeaponType.DAGGER, EWeaponType.WAND],
-    offhandTypes: [EOffhandType.OFFHAND]
+    offhandTypes: [EOffhandType.OFFHAND],
   },
   [ECharacterSpecName.DISCI]: {
     characterSpecName: ECharacterSpecName.DISCI,
@@ -111,7 +111,7 @@ export const ALL_SPECS: Record<ECharacterSpecName, TCharacterSpec> = {
     role: ERole.HEALER,
     mainStat: EMainStat.INT,
     weaponTypes: [EWeaponType.MACE1H, EWeaponType.DAGGER, EWeaponType.WAND],
-    offhandTypes: [EOffhandType.OFFHAND]
+    offhandTypes: [EOffhandType.OFFHAND],
   },
   [ECharacterSpecName.SHADOW]: {
     characterSpecName: ECharacterSpecName.SHADOW,
@@ -119,7 +119,7 @@ export const ALL_SPECS: Record<ECharacterSpecName, TCharacterSpec> = {
     role: ERole.DPS_RANGED,
     mainStat: EMainStat.INT,
     weaponTypes: [EWeaponType.MACE1H, EWeaponType.DAGGER, EWeaponType.WAND],
-    offhandTypes: [EOffhandType.OFFHAND]
+    offhandTypes: [EOffhandType.OFFHAND],
   },
   [ECharacterSpecName.UNHOLY]: {
     characterSpecName: ECharacterSpecName.UNHOLY,
@@ -148,7 +148,7 @@ export const ALL_SPECS: Record<ECharacterSpecName, TCharacterSpec> = {
     role: ERole.HEALER,
     mainStat: EMainStat.INT,
     weaponTypes: [EWeaponType.MACE1H, EWeaponType.STAFF, EWeaponType.DAGGER],
-    offhandTypes: [EOffhandType.OFFHAND, EOffhandType.SHIELD]
+    offhandTypes: [EOffhandType.OFFHAND, EOffhandType.SHIELD],
   },
   [ECharacterSpecName.ELE]: {
     characterSpecName: ECharacterSpecName.ELE,
@@ -156,7 +156,7 @@ export const ALL_SPECS: Record<ECharacterSpecName, TCharacterSpec> = {
     role: ERole.DPS_RANGED,
     mainStat: EMainStat.INT,
     weaponTypes: [EWeaponType.MACE1H, EWeaponType.STAFF, EWeaponType.DAGGER],
-    offhandTypes: [EOffhandType.OFFHAND, EOffhandType.SHIELD]
+    offhandTypes: [EOffhandType.OFFHAND, EOffhandType.SHIELD],
   },
   [ECharacterSpecName.ENCH]: {
     characterSpecName: ECharacterSpecName.ENCH,
@@ -171,7 +171,7 @@ export const ALL_SPECS: Record<ECharacterSpecName, TCharacterSpec> = {
     role: ERole.DPS_RANGED,
     mainStat: EMainStat.INT,
     weaponTypes: [EWeaponType.STAFF, EWeaponType.DAGGER],
-    offhandTypes: [EOffhandType.OFFHAND]
+    offhandTypes: [EOffhandType.OFFHAND],
   },
   [ECharacterSpecName.FIRE]: {
     characterSpecName: ECharacterSpecName.FIRE,
@@ -179,7 +179,7 @@ export const ALL_SPECS: Record<ECharacterSpecName, TCharacterSpec> = {
     role: ERole.DPS_RANGED,
     mainStat: EMainStat.INT,
     weaponTypes: [EWeaponType.STAFF, EWeaponType.DAGGER],
-    offhandTypes: [EOffhandType.OFFHAND]
+    offhandTypes: [EOffhandType.OFFHAND],
   },
   [ECharacterSpecName.ARCANE]: {
     characterSpecName: ECharacterSpecName.ARCANE,
@@ -187,7 +187,7 @@ export const ALL_SPECS: Record<ECharacterSpecName, TCharacterSpec> = {
     role: ERole.DPS_RANGED,
     mainStat: EMainStat.INT,
     weaponTypes: [EWeaponType.STAFF, EWeaponType.DAGGER],
-    offhandTypes: [EOffhandType.OFFHAND]
+    offhandTypes: [EOffhandType.OFFHAND],
   },
   [ECharacterSpecName.DESTRO]: {
     characterSpecName: ECharacterSpecName.DESTRO,
@@ -195,7 +195,7 @@ export const ALL_SPECS: Record<ECharacterSpecName, TCharacterSpec> = {
     role: ERole.DPS_RANGED,
     mainStat: EMainStat.INT,
     weaponTypes: [EWeaponType.STAFF, EWeaponType.DAGGER],
-    offhandTypes: [EOffhandType.OFFHAND]
+    offhandTypes: [EOffhandType.OFFHAND],
   },
   [ECharacterSpecName.DEMO]: {
     characterSpecName: ECharacterSpecName.DEMO,
@@ -203,7 +203,7 @@ export const ALL_SPECS: Record<ECharacterSpecName, TCharacterSpec> = {
     role: ERole.DPS_RANGED,
     mainStat: EMainStat.INT,
     weaponTypes: [EWeaponType.STAFF, EWeaponType.DAGGER],
-    offhandTypes: [EOffhandType.OFFHAND]
+    offhandTypes: [EOffhandType.OFFHAND],
   },
   [ECharacterSpecName.AFFLI]: {
     characterSpecName: ECharacterSpecName.AFFLI,
@@ -211,7 +211,7 @@ export const ALL_SPECS: Record<ECharacterSpecName, TCharacterSpec> = {
     role: ERole.DPS_RANGED,
     mainStat: EMainStat.INT,
     weaponTypes: [EWeaponType.STAFF, EWeaponType.DAGGER],
-    offhandTypes: [EOffhandType.OFFHAND]
+    offhandTypes: [EOffhandType.OFFHAND],
   },
   [ECharacterSpecName.MIST]: {
     characterSpecName: ECharacterSpecName.MIST,
@@ -239,7 +239,7 @@ export const ALL_SPECS: Record<ECharacterSpecName, TCharacterSpec> = {
     characterClass: ECharacterClass.DRUID,
     role: ERole.HEALER,
     mainStat: EMainStat.INT,
-    weaponTypes: [EWeaponType.STAFF],
+    weaponTypes: [EWeaponType.STAFF, EWeaponType.MACE1H, EWeaponType.DAGGER],
   },
   [ECharacterSpecName.FERAL]: {
     characterSpecName: ECharacterSpecName.FERAL,
@@ -253,7 +253,7 @@ export const ALL_SPECS: Record<ECharacterSpecName, TCharacterSpec> = {
     characterClass: ECharacterClass.DRUID,
     role: ERole.DPS_RANGED,
     mainStat: EMainStat.INT,
-    weaponTypes: [EWeaponType.STAFF],
+    weaponTypes: [EWeaponType.STAFF, EWeaponType.MACE1H, EWeaponType.DAGGER],
   },
   [ECharacterSpecName.GUARDIAN]: {
     characterSpecName: ECharacterSpecName.GUARDIAN,

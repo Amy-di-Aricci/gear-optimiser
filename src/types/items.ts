@@ -30,13 +30,6 @@ export enum EOffhandType {
   SHIELD = 'SHIELD',
 }
 
-export enum EMiscType {
-  NECK = 'NECK',
-  FINGER = 'FINGER',
-  TRINKET = 'TRINKET',
-  BACK = 'BACK',
-}
-
 export enum EItemSlot {
   HEAD = 'HEAD',
   SHOULDER = 'SHOULDER',
@@ -118,6 +111,15 @@ export type TWowItemWeapon = TWowItemBase & {
 };
 
 export type TWowItemArmor = TWowItemBase & {
+  slot:
+    | EItemSlot.CHEST
+    | EItemSlot.FEET
+    | EItemSlot.HANDS
+    | EItemSlot.HEAD
+    | EItemSlot.LEGS
+    | EItemSlot.WRIST
+    | EItemSlot.WAIST
+    | EItemSlot.SHOULDER;
   armorType: EArmorType;
 };
 
@@ -128,7 +130,6 @@ export type TWowItemOffhand = TWowItemBase & {
 
 export type TWowItemMisc = TWowItemBase & {
   slot: EItemSlot.NECK | EItemSlot.FINGER | EItemSlot.BACK;
-  miscType: EMiscType;
 };
 
 export type TWowItemTrinket = TWowItemBase & {
@@ -143,3 +144,29 @@ export type TWowItem =
   | TWowItemMisc
   | TWowItemOffhand
   | TWowItemTrinket;
+
+export const isWowItemWeapon = (wowItem: TWowItem): wowItem is TWowItemWeapon =>
+  wowItem.slot === EItemSlot.TWOHAND ||
+  wowItem.slot === EItemSlot.MAINHAND ||
+  wowItem.slot === EItemSlot.OFFHAND;
+
+export const isWowItemArmor = (wowItem: TWowItem): wowItem is TWowItemArmor =>
+  wowItem.slot === EItemSlot.CHEST ||
+  wowItem.slot === EItemSlot.FEET ||
+  wowItem.slot === EItemSlot.HANDS ||
+  wowItem.slot === EItemSlot.HEAD ||
+  wowItem.slot === EItemSlot.LEGS ||
+  wowItem.slot === EItemSlot.WRIST ||
+  wowItem.slot === EItemSlot.WAIST ||
+  wowItem.slot === EItemSlot.SHOULDER;
+
+export const isWowItemOffhand = (wowItem: TWowItem): wowItem is TWowItemOffhand =>
+  wowItem.slot === EItemSlot.OFFHAND;
+
+export const isWowItemMisc = (wowItem: TWowItem): wowItem is TWowItemMisc =>
+  wowItem.slot === EItemSlot.NECK ||
+  wowItem.slot === EItemSlot.FINGER ||
+  wowItem.slot === EItemSlot.BACK;
+
+export const isWowItemTrinket = (wowItem: TWowItem): wowItem is TWowItemTrinket =>
+  wowItem.slot === EItemSlot.TRINKET;
