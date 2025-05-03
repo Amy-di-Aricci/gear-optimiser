@@ -2,7 +2,6 @@ import {
   EDungeon,
   EItemSlot,
   EMainStat,
-  EMiscType,
   ESecondaryStat,
   TWowItem,
   ERaid,
@@ -33,7 +32,6 @@ export const GEAR_STORE: Array<TWowItem> = [
       bossName: ERaidBoss.CAULDRON,
       raid: ERaid.LOU,
     },
-    miscType: EMiscType.FINGER,
   },
   {
     name: 'Sanitized Scraphood',
