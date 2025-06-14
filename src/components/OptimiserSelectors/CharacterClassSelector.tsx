@@ -36,32 +36,21 @@ const CHARACTER_CLASS_NAMES_LOOKUP: Record<ECharacterClass, string> = {
 };
 
 const CHARACTER_CLASS_ICONS_LOOKUP: Record<ECharacterClass, string> = {
-  [ECharacterClass.SHAMAN]:
-    'https://wow.zamimg.com/images/wow/icons/large/spell_nature_lightning.jpg',
-  [ECharacterClass.WARRIOR]:
-    'https://wow.zamimg.com/images/wow/icons/large/spell_nature_lightning.jpg',
-  [ECharacterClass.PALADIN]:
-    'https://wow.zamimg.com/images/wow/icons/large/spell_nature_lightning.jpg',
-  [ECharacterClass.HUNTER]:
-    'https://wow.zamimg.com/images/wow/icons/large/spell_nature_lightning.jpg',
-  [ECharacterClass.ROGUE]:
-    'https://wow.zamimg.com/images/wow/icons/large/spell_nature_lightning.jpg',
-  [ECharacterClass.PRIEST]:
-    'https://wow.zamimg.com/images/wow/icons/large/spell_nature_lightning.jpg',
+  [ECharacterClass.SHAMAN]: 'https://wow.zamimg.com/images/wow/icons/medium/classicon_shaman.jpg',
+  [ECharacterClass.WARRIOR]: 'https://wow.zamimg.com/images/wow/icons/medium/classicon_warrior.jpg',
+  [ECharacterClass.PALADIN]: 'https://wow.zamimg.com/images/wow/icons/medium/classicon_paladin.jpg',
+  [ECharacterClass.HUNTER]: 'https://wow.zamimg.com/images/wow/icons/medium/classicon_hunter.jpg',
+  [ECharacterClass.ROGUE]: 'https://wow.zamimg.com/images/wow/icons/medium/classicon_rogue.jpg',
+  [ECharacterClass.PRIEST]: 'https://wow.zamimg.com/images/wow/icons/medium/classicon_priest.jpg',
   [ECharacterClass.DEATH_KNIGHT]:
-    'https://wow.zamimg.com/images/wow/icons/large/spell_nature_lightning.jpg',
-  [ECharacterClass.MAGE]:
-    'https://wow.zamimg.com/images/wow/icons/large/spell_nature_lightning.jpg',
-  [ECharacterClass.WARLOCK]:
-    'https://wow.zamimg.com/images/wow/icons/large/spell_nature_lightning.jpg',
-  [ECharacterClass.MONK]:
-    'https://wow.zamimg.com/images/wow/icons/large/spell_nature_lightning.jpg',
-  [ECharacterClass.DRUID]:
-    'https://wow.zamimg.com/images/wow/icons/large/spell_nature_lightning.jpg',
+    'https://wow.zamimg.com/images/wow/icons/medium/spell_deathknight_classicon.jpg',
+  [ECharacterClass.MAGE]: 'https://wow.zamimg.com/images/wow/icons/medium/classicon_mage.jpg',
+  [ECharacterClass.WARLOCK]: 'https://wow.zamimg.com/images/wow/icons/medium/classicon_warlock.jpg',
+  [ECharacterClass.MONK]: 'https://wow.zamimg.com/images/wow/icons/medium/classicon_monk.jpg',
+  [ECharacterClass.DRUID]: 'https://wow.zamimg.com/images/wow/icons/medium/classicon_druid.jpg',
   [ECharacterClass.DEMON_HUNTER]:
-    'https://wow.zamimg.com/images/wow/icons/large/spell_nature_lightning.jpg',
-  [ECharacterClass.EVOKER]:
-    'https://wow.zamimg.com/images/wow/icons/large/spell_nature_lightning.jpg',
+    'https://wow.zamimg.com/images/wow/icons/medium/classicon_demonhunter.jpg',
+  [ECharacterClass.EVOKER]: 'https://wow.zamimg.com/images/wow/icons/medium/classicon_evoker.jpg',
 };
 
 const SMART_SELECTOR_CLASS_ITEMS: TSmartSelectorItem<ECharacterClass>[] = Object.values(
