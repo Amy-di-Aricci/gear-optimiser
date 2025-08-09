@@ -7,8 +7,10 @@ import {
   CharacterClassSelector,
   CharacterSpecSelector,
   DEFAULT_CHARACTER_SPECS,
+  StatsSelector,
 } from '../components/OptimiserSelectors';
-import { EItemSlot } from '../types/items';
+import { EItemSlot, ESecondaryStat } from '../types/items';
+import { CritIcon } from '../assets/icons';
 
 export const Optimiser = memo(() => {
   const [selectedClass, _setSelectedClass] = useState<ECharacterClass>(
@@ -20,6 +22,7 @@ export const Optimiser = memo(() => {
     setSelectedSpec(DEFAULT_CHARACTER_SPECS[newValue]);
   }, []);
   const [selectedSlot, setSelectedSlot] = useState<EItemSlot>();
+  const [selectedStats, setSelectedStats] = useState<ESecondaryStat[]>([]);
   return (
     <Container maxWidth="lg">
       <Stack
@@ -39,10 +42,11 @@ export const Optimiser = memo(() => {
             setSelectedSpec={setSelectedSpec}
             selectedClass={selectedClass}
           />
-          <Typography>Stat filter placeholder</Typography>
           <InventorySlotPicker selectedSlot={selectedSlot} setSelectedSlot={setSelectedSlot} />
         </Stack>
         <Stack>
+          <CritIcon />
+          <StatsSelector selectedStats={selectedStats} setSelectedStats={setSelectedStats} />
           <ItemTable />
         </Stack>
       </Stack>
