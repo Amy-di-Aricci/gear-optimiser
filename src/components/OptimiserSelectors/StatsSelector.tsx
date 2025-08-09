@@ -1,4 +1,4 @@
-import { amber, indigo, purple, red } from '@mui/material/colors';
+import { amber, indigo, orange, purple, red } from '@mui/material/colors';
 import { ESecondaryStat } from '../../types/items';
 import { ESelectorVariant, SmartMultiSelector, TSmartSelectorItem } from '../SmartSelector';
 import { useOptimiserFilters } from '../../contexts/OptimiserFiltersContext';
@@ -32,7 +32,7 @@ const SECONDARY_STAT_ICONS_LOOKUP: Record<ESecondaryStat, string> = {
 
 const SECONDARY_STAT_COLORS_LOOKUP: Record<ESecondaryStat, string> = {
   [ESecondaryStat.CRIT]: red['500'],
-  [ESecondaryStat.HASTE]: amber['500'],
+  [ESecondaryStat.HASTE]: orange['800'],
   [ESecondaryStat.VERS]: indigo['500'],
   [ESecondaryStat.MASTERY]: purple['500'],
 };

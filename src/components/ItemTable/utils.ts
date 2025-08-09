@@ -1,3 +1,4 @@
+import { difference } from 'lodash';
 import {
   EMainStat,
   EOffhandType,
@@ -79,4 +80,26 @@ export const getSlotDisplay = (item: TWowItem) => {
     return OFFHAND_TYPE_LOOKUP[item.offhandType];
   }
   return formatName(item.slot);
+};
+
+export const hasSelectedSecondaryStats = (
+  item: TWowItem,
+  selectedStats: ESecondaryStat[],
+): boolean => {
+  if (selectedStats.length === 0 || selectedStats.length === Object.values(ESecondaryStat).length) {
+    return true;
+  }
+  if (item.secondaryStats.length === 0) {
+    return false;
+  }
+  if (selectedStats.length === 1 && item.secondaryStats.includes(selectedStats[0])) {
+    return true;
+  }
+  if (
+    selectedStats.length === 2 &&
+    difference([...selectedStats], [...item.secondaryStats]).length === 0
+  ) {
+    return true;
+  }
+  return difference([...item.secondaryStats], [...selectedStats]).length === 0;
 };

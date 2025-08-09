@@ -163,27 +163,26 @@ type ButtonProps<T> = {
 
 const SelectorButton = <T,>({ handleClick, item, isSelected, itemSize }: ButtonProps<T>) => {
   return (
-    <>
-      <Button
-        variant="outlined"
-        onClick={() => handleClick(item.id, item.disabled ?? false)}
-        sx={() => {
-          return {
-            height: itemSize,
-            width: 100,
-            color: item.tintColor,
+    <Button
+      variant="outlined"
+      onClick={() => handleClick(item.id, item.disabled ?? false)}
+      sx={() => {
+        return {
+          height: itemSize,
+          width: 100,
+          color: item.tintColor,
+          borderColor: item.tintColor,
+          borderWidth: isSelected ? 2 : 0.5,
+          filter: item.disabled || !isSelected ? `grayscale(0.75) brightness(0.80)` : undefined,
+          '&:hover': {
+            cursor: !item.disabled ? 'pointer' : undefined,
+            filter: `brightness(1.25)${!item.disabled && !isSelected ? ' grayscale(0.33)' : undefined}`,
             borderColor: item.tintColor,
-            borderWidth: isSelected ? 2 : 1,
-            filter: item.disabled || !isSelected ? `grayscale(0.5) brightness(0.80)` : undefined,
-            '&:hover': {
-              cursor: !item.disabled ? 'pointer' : undefined,
-              filter: `brightness(1.25)${!item.disabled && !isSelected ? ' grayscale(0.33)' : undefined}`,
-            },
-          };
-        }}
-      >
-        {item.name}
-      </Button>
-    </>
+          },
+        };
+      }}
+    >
+      {item.name}
+    </Button>
   );
 };

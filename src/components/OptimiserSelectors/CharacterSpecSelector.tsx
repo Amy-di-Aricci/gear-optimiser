@@ -1,15 +1,13 @@
 import { useMemo } from 'react';
 import { ECharacterSpecName } from '../../types/spec';
 import { SmartMultiSelector, TSmartSelectorItem } from '../SmartSelector';
-import { ALL_SPECS } from '../../globals/specs';
 import { useOptimiserFilters } from '../../contexts/OptimiserFiltersContext';
+import { getAllClassSpecs } from '../../utils/mappers';
 
 export const CharacterSpecSelector = () => {
   const { selectedClass, selectedSpec, setSelectedSpec } = useOptimiserFilters();
   const availableSpecsItems = useMemo<TSmartSelectorItem<ECharacterSpecName>[]>(() => {
-    const availableSpecs = Object.values(ALL_SPECS)
-      .filter((spec) => spec.characterClass === selectedClass)
-      .map((spec) => spec.characterSpecName);
+    const availableSpecs = getAllClassSpecs(selectedClass);
 
     return availableSpecs.map((characterSpec) => {
       return {

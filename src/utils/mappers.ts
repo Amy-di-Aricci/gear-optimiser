@@ -1,5 +1,13 @@
 import { ECharacterClass } from '../types/spec';
-import { EArmorType, EMainStat } from '../types/items';
+import {
+  EArmorType,
+  EMainStat,
+  isWowItemArmor,
+  isWowItemTrinket,
+  isWowItemWeapon,
+  TWowItem,
+} from '../types/items';
+import { ALL_SPECS } from '../globals/specs';
 
 export const classToArmorType = (characterClass: ECharacterClass): EArmorType => {
   switch (characterClass) {
@@ -42,4 +50,22 @@ export const armorTypeToMainStats = (armorType: EArmorType): Array<EMainStat> =>
       return [EMainStat.INT, EMainStat.STR];
     }
   }
+};
+
+export const getAllClassSpecs = (selectedClass: ECharacterClass) =>
+  Object.values(ALL_SPECS)
+    .filter((spec) => spec.characterClass === selectedClass)
+    .map((spec) => spec.characterSpecName);
+
+export const getItemMainStats = (item: TWowItem): EMainStat[] => {
+  if (isWowItemArmor(item)) {
+    return armorTypeToMainStats(item.armorType);
+  }
+  if (isWowItemWeapon(item)) {
+    return item.mainStats;
+  }
+  if (isWowItemTrinket(item)) {
+    return item.mainStats;
+  }
+  return [];
 };

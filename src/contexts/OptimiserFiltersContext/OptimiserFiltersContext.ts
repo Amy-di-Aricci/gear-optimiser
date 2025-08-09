@@ -1,7 +1,7 @@
 import { createContext } from 'react';
 import { ECharacterClass, ECharacterSpecName } from '../../types/spec';
 import { noop } from 'lodash';
-import { DEFAULT_CLASS, DEFAULT_SPEC } from './config';
+import { DEFAULT_CLASS } from './config';
 import { EItemSlot, ESecondaryStat } from '../../types/items';
 
 type TOptimiserFiltersContext = {
