@@ -1,13 +1,10 @@
 import { amber, indigo, purple, red } from '@mui/material/colors';
 import { ESecondaryStat } from '../../types/items';
 import { ESelectorVariant, SmartMultiSelector, TSmartSelectorItem } from '../SmartSelector';
+import { useOptimiserFilters } from '../../contexts/OptimiserFiltersContext';
 
-type TStatsSelectorProps = {
-  selectedStats: ESecondaryStat[];
-  setSelectedStats: (newValue: ESecondaryStat[]) => void;
-};
-
-export const StatsSelector = ({ selectedStats, setSelectedStats }: TStatsSelectorProps) => {
+export const StatsSelector = () => {
+  const { selectedStats, setSelectedStats } = useOptimiserFilters();
   return (
     <SmartMultiSelector
       items={SMART_SELECTOR_SECONDARY_STAT_ITEMS}

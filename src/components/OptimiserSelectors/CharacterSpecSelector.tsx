@@ -1,19 +1,11 @@
 import { useMemo } from 'react';
-import { ECharacterClass, ECharacterSpecName } from '../../types/spec';
-import { SmartSelector, TSmartSelectorItem } from '../SmartSelector';
+import { ECharacterSpecName } from '../../types/spec';
+import { SmartMultiSelector, TSmartSelectorItem } from '../SmartSelector';
 import { ALL_SPECS } from '../../globals/specs';
+import { useOptimiserFilters } from '../../contexts/OptimiserFiltersContext';
 
-type TCharacterSpecSelectorProps = {
-  selectedSpec: ECharacterSpecName;
-  setSelectedSpec: (newValue: ECharacterSpecName) => void;
-  selectedClass: ECharacterClass;
-};
-
-export const CharacterSpecSelector = ({
-  selectedSpec,
-  setSelectedSpec,
-  selectedClass,
-}: TCharacterSpecSelectorProps) => {
+export const CharacterSpecSelector = () => {
+  const { selectedClass, selectedSpec, setSelectedSpec } = useOptimiserFilters();
   const availableSpecsItems = useMemo<TSmartSelectorItem<ECharacterSpecName>[]>(() => {
     const availableSpecs = Object.values(ALL_SPECS)
       .filter((spec) => spec.characterClass === selectedClass)
@@ -29,10 +21,10 @@ export const CharacterSpecSelector = ({
   }, [selectedClass]);
 
   return (
-    <SmartSelector
+    <SmartMultiSelector
       items={availableSpecsItems}
-      currentSelectedId={selectedSpec}
-      setCurrentSelectedId={setSelectedSpec}
+      currentSelectedIds={selectedSpec}
+      setCurrentSelectedIds={setSelectedSpec}
     />
   );
 };

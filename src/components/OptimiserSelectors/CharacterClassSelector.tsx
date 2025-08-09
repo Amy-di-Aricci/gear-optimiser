@@ -1,15 +1,9 @@
+import { useOptimiserFilters } from '../../contexts/OptimiserFiltersContext';
 import { ECharacterClass } from '../../types/spec';
 import { SmartSelector, TSmartSelectorItem } from '../SmartSelector';
 
-type TCharacterClassSelectorProps = {
-  selectedClass: ECharacterClass;
-  setSelectedClass: (newValue: ECharacterClass) => void;
-};
-
-export const CharacterClassSelector = ({
-  selectedClass,
-  setSelectedClass,
-}: TCharacterClassSelectorProps) => {
+export const CharacterClassSelector = () => {
+  const { selectedClass, setSelectedClass } = useOptimiserFilters();
   return (
     <SmartSelector
       items={SMART_SELECTOR_CLASS_ITEMS}

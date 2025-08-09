@@ -1,41 +1,35 @@
 import { Box, Stack } from '@mui/material';
 import { INVENTORY_ICON_SIZE } from './config';
 import { EItemSlot } from '../../types/items';
-import { SmartSelector, TSmartSelectorItem } from '../SmartSelector';
+import { SmartMultiSelector, SmartSelector, TSmartSelectorItem } from '../SmartSelector';
+import { useOptimiserFilters } from '../../contexts/OptimiserFiltersContext';
 
-type TInventorySlotPickerProps = {
-  selectedSlot: EItemSlot | undefined;
-  setSelectedSlot: (newValue: EItemSlot) => void;
-};
-
-export const InventorySlotPicker = ({
-  selectedSlot,
-  setSelectedSlot,
-}: TInventorySlotPickerProps) => {
+export const InventorySlotPicker = () => {
+  const { selectedSlot, setSelectedSlot } = useOptimiserFilters();
   return (
     <Stack direction="row" width="100%">
       <Stack>
-        <SmartSelector
+        <SmartMultiSelector
           useTint
           vertical
           items={SMART_SELECTOR_LEFT_UPPER_SLOTS}
-          currentSelectedId={selectedSlot}
-          setCurrentSelectedId={setSelectedSlot}
+          currentSelectedIds={selectedSlot}
+          setCurrentSelectedIds={setSelectedSlot}
           itemSize={INVENTORY_ICON_SIZE}
         />
-        <SmartSelector
+        <SmartMultiSelector
           vertical
           items={SMART_SELECTOR_LEFT_DISABLED_SLOTS}
-          currentSelectedId={''}
-          setCurrentSelectedId={() => {}}
+          currentSelectedIds={[]}
+          setCurrentSelectedIds={() => {}}
           itemSize={INVENTORY_ICON_SIZE}
         />
-        <SmartSelector
+        <SmartMultiSelector
           vertical
           useTint
           items={SMART_SELECTOR_LEFT_LOWER_SLOTS}
-          currentSelectedId={selectedSlot}
-          setCurrentSelectedId={setSelectedSlot}
+          currentSelectedIds={selectedSlot}
+          setCurrentSelectedIds={setSelectedSlot}
           itemSize={INVENTORY_ICON_SIZE}
         />
       </Stack>
@@ -58,20 +52,20 @@ export const InventorySlotPicker = ({
           }}
           src="https://wow.zamimg.com/modelviewer/live/webthumbs/npc/185/441.webp"
         />
-        <SmartSelector
+        <SmartMultiSelector
           useTint
           items={SMART_SELECTOR_BOTTOM_SLOTS}
-          currentSelectedId={selectedSlot}
-          setCurrentSelectedId={setSelectedSlot}
+          currentSelectedIds={selectedSlot}
+          setCurrentSelectedIds={setSelectedSlot}
           itemSize={INVENTORY_ICON_SIZE}
         />
       </Stack>
-      <SmartSelector
+      <SmartMultiSelector
         useTint
         vertical
         items={SMART_SELECTOR_RIGHT_SLOTS}
-        currentSelectedId={selectedSlot}
-        setCurrentSelectedId={setSelectedSlot}
+        currentSelectedIds={selectedSlot}
+        setCurrentSelectedIds={setSelectedSlot}
         itemSize={INVENTORY_ICON_SIZE}
       />
     </Stack>

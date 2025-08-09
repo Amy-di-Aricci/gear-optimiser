@@ -1,4 +1,4 @@
-import { Box, Button, Stack, SvgIcon } from '@mui/material';
+import { Box, Button, Stack } from '@mui/material';
 import { TSmartSelectorItem } from './types';
 import { blue } from '@mui/material/colors';
 
@@ -14,7 +14,7 @@ type TSmartSelectorProps<T> = {
   vertical?: boolean;
   itemSize?: number;
   useTint?: boolean;
-  color: string;
+  color?: string;
   variant?: ESelectorVariant;
 };
 
@@ -161,7 +161,7 @@ type ButtonProps<T> = {
   color: string;
 };
 
-const SelectorButton = <T,>({ handleClick, item, isSelected, itemSize, color }: ButtonProps<T>) => {
+const SelectorButton = <T,>({ handleClick, item, isSelected, itemSize }: ButtonProps<T>) => {
   return (
     <>
       <Button

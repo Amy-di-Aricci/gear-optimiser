@@ -1,53 +1,36 @@
-import { memo, useCallback, useState } from 'react';
+import { memo } from 'react';
 import { ItemTable } from '../components/ItemTable/ItemTable';
 import { Container, Stack } from '@mui/material';
 import { InventorySlotPicker } from '../components/InventorySlotPicker';
-import { ECharacterClass, ECharacterSpecName } from '../types/spec';
 import {
   CharacterClassSelector,
   CharacterSpecSelector,
-  DEFAULT_CHARACTER_SPECS,
   StatsSelector,
 } from '../components/OptimiserSelectors';
-import { EItemSlot, ESecondaryStat } from '../types/items';
+import { OptimiserFilterContextProvider } from '../contexts/OptimiserFiltersContext';
 
 export const Optimiser = memo(() => {
-  const [selectedClass, _setSelectedClass] = useState<ECharacterClass>(
-    ECharacterClass.DEATH_KNIGHT,
-  );
-  const [selectedSpec, setSelectedSpec] = useState<ECharacterSpecName>(ECharacterSpecName.BLOOD);
-  const setSelectedClass = useCallback((newValue: ECharacterClass) => {
-    _setSelectedClass(newValue);
-    setSelectedSpec(DEFAULT_CHARACTER_SPECS[newValue]);
-  }, []);
-  const [selectedSlot, setSelectedSlot] = useState<EItemSlot>();
-  const [selectedStats, setSelectedStats] = useState<ESecondaryStat[]>([]);
   return (
-    <Container maxWidth="lg">
-      <Stack
-        gap={1}
-        direction={{
-          xs: 'column',
-          md: 'row',
-        }}
-      >
-        <Stack minWidth="400px" gap={1} alignItems={'center'}>
-          <CharacterClassSelector
-            selectedClass={selectedClass}
-            setSelectedClass={setSelectedClass}
-          />
-          <CharacterSpecSelector
-            selectedSpec={selectedSpec}
-            setSelectedSpec={setSelectedSpec}
-            selectedClass={selectedClass}
-          />
-          <InventorySlotPicker selectedSlot={selectedSlot} setSelectedSlot={setSelectedSlot} />
+    <OptimiserFilterContextProvider>
+      <Container maxWidth="lg">
+        <Stack
+          gap={1}
+          direction={{
+            xs: 'column',
+            md: 'row',
+          }}
+        >
+          <Stack minWidth="400px" gap={1} alignItems={'center'}>
+            <CharacterClassSelector />
+            <CharacterSpecSelector />
+            <InventorySlotPicker />
+          </Stack>
+          <Stack gap={1}>
+            <StatsSelector />
+            <ItemTable />
+          </Stack>
         </Stack>
-        <Stack gap={1}>
-          <StatsSelector selectedStats={selectedStats} setSelectedStats={setSelectedStats} />
-          <ItemTable />
-        </Stack>
-      </Stack>
-    </Container>
+      </Container>
+    </OptimiserFilterContextProvider>
   );
 });
