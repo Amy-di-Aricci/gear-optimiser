@@ -3,4 +3,5 @@ export type TSmartSelectorItem<T> = {
   iconSrc: string;
   name: string;
   disabled?: boolean;
+  tintColor?: string;
 };

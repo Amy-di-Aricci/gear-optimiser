@@ -1,6 +1,6 @@
 import { memo, useCallback, useState } from 'react';
 import { ItemTable } from '../components/ItemTable/ItemTable';
-import { Container, Stack, Typography } from '@mui/material';
+import { Container, Stack } from '@mui/material';
 import { InventorySlotPicker } from '../components/InventorySlotPicker';
 import { ECharacterClass, ECharacterSpecName } from '../types/spec';
 import {
@@ -10,7 +10,6 @@ import {
   StatsSelector,
 } from '../components/OptimiserSelectors';
 import { EItemSlot, ESecondaryStat } from '../types/items';
-import { CritIcon } from '../assets/icons';
 
 export const Optimiser = memo(() => {
   const [selectedClass, _setSelectedClass] = useState<ECharacterClass>(
@@ -44,8 +43,7 @@ export const Optimiser = memo(() => {
           />
           <InventorySlotPicker selectedSlot={selectedSlot} setSelectedSlot={setSelectedSlot} />
         </Stack>
-        <Stack>
-          <CritIcon />
+        <Stack gap={1}>
           <StatsSelector selectedStats={selectedStats} setSelectedStats={setSelectedStats} />
           <ItemTable />
         </Stack>
