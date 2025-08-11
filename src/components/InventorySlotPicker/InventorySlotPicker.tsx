@@ -1,7 +1,7 @@
 import { Box, Stack } from '@mui/material';
 import { INVENTORY_ICON_SIZE } from './config';
 import { EItemSlot } from '../../types/items';
-import { SmartMultiSelector, SmartSelector, TSmartSelectorItem } from '../SmartSelector';
+import { SmartMultiSelector, TSmartSelectorItem } from '../SmartSelector';
 import { useOptimiserFilters } from '../../contexts/OptimiserFiltersContext';
 
 export const InventorySlotPicker = () => {
