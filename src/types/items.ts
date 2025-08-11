@@ -30,13 +30,6 @@ export enum EOffhandType {
   SHIELD = 'SHIELD',
 }
 
-export enum EMiscType {
-  NECK = 'NECK',
-  FINGER = 'FINGER',
-  TRINKET = 'TRINKET',
-  BACK = 'BACK',
-}
-
 export enum EItemSlot {
   HEAD = 'HEAD',
   SHOULDER = 'SHOULDER',
@@ -77,11 +70,18 @@ export enum EDungeon {
   TOP = 'TOP',
   BREW = 'BREW',
   PSF = 'PSF',
+  HOA = 'HOA',
+  ARA = 'ARA',
+  DAWN = 'DAWN',
+  ECO = 'ECO',
+  STREETS = 'STREETS',
+  GAMBIT = 'GAMBIT',
 }
 
 export enum ERaid {
   NP = 'NP',
   LOU = 'LOU',
+  MFO = 'MFO',
 }
 
 export enum ERaidBoss {
@@ -93,6 +93,14 @@ export enum ERaidBoss {
   BANDIT = 'BANDIT',
   MUG_ZEE = 'MUG_ZEE',
   GALLYWIX = 'GALLYWIX',
+  PLEXUS = 'PLEXUS',
+  LOOMITHAR = 'LOOMITHAR',
+  NAAZINDHRI = 'NAAZINDHRI',
+  ARAZ = 'ARAZ',
+  SOUL_HUNTERS = 'SOUL_HUNTERS',
+  FRACTILLUS = 'FRACTILLUS',
+  NEXUS_KING = 'NEXUS_KING',
+  DIMENSIUS = 'DIMENSIUS',
 }
 
 export type TRaidBoss = {
@@ -105,6 +113,7 @@ export type TLootSource = EDungeon | TRaidBoss;
 export type TWowItemBase = {
   name: string;
   itemId: number;
+  imgId: string;
   slot: EItemSlot;
   secondaryStats: Array<ESecondaryStat>;
   specialEffect: string | null;
@@ -118,6 +127,15 @@ export type TWowItemWeapon = TWowItemBase & {
 };
 
 export type TWowItemArmor = TWowItemBase & {
+  slot:
+    | EItemSlot.CHEST
+    | EItemSlot.FEET
+    | EItemSlot.HANDS
+    | EItemSlot.HEAD
+    | EItemSlot.LEGS
+    | EItemSlot.WRIST
+    | EItemSlot.WAIST
+    | EItemSlot.SHOULDER;
   armorType: EArmorType;
 };
 
@@ -128,7 +146,6 @@ export type TWowItemOffhand = TWowItemBase & {
 
 export type TWowItemMisc = TWowItemBase & {
   slot: EItemSlot.NECK | EItemSlot.FINGER | EItemSlot.BACK;
-  miscType: EMiscType;
 };
 
 export type TWowItemTrinket = TWowItemBase & {
@@ -143,3 +160,29 @@ export type TWowItem =
   | TWowItemMisc
   | TWowItemOffhand
   | TWowItemTrinket;
+
+export const isWowItemWeapon = (wowItem: TWowItem): wowItem is TWowItemWeapon =>
+  wowItem.slot === EItemSlot.TWOHAND ||
+  wowItem.slot === EItemSlot.MAINHAND ||
+  wowItem.slot === EItemSlot.OFFHAND;
+
+export const isWowItemArmor = (wowItem: TWowItem): wowItem is TWowItemArmor =>
+  wowItem.slot === EItemSlot.CHEST ||
+  wowItem.slot === EItemSlot.FEET ||
+  wowItem.slot === EItemSlot.HANDS ||
+  wowItem.slot === EItemSlot.HEAD ||
+  wowItem.slot === EItemSlot.LEGS ||
+  wowItem.slot === EItemSlot.WRIST ||
+  wowItem.slot === EItemSlot.WAIST ||
+  wowItem.slot === EItemSlot.SHOULDER;
+
+export const isWowItemOffhand = (wowItem: TWowItem): wowItem is TWowItemOffhand =>
+  wowItem.slot === EItemSlot.OFFHAND;
+
+export const isWowItemMisc = (wowItem: TWowItem): wowItem is TWowItemMisc =>
+  wowItem.slot === EItemSlot.NECK ||
+  wowItem.slot === EItemSlot.FINGER ||
+  wowItem.slot === EItemSlot.BACK;
+
+export const isWowItemTrinket = (wowItem: TWowItem): wowItem is TWowItemTrinket =>
+  wowItem.slot === EItemSlot.TRINKET;

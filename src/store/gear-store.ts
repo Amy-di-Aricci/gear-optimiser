@@ -1,21 +1,19 @@
 import {
-  EDungeon,
   EItemSlot,
   EMainStat,
-  EMiscType,
   ESecondaryStat,
   TWowItem,
-  ERaid,
-  ERaidBoss,
   EArmorType,
   EWeaponType,
 } from '../types/items';
+import { EDungeon, ERaid, ERaidBoss } from '../types/lootSources';
 import { ERole } from '../types/roles';
 
 export const GEAR_STORE: Array<TWowItem> = [
   {
     name: 'Grim Codex',
     itemId: 178811,
+    imgId: '',
     slot: EItemSlot.TRINKET,
     mainStats: [EMainStat.AGI, EMainStat.STR],
     secondaryStats: [],
@@ -26,6 +24,7 @@ export const GEAR_STORE: Array<TWowItem> = [
   {
     name: 'Faded Championship Ring',
     itemId: 228840,
+    imgId: '',
     slot: EItemSlot.FINGER,
     secondaryStats: [ESecondaryStat.CRIT, ESecondaryStat.HASTE],
     specialEffect: null,
@@ -33,11 +32,11 @@ export const GEAR_STORE: Array<TWowItem> = [
       bossName: ERaidBoss.CAULDRON,
       raid: ERaid.LOU,
     },
-    miscType: EMiscType.FINGER,
   },
   {
     name: 'Sanitized Scraphood',
     itemId: 228859,
+    imgId: '',
     slot: EItemSlot.HEAD,
     armorType: EArmorType.MAIL,
     secondaryStats: [ESecondaryStat.CRIT, ESecondaryStat.HASTE],
@@ -50,6 +49,7 @@ export const GEAR_STORE: Array<TWowItem> = [
   {
     name: 'Poleaxe of Somber Fate',
     itemId: 221111,
+    imgId: '',
     slot: EItemSlot.TWOHAND,
     weaponType: EWeaponType.POLEARM,
     mainStats: [EMainStat.STR],
