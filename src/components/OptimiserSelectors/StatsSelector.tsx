@@ -1,4 +1,4 @@
-import { amber, indigo, orange, purple, red } from '@mui/material/colors';
+import { indigo, orange, purple, red } from '@mui/material/colors';
 import { ESecondaryStat } from '../../types/items';
 import { ESelectorVariant, SmartMultiSelector, TSmartSelectorItem } from '../SmartSelector';
 import { useOptimiserFilters } from '../../contexts/OptimiserFiltersContext';

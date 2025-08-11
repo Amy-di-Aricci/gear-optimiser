@@ -113,6 +113,7 @@ export type TLootSource = EDungeon | TRaidBoss;
 export type TWowItemBase = {
   name: string;
   itemId: number;
+  imgId: string;
   slot: EItemSlot;
   secondaryStats: Array<ESecondaryStat>;
   specialEffect: string | null;
