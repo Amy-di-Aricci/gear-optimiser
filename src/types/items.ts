@@ -1,3 +1,4 @@
+import { TLootSource } from './lootSources';
 import { ERole } from './roles';
 
 export enum EArmorType {
@@ -61,55 +62,6 @@ export enum ESecondaryStat {
   MASTERY = 'MASTERY',
 }
 
-export enum EDungeon {
-  DFC = 'DFC',
-  ML = 'ML',
-  WORK = 'WORK',
-  FLOOD = 'FLOOD',
-  ROOK = 'ROOK',
-  TOP = 'TOP',
-  BREW = 'BREW',
-  PSF = 'PSF',
-  HOA = 'HOA',
-  ARA = 'ARA',
-  DAWN = 'DAWN',
-  ECO = 'ECO',
-  STREETS = 'STREETS',
-  GAMBIT = 'GAMBIT',
-}
-
-export enum ERaid {
-  NP = 'NP',
-  LOU = 'LOU',
-  MFO = 'MFO',
-}
-
-export enum ERaidBoss {
-  VEXIE = 'VEXIE',
-  CAULDRON = 'CAULDRON',
-  RIK = 'RIK',
-  STIX = 'STIX',
-  SPROCKET = 'SPROCKET',
-  BANDIT = 'BANDIT',
-  MUG_ZEE = 'MUG_ZEE',
-  GALLYWIX = 'GALLYWIX',
-  PLEXUS = 'PLEXUS',
-  LOOMITHAR = 'LOOMITHAR',
-  NAAZINDHRI = 'NAAZINDHRI',
-  ARAZ = 'ARAZ',
-  SOUL_HUNTERS = 'SOUL_HUNTERS',
-  FRACTILLUS = 'FRACTILLUS',
-  NEXUS_KING = 'NEXUS_KING',
-  DIMENSIUS = 'DIMENSIUS',
-}
-
-export type TRaidBoss = {
-  bossName: ERaidBoss;
-  raid: ERaid;
-};
-
-export type TLootSource = EDungeon | TRaidBoss;
-
 export type TWowItemBase = {
   name: string;
   itemId: number;
@@ -162,9 +114,7 @@ export type TWowItem =
   | TWowItemTrinket;
 
 export const isWowItemWeapon = (wowItem: TWowItem): wowItem is TWowItemWeapon =>
-  wowItem.slot === EItemSlot.TWOHAND ||
-  wowItem.slot === EItemSlot.MAINHAND ||
-  wowItem.slot === EItemSlot.OFFHAND;
+  wowItem.slot === EItemSlot.TWOHAND || wowItem.slot === EItemSlot.MAINHAND;
 
 export const isWowItemArmor = (wowItem: TWowItem): wowItem is TWowItemArmor =>
   wowItem.slot === EItemSlot.CHEST ||

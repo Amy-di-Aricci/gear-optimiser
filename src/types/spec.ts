@@ -38,7 +38,7 @@ export enum ECharacterSpecName {
   FROST_DK = 'FROST_DK',
   RESTO_S = 'RESTO_S',
   ELE = 'ELE',
-  ENCH = 'ENCH',
+  ENH = 'ENCH',
   FROST_M = 'FROST_M',
   FIRE = 'FIRE',
   ARCANE = 'ARCANE',

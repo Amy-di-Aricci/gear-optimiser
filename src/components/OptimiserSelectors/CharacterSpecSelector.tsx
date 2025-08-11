@@ -48,7 +48,7 @@ const CHARACTER_SPECS_NAMES_LOOKUP: Record<ECharacterSpecName, string> = {
   [ECharacterSpecName.FROST_DK]: '',
   [ECharacterSpecName.RESTO_S]: '',
   [ECharacterSpecName.ELE]: '',
-  [ECharacterSpecName.ENCH]: '',
+  [ECharacterSpecName.ENH]: '',
   [ECharacterSpecName.FROST_M]: '',
   [ECharacterSpecName.FIRE]: '',
   [ECharacterSpecName.ARCANE]: '',
@@ -109,7 +109,7 @@ const CHARACTER_SPECS_ICONS_LOOKUP: Record<ECharacterSpecName, string> = {
     'https://wow.zamimg.com/images/wow/icons/medium/spell_nature_healingwavegreater.jpg',
   [ECharacterSpecName.ELE]:
     'https://wow.zamimg.com/images/wow/icons/large/spell_nature_lightning.jpg',
-  [ECharacterSpecName.ENCH]:
+  [ECharacterSpecName.ENH]:
     'https://wow.zamimg.com/images/wow/icons/medium/spell_shaman_improvedstormstrike.jpg',
   [ECharacterSpecName.FROST_M]:
     'https://wow.zamimg.com/images/wow/icons/medium/spell_frost_frostbolt02.jpg',

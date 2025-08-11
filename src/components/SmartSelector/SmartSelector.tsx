@@ -30,7 +30,7 @@ export const SmartSelector = <T,>({
           setCurrentSelectedId(item.id);
         };
         return (
-          <Stack position={'relative'}>
+          <Stack position={'relative'} key={String(item.id)}>
             <Box
               onClick={onClick}
               component="img"
