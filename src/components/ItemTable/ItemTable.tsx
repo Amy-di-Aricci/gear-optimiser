@@ -43,6 +43,7 @@ export const ItemTable = memo(() => {
         return false;
       }
       const itemMainStats = getItemMainStats(item);
+      console.log(item);
       if (itemMainStats.length && !intersection([...itemMainStats], [...mainStats])) {
         return false;
       }
@@ -54,7 +55,15 @@ export const ItemTable = memo(() => {
   }, [selectedClass, selectedSpec, selectedSlot, selectedStats]);
 
   return (
-    <Stack width={ITEM_WIDTH} border="1px solid red" gap={1}>
+    <Stack
+      maxHeight="70vh"
+      sx={{
+        overflowY: 'scroll',
+        overflowX: 'hidden',
+      }}
+      width={ITEM_WIDTH}
+      gap={1}
+    >
       {filteredItems.map((wowItem) => {
         return <ItemCell key={wowItem.itemId} wowItem={wowItem} />;
       })}

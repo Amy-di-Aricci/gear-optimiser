@@ -9,6 +9,12 @@ import {
   TWowItem,
 } from '../../types/items';
 import { formatName } from '../../utils/formatters';
+import { EDungeon, TLootSource, TRaidBoss } from '../../types/lootSources';
+import {
+  BOSS_NAMES_LOOKUP,
+  DUNGEONS_NAMES_LOOKUP,
+  RAID_NAMES_LOOKUP,
+} from '../../globals/lootSources';
 
 export const getWowheadItemData = (itemId: number) => `item=${itemId}`;
 
@@ -25,28 +31,20 @@ const MAIN_STATS_LOOKUP: Record<EMainStat, string> = {
   [EMainStat.AGI]: 'Agility',
 };
 
-export const getStatsDisplay = (
-  secondaryStats: Array<ESecondaryStat>,
-  mainStats: Array<EMainStat> | null,
-) => {
-  const statsParts: string[] = [];
-  const secondaryStatsPart = secondaryStats
+export const getPrimaryStatsDisplay = (mainStats: Array<EMainStat>) => {
+  const mainStatsDisplay = mainStats
+    .sort()
+    .map((stat) => MAIN_STATS_LOOKUP[stat])
+    .join(', ');
+  return mainStatsDisplay;
+};
+
+export const getSecondaryStatsDisplay = (secondaryStats: Array<ESecondaryStat>) => {
+  const secondaryStatsDisplay = secondaryStats
     .sort()
     .map((stat) => SECONDARY_STATS_LOOKUP[stat])
     .join(', ');
-  if (secondaryStatsPart) {
-    statsParts.push(secondaryStatsPart);
-  }
-  const mainStatsPart = mainStats
-    ? mainStats
-        .sort()
-        .map((stat) => MAIN_STATS_LOOKUP[stat])
-        .join(', ')
-    : '';
-  if (mainStatsPart) {
-    statsParts.push(mainStatsPart);
-  }
-  return statsParts.join(' | ');
+  return secondaryStatsDisplay;
 };
 
 const WEAPON_TYPE_LOOKUP: Record<EWeaponType, string> = {
@@ -80,6 +78,17 @@ export const getSlotDisplay = (item: TWowItem) => {
     return OFFHAND_TYPE_LOOKUP[item.offhandType];
   }
   return formatName(item.slot);
+};
+
+export const getSourceDisplayName = (lootSource: TLootSource) => {
+  if ((lootSource as TRaidBoss).bossName !== undefined) {
+    const raidName = RAID_NAMES_LOOKUP[(lootSource as TRaidBoss).raid];
+    const bossName = BOSS_NAMES_LOOKUP[(lootSource as TRaidBoss).bossName];
+    return `${bossName} - ${raidName}`;
+  } else if ((Object.values(EDungeon) as string[]).includes(lootSource.toString())) {
+    return DUNGEONS_NAMES_LOOKUP[lootSource as EDungeon];
+  }
+  return 'undefined';
 };
 
 export const hasSelectedSecondaryStats = (
