@@ -70,11 +70,18 @@ export enum EDungeon {
   TOP = 'TOP',
   BREW = 'BREW',
   PSF = 'PSF',
+  HOA = 'HOA',
+  ARA = 'ARA',
+  DAWN = 'DAWN',
+  ECO = 'ECO',
+  STREETS = 'STREETS',
+  GAMBIT = 'GAMBIT',
 }
 
 export enum ERaid {
   NP = 'NP',
   LOU = 'LOU',
+  MFO = 'MFO',
 }
 
 export enum ERaidBoss {
@@ -86,6 +93,14 @@ export enum ERaidBoss {
   BANDIT = 'BANDIT',
   MUG_ZEE = 'MUG_ZEE',
   GALLYWIX = 'GALLYWIX',
+  PLEXUS = 'PLEXUS',
+  LOOMITHAR = 'LOOMITHAR',
+  NAAZINDHRI = 'NAAZINDHRI',
+  ARAZ = 'ARAZ',
+  SOUL_HUNTERS = 'SOUL_HUNTERS',
+  FRACTILLUS = 'FRACTILLUS',
+  NEXUS_KING = 'NEXUS_KING',
+  DIMENSIUS = 'DIMENSIUS',
 }
 
 export type TRaidBoss = {
