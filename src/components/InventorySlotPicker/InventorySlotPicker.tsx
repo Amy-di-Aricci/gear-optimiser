@@ -92,7 +92,7 @@ const INVENTORY_SLOT_NAMES_LOOKUP: Record<EItemSlot, string> = {
   [EItemSlot.TRINKET]: 'Trinket',
   [EItemSlot.MAINHAND]: 'Main-Hand Weapon',
   [EItemSlot.OFFHAND]: 'Off Hand',
-  [EItemSlot.TWOHAND]: 'Two-Hand Weapon',
+  [EItemSlot.RANGED]: 'Two-Hand Weapon',
 };
 
 const INVENTORY_SLOT_ICONS_LOOKUP: Record<EItemSlot, string> = {
@@ -110,7 +110,7 @@ const INVENTORY_SLOT_ICONS_LOOKUP: Record<EItemSlot, string> = {
   [EItemSlot.TRINKET]: 'https://wow.zamimg.com/images/wow/icons/medium/inventoryslot_trinket.jpg',
   [EItemSlot.MAINHAND]: 'https://wow.zamimg.com/images/wow/icons/medium/inventoryslot_mainhand.jpg',
   [EItemSlot.OFFHAND]: 'https://wow.zamimg.com/images/wow/icons/medium/inventoryslot_offhand.jpg',
-  [EItemSlot.TWOHAND]: 'https://wow.zamimg.com/images/wow/icons/medium/inventoryslot_ranged.jpg',
+  [EItemSlot.RANGED]: 'https://wow.zamimg.com/images/wow/icons/medium/inventoryslot_ranged.jpg',
 };
 
 const SMART_SELECTOR_LEFT_UPPER_SLOTS: TSmartSelectorItem<EItemSlot>[] = [
@@ -140,7 +140,7 @@ const SMART_SELECTOR_LEFT_LOWER_SLOTS: TSmartSelectorItem<EItemSlot>[] = [EItemS
 const SMART_SELECTOR_BOTTOM_SLOTS: TSmartSelectorItem<EItemSlot>[] = [
   EItemSlot.MAINHAND,
   EItemSlot.OFFHAND,
-  EItemSlot.TWOHAND,
+  EItemSlot.RANGED,
 ].map((slot) => {
   return {
     id: slot,

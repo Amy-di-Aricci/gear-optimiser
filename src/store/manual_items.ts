@@ -34,7 +34,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: "Keeza's 'B.' B.B.B.F.G",
     itemId: 234492,
-    slot: EItemSlot.TWOHAND,
+    slot: EItemSlot.RANGED,
     secondaryStats: [ESecondaryStat.CRIT, ESecondaryStat.HASTE],
     specialEffect: null,
     lootSource: EDungeon.FLOOD,
@@ -122,7 +122,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: 'Yasahm the Riftbreaker',
     itemId: 185783,
-    slot: EItemSlot.TWOHAND,
+    slot: EItemSlot.RANGED,
     secondaryStats: [ESecondaryStat.HASTE, ESecondaryStat.VERS],
     specialEffect:
       'Equip: Your damaging critical strikes grant you a stack of Preternatural Charge. When you reach 5 stacks of Preternatural Charge, your next critical strike will consume all stacks to tear open a rift near your target, inflicting 29 Arcane damage.',
@@ -231,7 +231,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: 'Piercing Strandbow',
     itemId: 237732,
-    slot: EItemSlot.TWOHAND,
+    slot: EItemSlot.RANGED,
     secondaryStats: [ESecondaryStat.CRIT, ESecondaryStat.MASTERY],
     specialEffect: null,
     lootSource: {
@@ -302,7 +302,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: 'Lacerated Current Caster',
     itemId: 237733,
-    slot: EItemSlot.TWOHAND,
+    slot: EItemSlot.RANGED,
     secondaryStats: [ESecondaryStat.CRIT, ESecondaryStat.HASTE],
     specialEffect: null,
     lootSource: {
@@ -462,7 +462,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: 'Recurved Hull Impaler',
     itemId: 221143,
-    slot: EItemSlot.MAINHAND,
+    slot: EItemSlot.RANGED,
     secondaryStats: [ESecondaryStat.HASTE, ESecondaryStat.MASTERY],
     specialEffect: null,
     lootSource: EDungeon.DAWN,
@@ -495,7 +495,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: "Taah'bat's Desert Carbine",
     itemId: 242476,
-    slot: EItemSlot.MAINHAND,
+    slot: EItemSlot.RANGED,
     secondaryStats: [ESecondaryStat.CRIT, ESecondaryStat.VERS],
     specialEffect: null,
     lootSource: EDungeon.ECO,

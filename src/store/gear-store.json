@@ -7,13 +7,13 @@
     "specialEffect": null,
     "lootSource": "FLOOD",
     "imgId": "inv_sword_2h_outdoorundermine_c_01_purple",
-    "weaponType": "SWORD1H",
+    "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
   {
     "name": "Gallytech Turbo-Tiller",
     "itemId": 234494,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "FLOOD",
@@ -199,7 +199,7 @@
     "specialEffect": "Use: Command the Medichopper to attach to your target, absorbing 155184 damage and granting them 1375 versatility for 15 sec. /nWhile attached, your healing spells have a chance to refuel the chopper, granting these bonuses to their host again. (2 Min Cooldown)",
     "lootSource": "FLOOD",
     "imgId": "inv_111_healraydrone_blackwater",
-    "roles": ["HEALER", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
   {
@@ -210,7 +210,7 @@
     "specialEffect": "Equip: Every 6 sec, Zap your target and 1 nearby enemy for 29883 Nature damage. \nCasting 30 spells Turbo-Charges you for 15 sec, doubling the frequency of your Zaps and upgrading them into Giga-Zaps, dealing 89649 Nature Damage instead.",
     "lootSource": "FLOOD",
     "imgId": "inv_engineering_90_lightningbox",
-    "roles": ["HEALER", "DPS_RANGED"],
+    "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -243,7 +243,7 @@
     "specialEffect": null,
     "lootSource": "PSF",
     "imgId": "inv_sword_2h_earthendungeon_c_01",
-    "weaponType": "SWORD1H",
+    "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
   {
@@ -432,7 +432,7 @@
   {
     "name": "Nathrian Ferula",
     "itemId": 178829,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "HOA",
@@ -685,7 +685,7 @@
   {
     "name": "Harvester's Interdiction",
     "itemId": 221159,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ARA",
@@ -771,7 +771,7 @@
     "specialEffect": "Equip: Your damaging spells and abilities have a chance to send an orb of volatile black blood drifting to your target, exploding for 55918 Shadow damage split between all nearby enemies on impact. Intercepting the orb allows you to siphon its power, instead increasing your Mastery by 1653 for 15 sec.",
     "lootSource": "ARA",
     "imgId": "inv_11_0_dungeon_oldgodstatuepiece_purple",
-    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER"],
+    "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["INT", "AGI"]
   },
   {
@@ -799,7 +799,7 @@
   {
     "name": "Black Shepherd's Guisarme",
     "itemId": 221137,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "DAWN",
@@ -967,7 +967,7 @@
     "specialEffect": null,
     "lootSource": "DAWN",
     "imgId": "inv_arathordungeon_bell_color1",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -1033,7 +1033,7 @@
   {
     "name": "Spellstrike Warplance",
     "itemId": 242481,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "ECO",
@@ -1079,7 +1079,7 @@
     "specialEffect": null,
     "lootSource": "ECO",
     "imgId": "inv_sword_2h_outdoorethereal_c_01",
-    "weaponType": "SWORD1H",
+    "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
   {
@@ -1130,7 +1130,7 @@
     "specialEffect": null,
     "lootSource": "ECO",
     "imgId": "inv_herb_karesh",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER"],
     "mainStats": ["INT", "AGI"]
   },
   {
@@ -1141,7 +1141,7 @@
     "specialEffect": null,
     "lootSource": "ECO",
     "imgId": "inv_misc_nightsaberclaw_mana",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -1152,7 +1152,7 @@
     "specialEffect": null,
     "lootSource": "ECO",
     "imgId": "inv_devourersmallmount_light",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -1253,7 +1253,7 @@
     "specialEffect": null,
     "lootSource": "STREETS",
     "imgId": "inv_7_0raid_trinket_09a",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
   {
@@ -1427,7 +1427,7 @@
     "specialEffect": null,
     "lootSource": "STREETS",
     "imgId": "inv_misc_profession_book_enchanting",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": []
   },
   {
@@ -1438,13 +1438,13 @@
     "specialEffect": null,
     "lootSource": "GAMBIT",
     "imgId": "inv_axe_2h_broker_c_01",
-    "weaponType": "AXE1H",
+    "weaponType": "AXE2H",
     "mainStats": ["STR"]
   },
   {
     "name": "Spire of Expurgation",
     "itemId": 185779,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
@@ -1545,7 +1545,7 @@
   {
     "name": "Staff of Fractured Spacetime",
     "itemId": 185822,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
@@ -1591,7 +1591,7 @@
     "specialEffect": null,
     "lootSource": "GAMBIT",
     "imgId": "inv_60pvp_trinket1d",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   },
   {
@@ -1623,7 +1623,7 @@
   {
     "name": "Obliteration Beamglaive",
     "itemId": 237739,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": {
@@ -1697,7 +1697,7 @@
       "bossName": "PLEXUS"
     },
     "imgId": "inv_112_raidtrinkets_obliterationcannon",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE"],
     "mainStats": ["STR"]
   },
   {
@@ -1763,7 +1763,7 @@
       "bossName": "LOOMITHAR"
     },
     "imgId": "inv_112_raidtrinkets_astralspinneret",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": []
   },
   {
@@ -1829,13 +1829,13 @@
       "bossName": "LOOMITHAR"
     },
     "imgId": "inv_112_raidtrinkets_silkwormsantenna",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   },
   {
     "name": "Voidglass Spire",
     "itemId": 237730,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": {
@@ -1857,7 +1857,7 @@
       "bossName": "NAAZINDHRI"
     },
     "imgId": "inv_112_raidtrinkets_manaforge_tanktrinket1",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -1871,7 +1871,7 @@
       "bossName": "NAAZINDHRI"
     },
     "imgId": "inv_112_raidtrinkets_soulbinderbossinttrinket",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -1950,13 +1950,13 @@
       "bossName": "ARAZ"
     },
     "imgId": "inv_sword_2h_etherealraid_d_01",
-    "weaponType": "SWORD1H",
+    "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
   {
     "name": "Marvel of Technomancy",
     "itemId": 237726,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": {
@@ -2043,7 +2043,7 @@
       "bossName": "ARAZ"
     },
     "imgId": "inv_112_raidtrinkets_trinkettechnomancer_ritualengine",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": []
   },
   {
@@ -2136,7 +2136,7 @@
       "bossName": "SOUL_HUNTERS"
     },
     "imgId": "inv_112_raidtrinkets_manaforgetanktrinket3",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": []
   },
   {
@@ -2255,7 +2255,7 @@
       "bossName": "FRACTILLUS"
     },
     "imgId": "inv_112_raidtrinkets_intdps_ancientkareshirelic",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -2295,7 +2295,7 @@
       "bossName": "NEXUS_KING"
     },
     "imgId": "inv_mace_2h_etherealking_d_01",
-    "weaponType": "MACE1H",
+    "weaponType": "MACE2H",
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -2427,7 +2427,7 @@
       "bossName": "NEXUS_KING"
     },
     "imgId": "inv_112_raidtrinkets_oathbindersauthority",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
   {
@@ -2480,7 +2480,7 @@
       "bossName": "DIMENSIUS"
     },
     "imgId": "inv_mace_2h_etherealraid_d_01",
-    "weaponType": "MACE1H",
+    "weaponType": "MACE2H",
     "mainStats": ["STR"]
   },
   {
@@ -2533,7 +2533,7 @@
       "bossName": "DIMENSIUS"
     },
     "imgId": "inv_112_raidtrinkets_omnidpstrinket",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": []
   },
   {
