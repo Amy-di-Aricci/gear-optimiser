@@ -207,10 +207,10 @@
     "itemId": 232545,
     "slot": "TRINKET",
     "secondaryStats": [],
-    "specialEffect": null,
+    "specialEffect": "Equip: Every 6 sec, Zap your target and 1 nearby enemy for 29883 Nature damage. \nCasting 30 spells Turbo-Charges you for 15 sec, doubling the frequency of your Zaps and upgrading them into Giga-Zaps, dealing 89649 Nature Damage instead.",
     "lootSource": "FLOOD",
     "imgId": "inv_engineering_90_lightningbox",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -218,7 +218,7 @@
     "itemId": 232541,
     "slot": "TRINKET",
     "secondaryStats": ["CRIT"],
-    "specialEffect": null,
+    "specialEffect": "Equip: Repurpose a Seaforium charge to give your heart a kick, causing your first ability every 60 sec to trigger Explosive Adrenaline, granting 2624 Critical Strike for 15 sec.\nWhile exploding, Critical Strikes cause you to blow up again, extending this duration by 1 sec, up to 15 times.",
     "lootSource": "FLOOD",
     "imgId": "ability_blackhand_attachedslagbombs",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
@@ -229,10 +229,10 @@
     "itemId": 232543,
     "slot": "TRINKET",
     "secondaryStats": ["VERS"],
-    "specialEffect": null,
+    "specialEffect": "Use: Become Mudborne, absorbing 7088217 damage and pulsing 349350 Nature damage split between nearby enemies over 10 sec.\nPeriodic damage you take coalesces into pungent mud to feed the ritual, reducing this cooldown by 22 sec. (2 Min Cooldown)",
     "lootSource": "FLOOD",
     "imgId": "inv_misc_food_legion_goomolasses_pool",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": []
   },
   {
@@ -401,10 +401,10 @@
     "itemId": 219310,
     "slot": "TRINKET",
     "secondaryStats": [],
-    "specialEffect": null,
+    "specialEffect": "Use: Summon a Bursting Lightspawn which sacrifices its health to unleash Bursts of Light, inflicting 57024 Holy damage split between nearby enemies every 2 sec while it lives. (2 Min Cooldown)",
     "lootSource": "PSF",
     "imgId": "inv_arathordungeon_fragment_color4",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -412,10 +412,10 @@
     "itemId": 219308,
     "slot": "TRINKET",
     "secondaryStats": [],
-    "specialEffect": null,
+    "specialEffect": "Use: Raise your signet to the Light, increasing your highest secondary stat by 2756 for 20 sec. Your act inspires nearby signetbearers within your party, granting them 73 of the same stat for 20 sec. (2 Min Cooldown)",
     "lootSource": "PSF",
     "imgId": "inv_arathordungeon_signet_color1",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   },
   {
@@ -423,10 +423,10 @@
     "itemId": 219309,
     "slot": "TRINKET",
     "secondaryStats": [],
-    "specialEffect": null,
+    "specialEffect": "Equip: Advance to the 50 Verses of Inner Resilience, reading as you are attacked.\nInner Resilience increases your armor by 150 and grants your attacks a chance to invoke a ward which absorbs 3781 Magic damage. When finished, sift through the passages to another chapter.\nUse: Sift through the passages in the tome with increased Radiance. (1 Min, 30 Sec Cooldown)",
     "lootSource": "PSF",
     "imgId": "inv_7xp_inscription_talenttome01",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": []
   },
   {
@@ -625,10 +625,10 @@
     "itemId": 246344,
     "slot": "TRINKET",
     "secondaryStats": ["CRIT"],
-    "specialEffect": null,
+    "specialEffect": "Use: Channel for 1 sec to invoke the wrath of the idol, increasing your Critical Strike by 5143 for 15 sec. The force slams the earth, dealing 78676 Nature damage to all nearby enemies and increasing Critical Strike by 265 per enemy hit, up to a maximum of 6000. (1 Min, 30 Sec Cooldown)",
     "lootSource": "HOA",
     "imgId": "inv_qirajidol_onyx",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -636,10 +636,10 @@
     "itemId": 178826,
     "slot": "TRINKET",
     "secondaryStats": ["HASTE"],
-    "specialEffect": null,
+    "specialEffect": "Use: Tear the anima from your target dealing 3298 Shadow damage and forming a font of power at your feet, increasing your Intellect by 31 for 15 sec while you stand within it. (1 Min, 30 Sec Cooldown)",
     "lootSource": "HOA",
     "imgId": "inv_jewelcrafting_nightseye_01",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -768,10 +768,10 @@
     "itemId": 219317,
     "slot": "TRINKET",
     "secondaryStats": ["MASTERY"],
-    "specialEffect": null,
+    "specialEffect": "Equip: Your damaging spells and abilities have a chance to send an orb of volatile black blood drifting to your target, exploding for 55918 Shadow damage split between all nearby enemies on impact. Intercepting the orb allows you to siphon its power, instead increasing your Mastery by 1653 for 15 sec.",
     "lootSource": "ARA",
     "imgId": "inv_11_0_dungeon_oldgodstatuepiece_purple",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER"],
     "mainStats": ["INT", "AGI"]
   },
   {
@@ -779,10 +779,10 @@
     "itemId": 219316,
     "slot": "TRINKET",
     "secondaryStats": [],
-    "specialEffect": null,
+    "specialEffect": "Equip: The gland releases pheromones that attract a Ceaseless Swarm of insects to surround you. Taking damage has a high chance to retaliate against attackers, inflicting 16356 Nature damage over 6 sec and reducing damage dealt to you by 3781.",
     "lootSource": "ARA",
     "imgId": "inv_misc_organmass_color2",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -790,10 +790,10 @@
     "itemId": 219314,
     "slot": "TRINKET",
     "secondaryStats": ["HASTE"],
-    "specialEffect": null,
+    "specialEffect": "Equip: Your abilities have a chance to stir the sac, releasing an egg which grants you 213 Primary Stat. Each egg hatches after 1 min, and the new brood attacks your next target, inflicting 12784 Nature damage over 8 sec. (100ms cooldown)",
     "lootSource": "ARA",
     "imgId": "inv_raid_mercurialegg_red",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": []
   },
   {
@@ -862,10 +862,10 @@
     "itemId": 219312,
     "slot": "TRINKET",
     "secondaryStats": [],
-    "specialEffect": null,
+    "specialEffect": "Equip: Your spells and abilities have a chance to let loose a nascent empowerment from the crystal, increasing a random secondary stat by 1392 for 20 sec.",
     "lootSource": "DAWN",
     "imgId": "inv_arathordungeon_fragment_color5",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER"],
     "mainStats": ["INT", "AGI"]
   },
   {
@@ -913,10 +913,10 @@
     "itemId": 219311,
     "slot": "TRINKET",
     "secondaryStats": ["HASTE"],
-    "specialEffect": null,
+    "specialEffect": "Equip: Your attacks have a chance to call to the pact, exploding for 35361 Shadow damage split between nearby enemies and increasing your Haste by 377 for 10 sec.\nYour death breaks the pact, causing a violent explosion.",
     "lootSource": "DAWN",
     "imgId": "inv_10_alchemy_alchemystone_color4",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "TANK"],
     "mainStats": ["STR"]
   },
   {

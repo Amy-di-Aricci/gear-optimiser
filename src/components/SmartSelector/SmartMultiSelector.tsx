@@ -16,6 +16,7 @@ type TSmartSelectorProps<T> = {
   useTint?: boolean;
   color?: string;
   variant?: ESelectorVariant;
+  borderWidth?: number;
 };
 
 export const SmartMultiSelector = <T,>({
@@ -26,6 +27,7 @@ export const SmartMultiSelector = <T,>({
   itemSize = AVATAR_SIZE,
   useTint = false,
   color = blue[500],
+  borderWidth = 1,
   variant = ESelectorVariant.ICON,
 }: TSmartSelectorProps<T>) => {
   const normalizedItems = items.map((item) => ({
@@ -69,6 +71,7 @@ export const SmartMultiSelector = <T,>({
                 itemSize={itemSize}
                 useTint={useTint}
                 color={color}
+                borderWidth={borderWidth}
               />
             ) : (
               <SelectorButton
@@ -96,6 +99,7 @@ type IconBoxProps<T> = {
   itemSize: number;
   useTint?: boolean;
   color: string;
+  borderWidth?: number;
 };
 
 const IconBox = <T,>({
@@ -106,6 +110,7 @@ const IconBox = <T,>({
   itemSize,
   useTint = false,
   color,
+  borderWidth = 1,
 }: IconBoxProps<T>) => {
   return (
     <>
@@ -117,7 +122,7 @@ const IconBox = <T,>({
           fill: isSvg ? 'currentColor' : undefined,
           stroke: isSvg ? 'currentColor' : undefined,
         }}
-        sx={(theme) => ({
+        sx={() => ({
           color: 'red',
           fill: isSvg ? 'currentColor' : undefined,
           stroke: isSvg ? 'currentColor' : undefined,
@@ -125,7 +130,7 @@ const IconBox = <T,>({
           height: itemSize,
           filter: item.disabled || !isSelected ? `grayscale(1) brightness(0.75)` : undefined,
           borderRadius: 2,
-          border: `1px solid ${theme.palette.primary.main}`,
+          border: `${borderWidth}px solid #6bbb5f`,
           '&:hover': {
             cursor: !item.disabled ? 'pointer' : undefined,
             filter: `brightness(1.25)${

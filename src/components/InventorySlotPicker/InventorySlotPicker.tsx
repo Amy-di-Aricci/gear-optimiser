@@ -8,10 +8,11 @@ export const InventorySlotPicker = () => {
   const { selectedSlot, setSelectedSlot } = useOptimiserFilters();
   return (
     <Stack direction="row" width="100%">
-      <Stack>
+      <Stack gap={2}>
         <SmartMultiSelector
           useTint
           vertical
+          borderWidth={2}
           items={SMART_SELECTOR_LEFT_UPPER_SLOTS}
           currentSelectedIds={selectedSlot}
           setCurrentSelectedIds={setSelectedSlot}
@@ -19,6 +20,7 @@ export const InventorySlotPicker = () => {
         />
         <SmartMultiSelector
           vertical
+          borderWidth={2}
           items={SMART_SELECTOR_LEFT_DISABLED_SLOTS}
           currentSelectedIds={[]}
           setCurrentSelectedIds={() => {}}
@@ -27,6 +29,7 @@ export const InventorySlotPicker = () => {
         <SmartMultiSelector
           vertical
           useTint
+          borderWidth={2}
           items={SMART_SELECTOR_LEFT_LOWER_SLOTS}
           currentSelectedIds={selectedSlot}
           setCurrentSelectedIds={setSelectedSlot}
@@ -54,6 +57,7 @@ export const InventorySlotPicker = () => {
         />
         <SmartMultiSelector
           useTint
+          borderWidth={2}
           items={SMART_SELECTOR_BOTTOM_SLOTS}
           currentSelectedIds={selectedSlot}
           setCurrentSelectedIds={setSelectedSlot}
@@ -63,6 +67,7 @@ export const InventorySlotPicker = () => {
       <SmartMultiSelector
         useTint
         vertical
+        borderWidth={2}
         items={SMART_SELECTOR_RIGHT_SLOTS}
         currentSelectedIds={selectedSlot}
         setCurrentSelectedIds={setSelectedSlot}
