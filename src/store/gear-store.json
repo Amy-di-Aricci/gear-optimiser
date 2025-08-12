@@ -2,7 +2,7 @@
   {
     "name": "Circuit Breaker",
     "itemId": 234490,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "FLOOD",
@@ -196,10 +196,10 @@
     "itemId": 232542,
     "slot": "TRINKET",
     "secondaryStats": ["VERS"],
-    "specialEffect": null,
+    "specialEffect": "Use: Command the Medichopper to attach to your target, absorbing 155184 damage and granting them 1375 versatility for 15 sec. /nWhile attached, your healing spells have a chance to refuel the chopper, granting these bonuses to their host again. (2 Min Cooldown)",
     "lootSource": "FLOOD",
     "imgId": "inv_111_healraydrone_blackwater",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -238,7 +238,7 @@
   {
     "name": "Emberbrand Zweihander",
     "itemId": 221127,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "PSF",
@@ -1074,7 +1074,7 @@
   {
     "name": "Fatebound Crusader",
     "itemId": 242487,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "ECO",
@@ -1433,7 +1433,7 @@
   {
     "name": "Skyreaver, Greataxe of the Keepers",
     "itemId": 185810,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
@@ -1942,7 +1942,7 @@
   {
     "name": "Photon Sabre Prime",
     "itemId": 237737,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": {
@@ -2287,7 +2287,7 @@
   {
     "name": "Maw of the Void",
     "itemId": 243365,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT"],
     "specialEffect": null,
     "lootSource": {
@@ -2472,7 +2472,7 @@
   {
     "name": "Supermassive Starcrusher",
     "itemId": 237725,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": {
