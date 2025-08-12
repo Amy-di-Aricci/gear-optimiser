@@ -8,10 +8,11 @@ export const InventorySlotPicker = () => {
   const { selectedSlot, setSelectedSlot } = useOptimiserFilters();
   return (
     <Stack direction="row" width="100%">
-      <Stack>
+      <Stack gap={2}>
         <SmartMultiSelector
           useTint
           vertical
+          borderWidth={2}
           items={SMART_SELECTOR_LEFT_UPPER_SLOTS}
           currentSelectedIds={selectedSlot}
           setCurrentSelectedIds={setSelectedSlot}
@@ -19,6 +20,7 @@ export const InventorySlotPicker = () => {
         />
         <SmartMultiSelector
           vertical
+          borderWidth={2}
           items={SMART_SELECTOR_LEFT_DISABLED_SLOTS}
           currentSelectedIds={[]}
           setCurrentSelectedIds={() => {}}
@@ -27,6 +29,7 @@ export const InventorySlotPicker = () => {
         <SmartMultiSelector
           vertical
           useTint
+          borderWidth={2}
           items={SMART_SELECTOR_LEFT_LOWER_SLOTS}
           currentSelectedIds={selectedSlot}
           setCurrentSelectedIds={setSelectedSlot}
@@ -54,6 +57,7 @@ export const InventorySlotPicker = () => {
         />
         <SmartMultiSelector
           useTint
+          borderWidth={2}
           items={SMART_SELECTOR_BOTTOM_SLOTS}
           currentSelectedIds={selectedSlot}
           setCurrentSelectedIds={setSelectedSlot}
@@ -63,6 +67,7 @@ export const InventorySlotPicker = () => {
       <SmartMultiSelector
         useTint
         vertical
+        borderWidth={2}
         items={SMART_SELECTOR_RIGHT_SLOTS}
         currentSelectedIds={selectedSlot}
         setCurrentSelectedIds={setSelectedSlot}
@@ -87,7 +92,7 @@ const INVENTORY_SLOT_NAMES_LOOKUP: Record<EItemSlot, string> = {
   [EItemSlot.TRINKET]: 'Trinket',
   [EItemSlot.MAINHAND]: 'Main-Hand Weapon',
   [EItemSlot.OFFHAND]: 'Off Hand',
-  [EItemSlot.TWOHAND]: 'Two-Hand Weapon',
+  [EItemSlot.RANGED]: 'Two-Hand Weapon',
 };
 
 const INVENTORY_SLOT_ICONS_LOOKUP: Record<EItemSlot, string> = {
@@ -105,7 +110,7 @@ const INVENTORY_SLOT_ICONS_LOOKUP: Record<EItemSlot, string> = {
   [EItemSlot.TRINKET]: 'https://wow.zamimg.com/images/wow/icons/medium/inventoryslot_trinket.jpg',
   [EItemSlot.MAINHAND]: 'https://wow.zamimg.com/images/wow/icons/medium/inventoryslot_mainhand.jpg',
   [EItemSlot.OFFHAND]: 'https://wow.zamimg.com/images/wow/icons/medium/inventoryslot_offhand.jpg',
-  [EItemSlot.TWOHAND]: 'https://wow.zamimg.com/images/wow/icons/medium/inventoryslot_ranged.jpg',
+  [EItemSlot.RANGED]: 'https://wow.zamimg.com/images/wow/icons/medium/inventoryslot_ranged.jpg',
 };
 
 const SMART_SELECTOR_LEFT_UPPER_SLOTS: TSmartSelectorItem<EItemSlot>[] = [
@@ -135,7 +140,7 @@ const SMART_SELECTOR_LEFT_LOWER_SLOTS: TSmartSelectorItem<EItemSlot>[] = [EItemS
 const SMART_SELECTOR_BOTTOM_SLOTS: TSmartSelectorItem<EItemSlot>[] = [
   EItemSlot.MAINHAND,
   EItemSlot.OFFHAND,
-  EItemSlot.TWOHAND,
+  EItemSlot.RANGED,
 ].map((slot) => {
   return {
     id: slot,

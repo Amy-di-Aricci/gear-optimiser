@@ -2,18 +2,18 @@
   {
     "name": "Circuit Breaker",
     "itemId": 234490,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "FLOOD",
     "imgId": "inv_sword_2h_outdoorundermine_c_01_purple",
-    "weaponType": "SWORD1H",
+    "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
   {
     "name": "Gallytech Turbo-Tiller",
     "itemId": 234494,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "FLOOD",
@@ -196,10 +196,10 @@
     "itemId": 232542,
     "slot": "TRINKET",
     "secondaryStats": ["VERS"],
-    "specialEffect": null,
+    "specialEffect": "Use: Command the Medichopper to attach to your target, absorbing 155184 damage and granting them 1375 versatility for 15 sec. /nWhile attached, your healing spells have a chance to refuel the chopper, granting these bonuses to their host again. (2 Min Cooldown)",
     "lootSource": "FLOOD",
     "imgId": "inv_111_healraydrone_blackwater",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
   {
@@ -207,10 +207,10 @@
     "itemId": 232545,
     "slot": "TRINKET",
     "secondaryStats": [],
-    "specialEffect": null,
+    "specialEffect": "Equip: Every 6 sec, Zap your target and 1 nearby enemy for 29883 Nature damage. \nCasting 30 spells Turbo-Charges you for 15 sec, doubling the frequency of your Zaps and upgrading them into Giga-Zaps, dealing 89649 Nature Damage instead.",
     "lootSource": "FLOOD",
     "imgId": "inv_engineering_90_lightningbox",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -218,7 +218,7 @@
     "itemId": 232541,
     "slot": "TRINKET",
     "secondaryStats": ["CRIT"],
-    "specialEffect": null,
+    "specialEffect": "Equip: Repurpose a Seaforium charge to give your heart a kick, causing your first ability every 60 sec to trigger Explosive Adrenaline, granting 2624 Critical Strike for 15 sec.\nWhile exploding, Critical Strikes cause you to blow up again, extending this duration by 1 sec, up to 15 times.",
     "lootSource": "FLOOD",
     "imgId": "ability_blackhand_attachedslagbombs",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
@@ -229,21 +229,21 @@
     "itemId": 232543,
     "slot": "TRINKET",
     "secondaryStats": ["VERS"],
-    "specialEffect": null,
+    "specialEffect": "Use: Become Mudborne, absorbing 7088217 damage and pulsing 349350 Nature damage split between nearby enemies over 10 sec.\nPeriodic damage you take coalesces into pungent mud to feed the ritual, reducing this cooldown by 22 sec. (2 Min Cooldown)",
     "lootSource": "FLOOD",
     "imgId": "inv_misc_food_legion_goomolasses_pool",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": []
   },
   {
     "name": "Emberbrand Zweihander",
     "itemId": 221127,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "PSF",
     "imgId": "inv_sword_2h_earthendungeon_c_01",
-    "weaponType": "SWORD1H",
+    "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
   {
@@ -401,10 +401,10 @@
     "itemId": 219310,
     "slot": "TRINKET",
     "secondaryStats": [],
-    "specialEffect": null,
+    "specialEffect": "Use: Summon a Bursting Lightspawn which sacrifices its health to unleash Bursts of Light, inflicting 57024 Holy damage split between nearby enemies every 2 sec while it lives. (2 Min Cooldown)",
     "lootSource": "PSF",
     "imgId": "inv_arathordungeon_fragment_color4",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -412,10 +412,10 @@
     "itemId": 219308,
     "slot": "TRINKET",
     "secondaryStats": [],
-    "specialEffect": null,
+    "specialEffect": "Use: Raise your signet to the Light, increasing your highest secondary stat by 2756 for 20 sec. Your act inspires nearby signetbearers within your party, granting them 73 of the same stat for 20 sec. (2 Min Cooldown)",
     "lootSource": "PSF",
     "imgId": "inv_arathordungeon_signet_color1",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   },
   {
@@ -423,16 +423,16 @@
     "itemId": 219309,
     "slot": "TRINKET",
     "secondaryStats": [],
-    "specialEffect": null,
+    "specialEffect": "Equip: Advance to the 50 Verses of Inner Resilience, reading as you are attacked.\nInner Resilience increases your armor by 150 and grants your attacks a chance to invoke a ward which absorbs 3781 Magic damage. When finished, sift through the passages to another chapter.\nUse: Sift through the passages in the tome with increased Radiance. (1 Min, 30 Sec Cooldown)",
     "lootSource": "PSF",
     "imgId": "inv_7xp_inscription_talenttome01",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": []
   },
   {
     "name": "Nathrian Ferula",
     "itemId": 178829,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "HOA",
@@ -625,10 +625,10 @@
     "itemId": 246344,
     "slot": "TRINKET",
     "secondaryStats": ["CRIT"],
-    "specialEffect": null,
+    "specialEffect": "Use: Channel for 1 sec to invoke the wrath of the idol, increasing your Critical Strike by 5143 for 15 sec. The force slams the earth, dealing 78676 Nature damage to all nearby enemies and increasing Critical Strike by 265 per enemy hit, up to a maximum of 6000. (1 Min, 30 Sec Cooldown)",
     "lootSource": "HOA",
     "imgId": "inv_qirajidol_onyx",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -636,10 +636,10 @@
     "itemId": 178826,
     "slot": "TRINKET",
     "secondaryStats": ["HASTE"],
-    "specialEffect": null,
+    "specialEffect": "Use: Tear the anima from your target dealing 3298 Shadow damage and forming a font of power at your feet, increasing your Intellect by 31 for 15 sec while you stand within it. (1 Min, 30 Sec Cooldown)",
     "lootSource": "HOA",
     "imgId": "inv_jewelcrafting_nightseye_01",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -685,7 +685,7 @@
   {
     "name": "Harvester's Interdiction",
     "itemId": 221159,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ARA",
@@ -768,7 +768,7 @@
     "itemId": 219317,
     "slot": "TRINKET",
     "secondaryStats": ["MASTERY"],
-    "specialEffect": null,
+    "specialEffect": "Equip: Your damaging spells and abilities have a chance to send an orb of volatile black blood drifting to your target, exploding for 55918 Shadow damage split between all nearby enemies on impact. Intercepting the orb allows you to siphon its power, instead increasing your Mastery by 1653 for 15 sec.",
     "lootSource": "ARA",
     "imgId": "inv_11_0_dungeon_oldgodstatuepiece_purple",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
@@ -779,10 +779,10 @@
     "itemId": 219316,
     "slot": "TRINKET",
     "secondaryStats": [],
-    "specialEffect": null,
+    "specialEffect": "Equip: The gland releases pheromones that attract a Ceaseless Swarm of insects to surround you. Taking damage has a high chance to retaliate against attackers, inflicting 16356 Nature damage over 6 sec and reducing damage dealt to you by 3781.",
     "lootSource": "ARA",
     "imgId": "inv_misc_organmass_color2",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -790,16 +790,16 @@
     "itemId": 219314,
     "slot": "TRINKET",
     "secondaryStats": ["HASTE"],
-    "specialEffect": null,
+    "specialEffect": "Equip: Your abilities have a chance to stir the sac, releasing an egg which grants you 213 Primary Stat. Each egg hatches after 1 min, and the new brood attacks your next target, inflicting 12784 Nature damage over 8 sec. (100ms cooldown)",
     "lootSource": "ARA",
     "imgId": "inv_raid_mercurialegg_red",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": []
   },
   {
     "name": "Black Shepherd's Guisarme",
     "itemId": 221137,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "DAWN",
@@ -862,10 +862,10 @@
     "itemId": 219312,
     "slot": "TRINKET",
     "secondaryStats": [],
-    "specialEffect": null,
+    "specialEffect": "Equip: Your spells and abilities have a chance to let loose a nascent empowerment from the crystal, increasing a random secondary stat by 1392 for 20 sec.",
     "lootSource": "DAWN",
     "imgId": "inv_arathordungeon_fragment_color5",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER"],
     "mainStats": ["INT", "AGI"]
   },
   {
@@ -913,10 +913,10 @@
     "itemId": 219311,
     "slot": "TRINKET",
     "secondaryStats": ["HASTE"],
-    "specialEffect": null,
+    "specialEffect": "Equip: Your attacks have a chance to call to the pact, exploding for 35361 Shadow damage split between nearby enemies and increasing your Haste by 377 for 10 sec.\nYour death breaks the pact, causing a violent explosion.",
     "lootSource": "DAWN",
     "imgId": "inv_10_alchemy_alchemystone_color4",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "TANK"],
     "mainStats": ["STR"]
   },
   {
@@ -967,7 +967,7 @@
     "specialEffect": null,
     "lootSource": "DAWN",
     "imgId": "inv_arathordungeon_bell_color1",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -1033,7 +1033,7 @@
   {
     "name": "Spellstrike Warplance",
     "itemId": 242481,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "ECO",
@@ -1074,12 +1074,12 @@
   {
     "name": "Fatebound Crusader",
     "itemId": 242487,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "ECO",
     "imgId": "inv_sword_2h_outdoorethereal_c_01",
-    "weaponType": "SWORD1H",
+    "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
   {
@@ -1130,7 +1130,7 @@
     "specialEffect": null,
     "lootSource": "ECO",
     "imgId": "inv_herb_karesh",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER"],
     "mainStats": ["INT", "AGI"]
   },
   {
@@ -1141,7 +1141,7 @@
     "specialEffect": null,
     "lootSource": "ECO",
     "imgId": "inv_misc_nightsaberclaw_mana",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -1152,7 +1152,7 @@
     "specialEffect": null,
     "lootSource": "ECO",
     "imgId": "inv_devourersmallmount_light",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -1253,7 +1253,7 @@
     "specialEffect": null,
     "lootSource": "STREETS",
     "imgId": "inv_7_0raid_trinket_09a",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
   {
@@ -1427,24 +1427,24 @@
     "specialEffect": null,
     "lootSource": "STREETS",
     "imgId": "inv_misc_profession_book_enchanting",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": []
   },
   {
     "name": "Skyreaver, Greataxe of the Keepers",
     "itemId": 185810,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
     "imgId": "inv_axe_2h_broker_c_01",
-    "weaponType": "AXE1H",
+    "weaponType": "AXE2H",
     "mainStats": ["STR"]
   },
   {
     "name": "Spire of Expurgation",
     "itemId": 185779,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
@@ -1545,7 +1545,7 @@
   {
     "name": "Staff of Fractured Spacetime",
     "itemId": 185822,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
@@ -1591,7 +1591,7 @@
     "specialEffect": null,
     "lootSource": "GAMBIT",
     "imgId": "inv_60pvp_trinket1d",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   },
   {
@@ -1623,7 +1623,7 @@
   {
     "name": "Obliteration Beamglaive",
     "itemId": 237739,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": {
@@ -1697,7 +1697,7 @@
       "bossName": "PLEXUS"
     },
     "imgId": "inv_112_raidtrinkets_obliterationcannon",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE"],
     "mainStats": ["STR"]
   },
   {
@@ -1763,7 +1763,7 @@
       "bossName": "LOOMITHAR"
     },
     "imgId": "inv_112_raidtrinkets_astralspinneret",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": []
   },
   {
@@ -1829,13 +1829,13 @@
       "bossName": "LOOMITHAR"
     },
     "imgId": "inv_112_raidtrinkets_silkwormsantenna",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   },
   {
     "name": "Voidglass Spire",
     "itemId": 237730,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": {
@@ -1857,7 +1857,7 @@
       "bossName": "NAAZINDHRI"
     },
     "imgId": "inv_112_raidtrinkets_manaforge_tanktrinket1",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -1871,7 +1871,7 @@
       "bossName": "NAAZINDHRI"
     },
     "imgId": "inv_112_raidtrinkets_soulbinderbossinttrinket",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -1942,7 +1942,7 @@
   {
     "name": "Photon Sabre Prime",
     "itemId": 237737,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": {
@@ -1950,13 +1950,13 @@
       "bossName": "ARAZ"
     },
     "imgId": "inv_sword_2h_etherealraid_d_01",
-    "weaponType": "SWORD1H",
+    "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
   {
     "name": "Marvel of Technomancy",
     "itemId": 237726,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": {
@@ -2043,7 +2043,7 @@
       "bossName": "ARAZ"
     },
     "imgId": "inv_112_raidtrinkets_trinkettechnomancer_ritualengine",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": []
   },
   {
@@ -2136,7 +2136,7 @@
       "bossName": "SOUL_HUNTERS"
     },
     "imgId": "inv_112_raidtrinkets_manaforgetanktrinket3",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": []
   },
   {
@@ -2255,7 +2255,7 @@
       "bossName": "FRACTILLUS"
     },
     "imgId": "inv_112_raidtrinkets_intdps_ancientkareshirelic",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -2287,7 +2287,7 @@
   {
     "name": "Maw of the Void",
     "itemId": 243365,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT"],
     "specialEffect": null,
     "lootSource": {
@@ -2295,7 +2295,7 @@
       "bossName": "NEXUS_KING"
     },
     "imgId": "inv_mace_2h_etherealking_d_01",
-    "weaponType": "MACE1H",
+    "weaponType": "MACE2H",
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -2427,7 +2427,7 @@
       "bossName": "NEXUS_KING"
     },
     "imgId": "inv_112_raidtrinkets_oathbindersauthority",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
   {
@@ -2472,7 +2472,7 @@
   {
     "name": "Supermassive Starcrusher",
     "itemId": 237725,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": {
@@ -2480,7 +2480,7 @@
       "bossName": "DIMENSIUS"
     },
     "imgId": "inv_mace_2h_etherealraid_d_01",
-    "weaponType": "MACE1H",
+    "weaponType": "MACE2H",
     "mainStats": ["STR"]
   },
   {
@@ -2533,7 +2533,7 @@
       "bossName": "DIMENSIUS"
     },
     "imgId": "inv_112_raidtrinkets_omnidpstrinket",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": []
   },
   {

@@ -13,6 +13,8 @@ export const ItemCell = memo(({ wowItem }: TItemCellProps) => {
     <Stack
       gap={1}
       sx={(theme) => ({
+        textDecoration: 'none',
+        color: theme.palette.grey[200],
         p: 1,
         alignItems: 'start',
         backgroundColor: theme.palette.grey[900],
@@ -20,27 +22,45 @@ export const ItemCell = memo(({ wowItem }: TItemCellProps) => {
     >
       <Stack direction="row" sx={() => ({ gap: ITEM_CELL_GAP, width: '100%' })}>
         <Box
-          component="img"
-          sx={(theme) => ({
-            width: AVATAR_SIZE,
-            height: AVATAR_SIZE,
-            borderRadius: 2,
-            border: `1px solid ${theme.palette.primary.main}`,
-          })}
-          src={`https://wow.zamimg.com/images/wow/icons/large/${wowItem.imgId}.jpg`}
-        />
+          component="a"
+          href={`https://www.wowhead.com/item=${wowItem.itemId}`}
+          data-wh-rename-link="false"
+          data-wh-iconize-link="false"
+          data-wh-color-link="false"
+        >
+          <Box
+            component="img"
+            sx={(theme) => ({
+              width: AVATAR_SIZE,
+              height: AVATAR_SIZE,
+              borderRadius: 2,
+              border: `1px solid ${theme.palette.primary.main}`,
+            })}
+            src={`https://wow.zamimg.com/images/wow/icons/large/${wowItem.imgId}.jpg`}
+          />
+        </Box>
         <Stack width={`calc(100% - ${AVATAR_SIZE + 8 * ITEM_CELL_GAP}px)`}>
           <Stack gap={2} direction="row" width="100%" justifyContent="space-between">
-            <Typography
-              textAlign="start"
-              variant="subtitle1"
-              noWrap
-              sx={{
-                flex: 1,
-              }}
+            <Box
+              component="a"
+              href={`https://www.wowhead.com/item=${wowItem.itemId}`}
+              data-wh-rename-link="false"
+              data-wh-iconize-link="false"
+              data-wh-color-link="true"
+              data-wowhead="bonus=642"
             >
-              {wowItem.name}
-            </Typography>
+              <Typography
+                textAlign="start"
+                variant="subtitle1"
+                noWrap
+                sx={{
+                  flex: 1,
+                  textDecoration: 'none',
+                }}
+              >
+                {wowItem.name}
+              </Typography>
+            </Box>
             <Typography textAlign="end" noWrap variant="button">
               {getSecondaryStatsDisplay(wowItem.secondaryStats)}
             </Typography>

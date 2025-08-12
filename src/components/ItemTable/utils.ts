@@ -7,6 +7,7 @@ import {
   isWowItemOffhand,
   isWowItemWeapon,
   TWowItem,
+  TWowItemTrinket,
 } from '../../types/items';
 import { formatName } from '../../utils/formatters';
 import { EDungeon, TLootSource, TRaidBoss } from '../../types/lootSources';
@@ -15,6 +16,7 @@ import {
   DUNGEONS_NAMES_LOOKUP,
   RAID_NAMES_LOOKUP,
 } from '../../globals/lootSources';
+import { ERole } from '../../types/roles';
 
 export const getWowheadItemData = (itemId: number) => `item=${itemId}`;
 
@@ -89,6 +91,17 @@ export const getSourceDisplayName = (lootSource: TLootSource) => {
     return DUNGEONS_NAMES_LOOKUP[lootSource as EDungeon];
   }
   return 'undefined';
+};
+
+export const hasSelectedRoles = (item: TWowItemTrinket, selectedRoles: Array<ERole>): boolean => {
+  if (selectedRoles.length === 1 && item.roles.includes(selectedRoles[0])) {
+    return true;
+  }
+  if ([...selectedRoles].some((specRole) => [...item.roles].includes(specRole))) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 export const hasSelectedSecondaryStats = (

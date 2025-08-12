@@ -12,8 +12,7 @@ import {
   isWowItemTrinket,
   isWowItemWeapon,
 } from '../../types/items';
-import { intersection } from 'lodash';
-import { hasSelectedSecondaryStats } from './utils';
+import { hasSelectedRoles, hasSelectedSecondaryStats } from './utils';
 
 export const ItemTable = memo(() => {
   const { selectedClass, selectedSpec, selectedSlot, selectedStats } = useOptimiserFilters();
@@ -21,8 +20,8 @@ export const ItemTable = memo(() => {
     const armorType = classToArmorType(selectedClass);
     const specs = selectedSpec.length ? selectedSpec : getAllClassSpecs(selectedClass);
     const specsDefs = specs.map((spec) => ALL_SPECS[spec]);
-    const roles = new Set(specsDefs.map((specDef) => specDef.role));
-    const mainStats = new Set(specsDefs.map((specDef) => specDef.mainStat));
+    const roles = specsDefs.map((specDef) => specDef.role);
+    const mainStats = specsDefs.map((specDef) => specDef.mainStat);
     const weaponTypes = new Set(specsDefs.map((specDef) => specDef.weaponTypes).flat());
     const offhandTypes = new Set(specsDefs.map((specDef) => specDef.offhandTypes ?? []).flat());
     const slots = new Set(selectedSlot);
@@ -39,12 +38,11 @@ export const ItemTable = memo(() => {
       if (isWowItemOffhand(item) && !offhandTypes.has(item.offhandType)) {
         return false;
       }
-      if (isWowItemTrinket(item) && !intersection([...roles], [...item.roles]).length) {
+      if (isWowItemTrinket(item) && !hasSelectedRoles(item, roles)) {
         return false;
       }
       const itemMainStats = getItemMainStats(item);
-      console.log(item);
-      if (itemMainStats.length && !intersection([...itemMainStats], [...mainStats])) {
+      if (itemMainStats.length && !itemMainStats.some((itemStat) => mainStats.includes(itemStat))) {
         return false;
       }
       if (!hasSelectedSecondaryStats(item, selectedStats)) {

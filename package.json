@@ -15,10 +15,12 @@
     "@mui/material": "^7.0.1",
     "@svgr/rollup": "^8.1.0",
     "@types/lodash": "^4.17.20",
+    "@types/react-virtualized": "^9.22.2",
     "lodash": "^4.17.21",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.4.1",
+    "react-virtualized": "^9.22.6",
     "vite-plugin-svgr": "^4.3.0"
   },
   "devDependencies": {
