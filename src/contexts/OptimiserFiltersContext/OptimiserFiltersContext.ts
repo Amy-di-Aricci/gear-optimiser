@@ -2,9 +2,10 @@ import { createContext } from 'react';
 import { ECharacterClass, ECharacterSpecName } from '../../types/spec';
 import { noop } from 'lodash';
 import { DEFAULT_CLASS } from './config';
-import { EItemSlot, ESecondaryStat } from '../../types/items';
+import { EItemSlot, ESecondaryStat, TWowItem } from '../../types/items';
 
 type TOptimiserFiltersContext = {
+  filteredItems: TWowItem[];
   selectedClass: ECharacterClass;
   setSelectedClass: (newClass: ECharacterClass) => void;
   selectedSpec: ECharacterSpecName[];
@@ -16,6 +17,7 @@ type TOptimiserFiltersContext = {
 };
 
 export const OptimiserFiltersContext = createContext<TOptimiserFiltersContext>({
+  filteredItems: [],
   selectedClass: DEFAULT_CLASS,
   setSelectedClass: noop,
   selectedSpec: [],
