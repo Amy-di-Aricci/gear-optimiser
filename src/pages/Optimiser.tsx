@@ -8,6 +8,7 @@ import {
   StatsSelector,
 } from '../components/OptimiserSelectors';
 import { OptimiserFilterContextProvider } from '../contexts/OptimiserFiltersContext';
+import { LootSourceSummaryTooltip } from '../components/LootSourceSummary';
 
 export const Optimiser = memo(() => {
   return (
@@ -26,7 +27,10 @@ export const Optimiser = memo(() => {
             <InventorySlotPicker />
           </Stack>
           <Stack gap={1}>
-            <StatsSelector />
+            <Stack direction="row" gap={1} justifyContent="space-between">
+              <StatsSelector />
+              <LootSourceSummaryTooltip />
+            </Stack>
             <ItemTable />
           </Stack>
         </Stack>
