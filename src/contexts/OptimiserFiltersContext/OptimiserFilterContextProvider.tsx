@@ -12,8 +12,10 @@ import {
 import { DEFAULT_CLASS } from './config';
 import { hasSelectedRoles, hasSelectedSecondaryStats } from '../../components/ItemTable/utils';
 import { ALL_SPECS } from '../../globals/specs';
+import { ALL_RAID_BOSSES } from '../../globals/lootSources';
 import { GEAR_STORE } from '../../store/gear-store';
 import { classToArmorType, getAllClassSpecs, getItemMainStats } from '../../utils/mappers';
+import { EDungeon, ERaid, TLootSource, TRaidBoss } from '../../types/lootSources';
 
 export const OptimiserFilterContextProvider = memo(({ children }: PropsWithChildren) => {
   const [selectedClass, _setSelectedClass] = useState<ECharacterClass>(DEFAULT_CLASS);
@@ -24,7 +26,6 @@ export const OptimiserFilterContextProvider = memo(({ children }: PropsWithChild
   }, []);
   const [selectedSlot, setSelectedSlot] = useState<EItemSlot[]>([]);
   const [selectedStats, setSelectedStats] = useState<ESecondaryStat[]>([]);
-
   const filteredItems = useMemo(() => {
     const armorType = classToArmorType(selectedClass);
     const specs = selectedSpec.length ? selectedSpec : getAllClassSpecs(selectedClass);
@@ -33,8 +34,28 @@ export const OptimiserFilterContextProvider = memo(({ children }: PropsWithChild
     const mainStats = specsDefs.map((specDef) => specDef.mainStat);
     const weaponTypes = new Set(specsDefs.map((specDef) => specDef.weaponTypes).flat());
     const offhandTypes = new Set(specsDefs.map((specDef) => specDef.offhandTypes ?? []).flat());
+    //TODO: implement season selector, those hardcoded loot sources are temporary
+    const seasonRaids = [ERaid.DR, ERaid.VS, ERaid.MQD];
+    const seasonDungeons: Array<TLootSource> = [
+      EDungeon.AA,
+      EDungeon.MC,
+      EDungeon.MT,
+      EDungeon.NPX,
+      EDungeon.WS,
+      EDungeon.POS,
+      EDungeon.SEAT,
+      EDungeon.SR,
+    ];
     const slots = new Set(selectedSlot);
     return GEAR_STORE.filter((item) => {
+      if (
+        !(
+          seasonDungeons.includes(item.lootSource) ||
+          seasonRaids.includes((item.lootSource as TRaidBoss).raid)
+        )
+      ) {
+        return false;
+      }
       if (slots.size && !slots.has(item.slot)) {
         return false;
       }
