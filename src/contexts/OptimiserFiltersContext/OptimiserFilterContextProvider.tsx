@@ -12,7 +12,6 @@ import {
 import { DEFAULT_CLASS } from './config';
 import { hasSelectedRoles, hasSelectedSecondaryStats } from '../../components/ItemTable/utils';
 import { ALL_SPECS } from '../../globals/specs';
-import { ALL_RAID_BOSSES } from '../../globals/lootSources';
 import { GEAR_STORE } from '../../store/gear-store';
 import { classToArmorType, getAllClassSpecs, getItemMainStats } from '../../utils/mappers';
 import { EDungeon, ERaid, TLootSource, TRaidBoss } from '../../types/lootSources';
