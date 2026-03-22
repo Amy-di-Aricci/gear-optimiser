@@ -2697,12 +2697,12 @@
   {
     "name": "Whirling Voidcleaver",
     "itemId": 251117,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MT",
     "imgId": "inv_axe_2h_domanaar_b_01",
-    "weaponType": "AXE1H",
+    "weaponType": "AXE2H",
     "mainStats": ["STR"]
   },
   {
@@ -2839,18 +2839,18 @@
   {
     "name": "Liferipper's Cutlass",
     "itemId": 251168,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MC",
     "imgId": "inv_sword_2h_dungeonharronir_c_01",
-    "weaponType": "SWORD1H",
+    "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
   {
     "name": "Traitor's Talon",
     "itemId": 251162,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "MC",
@@ -3228,7 +3228,7 @@
   {
     "name": "Roostwarden's Bough",
     "itemId": 251077,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "WS",
@@ -3239,12 +3239,12 @@
   {
     "name": "Emberdawn Defender",
     "itemId": 251078,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "WS",
     "imgId": "inv_sword_2h_dungeonharronir_c_01",
-    "weaponType": "SWORD1H",
+    "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
   {
@@ -3260,7 +3260,7 @@
   {
     "name": "Arcaneclaw Spear",
     "itemId": 258529,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "AA",
@@ -3271,7 +3271,7 @@
   {
     "name": "Final Grade",
     "itemId": 193707,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AA",
@@ -3282,18 +3282,18 @@
   {
     "name": "Algeth'ar Hedgecleaver",
     "itemId": 193716,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AA",
     "imgId": "inv_axe_2h_drakonoid_c_01",
-    "weaponType": "AXE1H",
+    "weaponType": "AXE2H",
     "mainStats": ["STR"]
   },
   {
     "name": "Obsidian Goaltending Spire",
     "itemId": 193723,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "AA",
@@ -3457,12 +3457,12 @@
   {
     "name": "Garfrost's Two-Ton Hammer",
     "itemId": 49802,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "POS",
     "imgId": "inv_mace_83",
-    "weaponType": "MACE1H",
+    "weaponType": "MACE2H",
     "mainStats": ["STR"]
   },
   {
@@ -3660,7 +3660,7 @@
   {
     "name": "Umbral Spire of Zuraal",
     "itemId": 258514,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
@@ -3985,18 +3985,18 @@
   {
     "name": "Chakram-Breaker Greatsword",
     "itemId": 258046,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
     "imgId": "inv_sword_2h_draenordungeon_c_01",
-    "weaponType": "SWORD1H",
+    "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
   {
     "name": "Spire of the Furious Construct",
     "itemId": 258047,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
@@ -4007,7 +4007,7 @@
   {
     "name": "Sunlance of Viryx",
     "itemId": 258484,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "SR",
@@ -4205,7 +4205,7 @@
   {
     "name": "Alnscorned Spire",
     "itemId": 249278,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": {
@@ -4468,7 +4468,7 @@
   {
     "name": "Inescapable Reach",
     "itemId": 249302,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": {
@@ -4669,7 +4669,7 @@
   {
     "name": "Bellamy's Final Judgement",
     "itemId": 249277,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": {
@@ -4677,7 +4677,7 @@
       "bossName": "LIGHT_VANGUARD"
     },
     "imgId": "inv_mace_2h_raidmidnight_d_01",
-    "weaponType": "MACE1H",
+    "weaponType": "MACE2H",
     "mainStats": ["STR"]
   },
   {
@@ -5027,7 +5027,7 @@
   {
     "name": "Brazier of the Dissonant Dirge",
     "itemId": 249286,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["MASTERY"],
     "specialEffect": null,
     "lootSource": {
@@ -5041,7 +5041,7 @@
   {
     "name": "Alah'endal, the Dawnsong",
     "itemId": 249296,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE"],
     "specialEffect": null,
     "lootSource": {
@@ -5049,7 +5049,7 @@
       "bossName": "MIDNIGHT_FALLS"
     },
     "imgId": "inv_axe_2h_raidmidnight_d_01",
-    "weaponType": "AXE1H",
+    "weaponType": "AXE2H",
     "mainStats": ["STR"]
   },
   {
@@ -5201,7 +5201,7 @@
   {
     "name": "Corespark Multitool",
     "itemId": 251201,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "NPX",

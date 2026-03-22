@@ -582,7 +582,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: "Deceiver's Rotbow",
     itemId: 251174,
-    slot: EItemSlot.MAINHAND,
+    slot: EItemSlot.RANGED,
     secondaryStats: [ESecondaryStat.HASTE, ESecondaryStat.MASTERY],
     specialEffect: null,
     lootSource: EDungeon.MC,
@@ -635,7 +635,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: "Hurricane's Heart",
     itemId: 251095,
-    slot: EItemSlot.MAINHAND,
+    slot: EItemSlot.RANGED,
     secondaryStats: [ESecondaryStat.CRIT, ESecondaryStat.HASTE],
     specialEffect: null,
     lootSource: EDungeon.WS,
@@ -754,7 +754,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: 'Rimebane Rifle',
     itemId: 49813,
-    slot: EItemSlot.MAINHAND,
+    slot: EItemSlot.RANGED,
     secondaryStats: [ESecondaryStat.HASTE, ESecondaryStat.MASTERY],
     specialEffect: null,
     lootSource: EDungeon.POS,
@@ -829,7 +829,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: "Stormshaper's Crossbow",
     itemId: 258412,
-    slot: EItemSlot.MAINHAND,
+    slot: EItemSlot.RANGED,
     secondaryStats: [ESecondaryStat.VERS, ESecondaryStat.CRIT],
     specialEffect: null,
     lootSource: EDungeon.SR,
@@ -974,7 +974,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: "Ranger-Captain's Lethal Recurve",
     itemId: 249288,
-    slot: EItemSlot.MAINHAND,
+    slot: EItemSlot.RANGED,
     secondaryStats: [ESecondaryStat.HASTE, ESecondaryStat.CRIT],
     specialEffect: null,
     lootSource: {
@@ -1144,7 +1144,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: 'Sunstrike Rifle',
     itemId: 249279,
-    slot: EItemSlot.MAINHAND,
+    slot: EItemSlot.RANGED,
     secondaryStats: [ESecondaryStat.HASTE, ESecondaryStat.MASTERY],
     specialEffect: null,
     lootSource: {
