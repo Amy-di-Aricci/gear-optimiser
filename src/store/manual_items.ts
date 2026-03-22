@@ -7,6 +7,7 @@ import {
   TWowItem,
 } from '../types/items';
 import { EDungeon, ERaid, ERaidBoss } from '../types/lootSources';
+import { ERole } from '../types/roles';
 
 export const MANUAL_ITEMS: Array<TWowItem> = [
   {
@@ -1153,5 +1154,36 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
     imgId: 'inv_firearm_2h_raidmidnight_d_01',
     weaponType: EWeaponType.GUN,
     mainStats: [EMainStat.AGI],
+  },
+  {
+    name: 'Refuelling Orb',
+    itemId: 250246,
+    slot: EItemSlot.TRINKET,
+    secondaryStats: [],
+    specialEffect: null,
+    lootSource: EDungeon.MT,
+    imgId: 'inv_cosmicvoid_orb',
+    mainStats: [EMainStat.INT],
+    roles: [ERole.HEALER],
+  },
+  {
+    name: 'Malfeasance Mallet',
+    itemId: 251100,
+    slot: EItemSlot.MAINHAND,
+    secondaryStats: [ESecondaryStat.HASTE, ESecondaryStat.MASTERY],
+    specialEffect: null,
+    lootSource: EDungeon.MT,
+    imgId: 'inv_mace_1h_dungeonharronir_c_01',
+    weaponType: EWeaponType.MACE1H,
+    mainStats: [EMainStat.STR],
+  },
+  {
+    name: 'Fluxweave Cloak',
+    itemId: 251206,
+    slot: EItemSlot.BACK,
+    secondaryStats: [ESecondaryStat.VERS, ESecondaryStat.MASTERY],
+    specialEffect: null,
+    lootSource: EDungeon.NPX,
+    imgId: 'inv_cape_cloth_dungeonharronir_c_01',
   },
 ];

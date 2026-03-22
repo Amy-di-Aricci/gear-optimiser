@@ -2609,8 +2609,8 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "imgId": "inv12_jewelrytrinkets_dungeon_tankjellyreplicator",
+    "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -2866,7 +2866,7 @@
     "specialEffect": null,
     "lootSource": "MC",
     "imgId": "inv_misc_food_162_fish_90blue",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": []
   },
   {
@@ -2926,8 +2926,8 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "imgId": "inv12_jewelrytrinkets_dungeon_markoflight",
+    "roles": ["DPS_MELEE"],
     "mainStats": ["STR"]
   },
   {
@@ -2938,7 +2938,7 @@
     "specialEffect": null,
     "lootSource": "NPX",
     "imgId": "inv_cosmicvoid_wave",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
   {
@@ -3189,7 +3189,7 @@
     "specialEffect": null,
     "lootSource": "WS",
     "imgId": "inv_10_jewelcrafting3_soulcage_air",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   },
   {
@@ -3222,7 +3222,7 @@
     "specialEffect": null,
     "lootSource": "WS",
     "imgId": "inv_icon_feather06a",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER"],
     "mainStats": ["INT", "AGI"]
   },
   {
@@ -3428,8 +3428,8 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "imgId": "reliquarybag_icon",
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR"]
   },
   {
@@ -3440,7 +3440,7 @@
     "specialEffect": null,
     "lootSource": "AA",
     "imgId": "inv_misc_head_dragon_green",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
   {
@@ -3451,7 +3451,7 @@
     "specialEffect": null,
     "lootSource": "AA",
     "imgId": "inv_misc_enggizmos_18",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -3643,7 +3643,7 @@
     "specialEffect": null,
     "lootSource": "POS",
     "imgId": "inv_maldraxxusslime_plague",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -3654,7 +3654,7 @@
     "specialEffect": null,
     "lootSource": "POS",
     "imgId": "inv_datacrystal09",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -3946,7 +3946,7 @@
     "specialEffect": null,
     "lootSource": "SEAT",
     "imgId": "inv_archaeology_70_highborne_vialofpoison",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -3967,8 +3967,8 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "imgId": "achievement_battleground_templeofkotmogu_02_purple",
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -3979,7 +3979,7 @@
     "specialEffect": null,
     "lootSource": "SEAT",
     "imgId": "inv_pet_naaru_purple",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
   {
@@ -4000,7 +4000,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "",
+    "imgId": "invstaff_2h_draenordungeon_c_04",
     "weaponType": "STAFF",
     "mainStats": ["INT"]
   },
@@ -4163,7 +4163,7 @@
     "specialEffect": null,
     "lootSource": "SR",
     "imgId": "inv_elemental_primal_fire",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -4174,7 +4174,7 @@
     "specialEffect": null,
     "lootSource": "SR",
     "imgId": "inv_enchant_shardbrilliantlarge",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -4185,7 +4185,7 @@
     "specialEffect": null,
     "lootSource": "SR",
     "imgId": "inv_qirajidol_sun",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
   {
@@ -4240,7 +4240,7 @@
       "bossName": "CHIMAERUS"
     },
     "imgId": "inv_12_trinket_raid_dreamrift_gazeofthealnseer",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": []
   },
   {
@@ -4490,7 +4490,7 @@
       "bossName": "VORASIUS"
     },
     "imgId": "inv_12_trinket_raid_voidspire_strdps_hearthofancienthunger",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "TANK"],
     "mainStats": ["STR"]
   },
   {
@@ -4504,7 +4504,7 @@
       "bossName": "FALLEN_SALHADAAR"
     },
     "imgId": "inv_12_trinket_raid_voidspire_intdps1_wrapsofcosmicmadness",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -4518,7 +4518,7 @@
       "bossName": "FALLEN_SALHADAAR"
     },
     "imgId": "inv_12_trinket_raid_voidspire_healer1_volatilevoidsuffuser",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
   {
@@ -4597,7 +4597,7 @@
       "bossName": "VAELGOR"
     },
     "imgId": "inv_12_trinket_raid_voidspire_int1_voiddragoneye",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -4650,7 +4650,7 @@
       "bossName": "VAELGOR"
     },
     "imgId": "inv_12_trinket_raid_voidspire_tank1_smolderinggloomscale",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": []
   },
   {
@@ -4717,7 +4717,7 @@
       "bossName": "LIGHT_VANGUARD"
     },
     "imgId": "inv_12_trinket_raid_voidspire_healer2_litanyoflightblindwrath",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
   {
@@ -4823,7 +4823,7 @@
       "bossName": "CROWN_COSMOS"
     },
     "imgId": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -4902,7 +4902,7 @@
       "bossName": "BELOREN"
     },
     "imgId": "inv_12_trinket_raid_darkwell_tank2_phoenixegg",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -4916,7 +4916,7 @@
       "bossName": "BELOREN"
     },
     "imgId": "inv_12_dualityphoenix_holy_feather",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -4930,7 +4930,7 @@
       "bossName": "BELOREN"
     },
     "imgId": "inv_12_dualityphoenix_void_feather",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -5063,7 +5063,7 @@
       "bossName": "MIDNIGHT_FALLS"
     },
     "imgId": "inv_12_trinket_raid_darkwell_intdps2",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -5077,7 +5077,7 @@
       "bossName": "MIDNIGHT_FALLS"
     },
     "imgId": "inv_12_trinket_raid_darkwelle_healer3_cosmiccrescendo",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
   {
@@ -5157,5 +5157,119 @@
     },
     "imgId": "inv_chest_cloth_raidwarlockmidnight_d_01",
     "armorType": "CLOTH"
+  },
+  {
+    "name": "Arcane Guardian's Shell",
+    "itemId": 251101,
+    "slot": "CHEST",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "MT",
+    "imgId": "inv_chest_plate_dungeonharronir_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Custodial Cuffs",
+    "itemId": 251103,
+    "slot": "WRIST",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "MT",
+    "imgId": "inv_bracer_leather_dungeonharronir_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Clasp of Compliance",
+    "itemId": 251102,
+    "slot": "WAIST",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "MT",
+    "imgId": "inv_belt_cloth_dungeonharronir_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Leggings of Orderly Conduct",
+    "itemId": 251104,
+    "slot": "LEGS",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "MT",
+    "imgId": "inv_pant_mail_dungeonharronir_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Corespark Multitool",
+    "itemId": 251201,
+    "slot": "TWOHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "NPX",
+    "imgId": "inv_staff_2h_domanaar_b_01",
+    "weaponType": "STAFF",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Reflux Reflector",
+    "itemId": 251202,
+    "slot": "OFFHAND",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "NPX",
+    "imgId": "inv_12al_armyoflight_defense_shield01",
+    "offhandType": "SHIELD"
+  },
+  {
+    "name": "Kasreth's Bindings",
+    "itemId": 251203,
+    "slot": "WRIST",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "NPX",
+    "imgId": "inv_bracer_plate_dungeonharronir_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Corewright's Zappers",
+    "itemId": 251204,
+    "slot": "HANDS",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "NPX",
+    "imgId": "inv_glove_leather_dungeonharronir_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Leyline Leggings",
+    "itemId": 251205,
+    "slot": "LEGS",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "NPX",
+    "imgId": "inv_pant_cloth_dungeonharronir_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Embergrove Grasps",
+    "itemId": 251081,
+    "slot": "HANDS",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "WS",
+    "imgId": "inv_glove_plate_dungeonharronir_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Void-Claimed Shinkickers",
+    "itemId": 249334,
+    "slot": "FEET",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "VS",
+      "bossName": "AVERZIAN"
+    },
+    "imgId": "inv_boot_leather_raiddemonhuntermidnight_d_01",
+    "armorType": "LEATHER"
   }
 ]
