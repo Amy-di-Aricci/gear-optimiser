@@ -13,12 +13,23 @@ export enum EDungeon {
   ECO = 'ECO',
   STREETS = 'STREETS',
   GAMBIT = 'GAMBIT',
+  MT = 'MT',
+  MC = 'MC',
+  AA = 'AA',
+  NPX = 'NPX',
+  POS = 'POS',
+  SEAT = 'SEAT',
+  SR = 'SR',
+  WS = 'WS',
 }
 
 export enum ERaid {
   NP = 'NP',
   LOU = 'LOU',
   MFO = 'MFO',
+  DR = 'DR',
+  VS = 'VS',
+  MQD = 'MQD',
 }
 
 export enum ERaidBoss {
@@ -46,6 +57,15 @@ export enum ERaidBoss {
   FRACTILLUS = 'FRACTILLUS',
   NEXUS_KING = 'NEXUS_KING',
   DIMENSIUS = 'DIMENSIUS',
+  CHIMAERUS = 'CHIMAERUS',
+  AVERZIAN = 'AVERZIAN',
+  VORASIUS = 'VORASIUS',
+  FALLEN_SALHADAAR = 'FALLEN_SALHADAAR',
+  VAELGOR = 'VAELGOR',
+  LIGHT_VANGUARD = 'LIGHT_VANGUARD',
+  CROWN_COSMOS = 'CROWN_COSMOS',
+  BELOREN = 'BELOREN',
+  MIDNIGHT_FALLS = 'MIDNIGHT_FALLS',
 }
 
 export type TRaidBoss = {
