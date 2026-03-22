@@ -54,6 +54,7 @@ export enum ECharacterSpecName {
   GUARDIAN = 'GUARDIAN',
   VENG = 'VENG',
   HAVOC = 'HAVOC',
+  DEVOURER = 'DEVOURER',
   AUG = 'AUG',
   DEVA = 'DEVA',
   PRESERV = 'PRESERV',

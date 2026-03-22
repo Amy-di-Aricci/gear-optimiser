@@ -97,6 +97,42 @@ export const ALL_RAID_BOSSES: Record<ERaidBoss, TRaidBoss> = {
     bossName: ERaidBoss.ANSUREK,
     raid: ERaid.NP,
   },
+  [ERaidBoss.CHIMAERUS]: {
+    bossName: ERaidBoss.CHIMAERUS,
+    raid: ERaid.DR,
+  },
+  [ERaidBoss.AVERZIAN]: {
+    bossName: ERaidBoss.AVERZIAN,
+    raid: ERaid.VS,
+  },
+  [ERaidBoss.VORASIUS]: {
+    bossName: ERaidBoss.VORASIUS,
+    raid: ERaid.VS,
+  },
+  [ERaidBoss.FALLEN_SALHADAAR]: {
+    bossName: ERaidBoss.FALLEN_SALHADAAR,
+    raid: ERaid.VS,
+  },
+  [ERaidBoss.VAELGOR]: {
+    bossName: ERaidBoss.VAELGOR,
+    raid: ERaid.VS,
+  },
+  [ERaidBoss.LIGHT_VANGUARD]: {
+    bossName: ERaidBoss.LIGHT_VANGUARD,
+    raid: ERaid.VS,
+  },
+  [ERaidBoss.CROWN_COSMOS]: {
+    bossName: ERaidBoss.CROWN_COSMOS,
+    raid: ERaid.VS,
+  },
+  [ERaidBoss.BELOREN]: {
+    bossName: ERaidBoss.BELOREN,
+    raid: ERaid.MQD,
+  },
+  [ERaidBoss.MIDNIGHT_FALLS]: {
+    bossName: ERaidBoss.MIDNIGHT_FALLS,
+    raid: ERaid.MQD,
+  },
 };
 
 export const DUNGEONS_NAMES_LOOKUP: Record<EDungeon, string> = {
@@ -114,6 +150,14 @@ export const DUNGEONS_NAMES_LOOKUP: Record<EDungeon, string> = {
   [EDungeon.ECO]: "Eco-Dome Al'dani",
   [EDungeon.STREETS]: 'Tazavesh - Streets of Wonder',
   [EDungeon.GAMBIT]: "Tazavesh - So'leah's Gambit",
+  [EDungeon.MT]: "Magister's Terrace",
+  [EDungeon.MC]: 'Maisara Caverns',
+  [EDungeon.AA]: "Algeth'ar Academy",
+  [EDungeon.NPX]: 'Nexus-Point Xenas',
+  [EDungeon.POS]: 'Pit of Saron',
+  [EDungeon.SEAT]: 'Seat of the Triumvirate',
+  [EDungeon.SR]: 'Skyreach',
+  [EDungeon.WS]: 'Windrunner Spire',
 };
 
 export const BOSS_NAMES_LOOKUP: Record<ERaidBoss, string> = {
@@ -141,10 +185,22 @@ export const BOSS_NAMES_LOOKUP: Record<ERaidBoss, string> = {
   [ERaidBoss.KYVEZA]: "Nexus-Princess Ky'veza",
   [ERaidBoss.SILKEN_COURT]: 'The Silken Court',
   [ERaidBoss.ANSUREK]: 'Queen Ansurek',
+  [ERaidBoss.CHIMAERUS]: 'Chimaerus the Undreamt God',
+  [ERaidBoss.AVERZIAN]: 'Imperator Averzian',
+  [ERaidBoss.VORASIUS]: 'Vorasius',
+  [ERaidBoss.FALLEN_SALHADAAR]: 'Fallen-King Salhadaar',
+  [ERaidBoss.VAELGOR]: 'Vaelgor & Ezzorak',
+  [ERaidBoss.LIGHT_VANGUARD]: 'Lightblinded Vanguard',
+  [ERaidBoss.CROWN_COSMOS]: 'Crown of the Cosmos',
+  [ERaidBoss.BELOREN]: "Belo'ren, Child of Al'ar",
+  [ERaidBoss.MIDNIGHT_FALLS]: 'Midnight Falls',
 };
 
 export const RAID_NAMES_LOOKUP: Record<ERaid, string> = {
   [ERaid.NP]: 'Nerub-ar Palace',
   [ERaid.LOU]: 'Liberation of Undermine',
   [ERaid.MFO]: 'Manaforge Omega',
+  [ERaid.DR]: 'The Dreamrift',
+  [ERaid.VS]: 'The Voidspire',
+  [ERaid.MQD]: "March on Quel'Danas",
 };

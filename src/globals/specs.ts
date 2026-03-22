@@ -282,6 +282,13 @@ export const ALL_SPECS: Record<ECharacterSpecName, TCharacterSpec> = {
     mainStat: EMainStat.AGI,
     weaponTypes: [EWeaponType.WARGLAIVE, EWeaponType.SWORD1H, EWeaponType.AXE1H, EWeaponType.FIST],
   },
+  [ECharacterSpecName.DEVOURER]: {
+    characterSpecName: ECharacterSpecName.DEVOURER,
+    characterClass: ECharacterClass.DEMON_HUNTER,
+    role: ERole.DPS_RANGED,
+    mainStat: EMainStat.INT,
+    weaponTypes: [EWeaponType.WARGLAIVE, EWeaponType.SWORD1H, EWeaponType.AXE1H, EWeaponType.FIST],
+  },
   [ECharacterSpecName.AUG]: {
     characterSpecName: ECharacterSpecName.AUG,
     characterClass: ECharacterClass.EVOKER,
