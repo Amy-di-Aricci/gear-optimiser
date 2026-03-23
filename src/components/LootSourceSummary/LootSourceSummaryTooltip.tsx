@@ -1,31 +1,10 @@
-import { memo, useMemo } from 'react';
+import { memo } from 'react';
 import LeaderboardIcon from '@mui/icons-material/Leaderboard';
-import { useOptimiserFilters } from '../../contexts/OptimiserFiltersContext';
-import { reduce } from 'lodash';
-import { getSourceDisplayName } from '../ItemTable/utils';
 import { Stack, Tooltip, Typography } from '@mui/material';
+import { useGetLootSourceFrequency } from './hooks/UseGetLootSourceFrequency';
 
 export const LootSourceSummaryTooltip = memo(() => {
-  const { filteredItems } = useOptimiserFilters();
-  const tooltipDisplayData = useMemo(() => {
-    const lootSourceFrequency = reduce(
-      filteredItems,
-      (acc, currentItem) => {
-        const displayName = getSourceDisplayName(currentItem.lootSource);
-        acc[displayName] = (acc[displayName] ?? 0) + 1;
-        return acc;
-      },
-      {} as Record<string, number>,
-    );
-    return Object.entries(lootSourceFrequency)
-      .sort((a, b) => {
-        return b[1] - a[1];
-      })
-      .map((entry) => ({
-        name: entry[0],
-        value: entry[1],
-      }));
-  }, [filteredItems]);
+  const tooltipDisplayData = useGetLootSourceFrequency();
   return (
     <Tooltip
       title={

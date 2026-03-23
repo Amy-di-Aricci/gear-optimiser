@@ -15,6 +15,7 @@ export const ItemCell = memo(({ wowItem }: TItemCellProps) => {
       sx={(theme) => ({
         textDecoration: 'none',
         color: theme.palette.grey[200],
+        borderRadius: 1,
         p: 1,
         alignItems: 'start',
         backgroundColor: theme.palette.grey[900],

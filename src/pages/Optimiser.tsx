@@ -8,29 +8,38 @@ import {
   StatsSelector,
 } from '../components/OptimiserSelectors';
 import { OptimiserFilterContextProvider } from '../contexts/OptimiserFiltersContext';
-import { LootSourceSummaryTooltip } from '../components/LootSourceSummary';
+import { LootSourceSummaryCard } from '../components/LootSourceSummary';
 
 export const Optimiser = memo(() => {
   return (
     <OptimiserFilterContextProvider>
       <Container maxWidth="lg">
         <Stack
-          gap={1}
+          height={{ md: '90vh' }}
+          gap={{ xs: 2, md: 6 }}
           direction={{
             xs: 'column',
             md: 'row',
           }}
         >
-          <Stack minWidth="400px" gap={1} alignItems={'center'}>
-            <CharacterClassSelector />
-            <CharacterSpecSelector />
-            <InventorySlotPicker />
-          </Stack>
-          <Stack gap={1}>
-            <Stack direction="row" gap={1} justifyContent="space-between">
-              <StatsSelector />
-              <LootSourceSummaryTooltip />
+          <Stack
+            minWidth="400px"
+            gap={{
+              xs: 2,
+              md: 6,
+            }}
+            alignItems={'center'}
+            justifyContent={'center'}
+          >
+            <Stack spacing={2} alignItems={'center'}>
+              <CharacterClassSelector />
+              <CharacterSpecSelector />
             </Stack>
+            <InventorySlotPicker />
+            <StatsSelector />
+          </Stack>
+          <Stack gap={2}>
+            <LootSourceSummaryCard />
             <ItemTable />
           </Stack>
         </Stack>
