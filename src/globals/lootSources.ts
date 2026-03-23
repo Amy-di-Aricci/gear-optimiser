@@ -1,5 +1,20 @@
 import { EDungeon, ERaid, ERaidBoss, TRaidBoss } from '../types/lootSources';
 
+const images = Object.fromEntries(
+  Object.entries(
+    import.meta.glob('../assets/images/*.webp', { eager: true, import: 'default' }) as Record<
+      string,
+      string
+    >,
+  ).map(([path, src]) => [
+    path
+      .split('/')
+      .pop()!
+      .replace(/\.[^.]+$/, ''),
+    src,
+  ]),
+) as Record<string, string>;
+
 export const ALL_RAID_BOSSES: Record<ERaidBoss, TRaidBoss> = {
   [ERaidBoss.VEXIE]: {
     bossName: ERaidBoss.VEXIE,
@@ -160,6 +175,31 @@ export const DUNGEONS_NAMES_LOOKUP: Record<EDungeon, string> = {
   [EDungeon.WS]: 'Windrunner Spire',
 };
 
+export const DUNGEON_IMAGE_LOOKUP: Record<EDungeon, string> = {
+  [EDungeon.DFC]: '',
+  [EDungeon.ML]: '',
+  [EDungeon.WORK]: '',
+  [EDungeon.FLOOD]: '',
+  [EDungeon.ROOK]: '',
+  [EDungeon.TOP]: '',
+  [EDungeon.BREW]: '',
+  [EDungeon.PSF]: '',
+  [EDungeon.HOA]: '',
+  [EDungeon.ARA]: '',
+  [EDungeon.DAWN]: '',
+  [EDungeon.ECO]: '',
+  [EDungeon.STREETS]: '',
+  [EDungeon.GAMBIT]: '',
+  [EDungeon.MT]: images['magisters_terrace'],
+  [EDungeon.MC]: images['maisara_caverns'],
+  [EDungeon.AA]: images['algethar_academy'],
+  [EDungeon.NPX]: images['nexus_point_xenas'],
+  [EDungeon.POS]: images['pit_of_saron'],
+  [EDungeon.SEAT]: images['seat_of_triumvirate'],
+  [EDungeon.SR]: images['skyreach'],
+  [EDungeon.WS]: images['windrunner_spire'],
+};
+
 export const BOSS_NAMES_LOOKUP: Record<ERaidBoss, string> = {
   [ERaidBoss.VEXIE]: 'Vexie and the Geargrinders',
   [ERaidBoss.CAULDRON]: 'Cauldron of Carnage',
@@ -203,4 +243,13 @@ export const RAID_NAMES_LOOKUP: Record<ERaid, string> = {
   [ERaid.DR]: 'The Dreamrift',
   [ERaid.VS]: 'The Voidspire',
   [ERaid.MQD]: "March on Quel'Danas",
+};
+
+export const RAID_IMAGE_LOOKUP: Record<ERaid, string> = {
+  [ERaid.NP]: '',
+  [ERaid.LOU]: '',
+  [ERaid.MFO]: '',
+  [ERaid.DR]: images['dreamrift'],
+  [ERaid.VS]: images['voidspire'],
+  [ERaid.MQD]: images['march_queldanas'],
 };
