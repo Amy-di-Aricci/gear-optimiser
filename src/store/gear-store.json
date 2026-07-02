@@ -5487,7 +5487,7 @@
     "specialEffect": null,
     "lootSource": "AOF",
     "imgId": "inv_121_trinket_dungeon_ulatek_fangstone",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "TANK"],
     "mainStats": ["STR"]
   },
   {
@@ -5498,7 +5498,7 @@
     "specialEffect": null,
     "lootSource": "AOF",
     "imgId": "inv_121_trinket_dungeon_ulatek_writhe",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -5520,7 +5520,7 @@
     "specialEffect": null,
     "lootSource": "AOF",
     "imgId": "inv_121_trinket_dungeon_ulatek_vile",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   },
   {
@@ -5734,7 +5734,7 @@
     "specialEffect": null,
     "lootSource": "DON",
     "imgId": "",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": []
   },
   {
@@ -5745,7 +5745,7 @@
     "specialEffect": null,
     "lootSource": "DON",
     "imgId": "",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE"],
     "mainStats": ["STR"]
   },
   {
@@ -5756,7 +5756,7 @@
     "specialEffect": null,
     "lootSource": "DON",
     "imgId": "inv_misc_starspecklemushroom",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
   {
@@ -5981,7 +5981,7 @@
     "specialEffect": null,
     "lootSource": "MR",
     "imgId": "inv_alchemy_90_flask_red",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER"],
     "mainStats": ["INT", "AGI"]
   },
   {
@@ -5992,7 +5992,7 @@
     "specialEffect": null,
     "lootSource": "MR",
     "imgId": "inv_alchemy_90_stone_green",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -6003,7 +6003,7 @@
     "specialEffect": null,
     "lootSource": "MR",
     "imgId": "",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -6014,7 +6014,7 @@
     "specialEffect": null,
     "lootSource": "MR",
     "imgId": "inv_ember_fel",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -6252,7 +6252,7 @@
     "specialEffect": null,
     "lootSource": "TBV",
     "imgId": "",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
   {
@@ -6263,7 +6263,7 @@
     "specialEffect": null,
     "lootSource": "TBV",
     "imgId": "",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE"],
     "mainStats": ["STR"]
   },
   {
@@ -6274,7 +6274,7 @@
     "specialEffect": null,
     "lootSource": "TBV",
     "imgId": "inv_enchant_essenceastrallarge",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER"],
     "mainStats": ["INT", "AGI"]
   },
   {
@@ -6503,7 +6503,7 @@
     "specialEffect": null,
     "lootSource": "VA",
     "imgId": "inv_icon_shadowcouncilorb_purple",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -6514,7 +6514,7 @@
     "specialEffect": null,
     "lootSource": "VA",
     "imgId": "",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -6842,7 +6842,7 @@
     "specialEffect": null,
     "lootSource": "KR",
     "imgId": "inv_7_0raid_necklace_14a",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -6853,7 +6853,7 @@
     "specialEffect": null,
     "lootSource": "KR",
     "imgId": "inv_icon_feather06a",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["AGI"]
   },
   {
@@ -6864,7 +6864,7 @@
     "specialEffect": null,
     "lootSource": "KR",
     "imgId": "inv_misc_emberweavebandagelight",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -7049,7 +7049,7 @@
     "specialEffect": null,
     "lootSource": "RLP",
     "imgId": "inv_10_dungeonjewelry_primalist_trinket_2_fire",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "TANK"],
     "mainStats": ["STR"]
   },
   {
@@ -7060,7 +7060,7 @@
     "specialEffect": null,
     "lootSource": "RLP",
     "imgId": "inv_10_dungeonjewelry_primalist_trinket_4_fire",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": []
   },
   {
@@ -7071,7 +7071,7 @@
     "specialEffect": null,
     "lootSource": "RLP",
     "imgId": "inv_item_dragonegg_redbroken01",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   },
   {
@@ -7388,7 +7388,7 @@
     "specialEffect": null,
     "lootSource": "TOS",
     "imgId": "inv_misc_food_87_sporelingsnack",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE"],
     "mainStats": ["STR"]
   },
   {
@@ -7410,7 +7410,7 @@
     "specialEffect": null,
     "lootSource": "TOS",
     "imgId": "inv_staff_2h_snakeman_c_01",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -7581,7 +7581,7 @@
       "bossName": "NYMRISSA"
     },
     "imgId": "inv_tradeskillitem_sorcererswater",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -7754,7 +7754,7 @@
       "bossName": "NEKZALI"
     },
     "imgId": "inv_121_trinket_raid_ulatek_ritualvessel",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
   {
@@ -7922,7 +7922,7 @@
       "bossName": "ENTOMBED_SENTINELS"
     },
     "imgId": "inv_121_trinket_raid_ulatek_golemhearts_green",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -8064,7 +8064,7 @@
       "bossName": "VASHNIK"
     },
     "imgId": "inv_121_trinket_raid_ulatek_fang_purple",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -8233,7 +8233,7 @@
       "bossName": "LOST_EXPLORERS"
     },
     "imgId": "inv_cape_special_turtleshell_c_02",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -8247,7 +8247,7 @@
       "bossName": "LOST_EXPLORERS"
     },
     "imgId": "inv_10_tailoring_bag1_color2",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK", "HEALER"],
     "mainStats": ["INT", "STR", "AGI"]
   },
   {
@@ -8389,7 +8389,7 @@
       "bossName": "SSZORAK"
     },
     "imgId": "inv_jewelcrafting_jadeserpent",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -8403,7 +8403,7 @@
       "bossName": "SSZORAK"
     },
     "imgId": "inv_121_trinket_raid_ulatek_ulatekclaw",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE"],
     "mainStats": ["STR"]
   },
   {
@@ -8544,7 +8544,7 @@
       "bossName": "TWIN_FANGS"
     },
     "imgId": "inv_11_0_dungeon_tentaclevial_green",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER"],
     "mainStats": []
   },
   {
@@ -8558,7 +8558,7 @@
       "bossName": "TWIN_FANGS"
     },
     "imgId": "inv_11_0_misc_organmass_color3",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -8677,7 +8677,7 @@
       "bossName": "COILED_ALTAR"
     },
     "imgId": "inv_archaeology_orcclans_crackedidol",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
   {
@@ -8854,7 +8854,7 @@
       "bossName": "ULATEK"
     },
     "imgId": "inv_121_trinket_raid_ulatek_heart",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
   {
@@ -9026,7 +9026,7 @@
       "bossName": "ROTMIRE"
     },
     "imgId": "inv_1207_fungarianraid_trinket",
-    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   }
 ]
