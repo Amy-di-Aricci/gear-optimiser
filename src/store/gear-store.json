@@ -8884,5 +8884,149 @@
     "imgId": "inv_knife_1h_ulatekfang_d_01_spirit",
     "weaponType": "DAGGER",
     "mainStats": ["INT"]
+  },
+  {
+    "name": "Festerbloom Crown",
+    "itemId": 268283,
+    "slot": "HEAD",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_helm_leather_raiddruidmidnight_d_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Rotmire's Sporeheart",
+    "itemId": 268291,
+    "slot": "NECK",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_12_jewelry_rutaani_necklace_blue",
+    "miscType": "NECK"
+  },
+  {
+    "name": "Mycomancer's Rot Robes",
+    "itemId": 268284,
+    "slot": "CHEST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_chest_cloth_raidmagemidnight_d_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Putrid Tender's Battleplate",
+    "itemId": 268285,
+    "slot": "CHEST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_plate_raiddeathknightmidnight_d_01_chest",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Girdle of Devouring Rot",
+    "itemId": 268289,
+    "slot": "WAIST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_belt_plate_raidpaladinmidnight_d_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Sash of the Putrid Giant",
+    "itemId": 268286,
+    "slot": "WAIST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_belt_leather_raidroguemidnight_d_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Fungarian Folly Faulds",
+    "itemId": 268288,
+    "slot": "LEGS",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_pant_mail_raidevokermidnight_d_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Grudgefiend Stompers",
+    "itemId": 268287,
+    "slot": "FEET",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_boot_mail_raidshamanmidnight_d_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Luxurious Loamstriders",
+    "itemId": 268282,
+    "slot": "FEET",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_boot_cloth_raidpriestmidnight_d_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Sporecaller's Blooming Loop",
+    "itemId": 268290,
+    "slot": "FINGER",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_12_jewelry_rutaani_ring_blue",
+    "miscType": "FINGER"
+  },
+  {
+    "name": "Sporelord's Mycelial Insignia",
+    "itemId": 268292,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_1207_fungarianraid_trinket",
+    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "mainStats": ["INT", "STR", "AGI"]
   }
 ]

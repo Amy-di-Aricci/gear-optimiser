@@ -184,6 +184,10 @@ export const ALL_RAID_BOSSES: Record<ERaidBoss, TRaidBoss> = {
     bossName: ERaidBoss.ULATEK,
     raid: ERaid.TVA,
   },
+  [ERaidBoss.ROTMIRE]: {
+    bossName: ERaidBoss.ROTMIRE,
+    raid: ERaid.SF,
+  },
 };
 
 export const DUNGEONS_NAMES_LOOKUP: Record<EDungeon, string> = {
@@ -242,7 +246,7 @@ export const DUNGEON_IMAGE_LOOKUP: Record<EDungeon, string> = {
   [EDungeon.SEAT]: images['seat_of_triumvirate'],
   [EDungeon.SR]: images['skyreach'],
   [EDungeon.WS]: images['windrunner_spire'],
-  [EDungeon.AOF]: '',
+  [EDungeon.AOF]: images['altar_of_fangs'],
   [EDungeon.DON]: '',
   [EDungeon.MR]: '',
   [EDungeon.TBV]: '',
@@ -295,6 +299,7 @@ export const BOSS_NAMES_LOOKUP: Record<ERaidBoss, string> = {
   [ERaidBoss.TWIN_FANGS]: 'The Twin Fangs',
   [ERaidBoss.COILED_ALTAR]: 'The Coiled Altar',
   [ERaidBoss.ULATEK]: "Ula'tek",
+  [ERaidBoss.ROTMIRE]: 'Rotmire',
 };
 
 export const RAID_NAMES_LOOKUP: Record<ERaid, string> = {
@@ -306,6 +311,7 @@ export const RAID_NAMES_LOOKUP: Record<ERaid, string> = {
   [ERaid.MQD]: "March on Quel'Danas",
   [ERaid.TG]: 'The Tidebound Grotto',
   [ERaid.TVA]: 'The Venomous Abyss',
+  [ERaid.SF]: 'Sporefall',
 };
 
 export const RAID_IMAGE_LOOKUP: Record<ERaid, string> = {
@@ -317,4 +323,5 @@ export const RAID_IMAGE_LOOKUP: Record<ERaid, string> = {
   [ERaid.MQD]: images['march_queldanas'],
   [ERaid.TG]: images['tidebound_grotto'],
   [ERaid.TVA]: images['venomous_abyss'],
+  [ERaid.SF]: images['sporefall'],
 };

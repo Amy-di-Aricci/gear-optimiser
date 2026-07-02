@@ -34,7 +34,7 @@ export const OptimiserFilterContextProvider = memo(({ children }: PropsWithChild
     const weaponTypes = new Set(specsDefs.map((specDef) => specDef.weaponTypes).flat());
     const offhandTypes = new Set(specsDefs.map((specDef) => specDef.offhandTypes ?? []).flat());
     //TODO: implement season selector, those hardcoded loot sources are temporary
-    const seasonRaids = [ERaid.DR, ERaid.VS, ERaid.MQD];
+    const seasonRaids = [ERaid.DR, ERaid.VS, ERaid.MQD, ERaid.SF];
     const seasonDungeons: Array<TLootSource> = [
       EDungeon.AA,
       EDungeon.MC,
