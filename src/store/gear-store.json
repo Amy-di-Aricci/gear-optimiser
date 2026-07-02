@@ -7760,7 +7760,8 @@
   {
     "name": "Venomcast Idol",
     "itemId": 270912,
-    "slot": null,
+    "slot": "HANDS",
+    "armorType": "MAIL",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -7772,7 +7773,8 @@
   {
     "name": "Venomcured Idol",
     "itemId": 270911,
-    "slot": null,
+    "slot": "HANDS",
+    "armorType": "LEATHER",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -7784,7 +7786,8 @@
   {
     "name": "Venomforged Idol",
     "itemId": 270913,
-    "slot": null,
+    "slot": "HANDS",
+    "armorType": "PLATE",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -7796,7 +7799,8 @@
   {
     "name": "Venomwoven Idol",
     "itemId": 270910,
-    "slot": null,
+    "slot": "HANDS",
+    "armorType": "CLOTH",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -7928,7 +7932,8 @@
   {
     "name": "Venomcast Icon",
     "itemId": 270928,
-    "slot": null,
+    "slot": "CHEST",
+    "armorType": "MAIL",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -7940,7 +7945,8 @@
   {
     "name": "Venomcured Icon",
     "itemId": 270927,
-    "slot": null,
+    "slot": "CHEST",
+    "armorType": "LEATHER",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -7952,7 +7958,8 @@
   {
     "name": "Venomforged Icon",
     "itemId": 270929,
-    "slot": null,
+    "slot": "CHEST",
+    "armorType": "PLATE",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -7964,7 +7971,8 @@
   {
     "name": "Venomwoven Icon",
     "itemId": 270926,
-    "slot": null,
+    "slot": "CHEST",
+    "armorType": "CLOTH",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -8084,7 +8092,8 @@
   {
     "name": "Venomcast Remnant",
     "itemId": 270924,
-    "slot": null,
+    "slot": "SHOULDER",
+    "armorType": "MAIL",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -8096,7 +8105,8 @@
   {
     "name": "Venomcured Remnant",
     "itemId": 270923,
-    "slot": null,
+    "slot": "SHOULDER",
+    "armorType": "LEATHER",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -8108,7 +8118,8 @@
   {
     "name": "Venomforged Remnant",
     "itemId": 270925,
-    "slot": null,
+    "slot": "SHOULDER",
+    "armorType": "PLATE",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -8120,7 +8131,8 @@
   {
     "name": "Venomwoven Remnant",
     "itemId": 270922,
-    "slot": null,
+    "slot": "SHOULDER",
+    "armorType": "CLOTH",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -8253,7 +8265,8 @@
   {
     "name": "Venomcast Relic",
     "itemId": 270920,
-    "slot": null,
+    "slot": "LEGS",
+    "armorType": "MAIL",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -8265,7 +8278,8 @@
   {
     "name": "Venomcured Relic",
     "itemId": 270919,
-    "slot": null,
+    "slot": "LEGS",
+    "armorType": "LEATHER",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -8277,7 +8291,8 @@
   {
     "name": "Venomforged Relic",
     "itemId": 270921,
-    "slot": null,
+    "slot": "LEGS",
+    "armorType": "PLATE",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -8289,7 +8304,8 @@
   {
     "name": "Venomwoven Relic",
     "itemId": 270918,
-    "slot": null,
+    "slot": "LEGS",
+    "armorType": "CLOTH",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -8409,7 +8425,8 @@
   {
     "name": "Venomcast Effigy",
     "itemId": 270916,
-    "slot": null,
+    "slot": "HEAD",
+    "armorType": "MAIL",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -8421,7 +8438,8 @@
   {
     "name": "Venomcured Effigy",
     "itemId": 270915,
-    "slot": null,
+    "slot": "HEAD",
+    "armorType": "LEATHER",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -8433,7 +8451,8 @@
   {
     "name": "Venomforged Effigy",
     "itemId": 270917,
-    "slot": null,
+    "slot": "HEAD",
+    "armorType": "PLATE",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
@@ -8445,7 +8464,8 @@
   {
     "name": "Venomwoven Effigy",
     "itemId": 270914,
-    "slot": null,
+    "slot": "HEAD",
+    "armorType": "CLOTH",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": {
