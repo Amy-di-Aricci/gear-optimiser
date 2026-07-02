@@ -5271,5 +5271,3782 @@
     },
     "imgId": "inv_boot_leather_raiddemonhuntermidnight_d_01",
     "armorType": "LEATHER"
+  },
+  {
+    "name": "Toxin-Coated Warstaff",
+    "itemId": 273783,
+    "slot": "TWOHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_staff_2h_outdooramaniloa_c_01",
+    "weaponType": "STAFF",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Vile Writhefang Glaive",
+    "itemId": 273782,
+    "slot": "TWOHAND",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_polearm_2h_outdooramaniloa_c_01",
+    "weaponType": "POLEARM",
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Hydraspine Twinblade",
+    "itemId": 273793,
+    "slot": "MAINHAND",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_glaive_1h_outdooramaniloa_c_01",
+    "weaponType": "WARGLAIVE",
+    "mainStats": ["INT", "AGI"]
+  },
+  {
+    "name": "Polished Lightwood Channeler",
+    "itemId": 273778,
+    "slot": "MAINHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_knife_1h_zuljin_d_01",
+    "weaponType": "DAGGER",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Sharpened Lightwood Slasher",
+    "itemId": 275070,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_knife_1h_zuljin_d_01",
+    "weaponType": "DAGGER",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Venom-Etched Crescent",
+    "itemId": 273780,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_axe_1h_outdooramaniloa_c_01",
+    "weaponType": "AXE1H",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Ancestral Amani Recurve",
+    "itemId": 273784,
+    "slot": "TWOHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_bow_1h_outdooramaniloa_c_01",
+    "weaponType": "BOW",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Nocuous Focal Fang",
+    "itemId": 273779,
+    "slot": "OFFHAND",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_offhand_1h_outdooramaniloa_c_01",
+    "offhandType": "OFFHAND"
+  },
+  {
+    "name": "Spare Speaker's Hood",
+    "itemId": 273791,
+    "slot": "HEAD",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_helm_leather_outdooramaniloa_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Strand of Warding Fangs",
+    "itemId": 273781,
+    "slot": "NECK",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_121_jewelry_neck03_teal",
+    "miscType": "NECK"
+  },
+  {
+    "name": "Snakeskin Spaulders",
+    "itemId": 273774,
+    "slot": "SHOULDER",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_shoulder_leather_outdooramaniloa_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Aged Interwoven Scaleplate",
+    "itemId": 273787,
+    "slot": "CHEST",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_chest_plate_outdooramaniloa_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Chestguard of Corroded Scales",
+    "itemId": 273789,
+    "slot": "CHEST",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_chest_mail_outdooramaniloa_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Primordial Robe of Rites",
+    "itemId": 273785,
+    "slot": "CHEST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_robe_cloth_outdooramaniloa_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Hydra Scale Wristguards",
+    "itemId": 273775,
+    "slot": "WRIST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_bracer_mail_outdooramaniloa_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Handwraps of Blasphemous Rites",
+    "itemId": 273773,
+    "slot": "HANDS",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_glove_cloth_outdooramaniloa_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Ancient General's Obsidian Pillars",
+    "itemId": 273776,
+    "slot": "LEGS",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_pant_plate_outdooramaniloa_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Leggings of Entwined Serpents",
+    "itemId": 273786,
+    "slot": "LEGS",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_pant_cloth_outdooramaniloa_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Poison-Proof Stompers",
+    "itemId": 273777,
+    "slot": "FEET",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_boot_plate_outdooramaniloa_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Band of the Amani Warlord",
+    "itemId": 273792,
+    "slot": "FINGER",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_121_jewelry_ring02_green",
+    "miscType": "FINGER"
+  },
+  {
+    "name": "Coiled Fangstone",
+    "itemId": 273795,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_121_trinket_dungeon_ulatek_fangstone",
+    "roles": ["DPS_MELEE", "TANK"],
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Knot of Writhing Serpents",
+    "itemId": 273794,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_121_trinket_dungeon_ulatek_writhe",
+    "roles": ["DPS_RANGED"],
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Tattered Amani War Banner",
+    "itemId": 273797,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_121_trinket_dungeon_ulatek_banner",
+    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "mainStats": ["STR", "AGI"]
+  },
+  {
+    "name": "Vile Vial of Volatile Venom",
+    "itemId": 273796,
+    "slot": "TRINKET",
+    "secondaryStats": ["HASTE"],
+    "specialEffect": null,
+    "lootSource": "AOF",
+    "imgId": "inv_121_trinket_dungeon_ulatek_vile",
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
+    "mainStats": ["INT", "STR", "AGI"]
+  },
+  {
+    "name": "Victor's Flashfrozen Blade",
+    "itemId": 251149,
+    "slot": "TWOHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_polearm_2h_dungeonharronir_c_01",
+    "weaponType": "POLEARM",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Fallen Speaker's Staff",
+    "itemId": 251156,
+    "slot": "TWOHAND",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_staff_2h_amani_c_01",
+    "weaponType": "STAFF",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Grim Harvest Gloves",
+    "itemId": 251143,
+    "slot": "MAINHAND",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_hand_1h_dungeonharronir_c_01",
+    "weaponType": "FIST",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Tempest's Shelter",
+    "itemId": 251150,
+    "slot": "OFFHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_shield_1h_dungeonharronir_c_01",
+    "offhandType": "SHIELD"
+  },
+  {
+    "name": "Perennial Frostbound Charm",
+    "itemId": 271681,
+    "slot": "OFFHAND",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_offhand_1h_dungeonharronir_c_01",
+    "offhandType": "OFFHAND"
+  },
+  {
+    "name": "Nalorakk's Nightmare",
+    "itemId": 251158,
+    "slot": "HEAD",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_helm_mail_dungeonharronir_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Yoke of the Charging Bear",
+    "itemId": 251173,
+    "slot": "NECK",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_12_jewelry_zulaman_troll_necklace_green1",
+    "miscType": "NECK"
+  },
+  {
+    "name": "Scavenger's Spaulders",
+    "itemId": 251146,
+    "slot": "SHOULDER",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_shoulder_leather_dungeonharronir_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Hoarded Harvest Wrap",
+    "itemId": 251147,
+    "slot": "CHEST",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_chest_cloth_dungeonharronir_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Sentinel Challenger's Prize",
+    "itemId": 251151,
+    "slot": "CHEST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_chest_plate_dungeonharronir_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "War Trial Vestments",
+    "itemId": 251159,
+    "slot": "CHEST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_chest_leather_dungeonharronir_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Winter's Embrace Bracers",
+    "itemId": 251154,
+    "slot": "WRIST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_bracer_cloth_dungeonharronir_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Season's Turn Gauntlets",
+    "itemId": 251152,
+    "slot": "HANDS",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_glove_mail_dungeonharronir_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Bonds of the Hash'ura",
+    "itemId": 251214,
+    "slot": "HANDS",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_glove_plate_dungeonharronir_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Tribal Defender's Cord",
+    "itemId": 251155,
+    "slot": "WAIST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_belt_mail_dungeonharronir_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Autumn's Boon Belt",
+    "itemId": 251144,
+    "slot": "WAIST",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_belt_plate_dungeonharronir_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Forest Dream Leg-guards",
+    "itemId": 251160,
+    "slot": "LEGS",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_pant_cloth_dungeonharronir_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Arctic Explorer's Legwraps",
+    "itemId": 251153,
+    "slot": "FEET",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_boot_leather_dungeonharronir_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Forgotten Tribe Footguards",
+    "itemId": 251145,
+    "slot": "FEET",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_boot_mail_dungeonharronir_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Pilfered Precious Band",
+    "itemId": 251148,
+    "slot": "FINGER",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_12_jewelry_zulaman_troll_ring_green2",
+    "miscType": "FINGER"
+  },
+  {
+    "name": "Permafrost Essence",
+    "itemId": 250244,
+    "slot": "TRINKET",
+    "secondaryStats": ["CRIT"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "",
+    "roles": ["TANK"],
+    "mainStats": []
+  },
+  {
+    "name": "Idol of the War Loa",
+    "itemId": 250229,
+    "slot": "TRINKET",
+    "secondaryStats": ["CRIT"],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "",
+    "roles": ["DPS_MELEE"],
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Mycolic Medicine",
+    "itemId": 250248,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": "DON",
+    "imgId": "inv_misc_starspecklemushroom",
+    "roles": ["HEALER"],
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Nibbles' Training Rod",
+    "itemId": 251123,
+    "slot": "TWOHAND",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_staff_2h_dungeonharronir_c_02",
+    "weaponType": "STAFF",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Xathuux's Cleave",
+    "itemId": 251134,
+    "slot": "TWOHAND",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_axe_2h_dungeonharronir_c_01",
+    "weaponType": "AXE1H",
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Bladesorrow",
+    "itemId": 251128,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_knife_1h_dungeonharronir_c_01",
+    "weaponType": "DAGGER",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Sinseared Repeater",
+    "itemId": 271680,
+    "slot": "TWOHAND",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_firearm_2h_undergroundquest_b_01",
+    "weaponType": "GUN",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Greathelm of Temptation",
+    "itemId": 251126,
+    "slot": "HEAD",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_helm_plate_dungeonharronir_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Vilefiend's Guise",
+    "itemId": 251140,
+    "slot": "HEAD",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_helm_leather_dungeonharronir_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Pendant of Malefic Fury",
+    "itemId": 251142,
+    "slot": "NECK",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_12_jewelry_silvermoonelf_necklace_green",
+    "miscType": "NECK"
+  },
+  {
+    "name": "Jangling Felpaulets",
+    "itemId": 251131,
+    "slot": "SHOULDER",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_shoulder_mail_dungeonharronir_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Cinderfury Shoulderguards",
+    "itemId": 251138,
+    "slot": "SHOULDER",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_shoulder_plate_dungeonharronir_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Speakeasy Shroud",
+    "itemId": 251132,
+    "slot": "BACK",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_cape_leather_dungeonharronir_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Summoner's Searing Shirt",
+    "itemId": 251139,
+    "slot": "CHEST",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_chest_cloth_dungeonharronir_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Overseer's Vambraces",
+    "itemId": 251133,
+    "slot": "WRIST",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_bracer_plate_dungeonharronir_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Fury-fletched Armlets",
+    "itemId": 251135,
+    "slot": "WRIST",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_bracer_leather_dungeonharronir_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Nibbling Armbands",
+    "itemId": 251127,
+    "slot": "WRIST",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_bracer_cloth_dungeonharronir_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Counterfeit Clutches",
+    "itemId": 251129,
+    "slot": "HANDS",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_glove_cloth_dungeonharronir_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Gauntlets of Fevered Defense",
+    "itemId": 251124,
+    "slot": "HANDS",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_glove_leather_dungeonharronir_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Breeches of Deft Deals",
+    "itemId": 251130,
+    "slot": "LEGS",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_pant_leather_dungeonharronir_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Lithiel's Linked Leggings",
+    "itemId": 251141,
+    "slot": "LEGS",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_pant_mail_dungeonharronir_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Felsoaked Soles",
+    "itemId": 251125,
+    "slot": "FEET",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_boot_mail_dungeonharronir_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Tempestuous Sandals",
+    "itemId": 251137,
+    "slot": "FEET",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_boot_cloth_dungeonharronir_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Signet of Snarling Servitude",
+    "itemId": 251136,
+    "slot": "FINGER",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_12_jewelry_voidelf_ring_teal",
+    "miscType": "FINGER"
+  },
+  {
+    "name": "Freightrunner's Flask",
+    "itemId": 250215,
+    "slot": "TRINKET",
+    "secondaryStats": ["CRIT"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_alchemy_90_flask_red",
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER"],
+    "mainStats": ["INT", "AGI"]
+  },
+  {
+    "name": "Resonant Bellowstone",
+    "itemId": 250228,
+    "slot": "TRINKET",
+    "secondaryStats": ["CRIT"],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_alchemy_90_stone_green",
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
+    "mainStats": ["STR", "AGI"]
+  },
+  {
+    "name": "Unstable Felheart Crystal",
+    "itemId": 250255,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "",
+    "roles": ["HEALER", "DPS_RANGED"],
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Manaheart's Binding Flame",
+    "itemId": 250243,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": "MR",
+    "imgId": "inv_ember_fel",
+    "roles": ["TANK"],
+    "mainStats": ["STR", "AGI"]
+  },
+  {
+    "name": "Pruning Lance",
+    "itemId": 251181,
+    "slot": "TWOHAND",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_polearm_2h_rutaani_b_01",
+    "weaponType": "POLEARM",
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Branch of Pride",
+    "itemId": 251192,
+    "slot": "TWOHAND",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_staff_2h_dungeonharronir_c_01",
+    "weaponType": "STAFF",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Thorntalon Edge",
+    "itemId": 251186,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_hand_1h_dungeonharronir_c_01",
+    "weaponType": "FIST",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Thorned Reply",
+    "itemId": 251195,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_sword_1h_dungeonharronir_c_01",
+    "weaponType": "SWORD1H",
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Thornblade",
+    "itemId": 251180,
+    "slot": "MAINHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_knife_1h_rutaani_b_01",
+    "weaponType": "DAGGER",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Amirdrassil's Reach",
+    "itemId": 251187,
+    "slot": "TWOHAND",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_crossbow_2h_dungeonharronir_c_01",
+    "weaponType": "BOW",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Doompetal",
+    "itemId": 251188,
+    "slot": "TWOHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_wand_1h_dungeonharronir_c_01",
+    "weaponType": "WAND",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Teldrassil's Sacrifice",
+    "itemId": 251196,
+    "slot": "OFFHAND",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_shield_1h_rutaani_b_01",
+    "offhandType": "SHIELD"
+  },
+  {
+    "name": "Luminescent Sprout",
+    "itemId": 251191,
+    "slot": "OFFHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_offhand_1h_dungeonharronir_c_01",
+    "offhandType": "OFFHAND"
+  },
+  {
+    "name": "Worldroot Canopy",
+    "itemId": 251199,
+    "slot": "HEAD",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_helm_cloth_dungeonharronir_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Ironroot Collar",
+    "itemId": 251184,
+    "slot": "SHOULDER",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_shoulder_mail_dungeonharronir_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Bloodthorn Burnous",
+    "itemId": 251190,
+    "slot": "BACK",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_cape_mail_dungeonharronir_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Taproot Ribs",
+    "itemId": 251193,
+    "slot": "CHEST",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_chest_plate_dungeonharronir_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Rootwarden Wraps",
+    "itemId": 251183,
+    "slot": "WRIST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_bracer_leather_dungeonharronir_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Saptorbane Guards",
+    "itemId": 251200,
+    "slot": "WRIST",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_bracer_mail_dungeonharronir_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Pulverizing Pads",
+    "itemId": 251165,
+    "slot": "HANDS",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_glove_mail_dungeonharronir_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Thornspike Gauntlets",
+    "itemId": 251197,
+    "slot": "HANDS",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_glove_plate_dungeonharronir_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Lightblossom Cinch",
+    "itemId": 251185,
+    "slot": "WAIST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_belt_cloth_dungeonharronir_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Rootwalker Harness",
+    "itemId": 251189,
+    "slot": "WAIST",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_belt_leather_dungeonharronir_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Lightspore Leggings",
+    "itemId": 251198,
+    "slot": "LEGS",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_pant_leather_dungeonharronir_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Bedrock Breeches",
+    "itemId": 251182,
+    "slot": "LEGS",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_pant_plate_dungeonharronir_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Lightwarden's Bind",
+    "itemId": 251194,
+    "slot": "FINGER",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "",
+    "miscType": "FINGER"
+  },
+  {
+    "name": "Seed of Radiant Hope",
+    "itemId": 250254,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "",
+    "roles": ["HEALER"],
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Seed of the Devouring Wild",
+    "itemId": 250238,
+    "slot": "TRINKET",
+    "secondaryStats": ["MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "",
+    "roles": ["DPS_MELEE"],
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Lightspire Core",
+    "itemId": 250214,
+    "slot": "TRINKET",
+    "secondaryStats": ["MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_enchant_essenceastrallarge",
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER"],
+    "mainStats": ["INT", "AGI"]
+  },
+  {
+    "name": "Sapling of the Dawnroot",
+    "itemId": 250259,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": "TBV",
+    "imgId": "inv_misc_herb_nightmarevine",
+    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "mainStats": ["INT", "STR", "AGI"]
+  },
+  {
+    "name": "Charonic Crescent",
+    "itemId": 251230,
+    "slot": "TWOHAND",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_polearm_2h_domanaar_b_01",
+    "weaponType": "POLEARM",
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Fang of Contagion",
+    "itemId": 251225,
+    "slot": "MAINHAND",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_knife_1h_dungeonharronir_c_02",
+    "weaponType": "DAGGER",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Taz'Rah's Cosmic Edge",
+    "itemId": 251218,
+    "slot": "MAINHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_sword_1h_domanaar_b_01",
+    "weaponType": "SWORD1H",
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Singularity Slicer",
+    "itemId": 251231,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_glaive_1h_dungeonharronir_c_01",
+    "weaponType": "WARGLAIVE",
+    "mainStats": ["INT", "AGI"]
+  },
+  {
+    "name": "Hulking Handaxe",
+    "itemId": 251224,
+    "slot": "MAINHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_axe_1h_dungeonharronir_c_01",
+    "weaponType": "AXE1H",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Voidscarred Crown",
+    "itemId": 251220,
+    "slot": "HEAD",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_helm_mail_dungeonharronir_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Overseer's Diadem",
+    "itemId": 251232,
+    "slot": "HEAD",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_helm_cloth_dungeonharronir_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Visor of the Predator",
+    "itemId": 251229,
+    "slot": "HEAD",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_helm_armor_domanaar_d_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Graft of the Domanaar",
+    "itemId": 251234,
+    "slot": "NECK",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_12_jewelry_devouringhost_necklace_silver2",
+    "miscType": "NECK"
+  },
+  {
+    "name": "Somber Spaulders",
+    "itemId": 251223,
+    "slot": "SHOULDER",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_shoulder_leather_dungeonharronir_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Poisoner's Pauldrons",
+    "itemId": 251227,
+    "slot": "SHOULDER",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_shoulder_cloth_dungeonharronir_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Hide of Pestilence",
+    "itemId": 251226,
+    "slot": "CHEST",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_chest_leather_dungeonharronir_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Manipulator's Vest",
+    "itemId": 251233,
+    "slot": "CHEST",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_chest_mail_dungeonharronir_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Despondent's Gauntlets",
+    "itemId": 251221,
+    "slot": "HANDS",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_glove_plate_dungeonharronir_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Behemoth Waistband",
+    "itemId": 251228,
+    "slot": "WAIST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_belt_mail_dungeonharronir_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Ethereal Netherwrap",
+    "itemId": 251222,
+    "slot": "WAIST",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_belt_cloth_dungeonharronir_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Gravitic Girdle",
+    "itemId": 251235,
+    "slot": "WAIST",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_belt_leather_dungeonharronir_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Riftworn Stompers",
+    "itemId": 251219,
+    "slot": "FEET",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_boot_cloth_dungeonharronir_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Recovered Sanctum Pole",
+    "itemId": 251258,
+    "slot": "TWOHAND",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_staff_2h_questbloodelf_b_01",
+    "weaponType": "STAFF",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Void Execution Mandate",
+    "itemId": 250225,
+    "slot": "TRINKET",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_inscription_80_warscroll_intellect",
+    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "mainStats": ["INT", "AGI"]
+  },
+  {
+    "name": "Mindpiercer's Sigil",
+    "itemId": 250224,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "inv_icon_shadowcouncilorb_purple",
+    "roles": ["DPS_RANGED"],
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Tumor of the Swarm",
+    "itemId": 250245,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": "VA",
+    "imgId": "",
+    "roles": ["TANK"],
+    "mainStats": ["STR", "AGI"]
+  },
+  {
+    "name": "Royal Purifier's Spade",
+    "itemId": 159642,
+    "slot": "TWOHAND",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_polearm_2h_zandalariguard_b_01",
+    "weaponType": "POLEARM",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Geti'ikku, Cut of Death",
+    "itemId": 159644,
+    "slot": "TWOHAND",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_sword_2h_battledungeon_c_01",
+    "weaponType": "SWORD1H",
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Headcracker of Supplication",
+    "itemId": 159645,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_mace_1h_battledungeon_c_01",
+    "weaponType": "MACE1H",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Jeweled Dagger of Subjugation",
+    "itemId": 159136,
+    "slot": "MAINHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_knife_1h_battledungeon_c_01",
+    "weaponType": "DAGGER",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Crackling Jade Kilij",
+    "itemId": 160216,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_sword_1h_battledungeon_c_02",
+    "weaponType": "SWORD1H",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Gilded Serpent's Tooth",
+    "itemId": 159137,
+    "slot": "MAINHAND",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_knife_1h_battledungeon_c_01",
+    "weaponType": "DAGGER",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Crossbow of Forgotten Majesty",
+    "itemId": 159643,
+    "slot": "TWOHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_bow_2h_crossbow_pandaraid_d_01",
+    "weaponType": "BOW",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Vessel of Last Rites",
+    "itemId": 159667,
+    "slot": "OFFHAND",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_offhand_1h_battledungeon_c_02",
+    "offhandType": "OFFHAND"
+  },
+  {
+    "name": "Headdress of the First Empire",
+    "itemId": 239047,
+    "slot": "HEAD",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_helm_cloth_zandalardungeon_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Helm of the Raptor King",
+    "itemId": 239050,
+    "slot": "HEAD",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_helm_plate_zandalardungeon_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Mantle of Ceremonial Ascension",
+    "itemId": 239045,
+    "slot": "SHOULDER",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_shoulder_cloth_zandalardungeon_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Pauldrons of the Great Unifier",
+    "itemId": 239051,
+    "slot": "SHOULDER",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_shoulder_plate_zandalardungeon_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Spaulders of Prime Emperor",
+    "itemId": 239049,
+    "slot": "SHOULDER",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_shoulder_mail_zandalardungeon_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Cloak of the Restless Tribes",
+    "itemId": 159288,
+    "slot": "BACK",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_cape_mail_zandalardungeon_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Loa-Blessed Chestguard",
+    "itemId": 239046,
+    "slot": "CHEST",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_chest_mail_zandalardungeon_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Vest of Reverent Adoration",
+    "itemId": 239048,
+    "slot": "CHEST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_chest_leather_zandalardungeon_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Embalmer's Steadying Bracers",
+    "itemId": 159409,
+    "slot": "WRIST",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_bracer_plate_zandalardungeon_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Kula's Butchering Wristwraps",
+    "itemId": 159300,
+    "slot": "WRIST",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_bracer_leather_zandalardungeon_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Gauntlets of the Avian Sentinel",
+    "itemId": 159413,
+    "slot": "HANDS",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_glove_plate_zandalardungeon_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Sepulchral Construct's Gloves",
+    "itemId": 160213,
+    "slot": "HANDS",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_glove_mail_zandalardungeon_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Desiccator's Blessed Gloves",
+    "itemId": 159312,
+    "slot": "HANDS",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_glove_leather_zandalardungeon_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Girdle of Pestilent Purification",
+    "itemId": 159418,
+    "slot": "WAIST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_belt_plate_zandalardungeon_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Belt of the Consecrated Tomb",
+    "itemId": 159369,
+    "slot": "WAIST",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_belt_mail_zandalardungeon_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Primal Dinomancer's Belt",
+    "itemId": 159301,
+    "slot": "WAIST",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_belt_leather_zandalardungeon_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Down-Lined Breeches",
+    "itemId": 159234,
+    "slot": "LEGS",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_pant_cloth_zandalardungeon_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Breeches of the Sacred Hall",
+    "itemId": 159313,
+    "slot": "LEGS",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_pant_leather_zandalardungeon_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Sandals of Wise Voodoo",
+    "itemId": 159243,
+    "slot": "FEET",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_boot_cloth_zandalardungeon_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Boots of the Headlong Conqueror",
+    "itemId": 159371,
+    "slot": "FEET",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_boot_mail_zandalardungeon_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Auric Puddle Stompers",
+    "itemId": 159412,
+    "slot": "FEET",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_boot_plate_zandalardungeon_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Goldfeather Boots",
+    "itemId": 159304,
+    "slot": "FEET",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_boot_leather_zandalardungeon_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Ritual Binder's Ring",
+    "itemId": 159459,
+    "slot": "FINGER",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_ring_80_03e",
+    "miscType": "FINGER"
+  },
+  {
+    "name": "Stormbound Emblem of Dazar",
+    "itemId": 273649,
+    "slot": "TRINKET",
+    "secondaryStats": ["HASTE"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_7_0raid_necklace_14a",
+    "roles": ["HEALER", "DPS_RANGED"],
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Lustrous Golden Plumage",
+    "itemId": 159617,
+    "slot": "TRINKET",
+    "secondaryStats": ["VERS"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_icon_feather06a",
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Mchimba's Ritual Bandages",
+    "itemId": 159618,
+    "slot": "TRINKET",
+    "secondaryStats": ["VERS"],
+    "specialEffect": null,
+    "lootSource": "KR",
+    "imgId": "inv_misc_emberweavebandagelight",
+    "roles": ["TANK"],
+    "mainStats": ["STR", "AGI"]
+  },
+  {
+    "name": "Chillworn's Infusion Staff",
+    "itemId": 193761,
+    "slot": "TWOHAND",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_staff_2h_dragondungeon_c_02",
+    "weaponType": "STAFF",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Backdraft Cleaver",
+    "itemId": 193755,
+    "slot": "TWOHAND",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_axe_2h_drakonoid_c_01",
+    "weaponType": "AXE1H",
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Skyferno Rondel",
+    "itemId": 193756,
+    "slot": "MAINHAND",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_knife_1h_dragondungeon_c_02",
+    "weaponType": "DAGGER",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Havoc Crusher",
+    "itemId": 193767,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_mace_1h_dragondungeon_c_02",
+    "weaponType": "MACE1H",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Drake Rider's Stecktarge",
+    "itemId": 193754,
+    "slot": "OFFHAND",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_shield_1h_drakonid_c_01",
+    "offhandType": "SHIELD"
+  },
+  {
+    "name": "Kokia's Burnout Rod",
+    "itemId": 193766,
+    "slot": "OFFHAND",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_offhand_1h_drakonid_c_01",
+    "offhandType": "OFFHAND"
+  },
+  {
+    "name": "Blazebound Lieutenant's Helm",
+    "itemId": 193765,
+    "slot": "HEAD",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_mail_dragondungeon_c_01_helm",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Crown of Roaring Storms",
+    "itemId": 193751,
+    "slot": "HEAD",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_leather_dragondungeon_c_01_helm",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Fireproof Drape",
+    "itemId": 193763,
+    "slot": "BACK",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_mail_dragondungeon_c_01_cape",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Invader's Firestorm Chestguard",
+    "itemId": 193764,
+    "slot": "CHEST",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_leather_dragondungeon_c_01_chest",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Breastplate of Soaring Terror",
+    "itemId": 193753,
+    "slot": "CHEST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_plate_dragondungeon_c_01_chest",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Subjugator's Chilling Grips",
+    "itemId": 193758,
+    "slot": "HANDS",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_leather_dragondungeon_c_01_glove",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Galerattle Gauntlets",
+    "itemId": 193752,
+    "slot": "HANDS",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_mail_dragondungeon_c_01_glove",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Sky Saddle Cord",
+    "itemId": 193691,
+    "slot": "WAIST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_belt_dragondungeon_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Egg Tender's Leggings",
+    "itemId": 193759,
+    "slot": "LEGS",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_mail_dragondungeon_c_01_pant",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Wind Soarer's Breeches",
+    "itemId": 193750,
+    "slot": "LEGS",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_pant_cloth_dragondungeon_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Scaleguard's Stalwart Greatboots",
+    "itemId": 193728,
+    "slot": "FEET",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_plate_dragondungeon_c_01_boot",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Blazebinder's Hoof",
+    "itemId": 193762,
+    "slot": "TRINKET",
+    "secondaryStats": ["HASTE"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_10_dungeonjewelry_primalist_trinket_2_fire",
+    "roles": ["DPS_MELEE", "TANK"],
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Kyrakka's Searing Embers",
+    "itemId": 193748,
+    "slot": "TRINKET",
+    "secondaryStats": ["CRIT"],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_10_dungeonjewelry_primalist_trinket_4_fire",
+    "roles": ["HEALER"],
+    "mainStats": []
+  },
+  {
+    "name": "Ruby Whelp Shell",
+    "itemId": 193757,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": "RLP",
+    "imgId": "inv_item_dragonegg_redbroken01",
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
+    "mainStats": ["INT", "STR", "AGI"]
+  },
+  {
+    "name": "Staff of the Lightning Serpent",
+    "itemId": 159636,
+    "slot": "TWOHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_staff_2h_battledungeon_c_04",
+    "weaponType": "STAFF",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Twin-Strike Polearm",
+    "itemId": 158370,
+    "slot": "TWOHAND",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_polearm_2h_snakeman_c_01",
+    "weaponType": "POLEARM",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Swarm's Edge",
+    "itemId": 158714,
+    "slot": "MAINHAND",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_sword_1h_battledungeon_c_02",
+    "weaponType": "SWORD1H",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Galvanized Stormcrusher",
+    "itemId": 158369,
+    "slot": "MAINHAND",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_mace_1h_pandaraid_d_01",
+    "weaponType": "MACE1H",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Resonating Crystal Scimitar",
+    "itemId": 158373,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_sword_1h_battledungeon_c_02",
+    "weaponType": "SWORD1H",
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Snakebite Recurve",
+    "itemId": 159637,
+    "slot": "TWOHAND",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_bow_1h_battledungeon_c_01",
+    "weaponType": "BOW",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Bulwark of Brimming Potential",
+    "itemId": 159664,
+    "slot": "OFFHAND",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_shield_1h_battledungeon_c_02",
+    "offhandType": "SHIELD"
+  },
+  {
+    "name": "Sethraliss' Fanged Helm",
+    "itemId": 239035,
+    "slot": "HEAD",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_helm_mail_zandalardungeon_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Hood of the Slithering Loa",
+    "itemId": 239033,
+    "slot": "HEAD",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_helm_leather_zandalardungeon_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "C'thraxxi Binders Pauldrons",
+    "itemId": 239037,
+    "slot": "SHOULDER",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_shoulder_plate_zandalardungeon_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Brood Cleanser's Amice",
+    "itemId": 239031,
+    "slot": "SHOULDER",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_shoulder_cloth_zandalardungeon_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Robes of the Reborn Serpent",
+    "itemId": 239032,
+    "slot": "CHEST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_chest_cloth_zandalardungeon_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Corrupted Hexxer's Vestments",
+    "itemId": 239034,
+    "slot": "CHEST",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_chest_mail_zandalardungeon_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Desert Guardian's Breastplate",
+    "itemId": 239036,
+    "slot": "CHEST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_chest_plate_zandalardungeon_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Bindings of the Slithering Current",
+    "itemId": 159263,
+    "slot": "WRIST",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_bracer_cloth_zandalardungeon_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Shard-Tipped Vambraces",
+    "itemId": 159425,
+    "slot": "WRIST",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_bracer_plate_zandalardungeon_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Arc-Glass Bindings",
+    "itemId": 159380,
+    "slot": "WRIST",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_bracer_mail_zandalardungeon_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Handwraps of Oscillating Polarity",
+    "itemId": 159247,
+    "slot": "HANDS",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_glove_cloth_zandalardungeon_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Grips of Electrified Defense",
+    "itemId": 159337,
+    "slot": "HANDS",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_glove_leather_zandalardungeon_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Whirling Dervish Sash",
+    "itemId": 159317,
+    "slot": "WAIST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_belt_leather_zandalardungeon_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Sand-Scoured Greatbelt",
+    "itemId": 159442,
+    "slot": "WAIST",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_belt_plate_zandalardungeon_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Ouroborial Sash",
+    "itemId": 159255,
+    "slot": "WAIST",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_belt_cloth_zandalardungeon_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Leggings of the Galeforce Viper",
+    "itemId": 159329,
+    "slot": "LEGS",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_pant_leather_zandalardungeon_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Legguards of the Awakening Brood",
+    "itemId": 159375,
+    "slot": "LEGS",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_pant_mail_zandalardungeon_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Legplates of Charged Duality",
+    "itemId": 159435,
+    "slot": "LEGS",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_pant_plate_zandalardungeon_c_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Sabatons of Coruscating Energy",
+    "itemId": 159388,
+    "slot": "FEET",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_boot_mail_zandalardungeon_c_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Sandswept Sandals",
+    "itemId": 159259,
+    "slot": "FEET",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_boot_cloth_zandalardungeon_c_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Sand-Shined Snakeskin Sandals",
+    "itemId": 159327,
+    "slot": "FEET",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_boot_leather_zandalardungeon_c_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Jade Ophidian Band",
+    "itemId": 162544,
+    "slot": "FINGER",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_ring_80_04c",
+    "miscType": "FINGER"
+  },
+  {
+    "name": "Charged Sandstone Band",
+    "itemId": 158366,
+    "slot": "FINGER",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_ring_80_03d",
+    "miscType": "FINGER"
+  },
+  {
+    "name": "Merektha's Fang",
+    "itemId": 158367,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_misc_food_87_sporelingsnack",
+    "roles": ["DPS_MELEE"],
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Tiny Electromental in a Jar",
+    "itemId": 158374,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_alchemy_71_potion4",
+    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Sethraliss' Defiled Relic",
+    "itemId": 158368,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": "TOS",
+    "imgId": "inv_staff_2h_snakeman_c_01",
+    "roles": ["DPS_RANGED"],
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Tidepiercer's Bubble Popper",
+    "itemId": 268199,
+    "slot": "TWOHAND",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TG",
+      "bossName": "NYMRISSA"
+    },
+    "imgId": "inv_staff_2h_ulatek_d_01",
+    "weaponType": "STAFF",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Bubblefin Splash Guard",
+    "itemId": 268262,
+    "slot": "OFFHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TG",
+      "bossName": "NYMRISSA"
+    },
+    "imgId": "inv_shield_1h_ulatek_d_01",
+    "offhandType": "SHIELD"
+  },
+  {
+    "name": "Frostscale's Mystic Frond",
+    "itemId": 268263,
+    "slot": "OFFHAND",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TG",
+      "bossName": "NYMRISSA"
+    },
+    "imgId": "inv_offhand_1h_ulatek_d_01",
+    "offhandType": "OFFHAND"
+  },
+  {
+    "name": "Swelling Sea Spaulders",
+    "itemId": 268226,
+    "slot": "SHOULDER",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TG",
+      "bossName": "NYMRISSA"
+    },
+    "imgId": "inv_shoulder_plate_raidpaladinulatek_d_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Tidebound Sorcereress's Robes",
+    "itemId": 268221,
+    "slot": "CHEST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TG",
+      "bossName": "NYMRISSA"
+    },
+    "imgId": "inv_robe_cloth_raidwarlockulatek_d_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Rising Tide Wristguards",
+    "itemId": 268217,
+    "slot": "WRIST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TG",
+      "bossName": "NYMRISSA"
+    },
+    "imgId": "inv_bracer_mail_raidhunterulatek_d_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Grips of Swirling Fury",
+    "itemId": 268238,
+    "slot": "HANDS",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TG",
+      "bossName": "NYMRISSA"
+    },
+    "imgId": "inv_glove_mail_raidevokerulatek_d_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Cincture of the Abyssal Grotto",
+    "itemId": 268232,
+    "slot": "WAIST",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TG",
+      "bossName": "NYMRISSA"
+    },
+    "imgId": "inv_belt_cloth_raidmageulatek_d_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Forgotten Grotto Girdle",
+    "itemId": 268244,
+    "slot": "WAIST",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TG",
+      "bossName": "NYMRISSA"
+    },
+    "imgId": "inv_belt_plate_raiddeathknightulatek_d_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Spelunker's Drenched Legguards",
+    "itemId": 268225,
+    "slot": "LEGS",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TG",
+      "bossName": "NYMRISSA"
+    },
+    "imgId": "inv_pant_leather_raidmonkulatek_d_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Breakwater Boots",
+    "itemId": 268247,
+    "slot": "FEET",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TG",
+      "bossName": "NYMRISSA"
+    },
+    "imgId": "inv_boot_leather_raiddemonhunterulatek_d_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Alluring Bubbleband",
+    "itemId": 268266,
+    "slot": "FINGER",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TG",
+      "bossName": "NYMRISSA"
+    },
+    "imgId": "inv_70_raid_ring8c",
+    "miscType": "FINGER"
+  },
+  {
+    "name": "Wavecaller's Seastone",
+    "itemId": 270167,
+    "slot": "TRINKET",
+    "secondaryStats": ["HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TG",
+      "bossName": "NYMRISSA"
+    },
+    "imgId": "inv_tradeskillitem_sorcererswater",
+    "roles": ["HEALER", "DPS_RANGED"],
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Hexing Spiritrender",
+    "itemId": 268203,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "NEKZALI"
+    },
+    "imgId": "inv_knife_1h_ulatek_d_02",
+    "weaponType": "DAGGER",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Strongblood's Ceremonial Cleaver",
+    "itemId": 268208,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "NEKZALI"
+    },
+    "imgId": "inv_axe_1h_ulatek_d_01",
+    "weaponType": "AXE1H",
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Tomb-Creeper's Claw",
+    "itemId": 270930,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "NEKZALI"
+    },
+    "imgId": "inv_hand_1h_ulatek_d_01",
+    "weaponType": "FIST",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Skullguard of the Risen Sacrifice",
+    "itemId": 268229,
+    "slot": "HEAD",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "NEKZALI"
+    },
+    "imgId": "inv_helm_plate_raiddeathknightulatek_d_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Soulslither Spaulders",
+    "itemId": 268231,
+    "slot": "SHOULDER",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "NEKZALI"
+    },
+    "imgId": "inv_shoulder_mail_raidshamanulatek_d_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Amani Summoning Shawl",
+    "itemId": 268248,
+    "slot": "BACK",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "NEKZALI"
+    },
+    "imgId": "inv_cape_leather_raidmonkulatek_d_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Vestment of the Awakening",
+    "itemId": 268235,
+    "slot": "CHEST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "NEKZALI"
+    },
+    "imgId": "inv_robe_leather_raiddruidulatek_d_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Restless Spirit Shackles",
+    "itemId": 268240,
+    "slot": "WRIST",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "NEKZALI"
+    },
+    "imgId": "",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Cursed Reliquary Cincture",
+    "itemId": 268216,
+    "slot": "WAIST",
+    "secondaryStats": ["CRIT", "VERS"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "NEKZALI"
+    },
+    "imgId": "inv_belt_mail_raidevokerulatek_d_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Initiate's Sacrificial Tights",
+    "itemId": 268236,
+    "slot": "LEGS",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "NEKZALI"
+    },
+    "imgId": "inv_pant_cloth_raidpriestulatek_d_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Entombed Cultist's Sabatons",
+    "itemId": 268245,
+    "slot": "FEET",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "NEKZALI"
+    },
+    "imgId": "inv_boot_plate_raidwarriorulatek_d_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Nek'zali's Spiritwalkers",
+    "itemId": 268218,
+    "slot": "FEET",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "NEKZALI"
+    },
+    "imgId": "inv_boot_cloth_raidpriestulatek_d_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Soulcoiler Ritual Vessel",
+    "itemId": 270162,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "NEKZALI"
+    },
+    "imgId": "inv_121_trinket_raid_ulatek_ritualvessel",
+    "roles": ["HEALER"],
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Venomcast Idol",
+    "itemId": 270912,
+    "slot": "HANDS",
+    "armorType": "MAIL",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ENTOMBED_SENTINELS"
+    },
+    "imgId": "inv_jewelcrafting_goldenserpent"
+  },
+  {
+    "name": "Venomcured Idol",
+    "itemId": 270911,
+    "slot": "HANDS",
+    "armorType": "LEATHER",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ENTOMBED_SENTINELS"
+    },
+    "imgId": "inv_jewelcrafting_purpleserpent"
+  },
+  {
+    "name": "Venomforged Idol",
+    "itemId": 270913,
+    "slot": "HANDS",
+    "armorType": "PLATE",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ENTOMBED_SENTINELS"
+    },
+    "imgId": "inv_jewelcrafting_rubyserpent"
+  },
+  {
+    "name": "Venomwoven Idol",
+    "itemId": 270910,
+    "slot": "HANDS",
+    "armorType": "CLOTH",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ENTOMBED_SENTINELS"
+    },
+    "imgId": "inv_jewelcrafting_azureserpent"
+  },
+  {
+    "name": "Caustic Keeper-Crusher",
+    "itemId": 268198,
+    "slot": "TWOHAND",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ENTOMBED_SENTINELS"
+    },
+    "imgId": "inv_mace_2h_ulatek_d_01",
+    "weaponType": "MACE1H",
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Ancient Construct's Venomshiv",
+    "itemId": 268204,
+    "slot": "MAINHAND",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ENTOMBED_SENTINELS"
+    },
+    "imgId": "inv_knife_1h_ulatek_d_01",
+    "weaponType": "DAGGER",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Spine of the Hissing Abyss",
+    "itemId": 268197,
+    "slot": "OFFHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ENTOMBED_SENTINELS"
+    },
+    "imgId": "inv_offhand_1h_ulatek_d_01",
+    "offhandType": "OFFHAND"
+  },
+  {
+    "name": "Crown of the Eternal Fang",
+    "itemId": 268230,
+    "slot": "HEAD",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ENTOMBED_SENTINELS"
+    },
+    "imgId": "inv_helm_mail_raidshamanulatek_d_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Shadow Hunter's Warmask",
+    "itemId": 268219,
+    "slot": "HEAD",
+    "secondaryStats": ["VERS", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ENTOMBED_SENTINELS"
+    },
+    "imgId": "inv_helm_leather_raidrogueulatek_d_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Sentinel's Vitriolic Chain",
+    "itemId": 268250,
+    "slot": "NECK",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ENTOMBED_SENTINELS"
+    },
+    "imgId": "inv_121_jewelry_neck02_green",
+    "miscType": "NECK"
+  },
+  {
+    "name": "Venom-Singed Cuffs",
+    "itemId": 268228,
+    "slot": "WRIST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ENTOMBED_SENTINELS"
+    },
+    "imgId": "inv_bracer_cloth_raidmageulatek_d_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Venom Warden's Greaves",
+    "itemId": 268224,
+    "slot": "LEGS",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ENTOMBED_SENTINELS"
+    },
+    "imgId": "inv_pant_plate_raidwarriorulatek_d_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Keeper's Seething Core",
+    "itemId": 270165,
+    "slot": "TRINKET",
+    "secondaryStats": ["HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ENTOMBED_SENTINELS"
+    },
+    "imgId": "inv_121_trinket_raid_ulatek_golemhearts_green",
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
+    "mainStats": ["STR", "AGI"]
+  },
+  {
+    "name": "Venomcast Icon",
+    "itemId": 270928,
+    "slot": "CHEST",
+    "armorType": "MAIL",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "VASHNIK"
+    },
+    "imgId": "inv_jewelcrafting_goldenserpent"
+  },
+  {
+    "name": "Venomcured Icon",
+    "itemId": 270927,
+    "slot": "CHEST",
+    "armorType": "LEATHER",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "VASHNIK"
+    },
+    "imgId": "inv_jewelcrafting_purpleserpent"
+  },
+  {
+    "name": "Venomforged Icon",
+    "itemId": 270929,
+    "slot": "CHEST",
+    "armorType": "PLATE",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "VASHNIK"
+    },
+    "imgId": "inv_jewelcrafting_rubyserpent"
+  },
+  {
+    "name": "Venomwoven Icon",
+    "itemId": 270926,
+    "slot": "CHEST",
+    "armorType": "CLOTH",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "VASHNIK"
+    },
+    "imgId": "inv_jewelcrafting_azureserpent"
+  },
+  {
+    "name": "Malignant Toothed Edge",
+    "itemId": 268214,
+    "slot": "TWOHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "VASHNIK"
+    },
+    "imgId": "inv_sword_2h_ulatek_d_01",
+    "weaponType": "SWORD1H",
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Venomancer's Winged Channeler",
+    "itemId": 268205,
+    "slot": "TWOHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "VASHNIK"
+    },
+    "imgId": "inv_staff_2h_ulatek_d_02",
+    "weaponType": "STAFF",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Frothing Venom Spaulders",
+    "itemId": 268246,
+    "slot": "SHOULDER",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "VASHNIK"
+    },
+    "imgId": "inv_shoulder_leather_raiddemonhunterulatek_d_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Serpentine Mixing Belt",
+    "itemId": 268254,
+    "slot": "WAIST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "VASHNIK"
+    },
+    "imgId": "inv_belt_mail_raidshamanulatek_d_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Scaled Fiend's Warboots",
+    "itemId": 268260,
+    "slot": "FEET",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "VASHNIK"
+    },
+    "imgId": "inv_boot_plate_raidpaladinulatek_d_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Vile Alchemist's Band",
+    "itemId": 268249,
+    "slot": "FINGER",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "VASHNIK"
+    },
+    "imgId": "inv_121_jewelry_ring01_purple",
+    "miscType": "FINGER"
+  },
+  {
+    "name": "Fang of Umbral Malignance",
+    "itemId": 270161,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "VASHNIK"
+    },
+    "imgId": "inv_121_trinket_raid_ulatek_fang_purple",
+    "roles": ["DPS_RANGED"],
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Vashnik's Sanguine Rancor",
+    "itemId": 270166,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "VASHNIK"
+    },
+    "imgId": "inv_11_0_raid_gruesomesyringe_blue",
+    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Venomcast Remnant",
+    "itemId": 270924,
+    "slot": "SHOULDER",
+    "armorType": "MAIL",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "LOST_EXPLORERS"
+    },
+    "imgId": "inv_jewelcrafting_goldenserpent"
+  },
+  {
+    "name": "Venomcured Remnant",
+    "itemId": 270923,
+    "slot": "SHOULDER",
+    "armorType": "LEATHER",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "LOST_EXPLORERS"
+    },
+    "imgId": "inv_jewelcrafting_purpleserpent"
+  },
+  {
+    "name": "Venomforged Remnant",
+    "itemId": 270925,
+    "slot": "SHOULDER",
+    "armorType": "PLATE",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "LOST_EXPLORERS"
+    },
+    "imgId": "inv_jewelcrafting_rubyserpent"
+  },
+  {
+    "name": "Venomwoven Remnant",
+    "itemId": 270922,
+    "slot": "SHOULDER",
+    "armorType": "CLOTH",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "LOST_EXPLORERS"
+    },
+    "imgId": "inv_jewelcrafting_azureserpent"
+  },
+  {
+    "name": "Malevolent Spiritcudgel",
+    "itemId": 268210,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "LOST_EXPLORERS"
+    },
+    "imgId": "inv_mace_1h_ulatek_d_01",
+    "weaponType": "MACE1H",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Gebbo's Backup Blaster",
+    "itemId": 268200,
+    "slot": "TWOHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "LOST_EXPLORERS"
+    },
+    "imgId": "inv_firearm_2h_ulatek_d_01",
+    "weaponType": "GUN",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Venom-Slashed Scuteward",
+    "itemId": 268196,
+    "slot": "OFFHAND",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "LOST_EXPLORERS"
+    },
+    "imgId": "inv_shield_1h_ulatek_d_01",
+    "offhandType": "SHIELD"
+  },
+  {
+    "name": "Errant Scrollsage's Hood",
+    "itemId": 268242,
+    "slot": "HEAD",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "LOST_EXPLORERS"
+    },
+    "imgId": "inv_helm_cloth_raidpriestulatek_d_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Shellbound Bracers",
+    "itemId": 268239,
+    "slot": "WRIST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "LOST_EXPLORERS"
+    },
+    "imgId": "inv_bracer_plate_raiddeathknightulatek_d_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Unpossessed Skullsash",
+    "itemId": 268227,
+    "slot": "WAIST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "LOST_EXPLORERS"
+    },
+    "imgId": "inv_belt_leather_raidrogueulatek_d_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Boots of the Reckless Wayfarer",
+    "itemId": 268258,
+    "slot": "FEET",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "LOST_EXPLORERS"
+    },
+    "imgId": "inv_boot_mail_raidevokerulatek_d_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "First Mate's Shellward",
+    "itemId": 270160,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "LOST_EXPLORERS"
+    },
+    "imgId": "inv_cape_special_turtleshell_c_02",
+    "roles": ["TANK"],
+    "mainStats": ["STR", "AGI"]
+  },
+  {
+    "name": "Gebbo's Bottomless Bag",
+    "itemId": 270164,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "LOST_EXPLORERS"
+    },
+    "imgId": "inv_10_tailoring_bag1_color2",
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK", "HEALER"],
+    "mainStats": ["INT", "STR", "AGI"]
+  },
+  {
+    "name": "Venomcast Relic",
+    "itemId": 270920,
+    "slot": "LEGS",
+    "armorType": "MAIL",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "SSZORAK"
+    },
+    "imgId": "inv_jewelcrafting_goldenserpent"
+  },
+  {
+    "name": "Venomcured Relic",
+    "itemId": 270919,
+    "slot": "LEGS",
+    "armorType": "LEATHER",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "SSZORAK"
+    },
+    "imgId": "inv_jewelcrafting_purpleserpent"
+  },
+  {
+    "name": "Venomforged Relic",
+    "itemId": 270921,
+    "slot": "LEGS",
+    "armorType": "PLATE",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "SSZORAK"
+    },
+    "imgId": "inv_jewelcrafting_rubyserpent"
+  },
+  {
+    "name": "Venomwoven Relic",
+    "itemId": 270918,
+    "slot": "LEGS",
+    "armorType": "CLOTH",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "SSZORAK"
+    },
+    "imgId": "inv_jewelcrafting_azureserpent"
+  },
+  {
+    "name": "Slithering Savage's Gavel",
+    "itemId": 268206,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "SSZORAK"
+    },
+    "imgId": "inv_mace_1h_ulatek_d_01",
+    "weaponType": "MACE1H",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Venomous Boneglaive",
+    "itemId": 268201,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "SSZORAK"
+    },
+    "imgId": "inv_glaive_1h_ulatek_d_01",
+    "weaponType": "WARGLAIVE",
+    "mainStats": ["INT", "AGI"]
+  },
+  {
+    "name": "Ruthless Slaughtergrips",
+    "itemId": 268234,
+    "slot": "HANDS",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "SSZORAK"
+    },
+    "imgId": "inv_glove_leather_raiddemonhunterulatek_d_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Caustic Chain-Wrapped Sash",
+    "itemId": 268257,
+    "slot": "WAIST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "SSZORAK"
+    },
+    "imgId": "inv_belt_cloth_raidwarlockulatek_d_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Ferocious Scaleboots",
+    "itemId": 268233,
+    "slot": "FEET",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "SSZORAK"
+    },
+    "imgId": "inv_boot_mail_raidhunterulatek_d_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Apex Brute's Claw Ring",
+    "itemId": 268252,
+    "slot": "FINGER",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "SSZORAK"
+    },
+    "imgId": "inv_121_jewelry_ring03_red",
+    "miscType": "FINGER"
+  },
+  {
+    "name": "Idol of the Howling Nexus",
+    "itemId": 270174,
+    "slot": "TRINKET",
+    "secondaryStats": ["MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "SSZORAK"
+    },
+    "imgId": "inv_jewelcrafting_jadeserpent",
+    "roles": ["TANK"],
+    "mainStats": ["STR", "AGI"]
+  },
+  {
+    "name": "Sszorak's Ferocity",
+    "itemId": 270163,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "SSZORAK"
+    },
+    "imgId": "inv_121_trinket_raid_ulatek_ulatekclaw",
+    "roles": ["DPS_MELEE"],
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Venomcast Effigy",
+    "itemId": 270916,
+    "slot": "HEAD",
+    "armorType": "MAIL",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "TWIN_FANGS"
+    },
+    "imgId": "inv_jewelcrafting_goldenserpent"
+  },
+  {
+    "name": "Venomcured Effigy",
+    "itemId": 270915,
+    "slot": "HEAD",
+    "armorType": "LEATHER",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "TWIN_FANGS"
+    },
+    "imgId": "inv_jewelcrafting_purpleserpent"
+  },
+  {
+    "name": "Venomforged Effigy",
+    "itemId": 270917,
+    "slot": "HEAD",
+    "armorType": "PLATE",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "TWIN_FANGS"
+    },
+    "imgId": "inv_jewelcrafting_rubyserpent"
+  },
+  {
+    "name": "Venomwoven Effigy",
+    "itemId": 270914,
+    "slot": "HEAD",
+    "armorType": "CLOTH",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "TWIN_FANGS"
+    },
+    "imgId": "inv_jewelcrafting_azureserpent"
+  },
+  {
+    "name": "Ravenous Feaster's Fang",
+    "itemId": 268264,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "TWIN_FANGS"
+    },
+    "imgId": "inv_knife_1h_ulatek_d_02",
+    "weaponType": "DAGGER",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Amulet of the Twin Fangs",
+    "itemId": 268251,
+    "slot": "NECK",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "TWIN_FANGS"
+    },
+    "imgId": "inv_121_jewelry_neck01_red",
+    "miscType": "NECK"
+  },
+  {
+    "name": "Ornaments of the Eternal Coil",
+    "itemId": 268241,
+    "slot": "SHOULDER",
+    "secondaryStats": ["HASTE", "VERS"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "TWIN_FANGS"
+    },
+    "imgId": "inv_shoulder_cloth_raidmageulatek_d_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Ophidian Fangmail",
+    "itemId": 268223,
+    "slot": "CHEST",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "TWIN_FANGS"
+    },
+    "imgId": "inv_chest_mail_raidhunterulatek_d_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Scaleplate Strangulators",
+    "itemId": 268220,
+    "slot": "HANDS",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "TWIN_FANGS"
+    },
+    "imgId": "inv_glove_plate_raidpaladinulatek_d_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Bespittled Slitherslippers",
+    "itemId": 268261,
+    "slot": "FEET",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "TWIN_FANGS"
+    },
+    "imgId": "inv_boot_leather_raidmonkulatek_d_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Preternatural Antivenom",
+    "itemId": 270171,
+    "slot": "TRINKET",
+    "secondaryStats": ["CRIT"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "TWIN_FANGS"
+    },
+    "imgId": "inv_11_0_dungeon_tentaclevial_green",
+    "roles": ["HEALER"],
+    "mainStats": []
+  },
+  {
+    "name": "Vexhul's Everflowing Gland",
+    "itemId": 270170,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "TWIN_FANGS"
+    },
+    "imgId": "inv_11_0_misc_organmass_color3",
+    "roles": ["DPS_RANGED"],
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Baleful Hexblade",
+    "itemId": 268211,
+    "slot": "MAINHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "COILED_ALTAR"
+    },
+    "imgId": "inv_sword_1h_ulatek_d_01",
+    "weaponType": "SWORD1H",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Silken Voodoo Drape",
+    "itemId": 268253,
+    "slot": "BACK",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "COILED_ALTAR"
+    },
+    "imgId": "inv_cape_leather_raidrogueulatek_d_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Reckless Spirit Breastplate",
+    "itemId": 268222,
+    "slot": "CHEST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "COILED_ALTAR"
+    },
+    "imgId": "inv_chest_plate_raidwarriorulatek_d_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Grasps of the Eternal Shadow",
+    "itemId": 268243,
+    "slot": "HANDS",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "COILED_ALTAR"
+    },
+    "imgId": "inv_glove_cloth_raidwarlockulatek_d_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Girdle of Toxic Regret",
+    "itemId": 268259,
+    "slot": "WAIST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "COILED_ALTAR"
+    },
+    "imgId": "inv_belt_plate_raidpaladinulatek_d_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Sash of the Forlorn Vessel",
+    "itemId": 268256,
+    "slot": "WAIST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "COILED_ALTAR"
+    },
+    "imgId": "inv_belt_leather_raiddruidulatek_d_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Cuisses of the Uncoiled Union",
+    "itemId": 268237,
+    "slot": "LEGS",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "COILED_ALTAR"
+    },
+    "imgId": "inv_pant_mail_raidevokerulatek_d_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Cackling Soultreads",
+    "itemId": 268255,
+    "slot": "FEET",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "COILED_ALTAR"
+    },
+    "imgId": "inv_boot_cloth_raidmageulatek_d_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Hex Lord's Dooming Idol",
+    "itemId": 270169,
+    "slot": "TRINKET",
+    "secondaryStats": ["HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "COILED_ALTAR"
+    },
+    "imgId": "inv_archaeology_orcclans_crackedidol",
+    "roles": ["HEALER", "DPS_RANGED"],
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Zul'jin's Guillotine Technique",
+    "itemId": 270173,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "COILED_ALTAR"
+    },
+    "imgId": "inv_121_trinket_raid_ulatek_trolltablet",
+    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "mainStats": ["STR", "AGI"]
+  },
+  {
+    "name": "Maze-roa, Warlord's Fury",
+    "itemId": 268213,
+    "slot": "TWOHAND",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "COILED_ALTAR"
+    },
+    "imgId": "inv_axe_2h_ulatek_d_01",
+    "weaponType": "AXE1H",
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Aman'muso, Warlord's Vengeance",
+    "itemId": 268209,
+    "slot": "MAINHAND",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "COILED_ALTAR"
+    },
+    "imgId": "inv_axe_1h_ulatek_d_01",
+    "weaponType": "AXE1H",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Abyssal Broodfiend's Bardiche",
+    "itemId": 268215,
+    "slot": "TWOHAND",
+    "secondaryStats": ["MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ULATEK"
+    },
+    "imgId": "inv_polearm_2h_ulatek_d_01",
+    "weaponType": "POLEARM",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Jaw of the Shackled Goddess",
+    "itemId": 268202,
+    "slot": "MAINHAND",
+    "secondaryStats": ["HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ULATEK"
+    },
+    "imgId": "inv_sword_1h_ulatek_d_01",
+    "weaponType": "SWORD1H",
+    "mainStats": ["STR"]
+  },
+  {
+    "name": "Caustic Repose Greatbow",
+    "itemId": 268207,
+    "slot": "TWOHAND",
+    "secondaryStats": ["CRIT"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ULATEK"
+    },
+    "imgId": "inv_bow_1h_ulatek_d_01",
+    "weaponType": "BOW",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Gaze of the Coiled Watcher",
+    "itemId": 271875,
+    "slot": "HEAD",
+    "secondaryStats": ["HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ULATEK"
+    },
+    "imgId": "inv_helm_leather_raiddruidulatek_d_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Venomkeeper's Horrific Cowl",
+    "itemId": 271874,
+    "slot": "HEAD",
+    "secondaryStats": ["MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ULATEK"
+    },
+    "imgId": "inv_helm_cloth_raidwarlockulatek_d_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Aqirbane Reliquary",
+    "itemId": 268265,
+    "slot": "NECK",
+    "secondaryStats": ["CRIT"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ULATEK"
+    },
+    "imgId": "inv_121_jewelry_neck03_green",
+    "miscType": "NECK"
+  },
+  {
+    "name": "Awoken Dreadfang Cuirass",
+    "itemId": 271876,
+    "slot": "CHEST",
+    "secondaryStats": ["CRIT"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ULATEK"
+    },
+    "imgId": "inv_chest_mail_raidevokerulatek_d_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Chausses of Unbound Rancor",
+    "itemId": 271878,
+    "slot": "LEGS",
+    "secondaryStats": ["MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ULATEK"
+    },
+    "imgId": "inv_pant_plate_raiddeathknightulatek_d_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Font of Venomous Rage",
+    "itemId": 270168,
+    "slot": "TRINKET",
+    "secondaryStats": ["MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ULATEK"
+    },
+    "imgId": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green",
+    "roles": ["DPS_MELEE", "DPS_RANGED"],
+    "mainStats": []
+  },
+  {
+    "name": "Voracious Heart of Ula'tek",
+    "itemId": 270175,
+    "slot": "TRINKET",
+    "secondaryStats": ["CRIT"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ULATEK"
+    },
+    "imgId": "inv_121_trinket_raid_ulatek_heart",
+    "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
+    "mainStats": ["STR", "AGI"]
+  },
+  {
+    "name": "Zatha'tek, Breath of Corruption",
+    "itemId": 271093,
+    "slot": "MAINHAND",
+    "secondaryStats": ["CRIT"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ULATEK"
+    },
+    "imgId": "inv_knife_1h_ulatekfang_d_01_poison",
+    "weaponType": "DAGGER",
+    "mainStats": ["AGI"]
+  },
+  {
+    "name": "Jan'thrazet, the Soul Fang",
+    "itemId": 271092,
+    "slot": "MAINHAND",
+    "secondaryStats": ["HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "TVA",
+      "bossName": "ULATEK"
+    },
+    "imgId": "inv_knife_1h_ulatekfang_d_01_spirit",
+    "weaponType": "DAGGER",
+    "mainStats": ["INT"]
+  },
+  {
+    "name": "Festerbloom Crown",
+    "itemId": 268283,
+    "slot": "HEAD",
+    "secondaryStats": ["CRIT", "HASTE"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_helm_leather_raiddruidmidnight_d_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Rotmire's Sporeheart",
+    "itemId": 268291,
+    "slot": "NECK",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_12_jewelry_rutaani_necklace_blue",
+    "miscType": "NECK"
+  },
+  {
+    "name": "Mycomancer's Rot Robes",
+    "itemId": 268284,
+    "slot": "CHEST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_chest_cloth_raidmagemidnight_d_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Putrid Tender's Battleplate",
+    "itemId": 268285,
+    "slot": "CHEST",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_plate_raiddeathknightmidnight_d_01_chest",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Girdle of Devouring Rot",
+    "itemId": 268289,
+    "slot": "WAIST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_belt_plate_raidpaladinmidnight_d_01",
+    "armorType": "PLATE"
+  },
+  {
+    "name": "Sash of the Putrid Giant",
+    "itemId": 268286,
+    "slot": "WAIST",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_belt_leather_raidroguemidnight_d_01",
+    "armorType": "LEATHER"
+  },
+  {
+    "name": "Fungarian Folly Faulds",
+    "itemId": 268288,
+    "slot": "LEGS",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_pant_mail_raidevokermidnight_d_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Grudgefiend Stompers",
+    "itemId": 268287,
+    "slot": "FEET",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_boot_mail_raidshamanmidnight_d_01",
+    "armorType": "MAIL"
+  },
+  {
+    "name": "Luxurious Loamstriders",
+    "itemId": 268282,
+    "slot": "FEET",
+    "secondaryStats": ["CRIT", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_boot_cloth_raidpriestmidnight_d_01",
+    "armorType": "CLOTH"
+  },
+  {
+    "name": "Sporecaller's Blooming Loop",
+    "itemId": 268290,
+    "slot": "FINGER",
+    "secondaryStats": ["HASTE", "MASTERY"],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_12_jewelry_rutaani_ring_blue",
+    "miscType": "FINGER"
+  },
+  {
+    "name": "Sporelord's Mycelial Insignia",
+    "itemId": 268292,
+    "slot": "TRINKET",
+    "secondaryStats": [],
+    "specialEffect": null,
+    "lootSource": {
+      "raid": "SF",
+      "bossName": "ROTMIRE"
+    },
+    "imgId": "inv_1207_fungarianraid_trinket",
+    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
+    "mainStats": ["INT", "STR", "AGI"]
   }
 ]

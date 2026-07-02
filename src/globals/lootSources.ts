@@ -148,6 +148,46 @@ export const ALL_RAID_BOSSES: Record<ERaidBoss, TRaidBoss> = {
     bossName: ERaidBoss.MIDNIGHT_FALLS,
     raid: ERaid.MQD,
   },
+  [ERaidBoss.NYMRISSA]: {
+    bossName: ERaidBoss.NYMRISSA,
+    raid: ERaid.TG,
+  },
+  [ERaidBoss.NEKZALI]: {
+    bossName: ERaidBoss.NEKZALI,
+    raid: ERaid.TVA,
+  },
+  [ERaidBoss.ENTOMBED_SENTINELS]: {
+    bossName: ERaidBoss.ENTOMBED_SENTINELS,
+    raid: ERaid.TVA,
+  },
+  [ERaidBoss.VASHNIK]: {
+    bossName: ERaidBoss.VASHNIK,
+    raid: ERaid.TVA,
+  },
+  [ERaidBoss.LOST_EXPLORERS]: {
+    bossName: ERaidBoss.LOST_EXPLORERS,
+    raid: ERaid.TVA,
+  },
+  [ERaidBoss.SSZORAK]: {
+    bossName: ERaidBoss.SSZORAK,
+    raid: ERaid.TVA,
+  },
+  [ERaidBoss.TWIN_FANGS]: {
+    bossName: ERaidBoss.TWIN_FANGS,
+    raid: ERaid.TVA,
+  },
+  [ERaidBoss.COILED_ALTAR]: {
+    bossName: ERaidBoss.COILED_ALTAR,
+    raid: ERaid.TVA,
+  },
+  [ERaidBoss.ULATEK]: {
+    bossName: ERaidBoss.ULATEK,
+    raid: ERaid.TVA,
+  },
+  [ERaidBoss.ROTMIRE]: {
+    bossName: ERaidBoss.ROTMIRE,
+    raid: ERaid.SF,
+  },
 };
 
 export const DUNGEONS_NAMES_LOOKUP: Record<EDungeon, string> = {
@@ -173,6 +213,14 @@ export const DUNGEONS_NAMES_LOOKUP: Record<EDungeon, string> = {
   [EDungeon.SEAT]: 'Seat of the Triumvirate',
   [EDungeon.SR]: 'Skyreach',
   [EDungeon.WS]: 'Windrunner Spire',
+  [EDungeon.AOF]: 'Altar of Fangs',
+  [EDungeon.DON]: 'Den of Nalorakk',
+  [EDungeon.MR]: 'Murder Row',
+  [EDungeon.TBV]: 'The Blinding Vale',
+  [EDungeon.VA]: 'Voidscar Arena',
+  [EDungeon.KR]: "King's Rest",
+  [EDungeon.RLP]: 'Ruby Life Pools',
+  [EDungeon.TOS]: 'Temple of Sethraliss',
 };
 
 export const DUNGEON_IMAGE_LOOKUP: Record<EDungeon, string> = {
@@ -198,6 +246,14 @@ export const DUNGEON_IMAGE_LOOKUP: Record<EDungeon, string> = {
   [EDungeon.SEAT]: images['seat_of_triumvirate'],
   [EDungeon.SR]: images['skyreach'],
   [EDungeon.WS]: images['windrunner_spire'],
+  [EDungeon.AOF]: images['altar_of_fangs'],
+  [EDungeon.DON]: '',
+  [EDungeon.MR]: '',
+  [EDungeon.TBV]: '',
+  [EDungeon.VA]: '',
+  [EDungeon.KR]: '',
+  [EDungeon.RLP]: '',
+  [EDungeon.TOS]: '',
 };
 
 export const BOSS_NAMES_LOOKUP: Record<ERaidBoss, string> = {
@@ -234,6 +290,16 @@ export const BOSS_NAMES_LOOKUP: Record<ERaidBoss, string> = {
   [ERaidBoss.CROWN_COSMOS]: 'Crown of the Cosmos',
   [ERaidBoss.BELOREN]: "Belo'ren, Child of Al'ar",
   [ERaidBoss.MIDNIGHT_FALLS]: 'Midnight Falls',
+  [ERaidBoss.NYMRISSA]: 'Nymrissa Wavecaller',
+  [ERaidBoss.NEKZALI]: "Nek'zali the Soulcoiler",
+  [ERaidBoss.ENTOMBED_SENTINELS]: 'Entombed Sentinels',
+  [ERaidBoss.VASHNIK]: 'Vashnik the Malignant',
+  [ERaidBoss.LOST_EXPLORERS]: 'The Lost Explorers',
+  [ERaidBoss.SSZORAK]: 'Sszorak',
+  [ERaidBoss.TWIN_FANGS]: 'The Twin Fangs',
+  [ERaidBoss.COILED_ALTAR]: 'The Coiled Altar',
+  [ERaidBoss.ULATEK]: "Ula'tek",
+  [ERaidBoss.ROTMIRE]: 'Rotmire',
 };
 
 export const RAID_NAMES_LOOKUP: Record<ERaid, string> = {
@@ -243,6 +309,9 @@ export const RAID_NAMES_LOOKUP: Record<ERaid, string> = {
   [ERaid.DR]: 'The Dreamrift',
   [ERaid.VS]: 'The Voidspire',
   [ERaid.MQD]: "March on Quel'Danas",
+  [ERaid.TG]: 'The Tidebound Grotto',
+  [ERaid.TVA]: 'The Venomous Abyss',
+  [ERaid.SF]: 'Sporefall',
 };
 
 export const RAID_IMAGE_LOOKUP: Record<ERaid, string> = {
@@ -252,4 +321,7 @@ export const RAID_IMAGE_LOOKUP: Record<ERaid, string> = {
   [ERaid.DR]: images['dreamrift'],
   [ERaid.VS]: images['voidspire'],
   [ERaid.MQD]: images['march_queldanas'],
+  [ERaid.TG]: images['tidebound_grotto'],
+  [ERaid.TVA]: images['venomous_abyss'],
+  [ERaid.SF]: images['sporefall'],
 };

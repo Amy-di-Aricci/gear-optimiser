@@ -21,6 +21,14 @@ export enum EDungeon {
   SEAT = 'SEAT',
   SR = 'SR',
   WS = 'WS',
+  AOF = 'AOF',
+  DON = 'DON',
+  MR = 'MR',
+  TBV = 'TBV',
+  VA = 'VA',
+  KR = 'KR',
+  RLP = 'RLP',
+  TOS = 'TOS',
 }
 
 export enum ERaid {
@@ -30,6 +38,9 @@ export enum ERaid {
   DR = 'DR',
   VS = 'VS',
   MQD = 'MQD',
+  TG = 'TG',
+  TVA = 'TVA',
+  SF = 'SF',
 }
 
 export enum ERaidBoss {
@@ -66,6 +77,16 @@ export enum ERaidBoss {
   CROWN_COSMOS = 'CROWN_COSMOS',
   BELOREN = 'BELOREN',
   MIDNIGHT_FALLS = 'MIDNIGHT_FALLS',
+  NYMRISSA = 'NYMRISSA',
+  NEKZALI = 'NEKZALI',
+  ENTOMBED_SENTINELS = 'ENTOMBED_SENTINELS',
+  VASHNIK = 'VASHNIK',
+  LOST_EXPLORERS = 'LOST_EXPLORERS',
+  SSZORAK = 'SSZORAK',
+  TWIN_FANGS = 'TWIN_FANGS',
+  COILED_ALTAR = 'COILED_ALTAR',
+  ULATEK = 'ULATEK',
+  ROTMIRE = 'ROTMIRE',
 }
 
 export type TRaidBoss = {
