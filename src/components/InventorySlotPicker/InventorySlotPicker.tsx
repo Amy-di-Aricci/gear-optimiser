@@ -3,11 +3,12 @@ import { INVENTORY_ICON_SIZE } from './config';
 import { EItemSlot } from '../../types/items';
 import { SmartMultiSelector, TSmartSelectorItem } from '../SmartSelector';
 import { useOptimiserFilters } from '../../contexts/OptimiserFiltersContext';
+import { ITEM_WIDTH } from '../ItemTable/config';
 
 export const InventorySlotPicker = () => {
   const { selectedSlot, setSelectedSlot } = useOptimiserFilters();
   return (
-    <Stack direction="row" width="100%">
+    <Stack direction="row" width="100%" maxWidth={ITEM_WIDTH}>
       <Stack gap={2}>
         <SmartMultiSelector
           useTint

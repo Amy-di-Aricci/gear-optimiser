@@ -993,7 +993,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
     specialEffect: null,
     lootSource: {
       bossName: ERaidBoss.BELOREN,
-      raid: ERaid.VS,
+      raid: ERaid.MQD,
     },
     imgId: 'inv_knife_1h_raidmidnight_d_01',
     weaponType: EWeaponType.DAGGER,
@@ -1007,7 +1007,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
     specialEffect: null,
     lootSource: {
       bossName: ERaidBoss.BELOREN,
-      raid: ERaid.VS,
+      raid: ERaid.MQD,
     },
     imgId: 'inv_knife_1h_raidmidnight_d_01',
     weaponType: EWeaponType.DAGGER,
@@ -1123,7 +1123,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
     specialEffect: null,
     lootSource: {
       bossName: ERaidBoss.AVERZIAN,
-      raid: ERaid.DR,
+      raid: ERaid.VS,
     },
     weaponType: EWeaponType.MACE1H,
     imgId: 'inv_mace_1h_raidmidnight_d_02',
@@ -1137,7 +1137,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
     specialEffect: null,
     lootSource: {
       bossName: ERaidBoss.AVERZIAN,
-      raid: ERaid.DR,
+      raid: ERaid.VS,
     },
     imgId: 'inv_plate_raiddeathknightmidnight_d_01_cape',
   },

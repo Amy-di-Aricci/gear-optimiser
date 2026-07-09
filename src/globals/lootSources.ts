@@ -1,19 +1,5 @@
 import { EDungeon, ERaid, ERaidBoss, TRaidBoss } from '../types/lootSources';
-
-const images = Object.fromEntries(
-  Object.entries(
-    import.meta.glob('../assets/images/*.webp', { eager: true, import: 'default' }) as Record<
-      string,
-      string
-    >,
-  ).map(([path, src]) => [
-    path
-      .split('/')
-      .pop()!
-      .replace(/\.[^.]+$/, ''),
-    src,
-  ]),
-) as Record<string, string>;
+import images from './images';
 
 export const ALL_RAID_BOSSES: Record<ERaidBoss, TRaidBoss> = {
   [ERaidBoss.VEXIE]: {
@@ -317,7 +303,7 @@ export const RAID_NAMES_LOOKUP: Record<ERaid, string> = {
 export const RAID_IMAGE_LOOKUP: Record<ERaid, string> = {
   [ERaid.NP]: '',
   [ERaid.LOU]: '',
-  [ERaid.MFO]: '',
+  [ERaid.MFO]: images['manaforge_omega'],
   [ERaid.DR]: images['dreamrift'],
   [ERaid.VS]: images['voidspire'],
   [ERaid.MQD]: images['march_queldanas'],

@@ -1,23 +1,37 @@
 import { EDungeon, ERaid } from '../types/lootSources';
-import { EExpansion, ESeason, TSeason } from '../types/seasons';
+import { EExpansion, ESeason, TSeason, TSeasonDisplayData } from '../types/seasons';
+import images from './images';
 
 export const SEASON_INFO_LOOKUP: Record<ESeason, TSeason> = {
-  [ESeason.TWWS1]: {
+  [ESeason.TWWS3]: {
     expansion: EExpansion.TWW,
-    seasonName: 'Tier 34 (Manaforge Omega)',
+    seasonShortName: 'Season 3',
+    seasonTierName: 'Tier 34 - Manaforge Omega',
   },
   [ESeason.MNS1]: {
+    seasonShortName: 'Season 1',
     expansion: EExpansion.MN,
-    seasonName: "Tier 35 (Dreamrift, Voidspire, March on Quel'Danas)",
+    seasonTierName: "Tier 35 - Dreamrift, Voidspire, March on Quel'Danas",
   },
   [ESeason.MNS2]: {
     expansion: EExpansion.MN,
-    seasonName: 'Tier 36 (The Venomous Abyss)',
+    seasonShortName: 'Season 2',
+    seasonTierName: 'Tier 36 - The Venomous Abyss',
   },
 };
 
+export const EXPANSION_NAME_LOOKUP: Record<EExpansion, String> = {
+  [EExpansion.TWW]: 'The War Within',
+  [EExpansion.MN]: 'Midnight',
+};
+
+export const EXPANSION_IMAGE_LOOKUP: Record<EExpansion, String> = {
+  [EExpansion.TWW]: images['logo_war_within'],
+  [EExpansion.MN]: images['logo_midnight'],
+};
+
 export const SEASON_DUNGEONS_LOOKUP: Record<ESeason, EDungeon[]> = {
-  [ESeason.TWWS1]: [
+  [ESeason.TWWS3]: [
     EDungeon.ARA,
     EDungeon.DAWN,
     EDungeon.FLOOD,
@@ -49,7 +63,29 @@ export const SEASON_DUNGEONS_LOOKUP: Record<ESeason, EDungeon[]> = {
 };
 
 export const SEASON_RAIDS_LOOKUP: Record<ESeason, ERaid[]> = {
-  [ESeason.TWWS1]: [ERaid.MFO],
+  [ESeason.TWWS3]: [ERaid.MFO],
   [ESeason.MNS1]: [ERaid.DR, ERaid.VS, ERaid.MQD, ERaid.SF],
   [ESeason.MNS2]: [ERaid.TVA, ERaid.TG],
+};
+
+export const SEASON_IMAGES_LOOKUP: Record<ESeason, String> = {
+  [ESeason.TWWS3]: images['manaforge_omega'],
+  [ESeason.MNS1]: images['march_queldanas'],
+  [ESeason.MNS2]: images['venomous_abyss'],
+};
+
+export const getSeasonDisplayData = (season: ESeason): TSeasonDisplayData => {
+  const info = SEASON_INFO_LOOKUP[season];
+
+  return {
+    season,
+
+    expansion: info.expansion,
+    expansionName: EXPANSION_NAME_LOOKUP[info.expansion],
+    expansionImage: EXPANSION_IMAGE_LOOKUP[info.expansion],
+
+    seasonShortName: info.seasonShortName,
+    seasonTierName: info.seasonTierName,
+    seasonImage: SEASON_IMAGES_LOOKUP[season],
+  };
 };

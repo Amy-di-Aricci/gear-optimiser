@@ -14,11 +14,11 @@ export const ItemCell = memo(({ wowItem }: TItemCellProps) => {
       gap={1}
       sx={(theme) => ({
         textDecoration: 'none',
-        color: theme.palette.grey[200],
+        color: theme.palette.text.primary,
         borderRadius: 1,
         p: 1,
         alignItems: 'start',
-        backgroundColor: theme.palette.grey[900],
+        backgroundColor: theme.palette.background.paper,
       })}
     >
       <Stack direction="row" sx={() => ({ gap: ITEM_CELL_GAP, width: '100%' })}>
@@ -52,7 +52,7 @@ export const ItemCell = memo(({ wowItem }: TItemCellProps) => {
             >
               <Typography
                 textAlign="start"
-                variant="subtitle1"
+                variant="body2"
                 noWrap
                 sx={{
                   flex: 1,
@@ -68,13 +68,11 @@ export const ItemCell = memo(({ wowItem }: TItemCellProps) => {
           </Stack>
 
           <Stack direction="row" justifyContent="space-between">
-            <Typography variant="subtitle2">{getSlotDisplay(wowItem)}</Typography>
+            <Typography variant="body2">{getSlotDisplay(wowItem)}</Typography>
           </Stack>
         </Stack>
       </Stack>
-      <Typography variant="subtitle2">
-        Source: {getSourceDisplayName(wowItem.lootSource)}
-      </Typography>
+      <Typography variant="body2">Source: {getSourceDisplayName(wowItem.lootSource)}</Typography>
     </Stack>
   );
 });
