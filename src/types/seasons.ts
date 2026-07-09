@@ -20,9 +20,14 @@ export type TSeasonDisplayData = {
 
   expansion: EExpansion;
   expansionName: String;
-  expansionImage: String;
 
   seasonShortName: String;
   seasonTierName: String;
   seasonImage: String;
+};
+
+export type TExpansionDisplayData = {
+  expansion: EExpansion;
+  expansionName: String;
+  expansionImage: String;
 };

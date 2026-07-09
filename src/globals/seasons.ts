@@ -1,5 +1,11 @@
 import { EDungeon, ERaid } from '../types/lootSources';
-import { EExpansion, ESeason, TSeason, TSeasonDisplayData } from '../types/seasons';
+import {
+  EExpansion,
+  ESeason,
+  TExpansionDisplayData,
+  TSeason,
+  TSeasonDisplayData,
+} from '../types/seasons';
 import images from './images';
 
 export const SEASON_INFO_LOOKUP: Record<ESeason, TSeason> = {
@@ -82,10 +88,17 @@ export const getSeasonDisplayData = (season: ESeason): TSeasonDisplayData => {
 
     expansion: info.expansion,
     expansionName: EXPANSION_NAME_LOOKUP[info.expansion],
-    expansionImage: EXPANSION_IMAGE_LOOKUP[info.expansion],
 
     seasonShortName: info.seasonShortName,
     seasonTierName: info.seasonTierName,
     seasonImage: SEASON_IMAGES_LOOKUP[season],
+  };
+};
+
+export const getExpansionDisplayData = (expansion: EExpansion): TExpansionDisplayData => {
+  return {
+    expansion: expansion,
+    expansionName: EXPANSION_NAME_LOOKUP[expansion],
+    expansionImage: EXPANSION_IMAGE_LOOKUP[expansion],
   };
 };

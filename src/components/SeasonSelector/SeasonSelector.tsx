@@ -3,6 +3,7 @@ import { useOptimiserFilters } from '../../contexts/OptimiserFiltersContext';
 import { Box, ButtonBase, Popover, Stack, Typography } from '@mui/material';
 import { getSeasonDisplayData } from '../../globals/seasons';
 import { KeyboardArrowDown } from '@mui/icons-material';
+import { SeasonTile } from './SeasonTile';
 
 export const SeasonSelector = () => {
   const { selectedSeason, setSelectedSeason } = useOptimiserFilters();
@@ -43,7 +44,7 @@ export const SeasonSelector = () => {
             sx={{
               position: 'absolute',
               inset: 0,
-              background: 'linear-gradient(90deg, rgba(33,33,33,.95) 33%, rgba(12,12,12,.0) 100%)',
+              background: 'var(--tile-gradient-33)',
             }}
           />
 
@@ -91,6 +92,8 @@ export const SeasonSelector = () => {
         onClose={handleClose}
         slotProps={{
           paper: {
+            elevation: 0,
+            square: true,
             sx: {
               width: anchorEl?.clientWidth,
             },
@@ -105,7 +108,7 @@ export const SeasonSelector = () => {
           horizontal: 'left',
         }}
       >
-        {/* accordiony */}
+        <SeasonTile item={selectedSeasonInfo} />
       </Popover>
     </>
   );

@@ -28,7 +28,7 @@ export const Optimiser = memo(() => {
               <Stack
                 gap={{
                   xs: 2,
-                  md: 6,
+                  md: 4,
                 }}
                 alignItems={'center'}
                 justifyContent={'center'}
