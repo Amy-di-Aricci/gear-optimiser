@@ -15,11 +15,14 @@ export const Optimiser = memo(() => {
   return (
     <OptimiserFilterContextProvider>
       <Box
+        height={{
+          lg: '100vh',
+        }}
         sx={{
           margin: '0 auto',
-          minHeight: '100vh',
           display: 'flex',
-          alignItems: 'center',
+          padding: '48px 12px',
+          alignItems: 'start',
         }}
       >
         <Container maxWidth={'lg'}>
