@@ -45,7 +45,11 @@ export const SmartMultiSelector = <T,>({
   };
 
   return (
-    <Stack gap={0.75} direction={vertical ? 'column' : 'row'}>
+    <Stack
+      gap={0.75}
+      flexWrap={vertical ? 'nowrap' : 'wrap'}
+      direction={vertical ? 'column' : 'row'}
+    >
       {normalizedItems.map((item) => {
         const isSelected = currentSelectedIds.includes(item.id);
         const isSvg = item.iconSrc.endsWith('.svg');

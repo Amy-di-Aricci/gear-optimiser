@@ -1,19 +1,5 @@
 import { EDungeon, ERaid, ERaidBoss, TRaidBoss } from '../types/lootSources';
-
-const images = Object.fromEntries(
-  Object.entries(
-    import.meta.glob('../assets/images/*.webp', { eager: true, import: 'default' }) as Record<
-      string,
-      string
-    >,
-  ).map(([path, src]) => [
-    path
-      .split('/')
-      .pop()!
-      .replace(/\.[^.]+$/, ''),
-    src,
-  ]),
-) as Record<string, string>;
+import images from './images';
 
 export const ALL_RAID_BOSSES: Record<ERaidBoss, TRaidBoss> = {
   [ERaidBoss.VEXIE]: {
@@ -224,20 +210,20 @@ export const DUNGEONS_NAMES_LOOKUP: Record<EDungeon, string> = {
 };
 
 export const DUNGEON_IMAGE_LOOKUP: Record<EDungeon, string> = {
-  [EDungeon.DFC]: '',
-  [EDungeon.ML]: '',
-  [EDungeon.WORK]: '',
-  [EDungeon.FLOOD]: '',
-  [EDungeon.ROOK]: '',
-  [EDungeon.TOP]: '',
-  [EDungeon.BREW]: '',
-  [EDungeon.PSF]: '',
-  [EDungeon.HOA]: '',
-  [EDungeon.ARA]: '',
-  [EDungeon.DAWN]: '',
-  [EDungeon.ECO]: '',
-  [EDungeon.STREETS]: '',
-  [EDungeon.GAMBIT]: '',
+  [EDungeon.DFC]: images['darkflame_cleft'],
+  [EDungeon.ML]: images['motherlode'],
+  [EDungeon.WORK]: images['mechagon'],
+  [EDungeon.FLOOD]: images['operation_floodgate'],
+  [EDungeon.ROOK]: images['rookery'],
+  [EDungeon.TOP]: images['theater_of_pain'],
+  [EDungeon.BREW]: images['cinderbrew_meadery'],
+  [EDungeon.PSF]: images['priory_of_sacred_flame'],
+  [EDungeon.HOA]: images['halls_of_atonement'],
+  [EDungeon.ARA]: images['ara_kara'],
+  [EDungeon.DAWN]: images['dawnbreaker'],
+  [EDungeon.ECO]: images['eco_dome_aldani'],
+  [EDungeon.STREETS]: images['tazavesh'],
+  [EDungeon.GAMBIT]: images['tazavesh'],
   [EDungeon.MT]: images['magisters_terrace'],
   [EDungeon.MC]: images['maisara_caverns'],
   [EDungeon.AA]: images['algethar_academy'],
@@ -247,13 +233,13 @@ export const DUNGEON_IMAGE_LOOKUP: Record<EDungeon, string> = {
   [EDungeon.SR]: images['skyreach'],
   [EDungeon.WS]: images['windrunner_spire'],
   [EDungeon.AOF]: images['altar_of_fangs'],
-  [EDungeon.DON]: '',
-  [EDungeon.MR]: '',
-  [EDungeon.TBV]: '',
-  [EDungeon.VA]: '',
-  [EDungeon.KR]: '',
-  [EDungeon.RLP]: '',
-  [EDungeon.TOS]: '',
+  [EDungeon.DON]: images['den_of_nalorakk'],
+  [EDungeon.MR]: images['murder_row'],
+  [EDungeon.TBV]: images['blinding_vale'],
+  [EDungeon.VA]: images['voidscar_arena'],
+  [EDungeon.KR]: images['kings_rest'],
+  [EDungeon.RLP]: images['ruby_life_pools'],
+  [EDungeon.TOS]: images['temple_of_sethraliss'],
 };
 
 export const BOSS_NAMES_LOOKUP: Record<ERaidBoss, string> = {
@@ -317,7 +303,7 @@ export const RAID_NAMES_LOOKUP: Record<ERaid, string> = {
 export const RAID_IMAGE_LOOKUP: Record<ERaid, string> = {
   [ERaid.NP]: '',
   [ERaid.LOU]: '',
-  [ERaid.MFO]: '',
+  [ERaid.MFO]: images['manaforge_omega'],
   [ERaid.DR]: images['dreamrift'],
   [ERaid.VS]: images['voidspire'],
   [ERaid.MQD]: images['march_queldanas'],

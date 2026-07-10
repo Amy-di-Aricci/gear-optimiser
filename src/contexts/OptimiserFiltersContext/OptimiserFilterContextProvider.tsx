@@ -9,12 +9,14 @@ import {
   isWowItemTrinket,
   isWowItemWeapon,
 } from '../../types/items';
-import { DEFAULT_CLASS } from './config';
+import { DEFAULT_CLASS, DEFAULT_SEASON } from './config';
 import { hasSelectedRoles, hasSelectedSecondaryStats } from '../../components/ItemTable/utils';
 import { ALL_SPECS } from '../../globals/specs';
 import { GEAR_STORE } from '../../store/gear-store';
 import { classToArmorType, getAllClassSpecs, getItemMainStats } from '../../utils/mappers';
-import { EDungeon, ERaid, TLootSource, TRaidBoss } from '../../types/lootSources';
+import { TLootSource, TRaidBoss } from '../../types/lootSources';
+import { ESeason } from '../../types/seasons';
+import { SEASON_DUNGEONS_LOOKUP, SEASON_RAIDS_LOOKUP } from '../../globals/seasons';
 
 export const OptimiserFilterContextProvider = memo(({ children }: PropsWithChildren) => {
   const [selectedClass, _setSelectedClass] = useState<ECharacterClass>(DEFAULT_CLASS);
@@ -25,6 +27,7 @@ export const OptimiserFilterContextProvider = memo(({ children }: PropsWithChild
   }, []);
   const [selectedSlot, setSelectedSlot] = useState<EItemSlot[]>([]);
   const [selectedStats, setSelectedStats] = useState<ESecondaryStat[]>([]);
+  const [selectedSeason, setSelectedSeason] = useState<ESeason>(DEFAULT_SEASON);
   const filteredItems = useMemo(() => {
     const armorType = classToArmorType(selectedClass);
     const specs = selectedSpec.length ? selectedSpec : getAllClassSpecs(selectedClass);
@@ -34,17 +37,8 @@ export const OptimiserFilterContextProvider = memo(({ children }: PropsWithChild
     const weaponTypes = new Set(specsDefs.map((specDef) => specDef.weaponTypes).flat());
     const offhandTypes = new Set(specsDefs.map((specDef) => specDef.offhandTypes ?? []).flat());
     //TODO: implement season selector, those hardcoded loot sources are temporary
-    const seasonRaids = [ERaid.DR, ERaid.VS, ERaid.MQD, ERaid.SF];
-    const seasonDungeons: Array<TLootSource> = [
-      EDungeon.AA,
-      EDungeon.MC,
-      EDungeon.MT,
-      EDungeon.NPX,
-      EDungeon.WS,
-      EDungeon.POS,
-      EDungeon.SEAT,
-      EDungeon.SR,
-    ];
+    const seasonRaids = SEASON_RAIDS_LOOKUP[selectedSeason];
+    const seasonDungeons: Array<TLootSource> = SEASON_DUNGEONS_LOOKUP[selectedSeason];
     const slots = new Set(selectedSlot);
     return GEAR_STORE.filter((item) => {
       if (
@@ -79,7 +73,7 @@ export const OptimiserFilterContextProvider = memo(({ children }: PropsWithChild
       }
       return true;
     });
-  }, [selectedClass, selectedSpec, selectedSlot, selectedStats]);
+  }, [selectedClass, selectedSpec, selectedSlot, selectedStats, selectedSeason]);
 
   const value = useMemo(
     () => ({
@@ -92,6 +86,8 @@ export const OptimiserFilterContextProvider = memo(({ children }: PropsWithChild
       setSelectedSlot,
       selectedStats,
       setSelectedStats,
+      selectedSeason,
+      setSelectedSeason,
     }),
     [
       filteredItems,
@@ -103,6 +99,8 @@ export const OptimiserFilterContextProvider = memo(({ children }: PropsWithChild
       setSelectedSlot,
       selectedStats,
       setSelectedStats,
+      selectedSeason,
+      setSelectedSeason,
     ],
   );
 

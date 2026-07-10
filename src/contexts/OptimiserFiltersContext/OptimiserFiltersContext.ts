@@ -1,8 +1,9 @@
 import { createContext } from 'react';
 import { ECharacterClass, ECharacterSpecName } from '../../types/spec';
 import { noop } from 'lodash';
-import { DEFAULT_CLASS } from './config';
+import { DEFAULT_CLASS, DEFAULT_SEASON } from './config';
 import { EItemSlot, ESecondaryStat, TWowItem } from '../../types/items';
+import { ESeason } from '../../types/seasons';
 
 type TOptimiserFiltersContext = {
   filteredItems: TWowItem[];
@@ -14,6 +15,8 @@ type TOptimiserFiltersContext = {
   setSelectedSlot: (newSlot: EItemSlot[]) => void;
   selectedStats: ESecondaryStat[];
   setSelectedStats: (newStats: ESecondaryStat[]) => void;
+  selectedSeason: ESeason;
+  setSelectedSeason: (newSeason: ESeason) => void;
 };
 
 export const OptimiserFiltersContext = createContext<TOptimiserFiltersContext>({
@@ -26,4 +29,6 @@ export const OptimiserFiltersContext = createContext<TOptimiserFiltersContext>({
   setSelectedSlot: noop,
   selectedStats: [],
   setSelectedStats: noop,
+  selectedSeason: DEFAULT_SEASON,
+  setSelectedSeason: noop,
 });

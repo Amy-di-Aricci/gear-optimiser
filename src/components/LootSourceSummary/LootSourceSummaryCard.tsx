@@ -55,7 +55,7 @@ export const LootSourceSummaryCard = memo(() => {
           },
         }}
       />
-      <Typography variant="h6" sx={{ zIndex: 1 }}>
+      <Typography variant="subtitle1" sx={{ zIndex: 1 }}>
         Activities recommended for you:
       </Typography>
       {alwaysVisibleData.map((data) => (

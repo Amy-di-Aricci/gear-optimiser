@@ -1,7 +1,6 @@
 import { Stack } from '@mui/material';
 import { memo } from 'react';
 import { ItemCell } from './ItemCell';
-import { ITEM_WIDTH } from './config';
 import { useOptimiserFilters } from '../../contexts/OptimiserFiltersContext';
 
 export const ItemTable = memo(() => {
@@ -10,11 +9,12 @@ export const ItemTable = memo(() => {
   return (
     <Stack
       maxHeight="70vh"
+      height={'100%'}
       sx={{
         overflowY: 'scroll',
         overflowX: 'hidden',
       }}
-      width={ITEM_WIDTH}
+      width="100%"
       gap={1}
     >
       {filteredItems.map((wowItem) => {
