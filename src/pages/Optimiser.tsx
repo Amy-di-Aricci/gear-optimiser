@@ -25,13 +25,7 @@ export const Optimiser = memo(() => {
           alignItems: 'start',
         }}
       >
-        <Container
-          maxWidth={'lg'}
-          sx={{
-            padding: 0,
-            margin: 0,
-          }}
-        >
+        <Container maxWidth={'lg'}>
           <Grid container spacing={{ xs: 4, lg: 6 }}>
             <Grid size={{ xs: 12, lg: 6 }}>
               <Stack
