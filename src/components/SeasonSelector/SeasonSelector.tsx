@@ -6,6 +6,7 @@ import {
   AccordionSummary,
   Box,
   ButtonBase,
+  Grow,
   Popover,
   Stack,
   Typography,
@@ -19,24 +20,25 @@ import { KeyboardArrowDown } from '@mui/icons-material';
 import { SeasonTile } from './SeasonTile';
 import { EExpansion, ESeason } from '../../types/seasons';
 import { ExpansionTile } from './ExpansionTile';
+import { theme } from '../../theme';
 
 export const SeasonSelector = () => {
   const { selectedSeason, setSelectedSeason } = useOptimiserFilters();
   const [popAnchorEl, setPopAnchorEl] = useState<HTMLElement | null>(null);
+  const [popoverOpen, setPopoverOpen] = useState(false);
   const selectedSeasonInfo = useMemo(() => getSeasonDisplayData(selectedSeason), [selectedSeason]);
 
   const [accordionExpanded, setAccordionExpanded] = useState<EExpansion | false>(
     selectedSeasonInfo.expansion,
   );
 
-  const popoverOpen = Boolean(popAnchorEl);
-
   const handlePopoverOpen = (event: React.MouseEvent<HTMLElement>) => {
     setPopAnchorEl(event.currentTarget);
+    setPopoverOpen(true);
   };
 
   const handlePopoverClose = () => {
-    setPopAnchorEl(null);
+    setPopoverOpen(false);
   };
 
   const handleAccordionChange =
@@ -47,7 +49,7 @@ export const SeasonSelector = () => {
   const handleSeasonSelect = (item: ESeason) => {
     setSelectedSeason(item);
     setAccordionExpanded(getSeasonDisplayData(item).expansion);
-    setPopAnchorEl(null);
+    handlePopoverClose();
   };
 
   return (
@@ -128,22 +130,33 @@ export const SeasonSelector = () => {
         open={popoverOpen}
         anchorEl={popAnchorEl}
         onClose={handlePopoverClose}
+        anchorOrigin={{
+          vertical: 'bottom',
+          horizontal: 'center',
+        }}
+        transformOrigin={{
+          vertical: 'top',
+          horizontal: 'center',
+        }}
+        transitionDuration={150}
+        slots={{
+          transition: Grow,
+        }}
         slotProps={{
+          transition: {
+            onExited: () => {
+              setPopAnchorEl(null);
+            },
+          },
           paper: {
             elevation: 0,
             square: true,
             sx: {
               width: popAnchorEl?.clientWidth,
+              border: `solid ${theme.palette.grey[800]}80`,
+              borderWidth: '1px 0px 0px 0px',
             },
           },
-        }}
-        anchorOrigin={{
-          vertical: 'bottom',
-          horizontal: 'left',
-        }}
-        transformOrigin={{
-          vertical: 'top',
-          horizontal: 'left',
         }}
       >
         {Object.values(EExpansion).map((expansion: EExpansion) => {
@@ -164,6 +177,8 @@ export const SeasonSelector = () => {
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   padding: '12px 24px',
+                  border: `solid ${theme.palette.grey[800]}80`,
+                  borderWidth: '0px 0px 1px 0px',
                 }}
                 expandIcon={<KeyboardArrowDown />}
               >
@@ -172,7 +187,11 @@ export const SeasonSelector = () => {
               <AccordionDetails sx={{ padding: 0 }}>
                 <Stack>
                   {getSeasonsByExpansion(expansion).map((season: ESeason) => (
-                    <SeasonTile item={getSeasonDisplayData(season)} onClick={handleSeasonSelect} />
+                    <SeasonTile
+                      key={season}
+                      item={getSeasonDisplayData(season)}
+                      onClick={handleSeasonSelect}
+                    />
                   ))}
                 </Stack>
               </AccordionDetails>

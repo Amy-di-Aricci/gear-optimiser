@@ -21,11 +21,17 @@ export const Optimiser = memo(() => {
         sx={{
           margin: '0 auto',
           display: 'flex',
-          padding: '48px 12px',
+          padding: '48px 24px',
           alignItems: 'start',
         }}
       >
-        <Container maxWidth={'lg'}>
+        <Container
+          maxWidth={'lg'}
+          sx={{
+            padding: 0,
+            margin: 0,
+          }}
+        >
           <Grid container spacing={{ xs: 4, lg: 6 }}>
             <Grid size={{ xs: 12, lg: 6 }}>
               <Stack

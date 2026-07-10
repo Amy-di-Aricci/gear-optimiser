@@ -1,6 +1,7 @@
 import { memo } from 'react';
 import { ESeason, TSeasonDisplayData } from '../../types/seasons';
 import { Box, ButtonBase, Typography } from '@mui/material';
+import { theme } from '../../theme';
 
 type TSeasonTileProps = {
   item: TSeasonDisplayData;
@@ -11,7 +12,12 @@ export const SeasonTile = memo(({ item, onClick }: TSeasonTileProps) => {
   return (
     <>
       <ButtonBase
-        sx={{ width: '100%', alignContent: 'flex-start' }}
+        sx={{
+          width: '100%',
+          alignContent: 'flex-start',
+          border: `solid ${theme.palette.grey[800]}20`,
+          borderWidth: '0px 0px 1px 0px',
+        }}
         onClick={() => onClick(item.season)}
       >
         <Box

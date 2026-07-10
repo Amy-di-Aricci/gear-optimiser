@@ -23,7 +23,7 @@ export const SmartSelector = <T,>({
     disabled: item.disabled ?? false,
   }));
   return (
-    <Stack gap={0.25} direction={vertical ? 'column' : 'row'}>
+    <Stack gap={0.25} flexWrap="wrap" direction={vertical ? 'column' : 'row'}>
       {items.map((item) => {
         const onClick = () => {
           if (item.disabled) return;
