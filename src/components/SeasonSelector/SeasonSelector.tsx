@@ -112,8 +112,8 @@ export const SeasonSelector = () => {
             <KeyboardArrowDown
               sx={{
                 fontSize: 32,
-                transform: popoverOpen ? 'scaleY(-1)' : '',
-                transition: 'transform 0.15s ease-in-out',
+                transform: popoverOpen ? 'rotate(180deg)' : '',
+                transition: 'transform 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms',
               }}
             />
           </Stack>
