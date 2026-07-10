@@ -43,7 +43,7 @@ export const Optimiser = memo(() => {
               </Stack>
             </Grid>
             <Grid size={{ xs: 12, lg: 6 }}>
-              <Stack gap={2}>
+              <Stack gap={2} maxHeight={'90vh'}>
                 <LootSourceSummaryCard />
                 <ItemTable />
               </Stack>

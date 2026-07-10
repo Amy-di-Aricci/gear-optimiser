@@ -54,7 +54,11 @@ export const SeasonSelector = () => {
     <>
       <ButtonBase
         onClick={handlePopoverOpen}
-        sx={{ width: '100%', borderRadius: '4px', overflow: 'clip' }}
+        sx={{
+          width: '100%',
+          borderRadius: '4px',
+          overflow: 'clip',
+        }}
       >
         <Box
           sx={{
@@ -89,6 +93,7 @@ export const SeasonSelector = () => {
               zIndex: 1,
               height: '100%',
               justifyContent: 'space-between',
+              textShadow: `var(--text-shadow-3px)`,
               alignItems: 'center',
             }}
           >
@@ -141,32 +146,39 @@ export const SeasonSelector = () => {
           horizontal: 'left',
         }}
       >
-        {Object.values(EExpansion).map((expansion: EExpansion) => (
-          <Accordion
-            key={expansion}
-            expanded={accordionExpanded === expansion}
-            onChange={handleAccordionChange(expansion)}
-            sx={{
-              padding: 0,
-            }}
-          >
-            <AccordionSummary
+        {Object.values(EExpansion).map((expansion: EExpansion) => {
+          const expansionInfo = getExpansionDisplayData(expansion);
+
+          return (
+            <Accordion
+              key={expansion}
+              expanded={accordionExpanded === expansion}
+              onChange={handleAccordionChange(expansion)}
               sx={{
-                padding: '12px 24px',
+                padding: 0,
               }}
-              expandIcon={<KeyboardArrowDown />}
             >
-              <ExpansionTile expansion={getExpansionDisplayData(expansion)} />
-            </AccordionSummary>
-            <AccordionDetails sx={{ padding: 0 }}>
-              <Stack>
-                {getSeasonsByExpansion(expansion).map((season: ESeason) => (
-                  <SeasonTile item={getSeasonDisplayData(season)} onClick={handleSeasonSelect} />
-                ))}
-              </Stack>
-            </AccordionDetails>
-          </Accordion>
-        ))}
+              <AccordionSummary
+                sx={{
+                  backgroundImage: `var(--tile-gradient-66-opaque), url(${expansionInfo.expansionSlimImage})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  padding: '12px 24px',
+                }}
+                expandIcon={<KeyboardArrowDown />}
+              >
+                <ExpansionTile expansion={expansionInfo} />
+              </AccordionSummary>
+              <AccordionDetails sx={{ padding: 0 }}>
+                <Stack>
+                  {getSeasonsByExpansion(expansion).map((season: ESeason) => (
+                    <SeasonTile item={getSeasonDisplayData(season)} onClick={handleSeasonSelect} />
+                  ))}
+                </Stack>
+              </AccordionDetails>
+            </Accordion>
+          );
+        })}
       </Popover>
     </>
   );

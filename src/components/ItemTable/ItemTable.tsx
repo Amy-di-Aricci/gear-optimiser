@@ -9,6 +9,7 @@ export const ItemTable = memo(() => {
   return (
     <Stack
       maxHeight="70vh"
+      height={'100%'}
       sx={{
         overflowY: 'scroll',
         overflowX: 'hidden',

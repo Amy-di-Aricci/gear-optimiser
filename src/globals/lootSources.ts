@@ -233,13 +233,13 @@ export const DUNGEON_IMAGE_LOOKUP: Record<EDungeon, string> = {
   [EDungeon.SR]: images['skyreach'],
   [EDungeon.WS]: images['windrunner_spire'],
   [EDungeon.AOF]: images['altar_of_fangs'],
-  [EDungeon.DON]: '',
-  [EDungeon.MR]: '',
-  [EDungeon.TBV]: '',
-  [EDungeon.VA]: '',
-  [EDungeon.KR]: '',
-  [EDungeon.RLP]: '',
-  [EDungeon.TOS]: '',
+  [EDungeon.DON]: images['den_of_nalorakk'],
+  [EDungeon.MR]: images['murder_row'],
+  [EDungeon.TBV]: images['blinding_vale'],
+  [EDungeon.VA]: images['voidscar_arena'],
+  [EDungeon.KR]: images['kings_rest'],
+  [EDungeon.RLP]: images['ruby_life_pools'],
+  [EDungeon.TOS]: images['temple_of_sethraliss'],
 };
 
 export const BOSS_NAMES_LOOKUP: Record<ERaidBoss, string> = {

@@ -32,8 +32,13 @@ export const EXPANSION_NAME_LOOKUP: Record<EExpansion, String> = {
 };
 
 export const EXPANSION_IMAGE_LOOKUP: Record<EExpansion, String> = {
-  [EExpansion.TWW]: images['logo_war_within'],
-  [EExpansion.MN]: images['logo_midnight'],
+  [EExpansion.TWW]: images['war_within_key_art'],
+  [EExpansion.MN]: images['midnight_key_art'],
+};
+
+export const EXPANSION_SLIM_IMAGE_LOOKUP: Record<EExpansion, String> = {
+  [EExpansion.TWW]: images['war_within_key_art_slim'],
+  [EExpansion.MN]: images['midnight_key_art_slim'],
 };
 
 export const SEASON_DUNGEONS_LOOKUP: Record<ESeason, EDungeon[]> = {
@@ -100,6 +105,7 @@ export const getExpansionDisplayData = (expansion: EExpansion): TExpansionDispla
     expansion: expansion,
     expansionName: EXPANSION_NAME_LOOKUP[expansion],
     expansionImage: EXPANSION_IMAGE_LOOKUP[expansion],
+    expansionSlimImage: EXPANSION_SLIM_IMAGE_LOOKUP[expansion],
   };
 };
 

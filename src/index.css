@@ -10,10 +10,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --tile-gradient-50: linear-gradient(
+  --text-shadow-3px: 3px 3px 2px #111111;
+  --tile-gradient-50: linear-gradient(90deg, rgba(33, 33, 33, 100) 50%, rgba(33, 33, 33, 0.6) 100%);
+  --tile-gradient-66-opaque: linear-gradient(
     90deg,
-    rgba(33, 33, 33, 0.95) 50%,
-    rgba(33, 33, 33, 0.5) 100%
+    rgba(21, 21, 21, 0.9) 66%,
+    rgba(33, 33, 33, 1) 100%
   );
   --tile-gradient-33: linear-gradient(90deg, rgba(33, 33, 33, 0.95) 33%, rgba(12, 12, 12, 0) 100%);
 }

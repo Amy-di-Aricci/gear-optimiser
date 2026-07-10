@@ -30,4 +30,5 @@ export type TExpansionDisplayData = {
   expansion: EExpansion;
   expansionName: String;
   expansionImage: String;
+  expansionSlimImage: String;
 };
