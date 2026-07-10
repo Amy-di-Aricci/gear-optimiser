@@ -10,12 +10,16 @@ type TSeasonTileProps = {
 export const SeasonTile = memo(({ item, onClick }: TSeasonTileProps) => {
   return (
     <>
-      <ButtonBase sx={{ width: '100%' }} onClick={() => onClick(item.season)}>
+      <ButtonBase
+        sx={{ width: '100%', alignContent: 'flex-start' }}
+        onClick={() => onClick(item.season)}
+      >
         <Box
           alignContent={'center'}
           sx={{
             position: 'relative',
             width: '100%',
+            minWidth: 0,
             height: '100%',
             p: '12px 24px',
           }}
@@ -36,7 +40,16 @@ export const SeasonTile = memo(({ item, onClick }: TSeasonTileProps) => {
               background: 'var(--tile-gradient-50)',
             }}
           />
-          <Typography sx={{ position: 'relative', zIndex: 1 }} variant="subtitle2">
+          <Typography
+            sx={{
+              position: 'relative',
+              zIndex: 1,
+              whiteSpace: 'nowrap',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
+            }}
+            variant="subtitle2"
+          >
             {item.seasonTierName}
           </Typography>
         </Box>

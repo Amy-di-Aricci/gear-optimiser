@@ -1,12 +1,12 @@
 export enum EExpansion {
-  TWW = 'TWW',
   MN = 'MN',
+  TWW = 'TWW',
 }
 
 export enum ESeason {
-  TWWS3 = 'TWWS3',
-  MNS1 = 'MNS1',
   MNS2 = 'MNS2',
+  MNS1 = 'MNS1',
+  TWWS3 = 'TWWS3',
 }
 
 export type TSeason = {

@@ -1,4 +1,5 @@
 import { createTheme } from '@mui/material/styles';
+import componentOverrides from './theme-overrides';
 
 export const theme = createTheme({
   palette: {
@@ -20,6 +21,9 @@ export const theme = createTheme({
   },
   typography: {
     fontFamily: 'Roboto, sans-serif',
+    allVariants: {
+      lineHeight: 1.5,
+    },
 
     subtitle1: {
       fontWeight: '700',
@@ -46,4 +50,5 @@ export const theme = createTheme({
       fontSize: 12,
     },
   },
+  components: componentOverrides,
 });

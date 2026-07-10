@@ -102,3 +102,9 @@ export const getExpansionDisplayData = (expansion: EExpansion): TExpansionDispla
     expansionImage: EXPANSION_IMAGE_LOOKUP[expansion],
   };
 };
+
+export const getSeasonsByExpansion = (expansion: EExpansion): ESeason[] => {
+  return Object.values(ESeason).filter(
+    (season) => SEASON_INFO_LOOKUP[season].expansion === expansion,
+  );
+};

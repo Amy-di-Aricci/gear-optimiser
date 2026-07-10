@@ -23,7 +23,7 @@ export const Optimiser = memo(() => {
         }}
       >
         <Container maxWidth={'lg'}>
-          <Grid container height={{ lg: '90vh' }} spacing={{ xs: 4, lg: 6 }}>
+          <Grid container spacing={{ xs: 4, lg: 6 }}>
             <Grid size={{ xs: 12, lg: 6 }}>
               <Stack
                 gap={{

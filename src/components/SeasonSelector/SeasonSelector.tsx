@@ -1,28 +1,59 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { useOptimiserFilters } from '../../contexts/OptimiserFiltersContext';
-import { Box, ButtonBase, Popover, Stack, Typography } from '@mui/material';
-import { getSeasonDisplayData } from '../../globals/seasons';
+import {
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
+  Box,
+  ButtonBase,
+  Popover,
+  Stack,
+  Typography,
+} from '@mui/material';
+import {
+  getExpansionDisplayData,
+  getSeasonDisplayData,
+  getSeasonsByExpansion,
+} from '../../globals/seasons';
 import { KeyboardArrowDown } from '@mui/icons-material';
 import { SeasonTile } from './SeasonTile';
+import { EExpansion, ESeason } from '../../types/seasons';
+import { ExpansionTile } from './ExpansionTile';
 
 export const SeasonSelector = () => {
   const { selectedSeason, setSelectedSeason } = useOptimiserFilters();
-  const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);
-  const open = Boolean(anchorEl);
+  const [popAnchorEl, setPopAnchorEl] = useState<HTMLElement | null>(null);
+  const selectedSeasonInfo = useMemo(() => getSeasonDisplayData(selectedSeason), [selectedSeason]);
 
-  const selectedSeasonInfo = getSeasonDisplayData(selectedSeason);
+  const [accordionExpanded, setAccordionExpanded] = useState<EExpansion | false>(
+    selectedSeasonInfo.expansion,
+  );
 
-  const handleOpen = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorEl(event.currentTarget);
+  const popoverOpen = Boolean(popAnchorEl);
+
+  const handlePopoverOpen = (event: React.MouseEvent<HTMLElement>) => {
+    setPopAnchorEl(event.currentTarget);
   };
 
-  const handleClose = () => {
-    setAnchorEl(null);
+  const handlePopoverClose = () => {
+    setPopAnchorEl(null);
   };
+
+  const handleAccordionChange =
+    (expansion: EExpansion) => (_event: React.SyntheticEvent, isExpanded: boolean) => {
+      setAccordionExpanded(isExpanded ? expansion : false);
+    };
+
+  const handleSeasonSelect = (item: ESeason) => {
+    setSelectedSeason(item);
+    setAccordionExpanded(getSeasonDisplayData(item).expansion);
+    setPopAnchorEl(null);
+  };
+
   return (
     <>
       <ButtonBase
-        onClick={handleOpen}
+        onClick={handlePopoverOpen}
         sx={{ width: '100%', borderRadius: '4px', overflow: 'clip' }}
       >
         <Box
@@ -81,21 +112,23 @@ export const SeasonSelector = () => {
             <KeyboardArrowDown
               sx={{
                 fontSize: 32,
+                transform: popoverOpen ? 'scaleY(-1)' : '',
+                transition: 'transform 0.15s ease-in-out',
               }}
             />
           </Stack>
         </Box>
       </ButtonBase>
       <Popover
-        open={open}
-        anchorEl={anchorEl}
-        onClose={handleClose}
+        open={popoverOpen}
+        anchorEl={popAnchorEl}
+        onClose={handlePopoverClose}
         slotProps={{
           paper: {
             elevation: 0,
             square: true,
             sx: {
-              width: anchorEl?.clientWidth,
+              width: popAnchorEl?.clientWidth,
             },
           },
         }}
@@ -108,7 +141,32 @@ export const SeasonSelector = () => {
           horizontal: 'left',
         }}
       >
-        <SeasonTile item={selectedSeasonInfo} />
+        {Object.values(EExpansion).map((expansion: EExpansion) => (
+          <Accordion
+            key={expansion}
+            expanded={accordionExpanded === expansion}
+            onChange={handleAccordionChange(expansion)}
+            sx={{
+              padding: 0,
+            }}
+          >
+            <AccordionSummary
+              sx={{
+                padding: '12px 24px',
+              }}
+              expandIcon={<KeyboardArrowDown />}
+            >
+              <ExpansionTile expansion={getExpansionDisplayData(expansion)} />
+            </AccordionSummary>
+            <AccordionDetails sx={{ padding: 0 }}>
+              <Stack>
+                {getSeasonsByExpansion(expansion).map((season: ESeason) => (
+                  <SeasonTile item={getSeasonDisplayData(season)} onClick={handleSeasonSelect} />
+                ))}
+              </Stack>
+            </AccordionDetails>
+          </Accordion>
+        ))}
       </Popover>
     </>
   );

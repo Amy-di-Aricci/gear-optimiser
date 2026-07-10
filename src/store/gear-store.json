@@ -5733,7 +5733,7 @@
     "secondaryStats": ["CRIT"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "",
+    "imgId": "inv12_jewelrytrinkets_dungeon_permafrostreservoir",
     "roles": ["TANK"],
     "mainStats": []
   },
@@ -5744,7 +5744,7 @@
     "secondaryStats": ["CRIT"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "",
+    "imgId": "inv12_jewelrytrinkets_dungeon_idolofthewargod",
     "roles": ["DPS_MELEE"],
     "mainStats": ["STR"]
   },
@@ -6002,7 +6002,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "",
+    "imgId": "tooltip_crystallizedfel",
     "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -6241,7 +6241,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "",
+    "imgId": "inv12_jewelrytrinkets_rutaani_ring_yellow",
     "miscType": "FINGER"
   },
   {
@@ -6251,7 +6251,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "",
+    "imgId": "inv12_jewelrytrinkets_dungeon_seedofradianthope",
     "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
@@ -6262,7 +6262,7 @@
     "secondaryStats": ["MASTERY"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "",
+    "imgId": "inv12_jewelrytrinkets_dungeon_seedofthedevouringwild",
     "roles": ["DPS_MELEE"],
     "mainStats": ["STR"]
   },
@@ -6513,7 +6513,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "",
+    "imgId": "ability_pet_baneling",
     "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -7688,7 +7688,7 @@
       "raid": "TVA",
       "bossName": "NEKZALI"
     },
-    "imgId": "",
+    "imgId": "8095063",
     "armorType": "LEATHER"
   },
   {
