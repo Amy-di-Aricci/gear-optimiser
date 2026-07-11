@@ -5275,7 +5275,7 @@
   {
     "name": "Toxin-Coated Warstaff",
     "itemId": 273783,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AOF",
@@ -5286,7 +5286,7 @@
   {
     "name": "Vile Writhefang Glaive",
     "itemId": 273782,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "AOF",
@@ -5341,7 +5341,7 @@
   {
     "name": "Ancestral Amani Recurve",
     "itemId": 273784,
-    "slot": "TWOHAND",
+    "slot": "RANGED",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AOF",
@@ -5526,7 +5526,7 @@
   {
     "name": "Victor's Flashfrozen Blade",
     "itemId": 251149,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "DON",
@@ -5537,7 +5537,7 @@
   {
     "name": "Fallen Speaker's Staff",
     "itemId": 251156,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "DON",
@@ -5762,7 +5762,7 @@
   {
     "name": "Nibbles' Training Rod",
     "itemId": 251123,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "MR",
@@ -5773,12 +5773,12 @@
   {
     "name": "Xathuux's Cleave",
     "itemId": 251134,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "MR",
     "imgId": "inv_axe_2h_dungeonharronir_c_01",
-    "weaponType": "AXE1H",
+    "weaponType": "AXE2H",
     "mainStats": ["STR"]
   },
   {
@@ -5795,7 +5795,7 @@
   {
     "name": "Sinseared Repeater",
     "itemId": 271680,
-    "slot": "TWOHAND",
+    "slot": "RANGED",
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "MR",
@@ -6020,7 +6020,7 @@
   {
     "name": "Pruning Lance",
     "itemId": 251181,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "TBV",
@@ -6031,7 +6031,7 @@
   {
     "name": "Branch of Pride",
     "itemId": 251192,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "TBV",
@@ -6075,7 +6075,7 @@
   {
     "name": "Amirdrassil's Reach",
     "itemId": 251187,
-    "slot": "TWOHAND",
+    "slot": "RANGED",
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "TBV",
@@ -6086,7 +6086,7 @@
   {
     "name": "Doompetal",
     "itemId": 251188,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TBV",
@@ -6291,7 +6291,7 @@
   {
     "name": "Charonic Crescent",
     "itemId": 251230,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "VA",
@@ -6476,7 +6476,7 @@
   {
     "name": "Recovered Sanctum Pole",
     "itemId": 251258,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "VA",
@@ -6520,7 +6520,7 @@
   {
     "name": "Royal Purifier's Spade",
     "itemId": 159642,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
@@ -6531,7 +6531,7 @@
   {
     "name": "Geti'ikku, Cut of Death",
     "itemId": 159644,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "KR",
@@ -6586,7 +6586,7 @@
   {
     "name": "Crossbow of Forgotten Majesty",
     "itemId": 159643,
-    "slot": "TWOHAND",
+    "slot": "RANGED",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
@@ -6870,7 +6870,7 @@
   {
     "name": "Chillworn's Infusion Staff",
     "itemId": 193761,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "RLP",
@@ -6881,7 +6881,7 @@
   {
     "name": "Backdraft Cleaver",
     "itemId": 193755,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "RLP",
@@ -7077,7 +7077,7 @@
   {
     "name": "Staff of the Lightning Serpent",
     "itemId": 159636,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TOS",
@@ -7088,7 +7088,7 @@
   {
     "name": "Twin-Strike Polearm",
     "itemId": 158370,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "TOS",
@@ -7132,7 +7132,7 @@
   {
     "name": "Snakebite Recurve",
     "itemId": 159637,
-    "slot": "TWOHAND",
+    "slot": "RANGED",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "TOS",
@@ -7416,7 +7416,7 @@
   {
     "name": "Tidepiercer's Bubble Popper",
     "itemId": 268199,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": {
@@ -7812,7 +7812,7 @@
   {
     "name": "Caustic Keeper-Crusher",
     "itemId": 268198,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": {
@@ -7984,7 +7984,7 @@
   {
     "name": "Malignant Toothed Edge",
     "itemId": 268214,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": {
@@ -7998,7 +7998,7 @@
   {
     "name": "Venomancer's Winged Channeler",
     "itemId": 268205,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": {
@@ -8158,7 +8158,7 @@
   {
     "name": "Gebbo's Backup Blaster",
     "itemId": 268200,
-    "slot": "TWOHAND",
+    "slot": "RANGED",
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": {
@@ -8717,7 +8717,7 @@
   {
     "name": "Maze-roa, Warlord's Fury",
     "itemId": 268213,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": {
@@ -8745,7 +8745,7 @@
   {
     "name": "Abyssal Broodfiend's Bardiche",
     "itemId": 268215,
-    "slot": "TWOHAND",
+    "slot": "MAINHAND",
     "secondaryStats": ["MASTERY"],
     "specialEffect": null,
     "lootSource": {
@@ -8773,7 +8773,7 @@
   {
     "name": "Caustic Repose Greatbow",
     "itemId": 268207,
-    "slot": "TWOHAND",
+    "slot": "RANGED",
     "secondaryStats": ["CRIT"],
     "specialEffect": null,
     "lootSource": {
