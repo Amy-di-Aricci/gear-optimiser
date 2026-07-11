@@ -138,7 +138,7 @@ export const SeasonSelector = () => {
           vertical: 'top',
           horizontal: 'center',
         }}
-        transitionDuration={150}
+        transitionDuration={50}
         slots={{
           transition: Grow,
         }}

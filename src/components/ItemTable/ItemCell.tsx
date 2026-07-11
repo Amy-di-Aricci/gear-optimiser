@@ -24,6 +24,8 @@ export const ItemCell = memo(({ wowItem }: TItemCellProps) => {
       <Stack direction="row" sx={() => ({ gap: ITEM_CELL_GAP, width: '100%' })}>
         <Box
           component="a"
+          target="_blank"
+          rel="noreferrer"
           href={`https://www.wowhead.com/item=${wowItem.itemId}`}
           data-wh-rename-link="false"
           data-wh-iconize-link="false"
@@ -44,6 +46,8 @@ export const ItemCell = memo(({ wowItem }: TItemCellProps) => {
           <Stack gap={2} direction="row" width="100%" justifyContent="space-between">
             <Box
               component="a"
+              target="_blank"
+              rel="noreferrer"
               href={`https://www.wowhead.com/item=${wowItem.itemId}`}
               data-wh-rename-link="false"
               data-wh-iconize-link="false"
