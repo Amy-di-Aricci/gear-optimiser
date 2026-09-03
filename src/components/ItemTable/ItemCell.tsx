@@ -39,7 +39,7 @@ export const ItemCell = memo(({ wowItem }: TItemCellProps) => {
               borderRadius: 2,
               border: `1px solid ${theme.palette.primary.main}`,
             })}
-            src={`https://wow.zamimg.com/images/wow/icons/large/${wowItem.imgId}.jpg`}
+            src={`https://ik.imagekit.io/gearoptimizer/images/icons/${wowItem.itemId}.jpg`}
           />
         </Box>
         <Stack width={`calc(100% - ${AVATAR_SIZE + 8 * ITEM_CELL_GAP}px)`}>

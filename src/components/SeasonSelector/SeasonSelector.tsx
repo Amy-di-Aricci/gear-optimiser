@@ -13,7 +13,9 @@ import {
 } from '@mui/material';
 import {
   getExpansionDisplayData,
+  getExpansionSlimImage,
   getSeasonDisplayData,
+  getSeasonImage,
   getSeasonsByExpansion,
 } from '../../globals/seasons';
 import { KeyboardArrowDown } from '@mui/icons-material';
@@ -72,7 +74,7 @@ export const SeasonSelector = () => {
             sx={{
               position: 'absolute',
               inset: 0,
-              backgroundImage: `url(${selectedSeasonInfo.seasonImage})`,
+              backgroundImage: `url(${getSeasonImage(selectedSeason)})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -173,7 +175,7 @@ export const SeasonSelector = () => {
             >
               <AccordionSummary
                 sx={{
-                  backgroundImage: `var(--tile-gradient-66-opaque), url(${expansionInfo.expansionSlimImage})`,
+                  backgroundImage: `var(--tile-gradient-66-opaque), url(${getExpansionSlimImage(expansionInfo.expansion)})`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   padding: '12px 24px',
