@@ -1,5 +1,4 @@
 import { EDungeon, ERaid, ERaidBoss, TRaidBoss } from '../types/lootSources';
-import images from './images';
 
 export const ALL_RAID_BOSSES: Record<ERaidBoss, TRaidBoss> = {
   [ERaidBoss.VEXIE]: {
