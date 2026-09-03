@@ -6,7 +6,6 @@ import {
   TSeason,
   TSeasonDisplayData,
 } from '../types/seasons';
-import images from './images';
 
 export const SEASON_INFO_LOOKUP: Record<ESeason, TSeason> = {
   [ESeason.TWWS3]: {
@@ -32,13 +31,13 @@ export const EXPANSION_NAME_LOOKUP: Record<EExpansion, String> = {
 };
 
 export const EXPANSION_IMAGE_LOOKUP: Record<EExpansion, String> = {
-  [EExpansion.TWW]: images['war_within_key_art'],
-  [EExpansion.MN]: images['midnight_key_art'],
+  [EExpansion.TWW]: 'war_within_key_art',
+  [EExpansion.MN]: 'midnight_key_art',
 };
 
 export const EXPANSION_SLIM_IMAGE_LOOKUP: Record<EExpansion, String> = {
-  [EExpansion.TWW]: images['war_within_key_art_slim'],
-  [EExpansion.MN]: images['midnight_key_art_slim'],
+  [EExpansion.TWW]: 'war_within_key_art_slim',
+  [EExpansion.MN]: 'midnight_key_art_slim',
 };
 
 export const SEASON_DUNGEONS_LOOKUP: Record<ESeason, EDungeon[]> = {
@@ -80,9 +79,9 @@ export const SEASON_RAIDS_LOOKUP: Record<ESeason, ERaid[]> = {
 };
 
 export const SEASON_IMAGES_LOOKUP: Record<ESeason, String> = {
-  [ESeason.TWWS3]: images['manaforge_omega'],
-  [ESeason.MNS1]: images['march_queldanas'],
-  [ESeason.MNS2]: images['venomous_abyss'],
+  [ESeason.TWWS3]: 'manaforge_omega',
+  [ESeason.MNS1]: 'march_queldanas',
+  [ESeason.MNS2]: 'venomous_abyss',
 };
 
 export const getSeasonDisplayData = (season: ESeason): TSeasonDisplayData => {
@@ -114,3 +113,13 @@ export const getSeasonsByExpansion = (expansion: EExpansion): ESeason[] => {
     (season) => SEASON_INFO_LOOKUP[season].expansion === expansion,
   );
 };
+
+export const getSeasonImage = (season: ESeason): string => {
+  return `https://ik.imagekit.io/gearoptimizer/images/instance-img/${SEASON_IMAGES_LOOKUP[season]}.webp`;
+}
+export const getExpansionImage = (expansion: EExpansion): string => {
+  return `https://ik.imagekit.io/gearoptimizer/images/expansion-img/${EXPANSION_IMAGE_LOOKUP[expansion]}.webp`;
+}
+export const getExpansionSlimImage = (expansion: EExpansion): string => {
+  return `https://ik.imagekit.io/gearoptimizer/images/expansion-img/${EXPANSION_SLIM_IMAGE_LOOKUP[expansion]}.webp`;
+}

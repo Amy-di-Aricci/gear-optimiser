@@ -2,6 +2,7 @@ import { memo } from 'react';
 import { ESeason, TSeasonDisplayData } from '../../types/seasons';
 import { Box, ButtonBase, Typography } from '@mui/material';
 import { theme } from '../../theme';
+import { getSeasonImage } from '../../globals/seasons';
 
 type TSeasonTileProps = {
   item: TSeasonDisplayData;
@@ -34,7 +35,7 @@ export const SeasonTile = memo(({ item, onClick }: TSeasonTileProps) => {
             sx={{
               position: 'absolute',
               inset: 0,
-              backgroundImage: `url(${item.seasonImage})`,
+              backgroundImage: `url(${getSeasonImage(item.season)})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
