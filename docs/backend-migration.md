@@ -1,6 +1,6 @@
 # Backend migration: frontend
 
-Status: draft · Last updated: 2026-10-08
+Status: draft · Last updated: 2026-10-09
 
 Frontend part of the backend migration plan. The overview (goals, architecture, phases, decisions log) lives in the API repo (`gear-optimizer-api`) at `docs/overview.md`; cross-repo decisions are recorded only there.
 
@@ -8,6 +8,8 @@ Frontend part of the backend migration plan. The overview (goals, architecture, 
 
 - Add **TanStack Query** for data fetching and caching. Wrap the generated client in hooks (`useSeasons`, `useSeasonItems(code)`).
 - Replace `GEAR_STORE`, `globals/seasons.ts`, `globals/lootSources.ts` and `globals/specs.ts` with API data. `OptimiserFilterContextProvider` keeps its filtering logic but gets items from the query.
+- **Item shape stays the same.** The API returns items in the shape of today's `gear-store.json` (`itemId`, `imgId`, `lootSource` as a dungeon code or `{ raid, bossName }`, …; API repo `docs/api.md`, item response shape), so `TWowItem` and the filters change little.
+- **Weapon slots** (already done in the data): `EItemSlot.RANGED` became `TWOHAND`. `MAINHAND` holds one-handed weapons and wands, `TWOHAND` holds two-handed weapons including bows, crossbows and guns. The slot picker shows "Main-Hand Weapon" and "Two-Hand Weapon" icons.
 - **Cold-start UX:** first-time visitors see a "waking up the server…" state, with retry and backoff.
   - Watch out: Netlify's proxy has a request timeout of roughly 26–30 s, and Render cold starts can run longer. The client should retry once on a 502/504.
 
@@ -42,8 +44,10 @@ If you'd rather not add TanStack Query, the same scheme works with a small hand-
   /*      /index.html                                  200
   ```
 - **Admin panel:** a lazy-loaded `/admin` route in the same app (MUI is already there, and the free MUI X DataGrid is enough), visible only for `EDITOR`/`ADMIN`. The server enforces permissions; hiding the UI is cosmetic.
-  - **Import upload screen:** pick an import file → the API validates it (errors shown by JSON path) → diff view (new / changed field-by-field / removed sources) → publish or discard. Format and flow: API repo `docs/data-import.md`.
+  - **Import upload screen:** pick an import file → the API validates it (errors shown by JSON path) → diff view (new / changed field-by-field / removed items; an item that's on users' wishlists is marked "on N wishlists" and its removal must be discarded before publishing) → publish or discard.
+  - **Conflict view:** if another change set was published since the draft was created, publishing returns per-entry conflicts. For each, show the draft's `before`, the current data and the draft's `after`; the editor keeps their change, drops it, or edits it, like resolving a git merge conflict. Rules: API repo `docs/data-model.md` (publishing). Format and flow: API repo `docs/data-import.md`.
   - Later, optionally: a "Blizzard import" screen (enter journal instance IDs, then watch the job's progress) that ends in the same diff view.
+- **Characters and wishlists** (phases 3–4): "Sync characters" goes through Battle.net login, then the character list shows only characters at the current expansion's max level. Syncing never creates wishlists: each character has a "New wishlist" action that pre-fills the current season, its active spec and a name, and a character can have several wishlists (raid, M+, PvP…). Users without Battle.net create wishlists without a character. Existing wishlists keep showing their character even after a level-cap increase.
 - Delete the GitHub Pages workflow and the `gh-pages` branch (old built bundles), and fix the README link.
 - **Staging:** Netlify deploy previews and a `staging` branch deploy talk to a staging API: a second free Render service plus its own Neon branch. `_redirects` can't read environment variables, so generate it at build time from an `API_ORIGIN` variable set per Netlify deploy context.
 
