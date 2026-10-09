@@ -141,7 +141,6 @@ const SMART_SELECTOR_LEFT_LOWER_SLOTS: TSmartSelectorItem<EItemSlot>[] = [EItemS
 const SMART_SELECTOR_BOTTOM_SLOTS: TSmartSelectorItem<EItemSlot>[] = [
   EItemSlot.MAINHAND,
   EItemSlot.OFFHAND,
-  EItemSlot.TWOHAND,
 ].map((slot) => {
   return {
     id: slot,
