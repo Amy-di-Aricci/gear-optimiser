@@ -9,7 +9,7 @@ Frontend part of the backend migration plan. The overview (goals, architecture, 
 - Add **TanStack Query** for data fetching and caching. Wrap the generated client in hooks (`useSeasons`, `useSeasonItems(code)`).
 - Replace `GEAR_STORE`, `globals/seasons.ts`, `globals/lootSources.ts` and `globals/specs.ts` with API data. `OptimiserFilterContextProvider` keeps its filtering logic but gets items from the query.
 - **Item shape stays the same.** The API returns items in the shape of today's `gear-store.json` (`itemId`, `imgId`, `lootSource` as a dungeon code or `{ raid, bossName }`, …; API repo `docs/api.md`, item response shape), so `TWowItem` and the filters change little.
-- **Weapon slots** (already done in the data): `EItemSlot.RANGED` became `TWOHAND`. `MAINHAND` holds one-handed weapons and wands, `TWOHAND` holds two-handed weapons including bows, crossbows and guns. The slot picker shows "Main-Hand Weapon" and "Two-Hand Weapon" icons.
+- **Weapon slots** (done on branch `fix/weapon-slots`): `EItemSlot.RANGED` became `TWOHAND`. `MAINHAND` holds one-handed weapons and wands, `TWOHAND` holds two-handed weapons including bows, crossbows and guns. The slot picker has a single weapon icon that shows both `MAINHAND` and `TWOHAND` items.
 - **Cold-start UX:** first-time visitors see a "waking up the server…" state, with retry and backoff.
   - Watch out: Netlify's proxy has a request timeout of roughly 26–30 s, and Render cold starts can run longer. The client should retry once on a 502/504.
 
