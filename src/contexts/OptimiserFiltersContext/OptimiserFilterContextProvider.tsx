@@ -49,7 +49,9 @@ export const OptimiserFilterContextProvider = memo(({ children }: PropsWithChild
       ) {
         return false;
       }
-      if (slots.size && !slots.has(item.slot)) {
+      // The weapon filter (MAINHAND) covers both one- and two-handed weapons
+      const filterSlot = item.slot === EItemSlot.TWOHAND ? EItemSlot.MAINHAND : item.slot;
+      if (slots.size && !slots.has(filterSlot)) {
         return false;
       }
       if (isWowItemArmor(item) && item.armorType !== armorType) {

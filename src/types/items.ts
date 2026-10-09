@@ -46,7 +46,7 @@ export enum EItemSlot {
   TRINKET = 'TRINKET',
   MAINHAND = 'MAINHAND',
   OFFHAND = 'OFFHAND',
-  RANGED = 'RANGED',
+  TWOHAND = 'TWOHAND',
 }
 
 export enum EMainStat {
@@ -73,7 +73,7 @@ export type TWowItemBase = {
 };
 
 export type TWowItemWeapon = TWowItemBase & {
-  slot: EItemSlot.RANGED | EItemSlot.MAINHAND | EItemSlot.OFFHAND;
+  slot: EItemSlot.MAINHAND | EItemSlot.TWOHAND;
   weaponType: EWeaponType;
   mainStats: Array<EMainStat>;
 };
@@ -94,6 +94,7 @@ export type TWowItemArmor = TWowItemBase & {
 export type TWowItemOffhand = TWowItemBase & {
   slot: EItemSlot.OFFHAND;
   offhandType: EOffhandType;
+  mainStats?: Array<EMainStat>;
 };
 
 export type TWowItemMisc = TWowItemBase & {
@@ -114,7 +115,7 @@ export type TWowItem =
   | TWowItemTrinket;
 
 export const isWowItemWeapon = (wowItem: TWowItem): wowItem is TWowItemWeapon =>
-  wowItem.slot === EItemSlot.RANGED || wowItem.slot === EItemSlot.MAINHAND;
+  wowItem.slot === EItemSlot.MAINHAND || wowItem.slot === EItemSlot.TWOHAND;
 
 export const isWowItemArmor = (wowItem: TWowItem): wowItem is TWowItemArmor =>
   wowItem.slot === EItemSlot.CHEST ||

@@ -11,7 +11,7 @@ import { ERole } from '../types/roles';
 
 export const MANUAL_ITEMS: Array<TWowItem> = [
   {
-    name: "Geezle's Coercive Volt-ohmmeter",
+    name: "Geezle's Coercive Volt-Ohmmeter",
     itemId: 234493,
     slot: EItemSlot.MAINHAND,
     secondaryStats: [ESecondaryStat.HASTE, ESecondaryStat.VERS],
@@ -35,7 +35,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: "Keeza's 'B.' B.B.B.F.G",
     itemId: 234492,
-    slot: EItemSlot.RANGED,
+    slot: EItemSlot.TWOHAND,
     secondaryStats: [ESecondaryStat.CRIT, ESecondaryStat.HASTE],
     specialEffect: null,
     lootSource: EDungeon.FLOOD,
@@ -123,7 +123,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: 'Yasahm the Riftbreaker',
     itemId: 185783,
-    slot: EItemSlot.RANGED,
+    slot: EItemSlot.TWOHAND,
     secondaryStats: [ESecondaryStat.HASTE, ESecondaryStat.VERS],
     specialEffect:
       'Equip: Your damaging critical strikes grant you a stack of Preternatural Charge. When you reach 5 stacks of Preternatural Charge, your next critical strike will consume all stacks to tear open a rift near your target, inflicting 29 Arcane damage.',
@@ -232,7 +232,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: 'Piercing Strandbow',
     itemId: 237732,
-    slot: EItemSlot.RANGED,
+    slot: EItemSlot.TWOHAND,
     secondaryStats: [ESecondaryStat.CRIT, ESecondaryStat.MASTERY],
     specialEffect: null,
     lootSource: {
@@ -303,7 +303,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: 'Lacerated Current Caster',
     itemId: 237733,
-    slot: EItemSlot.RANGED,
+    slot: EItemSlot.TWOHAND,
     secondaryStats: [ESecondaryStat.CRIT, ESecondaryStat.HASTE],
     specialEffect: null,
     lootSource: {
@@ -463,7 +463,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: 'Recurved Hull Impaler',
     itemId: 221143,
-    slot: EItemSlot.RANGED,
+    slot: EItemSlot.TWOHAND,
     secondaryStats: [ESecondaryStat.HASTE, ESecondaryStat.MASTERY],
     specialEffect: null,
     lootSource: EDungeon.DAWN,
@@ -496,7 +496,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: "Taah'bat's Desert Carbine",
     itemId: 242476,
-    slot: EItemSlot.RANGED,
+    slot: EItemSlot.TWOHAND,
     secondaryStats: [ESecondaryStat.CRIT, ESecondaryStat.VERS],
     specialEffect: null,
     lootSource: EDungeon.ECO,
@@ -582,7 +582,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: "Deceiver's Rotbow",
     itemId: 251174,
-    slot: EItemSlot.RANGED,
+    slot: EItemSlot.TWOHAND,
     secondaryStats: [ESecondaryStat.HASTE, ESecondaryStat.MASTERY],
     specialEffect: null,
     lootSource: EDungeon.MC,
@@ -635,7 +635,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: "Hurricane's Heart",
     itemId: 251095,
-    slot: EItemSlot.RANGED,
+    slot: EItemSlot.TWOHAND,
     secondaryStats: [ESecondaryStat.CRIT, ESecondaryStat.HASTE],
     specialEffect: null,
     lootSource: EDungeon.WS,
@@ -754,7 +754,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: 'Rimebane Rifle',
     itemId: 49813,
-    slot: EItemSlot.RANGED,
+    slot: EItemSlot.TWOHAND,
     secondaryStats: [ESecondaryStat.HASTE, ESecondaryStat.MASTERY],
     specialEffect: null,
     lootSource: EDungeon.POS,
@@ -829,12 +829,12 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: "Stormshaper's Crossbow",
     itemId: 258412,
-    slot: EItemSlot.RANGED,
+    slot: EItemSlot.TWOHAND,
     secondaryStats: [ESecondaryStat.VERS, ESecondaryStat.CRIT],
     specialEffect: null,
     lootSource: EDungeon.SR,
     imgId: 'inv_bow_2h_crossbow_draenordungeon_c_01',
-    weaponType: EWeaponType.BOW,
+    weaponType: EWeaponType.CROSSBOW,
     mainStats: [EMainStat.AGI],
   },
   {
@@ -846,17 +846,6 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
     lootSource: EDungeon.SR,
     offhandType: EOffhandType.OFFHAND,
     imgId: 'inv_offhand_1h_raidmidnight_d_01',
-  },
-  {
-    name: 'Grips of the Dark Viceroy',
-    itemId: 258412,
-    slot: EItemSlot.MAINHAND,
-    secondaryStats: [ESecondaryStat.VERS, ESecondaryStat.MASTERY],
-    specialEffect: null,
-    lootSource: EDungeon.SEAT,
-    imgId: 'inv_hand_1h_draenorhonor_c_01',
-    weaponType: EWeaponType.FIST,
-    mainStats: [EMainStat.AGI],
   },
   {
     name: "Wand of Saprish's Gaze",
@@ -974,7 +963,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: "Ranger-Captain's Lethal Recurve",
     itemId: 249288,
-    slot: EItemSlot.RANGED,
+    slot: EItemSlot.TWOHAND,
     secondaryStats: [ESecondaryStat.HASTE, ESecondaryStat.CRIT],
     specialEffect: null,
     lootSource: {
@@ -1144,7 +1133,7 @@ export const MANUAL_ITEMS: Array<TWowItem> = [
   {
     name: 'Sunstrike Rifle',
     itemId: 249279,
-    slot: EItemSlot.RANGED,
+    slot: EItemSlot.TWOHAND,
     secondaryStats: [ESecondaryStat.HASTE, ESecondaryStat.MASTERY],
     specialEffect: null,
     lootSource: {
