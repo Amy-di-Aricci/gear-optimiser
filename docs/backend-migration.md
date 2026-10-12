@@ -9,7 +9,7 @@ Frontend part of the backend migration plan. The overview (goals, architecture, 
 Public game data comes from **static JSON files deployed with the site**, not from live API calls. The API builds them on every publish (API repo `docs/api.md`, public data delivery). Only the admin panel and, later, user features call the API.
 
 - **Snapshot script:** `scripts/fetch-snapshot.ts` runs before `vite build`. It fetches the public endpoints from `API_ORIGIN` (a build-time Netlify variable, not `VITE_*`) and writes `public/data/meta.json`, `public/data/common.<hash>.json` and `public/data/seasons/<code>.<hash>.json`. Responses are typed with the generated API client; if a fetch fails or the data doesn't match the types, the build fails and the previous deploy stays live.
-  - It calls the API directly, not through the `/api/*` proxy, so its requests carry no proxy signature. The public game-data endpoints accept that (API repo `docs/security.md`, unsigned public reads).
+  - It calls the API directly, not through the `/api/*` proxy, so its requests carry no proxy signature. Instead it sends the stage's build token, `SNAPSHOT_TOKEN`: a Netlify **secret** variable scoped to Builds only, set on the public sites only, never `VITE_*`. The token unlocks only the public game-data reads (API repo `docs/security.md`, snapshot build token). The script never prints it.
   - **Retry policy:** each request has a 60 s timeout. On a timeout or a 502/503/504 (Render cold start) it retries that request once, then fails the build (API repo `docs/api.md`, public data delivery).
 - **Local development:** `npm run dev` runs the same script against the local API (`localhost:3000`). The local API doesn't check proxy signatures (`APP_ENV=development`), so the Vite proxy needs no signing. Without a local API, it keeps the last snapshot it wrote, or the app falls back to the MSW mocks (see testing).
 - Add **TanStack Query** for fetching and caching. Hooks: `useMeta()`, `useCommonData()`, `useSeasonItems(code)`.
@@ -80,7 +80,7 @@ The full checklist is in the API repo, `docs/security.md`. Frontend-specific ite
 
 This repo is public. The full rules (what counts as a secret, commit identities, CI on public repos, required files) are in the API repo, `docs/overview.md` → *Public repositories*. Frontend-specific points:
 
-- **`VITE_*` variables are compiled into the bundle and visible to everyone.** They may only hold public values, such as the ImageKit URL endpoint or an analytics site ID. Never put API secrets, the ImageKit private key, the proxy signing secret or the Netlify build hook URL there.
+- **`VITE_*` variables are compiled into the bundle and visible to everyone.** They may only hold public values, such as the ImageKit URL endpoint or an analytics site ID. Never put API secrets, the ImageKit private key, the proxy signing secret, the snapshot build token or the Netlify build hook URL there.
 - `.env` and `.env.local` are gitignored; commit a `.env.example` with placeholder values.
 - The generated API client and `openapi.json` are fine to commit, since the API repo is public too. Don't commit `public/data/`: it's generated on every build.
 - No scraping code, scraped dumps or notes about pre-release data sources. Those live in the private scraper repo.
