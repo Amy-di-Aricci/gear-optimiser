@@ -1,6 +1,6 @@
 # Backend migration: frontend
 
-Status: draft · Last updated: 2026-10-09
+Status: draft · Last updated: 2026-10-12
 
 Frontend part of the backend migration plan. The overview (goals, architecture, phases, decisions log) lives in the API repo (`gear-optimizer-api`) at `docs/overview.md`; cross-repo decisions are recorded only there.
 
@@ -9,7 +9,9 @@ Frontend part of the backend migration plan. The overview (goals, architecture, 
 Public game data comes from **static JSON files deployed with the site**, not from live API calls. The API builds them on every publish (API repo `docs/api.md`, public data delivery). Only the admin panel and, later, user features call the API.
 
 - **Snapshot script:** `scripts/fetch-snapshot.ts` runs before `vite build`. It fetches the public endpoints from `API_ORIGIN` (a build-time Netlify variable, not `VITE_*`) and writes `public/data/meta.json`, `public/data/common.<hash>.json` and `public/data/seasons/<code>.<hash>.json`. Responses are typed with the generated API client; if a fetch fails or the data doesn't match the types, the build fails and the previous deploy stays live.
-- **Local development:** `npm run dev` runs the same script against the local API (`localhost:3000`). Without a local API, it keeps the last snapshot it wrote, or the app falls back to the MSW mocks (see testing).
+  - It calls the API directly, not through the `/api/*` proxy, so its requests carry no proxy signature. Instead it sends the stage's build token, `SNAPSHOT_TOKEN`: a Netlify **secret** variable scoped to Builds only, set on the public sites only, never `VITE_*`. The token unlocks only the public game-data reads (API repo `docs/security.md`, snapshot build token). The script never prints it.
+  - **Retry policy:** each request has a 60 s timeout. On a timeout or a 502/503/504 (Render cold start) it retries that request once, then fails the build (API repo `docs/api.md`, public data delivery).
+- **Local development:** `npm run dev` runs the same script against the local API (`localhost:3000`). The local API doesn't check proxy signatures (`APP_ENV=development`), so the Vite proxy needs no signing. Without a local API, it keeps the last snapshot it wrote, or the app falls back to the MSW mocks (see testing).
 - Add **TanStack Query** for fetching and caching. Hooks: `useMeta()`, `useCommonData()`, `useSeasonItems(code)`.
 - Replace `GEAR_STORE`, `globals/seasons.ts`, `globals/lootSources.ts` and `globals/specs.ts` with the snapshot. `OptimiserFilterContextProvider` keeps its filtering logic but gets items from the query.
 - **Item shape stays the same.** Items have the shape of today's `gear-store.json` (`itemId`, `imgId`, `lootSource` as a dungeon code or `{ raid, bossName }`, …; API repo `docs/api.md`, item response shape), so `TWowItem` and the filters change little.
@@ -45,7 +47,7 @@ What visitors experience:
   /api/*  https://<your-api>.onrender.com/api/:splat  200
   /*      /index.html                                  200
   ```
-  The API only accepts requests signed by Netlify's **signed proxy redirects** (API repo `docs/security.md`, trusted proxy). Signed rules must be in `netlify.toml`, which can't read environment variables, and each site needs a different target. So a small local build plugin (`netlify/plugins/api-proxy/`) adds the `/api/*` rule in `onPreBuild` from the site's `API_ORIGIN`, with `signed = "API_SIGNATURE_TOKEN"` (a Runtime-scoped secret in each site's settings). Netlify applies `_redirects` before `netlify.toml` and the first matching rule wins, so `public/_redirects` is removed: the SPA fallback moves to `netlify.toml`, and the plugin inserts the `/api/*` rule **before** it. The phase 1 spike confirms this works.
+  The API only accepts requests signed by Netlify's **signed proxy redirects** (API repo `docs/security.md`, trusted proxy). Signed rules must be in `netlify.toml`, which can't read environment variables, and each site needs a different target. So a small local build plugin (`netlify/plugins/api-proxy/`) adds the `/api/*` rule in `onPreBuild` from the site's `API_ORIGIN`, with `signed = "API_SIGNATURE_TOKEN"` (a Runtime-scoped secret in each site's settings). Netlify applies `_redirects` before `netlify.toml` and the first matching rule wins, so `public/_redirects` is removed: the SPA fallback moves to `netlify.toml`, and the plugin inserts the `/api/*` rule **before** it. The phase 1 spike confirms this works. Phase 0 doesn't wait for it: a plain, unsigned `/api/*` rule is enough to get `/api/health` answering through the site.
 - **Admin panel** (phase 3): a **separate site** with its own address, built from this repo, using MUI (the free MUI X DataGrid is enough).
   - **Code layout:** a second Vite app in `admin/` with its own `index.html` and entry point. It shares the generated API client, types and theme with the public app. `npm run build:admin` builds it. The public bundle contains no admin code, and the admin build doesn't run the snapshot script, since it reads everything from the API.
   - **Hosting:** its own Netlify site per stage (so four sites in total: public and admin, for staging and production). It has its own `/api/*` proxy to the same stage's API, with its own proxy signing secret.
@@ -78,7 +80,7 @@ The full checklist is in the API repo, `docs/security.md`. Frontend-specific ite
 
 This repo is public. The full rules (what counts as a secret, commit identities, CI on public repos, required files) are in the API repo, `docs/overview.md` → *Public repositories*. Frontend-specific points:
 
-- **`VITE_*` variables are compiled into the bundle and visible to everyone.** They may only hold public values, such as the ImageKit URL endpoint or an analytics site ID. Never put API secrets, the ImageKit private key, the proxy signing secret or the Netlify build hook URL there.
+- **`VITE_*` variables are compiled into the bundle and visible to everyone.** They may only hold public values, such as the ImageKit URL endpoint or an analytics site ID. Never put API secrets, the ImageKit private key, the proxy signing secret, the snapshot build token or the Netlify build hook URL there.
 - `.env` and `.env.local` are gitignored; commit a `.env.example` with placeholder values.
 - The generated API client and `openapi.json` are fine to commit, since the API repo is public too. Don't commit `public/data/`: it's generated on every build.
 - No scraping code, scraped dumps or notes about pre-release data sources. Those live in the private scraper repo.
