@@ -92,7 +92,6 @@ updates:
       timezone: Europe/Warsaw
     cooldown:
       default-days: 7
-      semver-major-days: 14
     commit-message:
       prefix: 'chore(ci)'
     groups:
