@@ -54,7 +54,7 @@ What visitors experience:
   - **Separate sessions:** staff log in on the admin site. The session cookie belongs to the admin site's address, so public pages (and any script on them, such as Wowhead's) can't send it. The API also only accepts admin-site sessions on admin routes (API repo `docs/api.md`, sessions).
   - **No third-party scripts:** no Wowhead tooltips, no external fonts. The admin site's CSP allows only itself and ImageKit.
   - Users without the role see a 404 page. The real protection is the API, which answers 404 to every `/api/admin/*` call from them.
-  - **Import upload screen:** pick an import file → the API validates it (errors shown by JSON path) → diff view (new / changed field-by-field / removed items; an item that's on users' wishlists is marked "on N wishlists" and its removal must be discarded before publishing; items whose icon is missing on ImageKit are flagged) → publish or discard.
+  - **Import upload screen:** pick an import file → the API validates it (errors shown by JSON path) → diff view (new / changed field-by-field / removed items; an item that's on users' wishlists is marked "on N wishlists" and its removal must be discarded before publishing; items whose icon is missing on ImageKit are flagged) → publish or discard. The diff and its summary are the **review** step: there's no second approval, and an editor may publish their own change set.
   - **Conflict view:** if another change set was published since the draft was created, publishing returns per-entry conflicts. For each, show the draft's `before`, the current data and the draft's `after`; the editor keeps their change, drops it, or edits it, like resolving a git merge conflict. Rules: API repo `docs/data-model.md` (publishing). Format and flow: API repo `docs/data-import.md`.
   - **Snapshot status:** "live" or "rebuilding / behind", with a Rebuild button.
   - Editors edit all game data here (expansions, seasons, instances, raid bosses, items, classes and specs). Admins also manage user roles.
@@ -62,7 +62,7 @@ What visitors experience:
 - **Characters and wishlists** (phase 4): "Sync characters" goes through Battle.net login, then the character list shows only characters at the current expansion's max level. Syncing never creates wishlists: each character has a "New wishlist" action that pre-fills the current season, its active spec and a name, and a character can have several wishlists (raid, M+, PvP…). Users without Battle.net create wishlists without a character. Existing wishlists keep showing their character even after a level-cap increase.
 - **Fonts:** self-host Roboto (e.g. `@fontsource/roboto`) instead of loading it from Google Fonts, so visitors' IP addresses aren't sent to Google.
 - Delete the GitHub Pages workflow and the `gh-pages` branch (old built bundles), and fix the README link.
-- **Staging:** **separate Netlify sites** (public and admin) that deploy the `staging` branch, with their own environment variables (`API_ORIGIN` pointing to the staging API), build hook and OAuth callback URLs. They share nothing with production except the code. Deploy previews also build against the staging API; login only works on the staging site itself, because OAuth redirect URIs must be registered in advance and preview URLs change.
+- **Staging:** **separate Netlify sites** (public and admin) that deploy the `staging` branch, with their own environment variables (`API_ORIGIN` pointing to the staging API, and on the public site the staging `SNAPSHOT_TOKEN`), build hook and OAuth callback URLs. They share nothing with production except the code. Deploy previews also build against the staging API; login only works on the staging site itself, because OAuth redirect URIs must be registered in advance and preview URLs change.
 
 ## Security (frontend part)
 
@@ -83,7 +83,7 @@ This repo is public. The full rules (what counts as a secret, commit identities,
 - **`VITE_*` variables are compiled into the bundle and visible to everyone.** They may only hold public values, such as the ImageKit URL endpoint or an analytics site ID. Never put API secrets, the ImageKit private key, the proxy signing secret, the snapshot build token or the Netlify build hook URL there.
 - `.env` and `.env.local` are gitignored; commit a `.env.example` with placeholder values.
 - The generated API client and `openapi.json` are fine to commit, since the API repo is public too. Don't commit `public/data/`: it's generated on every build.
-- No scraping code, scraped dumps or notes about pre-release data sources. Those live in the private scraper repo.
+- No scraping code, scraped dumps or notes about pre-release data sources. Those live in the private ops repo (`gear-optimizer-ops`, `scraper/`).
 - Test fixtures and MSW mocks use public game data and fake users only.
 - Cleanup before or right after going public:
   - Run a full-history gitleaks scan. A quick pattern search of the source history found nothing beyond the standard `secrets.GITHUB_TOKEN` reference.
