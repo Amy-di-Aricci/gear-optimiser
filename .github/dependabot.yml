@@ -1,0 +1,101 @@
+version: 2
+updates:
+  # Cooldown: version updates are proposed only once a release is 7 days old
+  # (14 for major versions), so a compromised release is usually caught and
+  # pulled before it reaches a PR. Security updates are not delayed.
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: '06:00'
+      timezone: Europe/Warsaw
+    cooldown:
+      default-days: 7
+      semver-major-days: 14
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: 'chore(deps)'
+      prefix-development: 'chore(deps-dev)'
+    ignore:
+      # typescript-eslint supports TypeScript <6.1 only; revisit when it
+      # supports the next major.
+      - dependency-name: typescript
+        update-types: ['version-update:semver-major']
+    # A dependency joins the first group it matches. Packages that peer on each
+    # other share a group of every update type, so their majors move together.
+    groups:
+      security:
+        applies-to: security-updates
+        patterns: ['*']
+      react:
+        patterns:
+          [
+            'react',
+            'react-dom',
+            '@types/react',
+            '@types/react-dom',
+            'react-router',
+            'react-router-dom',
+          ]
+      mui:
+        patterns: ['@mui/*', '@emotion/*']
+      vite:
+        patterns: ['vite', '@vitejs/*', 'vite-plugin-*', '@svgr/*']
+      eslint:
+        patterns:
+          [
+            'eslint',
+            '@eslint/*',
+            'eslint-plugin-*',
+            'eslint-config-*',
+            'typescript-eslint',
+            '@typescript-eslint/*',
+          ]
+      production-dependencies:
+        dependency-type: production
+        update-types: [minor, patch]
+        exclude-patterns:
+          [
+            'react',
+            'react-dom',
+            'react-router',
+            'react-router-dom',
+            '@mui/*',
+            '@emotion/*',
+            'vite-plugin-*',
+            '@svgr/*',
+          ]
+      dev-dependencies:
+        dependency-type: development
+        update-types: [minor, patch]
+        exclude-patterns:
+          [
+            '@types/react',
+            '@types/react-dom',
+            'vite',
+            '@vitejs/*',
+            'eslint',
+            '@eslint/*',
+            'eslint-plugin-*',
+            'eslint-config-*',
+            'typescript-eslint',
+            '@typescript-eslint/*',
+          ]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: '06:00'
+      timezone: Europe/Warsaw
+    cooldown:
+      default-days: 7
+      semver-major-days: 14
+    commit-message:
+      prefix: 'chore(ci)'
+    groups:
+      actions:
+        patterns: ['*']
+        update-types: [minor, patch]
