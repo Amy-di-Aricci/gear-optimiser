@@ -12,7 +12,7 @@ Game data is moving from bundled files (`src/store/`, `src/globals/`) to a NestJ
 ## Rules that are easy to miss
 
 - Public repo: never commit secrets, hook URLs, `.env` files or real user data. `VITE_*` variables end up in the bundle, so they may only hold public values.
-- Scraping code and notes about pre-release data sources belong in the private scraper repo, not here.
+- Scraping code and notes about pre-release data sources belong in the private ops repo (`gear-optimizer-ops`, `scraper/`), not here.
 - Never persist user data (account, wishlists, characters) to `localStorage`; only public game data may be persisted.
 - No `dangerouslySetInnerHTML`, and no secrets in the bundle: everything shipped to the browser is public.
 - API types come from the generated client (built from the API's committed `openapi.json`); don't hand-write API types.
