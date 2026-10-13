@@ -83,7 +83,7 @@ This repo is public. The full rules (what counts as a secret, commit identities,
 
 - **`VITE_*` variables are compiled into the bundle and visible to everyone.** They may only hold public values, such as the ImageKit URL endpoint or an analytics site ID. Never put API secrets, the ImageKit private key, the proxy signing secret, the snapshot build token or the Netlify build hook URL there.
 - `.env` and `.env.local` are gitignored; commit a `.env.example` with placeholder values.
-- The generated API client and `openapi.json` are fine to commit, since the API repo is public too. Don't commit `public/data/`: it's generated on every build.
+- The generated API client and `openapi.json` are fine to commit, since the API repo is public too. `openapi.json` lives at the repo root, and CI (`.github/workflows/ci.yml`) fails while it differs from the API's on the same branch (`main` or `deploy`). Don't commit `public/data/`: it's generated on every build.
 - No scraping code, scraped dumps or notes about pre-release data sources. Those live in the private ops repo (`gear-optimizer-ops`, `scraper/`).
 - Test fixtures and MSW mocks use public game data and fake users only.
 - Cleanup before or right after going public:
