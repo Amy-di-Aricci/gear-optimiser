@@ -12,6 +12,10 @@ npm install
 npm run dev
 ```
 
+### Branches
+
+Open pull requests against `main`, which deploys to staging. Production deploys from `deploy`, which only receives release pull requests from `main`.
+
 ### Related repositories
 
 - [gear-optimizer-api](https://github.com/Amy-di-Aricci/gear-optimizer-api): backend API (in progress). Its `docs/` folder holds the backend migration plan; the frontend part is in [docs/backend-migration.md](docs/backend-migration.md).
