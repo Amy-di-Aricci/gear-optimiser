@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main, deploy]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  contract:
+    name: openapi.json matches the API
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      # Our copy of openapi.json must equal the API's on the same branch:
+      # main against main (staging), deploy against deploy (production). A
+      # release PR into deploy therefore fails until the API's matching
+      # release is out, so the API always ships first.
+      - name: Compare with the API's openapi.json
+        env:
+          BRANCH: ${{ github.base_ref || github.ref_name }}
+        run: |
+          if [ ! -f openapi.json ]; then
+            echo "::notice::No openapi.json yet, nothing to compare."
+            exit 0
+          fi
+          case "$BRANCH" in
+            main | deploy) ;;
+            *)
+              echo "::notice::No API branch matches '$BRANCH', skipping."
+              exit 0
+              ;;
+          esac
+          curl --fail --silent --show-error --location --output "$RUNNER_TEMP/api-openapi.json" \
+            "https://raw.githubusercontent.com/Amy-di-Aricci/gear-optimizer-api/$BRANCH/openapi.json"
+          diff -u "$RUNNER_TEMP/api-openapi.json" openapi.json || {
+            echo "::error::openapi.json differs from the API's on '$BRANCH'. Copy the API's file, run 'npm run gen:api' and commit both."
+            exit 1
+          }
