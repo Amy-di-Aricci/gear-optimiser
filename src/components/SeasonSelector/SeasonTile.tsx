@@ -22,8 +22,8 @@ export const SeasonTile = memo(({ item, onClick }: TSeasonTileProps) => {
         onClick={() => onClick(item.season)}
       >
         <Box
-          alignContent={'center'}
           sx={{
+            alignContent: 'center',
             position: 'relative',
             width: '100%',
             minWidth: 0,

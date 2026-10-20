@@ -62,7 +62,8 @@ What visitors experience:
 - **Characters and wishlists** (phase 4): "Sync characters" goes through Battle.net login, then the character list shows only characters at the current expansion's max level. Syncing never creates wishlists: each character has a "New wishlist" action that pre-fills the current season, its active spec and a name, and a character can have several wishlists (raid, M+, PvP…). Users without Battle.net create wishlists without a character. Existing wishlists keep showing their character even after a level-cap increase.
 - **Fonts:** self-host Roboto (e.g. `@fontsource/roboto`) instead of loading it from Google Fonts, so visitors' IP addresses aren't sent to Google.
 - Delete the GitHub Pages workflow and the `gh-pages` branch (old built bundles), and fix the README link.
-- **Staging:** **separate Netlify sites** (public and admin) that deploy the `staging` branch, with their own environment variables (`API_ORIGIN` pointing to the staging API, and on the public site the staging `SNAPSHOT_TOKEN`), build hook and OAuth callback URLs. They share nothing with production except the code. Deploy previews also build against the staging API; login only works on the staging site itself, because OAuth redirect URIs must be registered in advance and preview URLs change.
+- **Branches:** task PRs go into `main`; a release is a PR from `main` into `deploy` (merge commit). Production Netlify sites build `deploy`, staging sites build `main`; no other branch deploys (deploy previews for PRs stay). Release flow and hotfixes: API repo `docs/environments.md`, release flow.
+- **Staging:** **separate Netlify sites** (public and admin) that deploy the `main` branch, with their own environment variables (`API_ORIGIN` pointing to the staging API, and on the public site the staging `SNAPSHOT_TOKEN`), build hook and OAuth callback URLs. They share nothing with production except the code. Deploy previews also build against the staging API; login only works on the staging site itself, because OAuth redirect URIs must be registered in advance and preview URLs change.
 
 ## Security (frontend part)
 
@@ -82,7 +83,7 @@ This repo is public. The full rules (what counts as a secret, commit identities,
 
 - **`VITE_*` variables are compiled into the bundle and visible to everyone.** They may only hold public values, such as the ImageKit URL endpoint or an analytics site ID. Never put API secrets, the ImageKit private key, the proxy signing secret, the snapshot build token or the Netlify build hook URL there.
 - `.env` and `.env.local` are gitignored; commit a `.env.example` with placeholder values.
-- The generated API client and `openapi.json` are fine to commit, since the API repo is public too. Don't commit `public/data/`: it's generated on every build.
+- The generated API client and `openapi.json` are fine to commit, since the API repo is public too. `openapi.json` lives at the repo root, and CI (`.github/workflows/ci.yml`) fails while it differs from the API's on the same branch (`main` or `deploy`). Don't commit `public/data/`: it's generated on every build.
 - No scraping code, scraped dumps or notes about pre-release data sources. Those live in the private ops repo (`gear-optimizer-ops`, `scraper/`).
 - Test fixtures and MSW mocks use public game data and fake users only.
 - Cleanup before or right after going public:

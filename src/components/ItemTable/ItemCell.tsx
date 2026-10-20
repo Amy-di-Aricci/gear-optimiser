@@ -11,15 +11,19 @@ type TItemCellProps = {
 export const ItemCell = memo(({ wowItem }: TItemCellProps) => {
   return (
     <Stack
-      gap={1}
-      sx={(theme) => ({
-        textDecoration: 'none',
-        color: theme.palette.text.primary,
-        borderRadius: 1,
-        p: 1,
-        alignItems: 'start',
-        backgroundColor: theme.palette.background.paper,
-      })}
+      sx={[
+        {
+          gap: 1,
+        },
+        (theme) => ({
+          textDecoration: 'none',
+          color: theme.palette.text.primary,
+          borderRadius: 1,
+          p: 1,
+          alignItems: 'start',
+          backgroundColor: theme.palette.background.paper,
+        }),
+      ]}
     >
       <Stack direction="row" sx={() => ({ gap: ITEM_CELL_GAP, width: '100%' })}>
         <Box
@@ -42,8 +46,19 @@ export const ItemCell = memo(({ wowItem }: TItemCellProps) => {
             src={`https://ik.imagekit.io/gearoptimizer/images/icons/${wowItem.itemId}.jpg`}
           />
         </Box>
-        <Stack width={`calc(100% - ${AVATAR_SIZE + 8 * ITEM_CELL_GAP}px)`}>
-          <Stack gap={2} direction="row" width="100%" justifyContent="space-between">
+        <Stack
+          sx={{
+            width: `calc(100% - ${AVATAR_SIZE + 8 * ITEM_CELL_GAP}px)`,
+          }}
+        >
+          <Stack
+            direction="row"
+            sx={{
+              gap: 2,
+              width: '100%',
+              justifyContent: 'space-between',
+            }}
+          >
             <Box
               component="a"
               target="_blank"
@@ -55,10 +70,10 @@ export const ItemCell = memo(({ wowItem }: TItemCellProps) => {
               data-wowhead="bonus=642"
             >
               <Typography
-                textAlign="start"
                 variant="body2"
                 noWrap
                 sx={{
+                  textAlign: 'start',
                   flex: 1,
                   textDecoration: 'none',
                 }}
@@ -66,12 +81,23 @@ export const ItemCell = memo(({ wowItem }: TItemCellProps) => {
                 {wowItem.name}
               </Typography>
             </Box>
-            <Typography textAlign="end" noWrap variant="button">
+            <Typography
+              noWrap
+              variant="button"
+              sx={{
+                textAlign: 'end',
+              }}
+            >
               {getSecondaryStatsDisplay(wowItem.secondaryStats)}
             </Typography>
           </Stack>
 
-          <Stack direction="row" justifyContent="space-between">
+          <Stack
+            direction="row"
+            sx={{
+              justifyContent: 'space-between',
+            }}
+          >
             <Typography variant="body2">{getSlotDisplay(wowItem)}</Typography>
           </Stack>
         </Stack>
