@@ -8,8 +8,18 @@ import { ITEM_WIDTH } from '../ItemTable/config';
 export const InventorySlotPicker = () => {
   const { selectedSlot, setSelectedSlot } = useOptimiserFilters();
   return (
-    <Stack direction="row" width="100%" maxWidth={ITEM_WIDTH}>
-      <Stack gap={2}>
+    <Stack
+      direction="row"
+      sx={{
+        width: '100%',
+        maxWidth: ITEM_WIDTH,
+      }}
+    >
+      <Stack
+        sx={{
+          gap: 2,
+        }}
+      >
         <SmartMultiSelector
           useTint
           vertical
@@ -38,11 +48,19 @@ export const InventorySlotPicker = () => {
         />
       </Stack>
 
-      <Stack gap={2} flex={1} alignItems="center" justifyContent="flex-end">
+      <Stack
+        sx={{
+          gap: 2,
+          flex: 1,
+          alignItems: 'center',
+          justifyContent: 'flex-end',
+        }}
+      >
         <Box
           component="img"
-          width="100%"
+          src="https://wow.zamimg.com/modelviewer/live/webthumbs/npc/185/441.webp"
           sx={{
+            width: '100%',
             pointerEvents: 'none',
             animation: 'spin 20000s linear infinite',
             '@keyframes spin': {
@@ -54,7 +72,6 @@ export const InventorySlotPicker = () => {
               },
             },
           }}
-          src="https://wow.zamimg.com/modelviewer/live/webthumbs/npc/185/441.webp"
         />
         <SmartMultiSelector
           useTint

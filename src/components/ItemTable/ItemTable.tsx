@@ -8,14 +8,14 @@ export const ItemTable = memo(() => {
 
   return (
     <Stack
-      maxHeight="70vh"
-      height={'100%'}
       sx={{
+        maxHeight: '70vh',
+        height: '100%',
+        width: '100%',
+        gap: 1,
         overflowY: 'scroll',
         overflowX: 'hidden',
       }}
-      width="100%"
-      gap={1}
     >
       {filteredItems.map((wowItem) => {
         return <ItemCell key={wowItem.itemId} wowItem={wowItem} />;

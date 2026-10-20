@@ -13,11 +13,26 @@ export const ExpansionTile = memo(({ expansion }: TExpansionTileProps) => {
       <Box sx={{ width: '100%' }}>
         <Stack
           direction={'row'}
-          p={'0px'}
-          sx={{ width: '100%', justifyContent: 'space-between', alignItems: 'center' }}
+          sx={{
+            p: '0px',
+            width: '100%',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+          }}
         >
-          <Stack alignContent={'center'} spacing={2} direction={'row'}>
-            <Typography variant="body1" fontWeight={'bold'}>
+          <Stack
+            spacing={2}
+            direction={'row'}
+            sx={{
+              alignContent: 'center',
+            }}
+          >
+            <Typography
+              variant="body1"
+              sx={{
+                fontWeight: 'bold',
+              }}
+            >
               {expansion.expansionName}
             </Typography>
           </Stack>

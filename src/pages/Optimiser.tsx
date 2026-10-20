@@ -15,10 +15,10 @@ export const Optimiser = memo(() => {
   return (
     <OptimiserFilterContextProvider>
       <Box
-        height={{
-          lg: '100vh',
-        }}
         sx={{
+          height: {
+            lg: '100vh',
+          },
           margin: '0 auto',
           display: 'flex',
           padding: '48px 24px',
@@ -29,15 +29,22 @@ export const Optimiser = memo(() => {
           <Grid container spacing={{ xs: 4, lg: 6 }}>
             <Grid size={{ xs: 12, lg: 6 }}>
               <Stack
-                gap={{
-                  xs: 2,
-                  md: 4,
+                sx={{
+                  gap: {
+                    xs: 2,
+                    md: 4,
+                  },
+                  alignItems: 'center',
+                  justifyContent: 'center',
                 }}
-                alignItems={'center'}
-                justifyContent={'center'}
               >
                 <SeasonSelector />
-                <Stack spacing={2} alignItems={'center'}>
+                <Stack
+                  spacing={2}
+                  sx={{
+                    alignItems: 'center',
+                  }}
+                >
                   <CharacterClassSelector />
                   <CharacterSpecSelector />
                 </Stack>
@@ -46,7 +53,12 @@ export const Optimiser = memo(() => {
               </Stack>
             </Grid>
             <Grid size={{ xs: 12, lg: 6 }}>
-              <Stack gap={2} maxHeight={'90vh'}>
+              <Stack
+                sx={{
+                  gap: 2,
+                  maxHeight: '90vh',
+                }}
+              >
                 <LootSourceSummaryCard />
                 <ItemTable />
               </Stack>

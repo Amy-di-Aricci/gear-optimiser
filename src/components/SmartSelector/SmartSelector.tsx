@@ -23,14 +23,25 @@ export const SmartSelector = <T,>({
     disabled: item.disabled ?? false,
   }));
   return (
-    <Stack gap={0.25} flexWrap="wrap" direction={vertical ? 'column' : 'row'}>
+    <Stack
+      direction={vertical ? 'column' : 'row'}
+      sx={{
+        gap: 0.25,
+        flexWrap: 'wrap',
+      }}
+    >
       {items.map((item) => {
         const onClick = () => {
           if (item.disabled) return;
           setCurrentSelectedId(item.id);
         };
         return (
-          <Stack position={'relative'} key={String(item.id)}>
+          <Stack
+            key={String(item.id)}
+            sx={{
+              position: 'relative',
+            }}
+          >
             <Box
               onClick={onClick}
               component="img"
@@ -52,16 +63,20 @@ export const SmartSelector = <T,>({
             />
             {useTint && item.id === currentSelectedId && (
               <Box
-                position={'absolute'}
-                sx={(theme) => ({
-                  width: itemSize,
-                  height: itemSize,
-                  borderRadius: 2,
-                  background: theme.palette.primary.main,
-                  opacity: 1,
-                  pointerEvents: 'none',
-                  mixBlendMode: 'overlay',
-                })}
+                sx={[
+                  {
+                    position: 'absolute',
+                  },
+                  (theme) => ({
+                    width: itemSize,
+                    height: itemSize,
+                    borderRadius: 2,
+                    background: theme.palette.primary.main,
+                    opacity: 1,
+                    pointerEvents: 'none',
+                    mixBlendMode: 'overlay',
+                  }),
+                ]}
               />
             )}
           </Stack>
