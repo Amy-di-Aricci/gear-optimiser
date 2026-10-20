@@ -20,8 +20,8 @@ export const LootSourceSummaryCard = memo(() => {
 
   return (
     <Stack
-      gap={1}
       sx={{
+        gap: 1,
         position: 'relative',
         textDecoration: 'none',
         textShadow: `3px 3px 2px ${theme.palette.grey[900]}`,
@@ -61,9 +61,12 @@ export const LootSourceSummaryCard = memo(() => {
       {alwaysVisibleData.map((data) => (
         <Stack
           key={data.name}
-          sx={{ width: '100%', zIndex: 1 }}
           direction="row"
-          justifyContent="space-between"
+          sx={{
+            justifyContent: 'space-between',
+            width: '100%',
+            zIndex: 1,
+          }}
         >
           <Typography variant="subtitle2" noWrap>
             {data.name}
@@ -74,13 +77,19 @@ export const LootSourceSummaryCard = memo(() => {
       {isExpandable && (
         <>
           <Collapse in={isExpanded} sx={{ width: '100%', zIndex: 1 }}>
-            <Stack gap={1}>
+            <Stack
+              sx={{
+                gap: 1,
+              }}
+            >
               {collapsedData.map((data) => (
                 <Stack
                   key={data.name}
-                  sx={{ width: '100%' }}
                   direction="row"
-                  justifyContent="space-between"
+                  sx={{
+                    justifyContent: 'space-between',
+                    width: '100%',
+                  }}
                 >
                   <Typography variant="subtitle2" noWrap>
                     {data.name}

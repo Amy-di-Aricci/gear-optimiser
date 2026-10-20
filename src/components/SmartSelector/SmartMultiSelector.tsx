@@ -46,9 +46,11 @@ export const SmartMultiSelector = <T,>({
 
   return (
     <Stack
-      gap={0.75}
-      flexWrap={vertical ? 'nowrap' : 'wrap'}
       direction={vertical ? 'column' : 'row'}
+      sx={{
+        gap: 0.75,
+        flexWrap: vertical ? 'nowrap' : 'wrap',
+      }}
     >
       {normalizedItems.map((item) => {
         const isSelected = currentSelectedIds.includes(item.id);
@@ -60,11 +62,11 @@ export const SmartMultiSelector = <T,>({
               fill: isSvg ? 'currentColor' : undefined,
               stroke: isSvg ? 'currentColor' : undefined,
             }}
+            key={String(item.id)}
             sx={{
+              position: 'relative',
               color: 'red',
             }}
-            key={String(item.id)}
-            position={'relative'}
           >
             {variant === ESelectorVariant.ICON ? (
               <IconBox
@@ -146,16 +148,20 @@ const IconBox = <T,>({
       />
       {useTint && isSelected && (
         <Box
-          position={'absolute'}
-          sx={() => ({
-            width: itemSize,
-            height: itemSize,
-            borderRadius: 2,
-            background: color,
-            opacity: 1,
-            pointerEvents: 'none',
-            mixBlendMode: 'overlay',
-          })}
+          sx={[
+            {
+              position: 'absolute',
+            },
+            () => ({
+              width: itemSize,
+              height: itemSize,
+              borderRadius: 2,
+              background: color,
+              opacity: 1,
+              pointerEvents: 'none',
+              mixBlendMode: 'overlay',
+            }),
+          ]}
         />
       )}
     </>

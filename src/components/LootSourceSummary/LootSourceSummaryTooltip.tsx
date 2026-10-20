@@ -11,10 +11,21 @@ export const LootSourceSummaryTooltip = memo(() => {
         tooltipDisplayData.length === 0 ? (
           ''
         ) : (
-          <Stack gap={0.25}>
+          <Stack
+            sx={{
+              gap: 0.25,
+            }}
+          >
             {tooltipDisplayData.map((data) => {
               return (
-                <Stack minWidth={200} gap={2} direction="row" justifyContent="space-between">
+                <Stack
+                  direction="row"
+                  sx={{
+                    minWidth: 200,
+                    gap: 2,
+                    justifyContent: 'space-between',
+                  }}
+                >
                   <Typography noWrap>{data.name}</Typography>
                   <Typography>{data.value}</Typography>
                 </Stack>
