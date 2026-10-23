@@ -75,7 +75,7 @@ export const SEASON_DUNGEONS_LOOKUP: Record<ESeason, EDungeon[]> = {
 export const SEASON_RAIDS_LOOKUP: Record<ESeason, ERaid[]> = {
   [ESeason.TWWS3]: [ERaid.MFO],
   [ESeason.MNS1]: [ERaid.DR, ERaid.VS, ERaid.MQD, ERaid.SF],
-  [ESeason.MNS2]: [ERaid.TVA, ERaid.TG],
+  [ESeason.MNS2]: [ERaid.TVA, ERaid.TG, ERaid.KTX],
 };
 
 export const SEASON_IMAGES_LOOKUP: Record<ESeason, String> = {

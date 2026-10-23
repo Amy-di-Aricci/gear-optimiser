@@ -41,6 +41,7 @@ export enum ERaid {
   TG = 'TG',
   TVA = 'TVA',
   SF = 'SF',
+  KTX = 'KTX',
 }
 
 export enum ERaidBoss {
@@ -87,6 +88,7 @@ export enum ERaidBoss {
   COILED_ALTAR = 'COILED_ALTAR',
   ULATEK = 'ULATEK',
   ROTMIRE = 'ROTMIRE',
+  KITHIX = 'KITHIX',
 }
 
 export type TRaidBoss = {
