@@ -173,6 +173,10 @@ export const ALL_RAID_BOSSES: Record<ERaidBoss, TRaidBoss> = {
     bossName: ERaidBoss.ROTMIRE,
     raid: ERaid.SF,
   },
+  [ERaidBoss.KITHIX]: {
+    bossName: ERaidBoss.KITHIX,
+    raid: ERaid.KTX,
+  },
 };
 
 export const DUNGEONS_NAMES_LOOKUP: Record<EDungeon, string> = {
@@ -285,6 +289,7 @@ export const BOSS_NAMES_LOOKUP: Record<ERaidBoss, string> = {
   [ERaidBoss.COILED_ALTAR]: 'The Coiled Altar',
   [ERaidBoss.ULATEK]: "Ula'tek",
   [ERaidBoss.ROTMIRE]: 'Rotmire',
+  [ERaidBoss.KITHIX]: "Kith'ix",
 };
 
 export const RAID_NAMES_LOOKUP: Record<ERaid, string> = {
@@ -297,6 +302,7 @@ export const RAID_NAMES_LOOKUP: Record<ERaid, string> = {
   [ERaid.TG]: 'The Tidebound Grotto',
   [ERaid.TVA]: 'The Venomous Abyss',
   [ERaid.SF]: 'Sporefall',
+  [ERaid.KTX]: "The Unbinding of Kith'ix",
 };
 
 export const RAID_IMAGE_LOOKUP: Record<ERaid, string> = {
@@ -309,4 +315,5 @@ export const RAID_IMAGE_LOOKUP: Record<ERaid, string> = {
   [ERaid.TG]: 'tidebound_grotto',
   [ERaid.TVA]: 'venomous_abyss',
   [ERaid.SF]: 'sporefall',
+  [ERaid.KTX]: 'unbinding_kithix',
 };

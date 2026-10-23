@@ -65,7 +65,7 @@ export enum ESecondaryStat {
 export type TWowItemBase = {
   name: string;
   itemId: number;
-  imgId: string;
+  imgId: string; // ImageKit key of the icon: images/icons/<imgId>.jpg (= item ID)
   slot: EItemSlot;
   secondaryStats: Array<ESecondaryStat>;
   specialEffect: string | null;
