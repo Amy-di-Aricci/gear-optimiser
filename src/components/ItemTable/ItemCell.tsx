@@ -43,7 +43,7 @@ export const ItemCell = memo(({ wowItem }: TItemCellProps) => {
               borderRadius: 2,
               border: `1px solid ${theme.palette.primary.main}`,
             })}
-            src={`https://ik.imagekit.io/gearoptimizer/images/icons/${wowItem.itemId}.jpg`}
+            src={`https://ik.imagekit.io/gearoptimizer/images/icons/${wowItem.imgId}.jpg`}
           />
         </Box>
         <Stack

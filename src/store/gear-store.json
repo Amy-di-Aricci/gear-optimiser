@@ -6,7 +6,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_sword_2h_outdoorundermine_c_01_purple",
+    "imgId": "234490",
     "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
@@ -17,7 +17,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_polearm_2h_outdoorundermine_c_01_purple",
+    "imgId": "234494",
     "weaponType": "POLEARM",
     "mainStats": ["AGI"]
   },
@@ -28,7 +28,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_leather_outdoorundermine_c_01_helm",
+    "imgId": "234498",
     "armorType": "LEATHER"
   },
   {
@@ -38,7 +38,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_112_raidtrinkets_necklace02_etherealribbonorrunestyle_dark",
+    "imgId": "251880",
     "miscType": "NECK"
   },
   {
@@ -48,7 +48,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_mail_outdoorundermine_c_01_shoulder",
+    "imgId": "234503",
     "armorType": "MAIL"
   },
   {
@@ -58,7 +58,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_leather_outdoorundermine_c_01_shoulder",
+    "imgId": "234500",
     "armorType": "LEATHER"
   },
   {
@@ -68,7 +68,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_cloth_outdoorundermine_c_01_chest",
+    "imgId": "234496",
     "armorType": "CLOTH"
   },
   {
@@ -78,7 +78,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_mail_outdoorundermine_c_01_chest",
+    "imgId": "234502",
     "armorType": "MAIL"
   },
   {
@@ -88,7 +88,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_plate_outdoorundermine_c_01_chest",
+    "imgId": "234506",
     "armorType": "PLATE"
   },
   {
@@ -98,7 +98,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_cloth_outdoorundermine_c_01_bracer",
+    "imgId": "246279",
     "armorType": "CLOTH"
   },
   {
@@ -108,7 +108,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_leather_outdoorundermine_c_01_bracer",
+    "imgId": "234499",
     "armorType": "LEATHER"
   },
   {
@@ -118,7 +118,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_plate_outdoorundermine_c_01_glove",
+    "imgId": "234504",
     "armorType": "PLATE"
   },
   {
@@ -128,7 +128,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_mail_outdoorundermine_c_01_belt",
+    "imgId": "234501",
     "armorType": "MAIL"
   },
   {
@@ -138,7 +138,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_plate_outdoorundermine_c_01_belt",
+    "imgId": "234505",
     "armorType": "PLATE"
   },
   {
@@ -148,7 +148,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_plate_outdoorundermine_c_01_pant",
+    "imgId": "246278",
     "armorType": "PLATE"
   },
   {
@@ -158,7 +158,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_mail_outdoorundermine_c_01_pant",
+    "imgId": "246277",
     "armorType": "MAIL"
   },
   {
@@ -168,7 +168,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_cloth_outdoorundermine_c_01_pant",
+    "imgId": "234495",
     "armorType": "CLOTH"
   },
   {
@@ -178,7 +178,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_cloth_outdoorundermine_c_01_boot",
+    "imgId": "234497",
     "armorType": "CLOTH"
   },
   {
@@ -188,7 +188,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "FLOOD",
-    "imgId": "inv_leather_outdoorundermine_c_01_boot",
+    "imgId": "246274",
     "armorType": "LEATHER"
   },
   {
@@ -198,7 +198,7 @@
     "secondaryStats": ["VERS"],
     "specialEffect": "Use: Command the Medichopper to attach to your target, absorbing 155184 damage and granting them 1375 versatility for 15 sec. /nWhile attached, your healing spells have a chance to refuel the chopper, granting these bonuses to their host again. (2 Min Cooldown)",
     "lootSource": "FLOOD",
-    "imgId": "inv_111_healraydrone_blackwater",
+    "imgId": "232542",
     "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
@@ -209,7 +209,7 @@
     "secondaryStats": [],
     "specialEffect": "Equip: Every 6 sec, Zap your target and 1 nearby enemy for 29883 Nature damage. \nCasting 30 spells Turbo-Charges you for 15 sec, doubling the frequency of your Zaps and upgrading them into Giga-Zaps, dealing 89649 Nature Damage instead.",
     "lootSource": "FLOOD",
-    "imgId": "inv_engineering_90_lightningbox",
+    "imgId": "232545",
     "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -220,7 +220,7 @@
     "secondaryStats": ["CRIT"],
     "specialEffect": "Equip: Repurpose a Seaforium charge to give your heart a kick, causing your first ability every 60 sec to trigger Explosive Adrenaline, granting 2624 Critical Strike for 15 sec.\nWhile exploding, Critical Strikes cause you to blow up again, extending this duration by 1 sec, up to 15 times.",
     "lootSource": "FLOOD",
-    "imgId": "ability_blackhand_attachedslagbombs",
+    "imgId": "232541",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["STR", "AGI"]
   },
@@ -231,7 +231,7 @@
     "secondaryStats": ["VERS"],
     "specialEffect": "Use: Become Mudborne, absorbing 7088217 damage and pulsing 349350 Nature damage split between nearby enemies over 10 sec.\nPeriodic damage you take coalesces into pungent mud to feed the ritual, reducing this cooldown by 22 sec. (2 Min Cooldown)",
     "lootSource": "FLOOD",
-    "imgId": "inv_misc_food_legion_goomolasses_pool",
+    "imgId": "232543",
     "roles": ["TANK"],
     "mainStats": []
   },
@@ -242,7 +242,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "PSF",
-    "imgId": "inv_sword_2h_earthendungeon_c_01",
+    "imgId": "221127",
     "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
@@ -253,7 +253,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "PSF",
-    "imgId": "inv_shield_1h_earthendungeon_c_02",
+    "imgId": "221117",
     "offhandType": "SHIELD"
   },
   {
@@ -263,7 +263,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "PSF",
-    "imgId": "inv_helm_cloth_earthendungeon_c_01",
+    "imgId": "221131",
     "armorType": "CLOTH"
   },
   {
@@ -273,7 +273,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "PSF",
-    "imgId": "inv_leather_earthendungeon_c_01_helm",
+    "imgId": "221125",
     "armorType": "LEATHER"
   },
   {
@@ -283,7 +283,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "PSF",
-    "imgId": "inv_11_0_arathor_necklace_01_color1",
+    "imgId": "252009",
     "miscType": "NECK"
   },
   {
@@ -293,7 +293,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "PSF",
-    "imgId": "inv_shoulder_plate_earthendungeon_c_01",
+    "imgId": "221203",
     "armorType": "PLATE"
   },
   {
@@ -303,7 +303,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "PSF",
-    "imgId": "inv_leather_earthendungeon_c_01_chest",
+    "imgId": "221130",
     "armorType": "LEATHER"
   },
   {
@@ -313,7 +313,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "PSF",
-    "imgId": "inv_chest_cloth_earthendungeon_c_01",
+    "imgId": "221126",
     "armorType": "CLOTH"
   },
   {
@@ -323,7 +323,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "PSF",
-    "imgId": "inv_bracer_mail_earthendungeon_c_01",
+    "imgId": "221124",
     "armorType": "MAIL"
   },
   {
@@ -333,7 +333,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "PSF",
-    "imgId": "inv_bracer_plate_earthendungeon_c_01",
+    "imgId": "221118",
     "armorType": "PLATE"
   },
   {
@@ -343,7 +343,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "PSF",
-    "imgId": "inv_glove_mail_earthendungeon_c_01",
+    "imgId": "221119",
     "armorType": "MAIL"
   },
   {
@@ -353,7 +353,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "PSF",
-    "imgId": "inv_belt_cloth_earthendungeon_c_01",
+    "imgId": "221121",
     "armorType": "CLOTH"
   },
   {
@@ -363,7 +363,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "PSF",
-    "imgId": "inv_pant_mail_earthendungeon_c_01",
+    "imgId": "221129",
     "armorType": "MAIL"
   },
   {
@@ -373,7 +373,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "PSF",
-    "imgId": "inv_boot_plate_earthendungeon_c_01",
+    "imgId": "221123",
     "armorType": "PLATE"
   },
   {
@@ -383,7 +383,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "PSF",
-    "imgId": "inv_leather_earthendungeon_c_01_boot",
+    "imgId": "221120",
     "armorType": "LEATHER"
   },
   {
@@ -393,7 +393,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "PSF",
-    "imgId": "inv_11_0_arathor_ring_01_color2",
+    "imgId": "221200",
     "miscType": "FINGER"
   },
   {
@@ -403,7 +403,7 @@
     "secondaryStats": [],
     "specialEffect": "Use: Summon a Bursting Lightspawn which sacrifices its health to unleash Bursts of Light, inflicting 57024 Holy damage split between nearby enemies every 2 sec while it lives. (2 Min Cooldown)",
     "lootSource": "PSF",
-    "imgId": "inv_arathordungeon_fragment_color4",
+    "imgId": "219310",
     "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -414,7 +414,7 @@
     "secondaryStats": [],
     "specialEffect": "Use: Raise your signet to the Light, increasing your highest secondary stat by 2756 for 20 sec. Your act inspires nearby signetbearers within your party, granting them 73 of the same stat for 20 sec. (2 Min Cooldown)",
     "lootSource": "PSF",
-    "imgId": "inv_arathordungeon_signet_color1",
+    "imgId": "219308",
     "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   },
@@ -425,7 +425,7 @@
     "secondaryStats": [],
     "specialEffect": "Equip: Advance to the 50 Verses of Inner Resilience, reading as you are attacked.\nInner Resilience increases your armor by 150 and grants your attacks a chance to invoke a ward which absorbs 3781 Magic damage. When finished, sift through the passages to another chapter.\nUse: Sift through the passages in the tome with increased Radiance. (1 Min, 30 Sec Cooldown)",
     "lootSource": "PSF",
-    "imgId": "inv_7xp_inscription_talenttome01",
+    "imgId": "219309",
     "roles": ["TANK"],
     "mainStats": []
   },
@@ -436,7 +436,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_staff_2h_oribosdungeon_c_01",
+    "imgId": "178829",
     "weaponType": "STAFF",
     "mainStats": ["INT"]
   },
@@ -447,7 +447,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_plate_oribosdungeon_c_01_helm",
+    "imgId": "178812",
     "armorType": "PLATE"
   },
   {
@@ -457,7 +457,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_helm_mail_oribosdungeon_c_01",
+    "imgId": "178816",
     "armorType": "MAIL"
   },
   {
@@ -467,7 +467,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_7_0raid_necklace_03a",
+    "imgId": "178827",
     "miscType": "NECK"
   },
   {
@@ -477,7 +477,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_plate_oribosdungeon_c_01_shoulder",
+    "imgId": "246286",
     "armorType": "PLATE"
   },
   {
@@ -487,7 +487,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_shoulder_mail_oribosdungeon_c_01",
+    "imgId": "178821",
     "armorType": "MAIL"
   },
   {
@@ -497,7 +497,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_shoulder_cloth_oribosdungeon_c_01",
+    "imgId": "246276",
     "armorType": "CLOTH"
   },
   {
@@ -507,7 +507,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_chest_mail_oribosdungeon_c_01",
+    "imgId": "178815",
     "armorType": "MAIL"
   },
   {
@@ -517,7 +517,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_chest_leather_oribosdungeon_c_01",
+    "imgId": "246273",
     "armorType": "LEATHER"
   },
   {
@@ -527,7 +527,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_plate_oribosdungeon_c_01_chest",
+    "imgId": "178814",
     "armorType": "PLATE"
   },
   {
@@ -537,7 +537,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_glove_cloth_oribosdungeon_c_01",
+    "imgId": "178833",
     "armorType": "CLOTH"
   },
   {
@@ -547,7 +547,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_glove_leather_oribosdungeon_c_01",
+    "imgId": "178832",
     "armorType": "LEATHER"
   },
   {
@@ -557,7 +557,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_belt_leather_oribosdungeon_c_01",
+    "imgId": "178823",
     "armorType": "LEATHER"
   },
   {
@@ -567,7 +567,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_belt_cloth_oribosdungeon_c_01",
+    "imgId": "178822",
     "armorType": "CLOTH"
   },
   {
@@ -577,7 +577,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_pant_leather_oribosdungeon_c_01",
+    "imgId": "178819",
     "armorType": "LEATHER"
   },
   {
@@ -587,7 +587,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_plate_oribosdungeon_c_01_pants",
+    "imgId": "178818",
     "armorType": "PLATE"
   },
   {
@@ -597,7 +597,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_boot_mail_oribosdungeon_c_01",
+    "imgId": "178830",
     "armorType": "MAIL"
   },
   {
@@ -607,7 +607,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_boot_cloth_oribosdungeon_c_01",
+    "imgId": "178831",
     "armorType": "CLOTH"
   },
   {
@@ -617,7 +617,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "HOA",
-    "imgId": "inv_ring_revendrethraid_01_gold",
+    "imgId": "178824",
     "miscType": "FINGER"
   },
   {
@@ -627,7 +627,7 @@
     "secondaryStats": ["CRIT"],
     "specialEffect": "Use: Channel for 1 sec to invoke the wrath of the idol, increasing your Critical Strike by 5143 for 15 sec. The force slams the earth, dealing 78676 Nature damage to all nearby enemies and increasing Critical Strike by 265 per enemy hit, up to a maximum of 6000. (1 Min, 30 Sec Cooldown)",
     "lootSource": "HOA",
-    "imgId": "inv_qirajidol_onyx",
+    "imgId": "246344",
     "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -638,7 +638,7 @@
     "secondaryStats": ["HASTE"],
     "specialEffect": "Use: Tear the anima from your target dealing 3298 Shadow damage and forming a font of power at your feet, increasing your Intellect by 31 for 15 sec while you stand within it. (1 Min, 30 Sec Cooldown)",
     "lootSource": "HOA",
-    "imgId": "inv_jewelcrafting_nightseye_01",
+    "imgId": "178826",
     "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -649,7 +649,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "ARA",
-    "imgId": "inv_pant_cloth_earthendungeon_c_01",
+    "imgId": "221164",
     "armorType": "CLOTH"
   },
   {
@@ -659,7 +659,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ARA",
-    "imgId": "inv_leather_earthendungeon_c_01_helm",
+    "imgId": "221163",
     "armorType": "LEATHER"
   },
   {
@@ -669,7 +669,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "ARA",
-    "imgId": "inv_glove_mail_earthendungeon_c_01",
+    "imgId": "221162",
     "armorType": "MAIL"
   },
   {
@@ -679,7 +679,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "ARA",
-    "imgId": "inv_chest_plate_earthendungeon_c_01",
+    "imgId": "221161",
     "armorType": "PLATE"
   },
   {
@@ -689,7 +689,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ARA",
-    "imgId": "inv_staff_2h_earthendungeon_c_02",
+    "imgId": "221159",
     "weaponType": "STAFF",
     "mainStats": ["AGI"]
   },
@@ -700,7 +700,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "ARA",
-    "imgId": "inv_belt_cloth_earthendungeon_c_01",
+    "imgId": "221158",
     "armorType": "CLOTH"
   },
   {
@@ -710,7 +710,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ARA",
-    "imgId": "inv_leather_earthendungeon_c_01_bracer",
+    "imgId": "221157",
     "armorType": "LEATHER"
   },
   {
@@ -720,7 +720,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ARA",
-    "imgId": "inv_helm_mail_earthendungeon_c_01",
+    "imgId": "221156",
     "armorType": "MAIL"
   },
   {
@@ -730,7 +730,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ARA",
-    "imgId": "inv_shoulder_plate_earthendungeon_c_01",
+    "imgId": "221155",
     "armorType": "PLATE"
   },
   {
@@ -740,7 +740,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ARA",
-    "imgId": "inv_leather_earthendungeon_c_01_pant",
+    "imgId": "221153",
     "armorType": "LEATHER"
   },
   {
@@ -750,7 +750,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ARA",
-    "imgId": "inv_boot_mail_earthendungeon_c_01",
+    "imgId": "221152",
     "armorType": "MAIL"
   },
   {
@@ -760,7 +760,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "ARA",
-    "imgId": "inv_glove_plate_earthendungeon_c_01",
+    "imgId": "221151",
     "armorType": "PLATE"
   },
   {
@@ -770,7 +770,7 @@
     "secondaryStats": ["MASTERY"],
     "specialEffect": "Equip: Your damaging spells and abilities have a chance to send an orb of volatile black blood drifting to your target, exploding for 55918 Shadow damage split between all nearby enemies on impact. Intercepting the orb allows you to siphon its power, instead increasing your Mastery by 1653 for 15 sec.",
     "lootSource": "ARA",
-    "imgId": "inv_11_0_dungeon_oldgodstatuepiece_purple",
+    "imgId": "219317",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["INT", "AGI"]
   },
@@ -781,7 +781,7 @@
     "secondaryStats": [],
     "specialEffect": "Equip: The gland releases pheromones that attract a Ceaseless Swarm of insects to surround you. Taking damage has a high chance to retaliate against attackers, inflicting 16356 Nature damage over 6 sec and reducing damage dealt to you by 3781.",
     "lootSource": "ARA",
-    "imgId": "inv_misc_organmass_color2",
+    "imgId": "219316",
     "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -792,7 +792,7 @@
     "secondaryStats": ["HASTE"],
     "specialEffect": "Equip: Your abilities have a chance to stir the sac, releasing an egg which grants you 213 Primary Stat. Each egg hatches after 1 min, and the new brood attacks your next target, inflicting 12784 Nature damage over 8 sec. (100ms cooldown)",
     "lootSource": "ARA",
-    "imgId": "inv_raid_mercurialegg_red",
+    "imgId": "219314",
     "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": []
   },
@@ -803,7 +803,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "DAWN",
-    "imgId": "inv_polearm_2h_earthendungeon_c_02",
+    "imgId": "221137",
     "weaponType": "POLEARM",
     "mainStats": ["AGI"]
   },
@@ -814,7 +814,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "DAWN",
-    "imgId": "inv_shoulder_mail_earthendungeon_c_01",
+    "imgId": "221140",
     "armorType": "MAIL"
   },
   {
@@ -824,7 +824,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "DAWN",
-    "imgId": "inv_chest_plate_earthendungeon_c_01",
+    "imgId": "221139",
     "armorType": "PLATE"
   },
   {
@@ -834,7 +834,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "DAWN",
-    "imgId": "inv_leather_earthendungeon_c_01_bracer",
+    "imgId": "221142",
     "armorType": "LEATHER"
   },
   {
@@ -844,7 +844,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "DAWN",
-    "imgId": "inv_boot_mail_earthendungeon_c_01",
+    "imgId": "221202",
     "armorType": "MAIL"
   },
   {
@@ -854,7 +854,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "DAWN",
-    "imgId": "inv_11_0_nerubian_ring_02_color5",
+    "imgId": "221141",
     "miscType": "FINGER"
   },
   {
@@ -864,7 +864,7 @@
     "secondaryStats": [],
     "specialEffect": "Equip: Your spells and abilities have a chance to let loose a nascent empowerment from the crystal, increasing a random secondary stat by 1392 for 20 sec.",
     "lootSource": "DAWN",
-    "imgId": "inv_arathordungeon_fragment_color5",
+    "imgId": "219312",
     "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER"],
     "mainStats": ["INT", "AGI"]
   },
@@ -875,7 +875,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "DAWN",
-    "imgId": "inv_shoulder_cloth_earthendungeon_c_01",
+    "imgId": "221135",
     "armorType": "CLOTH"
   },
   {
@@ -885,7 +885,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "DAWN",
-    "imgId": "inv_belt_plate_earthendungeon_c_01",
+    "imgId": "221133",
     "armorType": "PLATE"
   },
   {
@@ -895,7 +895,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "DAWN",
-    "imgId": "inv_leather_earthendungeon_c_01_belt",
+    "imgId": "221134",
     "armorType": "LEATHER"
   },
   {
@@ -905,7 +905,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "DAWN",
-    "imgId": "inv_11_0_nerubian_ring_01_color4",
+    "imgId": "221136",
     "miscType": "FINGER"
   },
   {
@@ -915,7 +915,7 @@
     "secondaryStats": ["HASTE"],
     "specialEffect": "Equip: Your attacks have a chance to call to the pact, exploding for 35361 Shadow damage split between nearby enemies and increasing your Haste by 377 for 10 sec.\nYour death breaks the pact, causing a violent explosion.",
     "lootSource": "DAWN",
-    "imgId": "inv_10_alchemy_alchemystone_color4",
+    "imgId": "219311",
     "roles": ["DPS_MELEE", "TANK"],
     "mainStats": ["STR"]
   },
@@ -926,7 +926,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "DAWN",
-    "imgId": "inv_helm_plate_earthendungeon_c_01",
+    "imgId": "221146",
     "armorType": "PLATE"
   },
   {
@@ -936,7 +936,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "DAWN",
-    "imgId": "inv_leather_earthendungeon_c_01_shoulder",
+    "imgId": "221148",
     "armorType": "LEATHER"
   },
   {
@@ -946,7 +946,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "DAWN",
-    "imgId": "inv_chest_mail_earthendungeon_c_01",
+    "imgId": "221147",
     "armorType": "MAIL"
   },
   {
@@ -956,7 +956,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "DAWN",
-    "imgId": "inv_boot_cloth_earthendungeon_c_01",
+    "imgId": "221149",
     "armorType": "CLOTH"
   },
   {
@@ -966,7 +966,7 @@
     "secondaryStats": ["VERS"],
     "specialEffect": null,
     "lootSource": "DAWN",
-    "imgId": "inv_arathordungeon_bell_color1",
+    "imgId": "219313",
     "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -977,7 +977,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_bracer_cloth_outdoorethereal_c_01",
+    "imgId": "242468",
     "armorType": "CLOTH"
   },
   {
@@ -987,7 +987,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_shoulder_mail_outdoorethereal_c_01",
+    "imgId": "242472",
     "armorType": "MAIL"
   },
   {
@@ -997,7 +997,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_pants_leather_outdoorethereal_c_01",
+    "imgId": "242473",
     "armorType": "LEATHER"
   },
   {
@@ -1007,7 +1007,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_bracer_plate_outdoorethereal_c_01",
+    "imgId": "242475",
     "armorType": "PLATE"
   },
   {
@@ -1017,7 +1017,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_helm_cloth_outdoorethereal_c_01",
+    "imgId": "242477",
     "armorType": "CLOTH"
   },
   {
@@ -1027,7 +1027,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_belt_plate_outdoorethereal_c_01",
+    "imgId": "242479",
     "armorType": "PLATE"
   },
   {
@@ -1037,7 +1037,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_polearm_2h_outdoorethereal_c_01",
+    "imgId": "242481",
     "weaponType": "POLEARM",
     "mainStats": ["AGI"]
   },
@@ -1048,7 +1048,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_chest-_leather_outdoorethereal_c_01",
+    "imgId": "242482",
     "armorType": "LEATHER"
   },
   {
@@ -1058,7 +1058,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_boot_mail_outdoorethereal_c_01",
+    "imgId": "242483",
     "armorType": "MAIL"
   },
   {
@@ -1068,7 +1068,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_shoulder_leather_outdoorethereal_c_01",
+    "imgId": "242486",
     "armorType": "LEATHER"
   },
   {
@@ -1078,7 +1078,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_sword_2h_outdoorethereal_c_01",
+    "imgId": "242487",
     "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
@@ -1089,7 +1089,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_chest_mail_outdoorethereal_c_01",
+    "imgId": "242488",
     "armorType": "MAIL"
   },
   {
@@ -1099,7 +1099,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_glove_cloth_outdoorethereal_c_01",
+    "imgId": "242490",
     "armorType": "CLOTH"
   },
   {
@@ -1109,7 +1109,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_112_raidtrinkets_ring01_etherealnontechnologicalstyle_gold",
+    "imgId": "242491",
     "miscType": "FINGER"
   },
   {
@@ -1119,7 +1119,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_shield_1h_outdoorethereal_c_01",
+    "imgId": "242493",
     "offhandType": "SHIELD"
   },
   {
@@ -1129,7 +1129,7 @@
     "secondaryStats": ["MASTERY"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_herb_karesh",
+    "imgId": "242494",
     "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER"],
     "mainStats": ["INT", "AGI"]
   },
@@ -1140,7 +1140,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_misc_nightsaberclaw_mana",
+    "imgId": "242495",
     "roles": ["DPS_MELEE", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -1151,7 +1151,7 @@
     "secondaryStats": ["HASTE"],
     "specialEffect": null,
     "lootSource": "ECO",
-    "imgId": "inv_devourersmallmount_light",
+    "imgId": "242497",
     "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -1162,7 +1162,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_bracer_mail_oribosdungeon_c_01",
+    "imgId": "185816",
     "armorType": "MAIL"
   },
   {
@@ -1172,7 +1172,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_plate_oribosdungeon_c_01_bracer",
+    "imgId": "185815",
     "armorType": "PLATE"
   },
   {
@@ -1182,7 +1182,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_glove_cloth_oribosdungeon_c_01",
+    "imgId": "185793",
     "armorType": "CLOTH"
   },
   {
@@ -1192,7 +1192,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_glove_leather_oribosdungeon_c_01",
+    "imgId": "185791",
     "armorType": "LEATHER"
   },
   {
@@ -1202,7 +1202,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_glove_mail_oribosdungeon_c_01",
+    "imgId": "246282",
     "armorType": "MAIL"
   },
   {
@@ -1212,7 +1212,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_misc_60raid_ring_1b",
+    "imgId": "246281",
     "miscType": "FINGER"
   },
   {
@@ -1222,7 +1222,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_belt_leather_oribosdungeon_c_01",
+    "imgId": "185809",
     "armorType": "LEATHER"
   },
   {
@@ -1232,7 +1232,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_bracer_cloth_oribosdungeon_c_01",
+    "imgId": "185814",
     "armorType": "CLOTH"
   },
   {
@@ -1242,7 +1242,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_plate_oribosdungeon_c_01_glove",
+    "imgId": "185792",
     "armorType": "PLATE"
   },
   {
@@ -1252,7 +1252,7 @@
     "secondaryStats": ["HASTE"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_7_0raid_trinket_09a",
+    "imgId": "185845",
     "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
@@ -1263,7 +1263,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_belt_mail_oribosdungeon_c_01",
+    "imgId": "185808",
     "armorType": "MAIL"
   },
   {
@@ -1273,7 +1273,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_belt_cloth_oribosdungeon_c_01",
+    "imgId": "185807",
     "armorType": "CLOTH"
   },
   {
@@ -1284,7 +1284,7 @@
     "specialEffect": null,
     "lootSource": "STREETS",
     "roles": ["DPS_RANGED"],
-    "imgId": "inv_misc_paperpackage01b",
+    "imgId": "185846",
     "mainStats": []
   },
   {
@@ -1294,7 +1294,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_plate_oribosdungeon_c_01_boots",
+    "imgId": "185787",
     "armorType": "PLATE"
   },
   {
@@ -1305,7 +1305,7 @@
     "specialEffect": null,
     "lootSource": "STREETS",
     "roles": ["DPS_MELEE"],
-    "imgId": "inv_misc_bag_felclothbag",
+    "imgId": "190652",
     "armorType": "CLOTH",
     "mainStats": []
   },
@@ -1316,7 +1316,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_bracer_leather_oribosdungeon_c_01",
+    "imgId": "185817",
     "armorType": "LEATHER"
   },
   {
@@ -1326,7 +1326,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_shield_1h_broker_c_01",
+    "imgId": "185811",
     "offhandType": "SHIELD"
   },
   {
@@ -1336,7 +1336,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_plate_oribosdungeon_c_01_buckle",
+    "imgId": "246287",
     "armorType": "PLATE"
   },
   {
@@ -1346,7 +1346,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_misc_silverjadenecklace",
+    "imgId": "185842",
     "miscType": "NECK"
   },
   {
@@ -1356,7 +1356,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_boot_mail_oribosdungeon_c_01",
+    "imgId": "185789",
     "armorType": "MAIL"
   },
   {
@@ -1366,7 +1366,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_shoulder_cloth_oribosdungeon_c_01",
+    "imgId": "185804",
     "armorType": "CLOTH"
   },
   {
@@ -1376,7 +1376,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_shoulder_leather_oribosdungeon_c_01",
+    "imgId": "185802",
     "armorType": "LEATHER"
   },
   {
@@ -1386,7 +1386,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_chest_leather_oribosdungeon_c_01",
+    "imgId": "185786",
     "armorType": "LEATHER"
   },
   {
@@ -1396,7 +1396,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_plate_oribosdungeon_c_01_pants",
+    "imgId": "185798",
     "armorType": "PLATE"
   },
   {
@@ -1406,7 +1406,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_pant_mail_oribosdungeon_c_01",
+    "imgId": "185800",
     "armorType": "MAIL"
   },
   {
@@ -1416,7 +1416,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_robe_cloth_oribosdungeon_c_01",
+    "imgId": "185782",
     "armorType": "CLOTH"
   },
   {
@@ -1426,7 +1426,7 @@
     "secondaryStats": ["VERS"],
     "specialEffect": null,
     "lootSource": "STREETS",
-    "imgId": "inv_misc_profession_book_enchanting",
+    "imgId": "185836",
     "roles": ["TANK"],
     "mainStats": []
   },
@@ -1437,7 +1437,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
-    "imgId": "inv_axe_2h_broker_c_01",
+    "imgId": "185810",
     "weaponType": "AXE2H",
     "mainStats": ["STR"]
   },
@@ -1448,7 +1448,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
-    "imgId": "inv_staff_2h_broker_c_01",
+    "imgId": "185779",
     "weaponType": "STAFF",
     "mainStats": ["AGI"]
   },
@@ -1459,7 +1459,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
-    "imgId": "inv_shoulder_mail_oribosdungeon_c_01",
+    "imgId": "185805",
     "armorType": "MAIL"
   },
   {
@@ -1469,7 +1469,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
-    "imgId": "inv_plate_oribosdungeon_c_01_shoulder",
+    "imgId": "185803",
     "armorType": "PLATE"
   },
   {
@@ -1479,7 +1479,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
-    "imgId": "inv_glove_cloth_oribosdungeon_c_01",
+    "imgId": "246275",
     "armorType": "CLOTH"
   },
   {
@@ -1489,7 +1489,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
-    "imgId": "inv_boot_leather_oribosdungeon_c_01",
+    "imgId": "246280",
     "armorType": "LEATHER"
   },
   {
@@ -1499,7 +1499,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
-    "imgId": "inv_helm_cloth_oribosdungeon_c_01",
+    "imgId": "185795",
     "armorType": "CLOTH"
   },
   {
@@ -1509,7 +1509,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
-    "imgId": "inv_plate_oribosdungeon_c_01_helm",
+    "imgId": "246283",
     "armorType": "PLATE"
   },
   {
@@ -1519,7 +1519,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
-    "imgId": "inv_helm_mail_oribosdungeon_c_01",
+    "imgId": "185796",
     "armorType": "MAIL"
   },
   {
@@ -1529,7 +1529,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
-    "imgId": "inv_helm_leather_oribosdungeon_c_01",
+    "imgId": "185797",
     "armorType": "LEATHER"
   },
   {
@@ -1539,7 +1539,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
-    "imgId": "inv_7_0raid_necklace_02c",
+    "imgId": "185820",
     "miscType": "NECK"
   },
   {
@@ -1549,7 +1549,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
-    "imgId": "inv_staff_2h_broker_c_01",
+    "imgId": "185822",
     "weaponType": "STAFF",
     "mainStats": ["INT"]
   },
@@ -1560,7 +1560,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
-    "imgId": "inv_pant_leather_oribosdungeon_c_01",
+    "imgId": "185801",
     "armorType": "LEATHER"
   },
   {
@@ -1570,7 +1570,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
-    "imgId": "inv_pant_cloth_oribosdungeon_c_01",
+    "imgId": "185799",
     "armorType": "CLOTH"
   },
   {
@@ -1580,7 +1580,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "GAMBIT",
-    "imgId": "inv_jewelcrafting_80_maxlvlring_blue",
+    "imgId": "185813",
     "miscType": "FINGER"
   },
   {
@@ -1590,7 +1590,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "GAMBIT",
-    "imgId": "inv_60pvp_trinket1d",
+    "imgId": "190958",
     "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   },
@@ -1604,7 +1604,7 @@
       "raid": "MFO",
       "bossName": "PLEXUS"
     },
-    "imgId": "inv_boot_plate_raiddeathknightethereal_d_01",
+    "imgId": "237551",
     "armorType": "PLATE"
   },
   {
@@ -1617,7 +1617,7 @@
       "raid": "MFO",
       "bossName": "PLEXUS"
     },
-    "imgId": "inv_bracer_cloth_raidmageethereal_d_01",
+    "imgId": "237534",
     "armorType": "CLOTH"
   },
   {
@@ -1630,7 +1630,7 @@
       "raid": "MFO",
       "bossName": "PLEXUS"
     },
-    "imgId": "inv_polearm_2h_etherealraid_d_01",
+    "imgId": "237739",
     "weaponType": "POLEARM",
     "mainStats": ["AGI"]
   },
@@ -1644,7 +1644,7 @@
       "raid": "MFO",
       "bossName": "PLEXUS"
     },
-    "imgId": "inv_shoulder_cloth_raidpriestethereal_d_01",
+    "imgId": "237547",
     "armorType": "CLOTH"
   },
   {
@@ -1657,7 +1657,7 @@
       "raid": "MFO",
       "bossName": "PLEXUS"
     },
-    "imgId": "inv_chest_plate_raidwarriorethereal_d_01",
+    "imgId": "237528",
     "armorType": "PLATE"
   },
   {
@@ -1670,7 +1670,7 @@
       "raid": "MFO",
       "bossName": "PLEXUS"
     },
-    "imgId": "inv_112_raidtrinkets_ring03_etherealtechnomancerstyle_gold",
+    "imgId": "237567",
     "miscType": "FINGER"
   },
   {
@@ -1683,7 +1683,7 @@
       "raid": "MFO",
       "bossName": "PLEXUS"
     },
-    "imgId": "inv_helm_leather_raidmonkethereal_d_01",
+    "imgId": "237525",
     "armorType": "LEATHER"
   },
   {
@@ -1696,7 +1696,7 @@
       "raid": "MFO",
       "bossName": "PLEXUS"
     },
-    "imgId": "inv_112_raidtrinkets_obliterationcannon",
+    "imgId": "242394",
     "roles": ["DPS_MELEE"],
     "mainStats": ["STR"]
   },
@@ -1710,7 +1710,7 @@
       "raid": "MFO",
       "bossName": "PLEXUS"
     },
-    "imgId": "inv_pant_mail_raidhunterethereal_d_01",
+    "imgId": "237543",
     "armorType": "MAIL"
   },
   {
@@ -1723,7 +1723,7 @@
       "raid": "MFO",
       "bossName": "PLEXUS"
     },
-    "imgId": "inv_belt_leather_raidmonkethereal_d_01",
+    "imgId": "237533",
     "armorType": "LEATHER"
   },
   {
@@ -1736,7 +1736,7 @@
       "raid": "MFO",
       "bossName": "PLEXUS"
     },
-    "imgId": "inv_bracer_mail_raidevokerethereal_d_01",
+    "imgId": "237523",
     "armorType": "MAIL"
   },
   {
@@ -1749,7 +1749,7 @@
       "raid": "MFO",
       "bossName": "LOOMITHAR"
     },
-    "imgId": "inv_shield_1h_etherealraid_d_01",
+    "imgId": "237723",
     "offhandType": "SHIELD"
   },
   {
@@ -1762,7 +1762,7 @@
       "raid": "MFO",
       "bossName": "LOOMITHAR"
     },
-    "imgId": "inv_112_raidtrinkets_astralspinneret",
+    "imgId": "242393",
     "roles": ["HEALER"],
     "mainStats": []
   },
@@ -1776,7 +1776,7 @@
       "raid": "MFO",
       "bossName": "LOOMITHAR"
     },
-    "imgId": "inv_boot_cloth_raidmageethereal_d_01",
+    "imgId": "237524",
     "armorType": "CLOTH"
   },
   {
@@ -1789,7 +1789,7 @@
       "raid": "MFO",
       "bossName": "LOOMITHAR"
     },
-    "imgId": "inv_bracer_plate_raidwarriorethereal_d_01",
+    "imgId": "237545",
     "armorType": "PLATE"
   },
   {
@@ -1802,7 +1802,7 @@
       "raid": "MFO",
       "bossName": "LOOMITHAR"
     },
-    "imgId": "inv_shoulder_leather_raidrogueethereal_d_01",
+    "imgId": "237552",
     "armorType": "LEATHER"
   },
   {
@@ -1815,7 +1815,7 @@
       "raid": "MFO",
       "bossName": "LOOMITHAR"
     },
-    "imgId": "inv_belt_mail_raidhunterethereal_d_01",
+    "imgId": "237522",
     "armorType": "MAIL"
   },
   {
@@ -1828,7 +1828,7 @@
       "raid": "MFO",
       "bossName": "LOOMITHAR"
     },
-    "imgId": "inv_112_raidtrinkets_silkwormsantenna",
+    "imgId": "242395",
     "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   },
@@ -1842,7 +1842,7 @@
       "raid": "MFO",
       "bossName": "NAAZINDHRI"
     },
-    "imgId": "inv_staff_2h_etherealraid_d_02",
+    "imgId": "237730",
     "weaponType": "STAFF",
     "mainStats": ["INT"]
   },
@@ -1856,7 +1856,7 @@
       "raid": "MFO",
       "bossName": "NAAZINDHRI"
     },
-    "imgId": "inv_112_raidtrinkets_manaforge_tanktrinket1",
+    "imgId": "242391",
     "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -1870,7 +1870,7 @@
       "raid": "MFO",
       "bossName": "NAAZINDHRI"
     },
-    "imgId": "inv_112_raidtrinkets_soulbinderbossinttrinket",
+    "imgId": "242398",
     "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -1884,7 +1884,7 @@
       "raid": "MFO",
       "bossName": "NAAZINDHRI"
     },
-    "imgId": "inv_robe_cloth_raidwarlockethereal_d_01",
+    "imgId": "237527",
     "armorType": "CLOTH"
   },
   {
@@ -1897,7 +1897,7 @@
       "raid": "MFO",
       "bossName": "NAAZINDHRI"
     },
-    "imgId": "inv_belt_plate_raidwarriorethereal_d_01",
+    "imgId": "237550",
     "armorType": "PLATE"
   },
   {
@@ -1910,7 +1910,7 @@
       "raid": "MFO",
       "bossName": "NAAZINDHRI"
     },
-    "imgId": "inv_boot_mail_raidevokerethereal_d_01",
+    "imgId": "237539",
     "armorType": "MAIL"
   },
   {
@@ -1923,7 +1923,7 @@
       "raid": "MFO",
       "bossName": "NAAZINDHRI"
     },
-    "imgId": "inv_112_raidtrinkets_necklace01_etherealnontechnologicalstyle_gold",
+    "imgId": "237568",
     "miscType": "NECK"
   },
   {
@@ -1936,7 +1936,7 @@
       "raid": "MFO",
       "bossName": "NAAZINDHRI"
     },
-    "imgId": "inv_bracer_leather_raiddruidethereal_d_01",
+    "imgId": "237546",
     "armorType": "LEATHER"
   },
   {
@@ -1949,7 +1949,7 @@
       "raid": "MFO",
       "bossName": "ARAZ"
     },
-    "imgId": "inv_sword_2h_etherealraid_d_01",
+    "imgId": "237737",
     "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
@@ -1963,7 +1963,7 @@
       "raid": "MFO",
       "bossName": "ARAZ"
     },
-    "imgId": "inv_staff_2h_etherealraid_d_01",
+    "imgId": "237726",
     "weaponType": "STAFF",
     "mainStats": ["AGI"]
   },
@@ -1977,7 +1977,7 @@
       "raid": "MFO",
       "bossName": "ARAZ"
     },
-    "imgId": "inv_112_raidtrinkets_ring03_etherealtechnomancerstyle_terra",
+    "imgId": "237570",
     "miscType": "FINGER"
   },
   {
@@ -1990,7 +1990,7 @@
       "raid": "MFO",
       "bossName": "ARAZ"
     },
-    "imgId": "inv_boot_leather_raiddruidethereal_d_01",
+    "imgId": "237553",
     "armorType": "LEATHER"
   },
   {
@@ -2003,7 +2003,7 @@
       "raid": "MFO",
       "bossName": "ARAZ"
     },
-    "imgId": "inv_chest_mail_raidhunterethereal_d_01",
+    "imgId": "237529",
     "armorType": "MAIL"
   },
   {
@@ -2016,7 +2016,7 @@
       "raid": "MFO",
       "bossName": "ARAZ"
     },
-    "imgId": "inv_belt_cloth_raidwarlockethereal_d_01",
+    "imgId": "237538",
     "armorType": "CLOTH"
   },
   {
@@ -2029,7 +2029,7 @@
       "raid": "MFO",
       "bossName": "ARAZ"
     },
-    "imgId": "inv_glove_plate_raiddeathknightethereal_d_01",
+    "imgId": "237526",
     "armorType": "PLATE"
   },
   {
@@ -2042,7 +2042,7 @@
       "raid": "MFO",
       "bossName": "ARAZ"
     },
-    "imgId": "inv_112_raidtrinkets_trinkettechnomancer_ritualengine",
+    "imgId": "242402",
     "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": []
   },
@@ -2056,7 +2056,7 @@
       "raid": "MFO",
       "bossName": "SOUL_HUNTERS"
     },
-    "imgId": "inv_plate_raidpaladinethereal_d_01_bracer",
+    "imgId": "237561",
     "armorType": "PLATE"
   },
   {
@@ -2069,7 +2069,7 @@
       "raid": "MFO",
       "bossName": "SOUL_HUNTERS"
     },
-    "imgId": "inv_112_raidtrinkets_agidpsancientkareshirelic",
+    "imgId": "242397",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["AGI"]
   },
@@ -2083,7 +2083,7 @@
       "raid": "MFO",
       "bossName": "SOUL_HUNTERS"
     },
-    "imgId": "inv_shield_1h_etherealraid_d_01",
+    "imgId": "237741",
     "offhandType": "SHIELD"
   },
   {
@@ -2096,7 +2096,7 @@
       "raid": "MFO",
       "bossName": "SOUL_HUNTERS"
     },
-    "imgId": "inv_112_raidtrinkets_necklace03_etherealtechnomancerstyle_gold",
+    "imgId": "237569",
     "miscType": "NECK"
   },
   {
@@ -2109,7 +2109,7 @@
       "raid": "MFO",
       "bossName": "SOUL_HUNTERS"
     },
-    "imgId": "inv_chest_leather_raiddemonhunterethereal_d_01",
+    "imgId": "237541",
     "armorType": "LEATHER"
   },
   {
@@ -2122,7 +2122,7 @@
       "raid": "MFO",
       "bossName": "SOUL_HUNTERS"
     },
-    "imgId": "inv_belt_mail_raidshamanethereal_d_01",
+    "imgId": "237554",
     "armorType": "MAIL"
   },
   {
@@ -2135,7 +2135,7 @@
       "raid": "MFO",
       "bossName": "SOUL_HUNTERS"
     },
-    "imgId": "inv_112_raidtrinkets_manaforgetanktrinket3",
+    "imgId": "242401",
     "roles": ["TANK"],
     "mainStats": []
   },
@@ -2149,7 +2149,7 @@
       "raid": "MFO",
       "bossName": "SOUL_HUNTERS"
     },
-    "imgId": "inv_glove_cloth_raidwarlockethereal_d_01",
+    "imgId": "237549",
     "armorType": "CLOTH"
   },
   {
@@ -2162,7 +2162,7 @@
       "raid": "MFO",
       "bossName": "SOUL_HUNTERS"
     },
-    "imgId": "inv_boot_cloth_raidpriestethereal_d_01",
+    "imgId": "243305",
     "armorType": "CLOTH"
   },
   {
@@ -2175,7 +2175,7 @@
       "raid": "MFO",
       "bossName": "SOUL_HUNTERS"
     },
-    "imgId": "inv_boot_leather_raidmonkethereal_d_01",
+    "imgId": "243306",
     "armorType": "LEATHER"
   },
   {
@@ -2188,7 +2188,7 @@
       "raid": "MFO",
       "bossName": "SOUL_HUNTERS"
     },
-    "imgId": "inv_plate_raidpaladinethereal_d_01_boot",
+    "imgId": "243307",
     "armorType": "PLATE"
   },
   {
@@ -2201,7 +2201,7 @@
       "raid": "MFO",
       "bossName": "SOUL_HUNTERS"
     },
-    "imgId": "inv_boot_mail_raidshamanethereal_d_01",
+    "imgId": "243308",
     "armorType": "MAIL"
   },
   {
@@ -2214,7 +2214,7 @@
       "raid": "MFO",
       "bossName": "FRACTILLUS"
     },
-    "imgId": "inv_112_raidtrinkets_voidprism",
+    "imgId": "242396",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["STR", "AGI"]
   },
@@ -2228,7 +2228,7 @@
       "raid": "MFO",
       "bossName": "FRACTILLUS"
     },
-    "imgId": "inv_pant_plate_raiddeathknightethereal_d_01",
+    "imgId": "237530",
     "armorType": "PLATE"
   },
   {
@@ -2241,7 +2241,7 @@
       "raid": "MFO",
       "bossName": "FRACTILLUS"
     },
-    "imgId": "inv_boot_leather_raiddemonhunterethereal_d_01",
+    "imgId": "237565",
     "armorType": "LEATHER"
   },
   {
@@ -2254,7 +2254,7 @@
       "raid": "MFO",
       "bossName": "FRACTILLUS"
     },
-    "imgId": "inv_112_raidtrinkets_intdps_ancientkareshirelic",
+    "imgId": "242392",
     "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -2268,7 +2268,7 @@
       "raid": "MFO",
       "bossName": "FRACTILLUS"
     },
-    "imgId": "inv_bracer_cloth_raidpriestethereal_d_01",
+    "imgId": "237558",
     "armorType": "CLOTH"
   },
   {
@@ -2281,7 +2281,7 @@
       "raid": "MFO",
       "bossName": "FRACTILLUS"
     },
-    "imgId": "inv_helm_mail_raidshamanethereal_d_01",
+    "imgId": "237536",
     "armorType": "MAIL"
   },
   {
@@ -2294,7 +2294,7 @@
       "raid": "MFO",
       "bossName": "NEXUS_KING"
     },
-    "imgId": "inv_mace_2h_etherealking_d_01",
+    "imgId": "243365",
     "weaponType": "MACE2H",
     "mainStats": ["STR", "AGI"]
   },
@@ -2308,7 +2308,7 @@
       "raid": "MFO",
       "bossName": "NEXUS_KING"
     },
-    "imgId": "inv_pant_leather_raidmonkethereal_d_01",
+    "imgId": "237531",
     "armorType": "LEATHER"
   },
   {
@@ -2321,7 +2321,7 @@
       "raid": "MFO",
       "bossName": "NEXUS_KING"
     },
-    "imgId": "inv_boot_plate_raidwarriorethereal_d_01",
+    "imgId": "237564",
     "armorType": "PLATE"
   },
   {
@@ -2334,7 +2334,7 @@
       "raid": "MFO",
       "bossName": "NEXUS_KING"
     },
-    "imgId": "inv_plate_raidpaladinethereal_d_01_shoulder",
+    "imgId": "237532",
     "armorType": "PLATE"
   },
   {
@@ -2347,7 +2347,7 @@
       "raid": "MFO",
       "bossName": "NEXUS_KING"
     },
-    "imgId": "inv_boot_cloth_raidwarlockethereal_d_01",
+    "imgId": "237556",
     "armorType": "CLOTH"
   },
   {
@@ -2360,7 +2360,7 @@
       "raid": "MFO",
       "bossName": "NEXUS_KING"
     },
-    "imgId": "inv_112_raidtrinkets_necklace02_etherealribbonorrunestyle_gold",
+    "imgId": "242406",
     "miscType": "NECK"
   },
   {
@@ -2373,7 +2373,7 @@
       "raid": "MFO",
       "bossName": "NEXUS_KING"
     },
-    "imgId": "inv_glove_mail_raidevokerethereal_d_01",
+    "imgId": "237544",
     "armorType": "MAIL"
   },
   {
@@ -2386,7 +2386,7 @@
       "raid": "MFO",
       "bossName": "NEXUS_KING"
     },
-    "imgId": "inv_belt_leather_raidrogueethereal_d_01",
+    "imgId": "237557",
     "armorType": "LEATHER"
   },
   {
@@ -2399,7 +2399,7 @@
       "raid": "MFO",
       "bossName": "NEXUS_KING"
     },
-    "imgId": "inv_11_0_etherealraid_communicator_color4",
+    "imgId": "242403",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": []
   },
@@ -2413,7 +2413,7 @@
       "raid": "MFO",
       "bossName": "NEXUS_KING"
     },
-    "imgId": "inv_bracer_mail_raidshamanethereal_d_01",
+    "imgId": "237555",
     "armorType": "MAIL"
   },
   {
@@ -2426,7 +2426,7 @@
       "raid": "MFO",
       "bossName": "NEXUS_KING"
     },
-    "imgId": "inv_112_raidtrinkets_oathbindersauthority",
+    "imgId": "242400",
     "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
@@ -2440,7 +2440,7 @@
       "raid": "MFO",
       "bossName": "NEXUS_KING"
     },
-    "imgId": "inv_helm_cloth_raidpriestethereal_d_01",
+    "imgId": "237548",
     "armorType": "CLOTH"
   },
   {
@@ -2453,7 +2453,7 @@
       "raid": "MFO",
       "bossName": "DIMENSIUS"
     },
-    "imgId": "inv_belt_cloth_raidpriestethereal_d_01",
+    "imgId": "237559",
     "armorType": "CLOTH"
   },
   {
@@ -2466,7 +2466,7 @@
       "raid": "MFO",
       "bossName": "DIMENSIUS"
     },
-    "imgId": "inv_pant_cloth_raidmageethereal_d_01",
+    "imgId": "237542",
     "armorType": "CLOTH"
   },
   {
@@ -2479,7 +2479,7 @@
       "raid": "MFO",
       "bossName": "DIMENSIUS"
     },
-    "imgId": "inv_mace_2h_etherealraid_d_01",
+    "imgId": "237725",
     "weaponType": "MACE2H",
     "mainStats": ["STR"]
   },
@@ -2493,7 +2493,7 @@
       "raid": "MFO",
       "bossName": "DIMENSIUS"
     },
-    "imgId": "inv_bracer_leather_raiddemonhunterethereal_d_01",
+    "imgId": "237562",
     "armorType": "LEATHER"
   },
   {
@@ -2506,7 +2506,7 @@
       "raid": "MFO",
       "bossName": "DIMENSIUS"
     },
-    "imgId": "inv_belt_plate_raiddeathknightethereal_d_01",
+    "imgId": "237563",
     "armorType": "PLATE"
   },
   {
@@ -2519,7 +2519,7 @@
       "raid": "MFO",
       "bossName": "DIMENSIUS"
     },
-    "imgId": "inv_glove_leather_raiddruidethereal_d_01",
+    "imgId": "237540",
     "armorType": "LEATHER"
   },
   {
@@ -2532,7 +2532,7 @@
       "raid": "MFO",
       "bossName": "DIMENSIUS"
     },
-    "imgId": "inv_112_raidtrinkets_omnidpstrinket",
+    "imgId": "242404",
     "roles": ["TANK"],
     "mainStats": []
   },
@@ -2546,7 +2546,7 @@
       "raid": "MFO",
       "bossName": "DIMENSIUS"
     },
-    "imgId": "inv_plate_raidpaladinethereal_d_01_helm",
+    "imgId": "237535",
     "armorType": "PLATE"
   },
   {
@@ -2559,7 +2559,7 @@
       "raid": "MFO",
       "bossName": "DIMENSIUS"
     },
-    "imgId": "inv_112_raidtrinkets_ring02_etherealribbonorrunestyle_gold",
+    "imgId": "242405",
     "miscType": "FINGER"
   },
   {
@@ -2572,7 +2572,7 @@
       "raid": "MFO",
       "bossName": "DIMENSIUS"
     },
-    "imgId": "inv_shoulder_mail_raidshamanethereal_d_01",
+    "imgId": "237537",
     "armorType": "MAIL"
   },
   {
@@ -2585,7 +2585,7 @@
       "raid": "MFO",
       "bossName": "DIMENSIUS"
     },
-    "imgId": "inv_boot_mail_raidhunterethereal_d_01",
+    "imgId": "237560",
     "armorType": "MAIL"
   },
   {
@@ -2598,7 +2598,7 @@
       "raid": "MFO",
       "bossName": "DIMENSIUS"
     },
-    "imgId": "inv_112_raidtrinkets_blobofswirlingvoid_terra",
+    "imgId": "242399",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": []
   },
@@ -2609,7 +2609,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv12_jewelrytrinkets_dungeon_tankjellyreplicator",
+    "imgId": "250242",
     "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -2620,7 +2620,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_misc_eye_03",
+    "imgId": "250257",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["INT", "AGI"]
   },
@@ -2631,7 +2631,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_shield_1h_dungeonharronir_c_01",
+    "imgId": "251105",
     "offhandType": "SHIELD"
   },
   {
@@ -2641,7 +2641,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_boot_plate_dungeonharronir_c_01",
+    "imgId": "251107",
     "armorType": "PLATE"
   },
   {
@@ -2651,7 +2651,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_helm_leather_dungeonharronir_c_01",
+    "imgId": "251109",
     "armorType": "LEATHER"
   },
   {
@@ -2661,7 +2661,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_belt_mail_dungeonharronir_c_01",
+    "imgId": "251110",
     "armorType": "MAIL"
   },
   {
@@ -2671,7 +2671,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_belt_plate_dungeonharronir_c_01",
+    "imgId": "251112",
     "armorType": "PLATE"
   },
   {
@@ -2681,7 +2681,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_glove_leather_dungeonharronir_c_01",
+    "imgId": "251113",
     "armorType": "LEATHER"
   },
   {
@@ -2691,7 +2691,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_chest_mail_dungeonharronir_c_01",
+    "imgId": "251114",
     "armorType": "MAIL"
   },
   {
@@ -2701,7 +2701,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_axe_2h_domanaar_b_01",
+    "imgId": "251117",
     "weaponType": "AXE2H",
     "mainStats": ["STR"]
   },
@@ -2712,7 +2712,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_helm_mail_dungeonharronir_c_01",
+    "imgId": "251119",
     "armorType": "MAIL"
   },
   {
@@ -2722,7 +2722,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_chest_cloth_dungeonharronir_c_01",
+    "imgId": "251120",
     "armorType": "CLOTH"
   },
   {
@@ -2732,7 +2732,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_boot_leather_dungeonharronir_c_01",
+    "imgId": "251121",
     "armorType": "LEATHER"
   },
   {
@@ -2742,7 +2742,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_bracer_cloth_dungeonharronir_c_01",
+    "imgId": "251108",
     "armorType": "CLOTH"
   },
   {
@@ -2752,7 +2752,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_pant_plate_dungeonharronir_c_01",
+    "imgId": "251118",
     "armorType": "PLATE"
   },
   {
@@ -2762,7 +2762,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_12_trinket_devouring_host_currency2_void",
+    "imgId": "251115",
     "miscType": "FINGER"
   },
   {
@@ -2772,7 +2772,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "MC",
-    "imgId": "inv_jewelry_necklace_32",
+    "imgId": "250223",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -2783,7 +2783,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MC",
-    "imgId": "inv_bracer_plate_dungeonharronir_c_01",
+    "imgId": "263193",
     "armorType": "PLATE"
   },
   {
@@ -2793,7 +2793,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MC",
-    "imgId": "inv_chest_mail_dungeonharronir_c_01",
+    "imgId": "251179",
     "armorType": "MAIL"
   },
   {
@@ -2803,7 +2803,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "MC",
-    "imgId": "inv_helm_leather_dungeonharronir_c_01",
+    "imgId": "251177",
     "armorType": "LEATHER"
   },
   {
@@ -2813,7 +2813,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MC",
-    "imgId": "inv_shoulder_armor_hextroll_d_01",
+    "imgId": "251176",
     "armorType": "MAIL"
   },
   {
@@ -2823,7 +2823,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "MC",
-    "imgId": "inv_glove_cloth_dungeonharronir_c_01",
+    "imgId": "251172",
     "armorType": "CLOTH"
   },
   {
@@ -2833,7 +2833,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MC",
-    "imgId": "inv_shoulder_leather_dungeonharronir_c_01",
+    "imgId": "251171",
     "armorType": "LEATHER"
   },
   {
@@ -2843,7 +2843,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MC",
-    "imgId": "inv_sword_2h_dungeonharronir_c_01",
+    "imgId": "251168",
     "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
@@ -2854,7 +2854,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "MC",
-    "imgId": "inv_polearm_2h_dungeonharronir_c_01",
+    "imgId": "251162",
     "weaponType": "POLEARM",
     "mainStats": ["AGI"]
   },
@@ -2865,7 +2865,7 @@
     "secondaryStats": ["MASTERY"],
     "specialEffect": null,
     "lootSource": "MC",
-    "imgId": "inv_misc_food_162_fish_90blue",
+    "imgId": "250258",
     "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": []
   },
@@ -2876,7 +2876,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MC",
-    "imgId": "inv_shoulder_plate_dungeonharronir_c_01",
+    "imgId": "251164",
     "armorType": "PLATE"
   },
   {
@@ -2886,7 +2886,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MC",
-    "imgId": "inv_pant_mail_dungeonharronir_c_01",
+    "imgId": "251170",
     "armorType": "MAIL"
   },
   {
@@ -2896,7 +2896,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MC",
-    "imgId": "inv_boot_plate_dungeonharronir_c_01",
+    "imgId": "251169",
     "armorType": "PLATE"
   },
   {
@@ -2906,7 +2906,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "MC",
-    "imgId": "inv_boot_cloth_dungeonharronir_c_01",
+    "imgId": "251167",
     "armorType": "CLOTH"
   },
   {
@@ -2916,7 +2916,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "MC",
-    "imgId": "inv_belt_leather_dungeonharronir_c_01",
+    "imgId": "251166",
     "armorType": "LEATHER"
   },
   {
@@ -2926,7 +2926,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv12_jewelrytrinkets_dungeon_markoflight",
+    "imgId": "250241",
     "roles": ["DPS_MELEE"],
     "mainStats": ["STR"]
   },
@@ -2937,7 +2937,7 @@
     "secondaryStats": ["VERS"],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv_cosmicvoid_wave",
+    "imgId": "250253",
     "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
@@ -2948,7 +2948,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv_shoulder_plate_dungeonharronir_c_01",
+    "imgId": "251157",
     "armorType": "PLATE"
   },
   {
@@ -2958,7 +2958,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv_pant_plate_dungeonharronir_c_01",
+    "imgId": "251208",
     "armorType": "PLATE"
   },
   {
@@ -2968,7 +2968,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv_bracer_mail_dungeonharronir_c_01",
+    "imgId": "251209",
     "armorType": "MAIL"
   },
   {
@@ -2978,7 +2978,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv_boot_leather_dungeonharronir_c_01",
+    "imgId": "251210",
     "armorType": "LEATHER"
   },
   {
@@ -2988,7 +2988,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv_glove_cloth_dungeonharronir_c_01",
+    "imgId": "251211",
     "armorType": "CLOTH"
   },
   {
@@ -2998,7 +2998,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv_shoulder_cloth_dungeonharronir_c_01",
+    "imgId": "251213",
     "armorType": "CLOTH"
   },
   {
@@ -3008,7 +3008,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv_pant_mail_dungeonharronir_c_01",
+    "imgId": "251215",
     "armorType": "MAIL"
   },
   {
@@ -3018,7 +3018,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv_chest_leather_dungeonharronir_c_01",
+    "imgId": "251216",
     "armorType": "LEATHER"
   },
   {
@@ -3028,7 +3028,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv_12_trinket_devouring_host_currency1_bronze",
+    "imgId": "251217",
     "miscType": "FINGER"
   },
   {
@@ -3038,7 +3038,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv_12_trinket_devouring_host_currency1_silver",
+    "imgId": "251093",
     "miscType": "FINGER"
   },
   {
@@ -3048,7 +3048,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_chest_leather_dungeonharronir_c_01",
+    "imgId": "251099",
     "armorType": "LEATHER"
   },
   {
@@ -3058,7 +3058,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_helm_plate_dungeonharronir_c_01",
+    "imgId": "251098",
     "armorType": "PLATE"
   },
   {
@@ -3068,7 +3068,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_shoulder_mail_dungeonharronir_c_01",
+    "imgId": "251097",
     "armorType": "MAIL"
   },
   {
@@ -3078,7 +3078,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_12_jewelry_silvermoonelf_necklace_white",
+    "imgId": "251096",
     "miscType": "NECK"
   },
   {
@@ -3088,7 +3088,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_shoulder_leather_dungeonharronir_c_01",
+    "imgId": "251092",
     "armorType": "LEATHER"
   },
   {
@@ -3098,7 +3098,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_boot_plate_dungeonharronir_c_01",
+    "imgId": "251091",
     "armorType": "PLATE"
   },
   {
@@ -3108,7 +3108,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_pant_cloth_dungeonharronir_c_01",
+    "imgId": "251090",
     "armorType": "CLOTH"
   },
   {
@@ -3118,7 +3118,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_glove_mail_dungeonharronir_c_01",
+    "imgId": "251089",
     "armorType": "MAIL"
   },
   {
@@ -3128,7 +3128,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_pant_leather_dungeonharronir_c_01",
+    "imgId": "251087",
     "armorType": "LEATHER"
   },
   {
@@ -3138,7 +3138,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_belt_plate_dungeonharronir_c_01",
+    "imgId": "251086",
     "armorType": "PLATE"
   },
   {
@@ -3148,7 +3148,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_shoulder_cloth_dungeonharronir_c_01",
+    "imgId": "251085",
     "armorType": "CLOTH"
   },
   {
@@ -3158,7 +3158,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_boot_mail_dungeonharronir_c_01",
+    "imgId": "251084",
     "armorType": "MAIL"
   },
   {
@@ -3168,7 +3168,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_belt_leather_dungeonharronir_c_01",
+    "imgId": "251082",
     "armorType": "LEATHER"
   },
   {
@@ -3178,7 +3178,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_helm_cloth_dungeonharronir_c_01",
+    "imgId": "251080",
     "armorType": "CLOTH"
   },
   {
@@ -3188,7 +3188,7 @@
     "secondaryStats": ["HASTE"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_10_jewelcrafting3_soulcage_air",
+    "imgId": "250256",
     "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   },
@@ -3199,7 +3199,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_10_tailoring2_banner_red",
+    "imgId": "250227",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["STR", "AGI"]
   },
@@ -3210,7 +3210,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_archaeology_70_tauren_moosebonefishhook",
+    "imgId": "250226",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["STR", "AGI"]
   },
@@ -3221,7 +3221,7 @@
     "secondaryStats": ["HASTE"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_icon_feather06a",
+    "imgId": "250144",
     "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER"],
     "mainStats": ["INT", "AGI"]
   },
@@ -3232,7 +3232,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_staff_2h_dungeonharronir_c_01",
+    "imgId": "251077",
     "weaponType": "STAFF",
     "mainStats": ["AGI"]
   },
@@ -3243,7 +3243,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_sword_2h_dungeonharronir_c_01",
+    "imgId": "251078",
     "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
@@ -3254,7 +3254,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_bracer_mail_dungeonharronir_c_01",
+    "imgId": "251079",
     "armorType": "MAIL"
   },
   {
@@ -3264,7 +3264,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_polearm_2h_dragondungeon_c_01",
+    "imgId": "258529",
     "weaponType": "POLEARM",
     "mainStats": ["AGI"]
   },
@@ -3275,7 +3275,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_staff_2h_drakonid_c_01",
+    "imgId": "193707",
     "weaponType": "STAFF",
     "mainStats": ["INT"]
   },
@@ -3286,7 +3286,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_axe_2h_drakonoid_c_01",
+    "imgId": "193716",
     "weaponType": "AXE2H",
     "mainStats": ["STR"]
   },
@@ -3297,7 +3297,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_staff_2h_drakonid_c_02",
+    "imgId": "193723",
     "weaponType": "STAFF",
     "mainStats": ["AGI"]
   },
@@ -3308,7 +3308,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_shield_1h_dragondungeon_c_01",
+    "imgId": "258531",
     "offhandType": "SHIELD"
   },
   {
@@ -3318,7 +3318,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_helm_cloth_dragondungeon_c_01",
+    "imgId": "193703",
     "armorType": "CLOTH"
   },
   {
@@ -3328,7 +3328,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_mail_dragondungeon_c_01_shoulder",
+    "imgId": "193704",
     "armorType": "MAIL"
   },
   {
@@ -3338,7 +3338,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_plate_dragondungeon_c_01_chest",
+    "imgId": "193705",
     "armorType": "PLATE"
   },
   {
@@ -3348,7 +3348,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_chest_cloth_dragondungeon_c_01",
+    "imgId": "193720",
     "armorType": "CLOTH"
   },
   {
@@ -3358,7 +3358,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_leather_dragondungeon_c_01_bracer",
+    "imgId": "193714",
     "armorType": "LEATHER"
   },
   {
@@ -3368,7 +3368,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_glove_cloth_dragondungeon_c_01",
+    "imgId": "193713",
     "armorType": "CLOTH"
   },
   {
@@ -3378,7 +3378,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_leather_dragondungeon_c_01_glove",
+    "imgId": "193721",
     "armorType": "LEATHER"
   },
   {
@@ -3388,7 +3388,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_mail_dragondungeon_c_01_buckle",
+    "imgId": "193722",
     "armorType": "MAIL"
   },
   {
@@ -3398,7 +3398,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_plate_dragondungeon_c_01_pant",
+    "imgId": "193706",
     "armorType": "PLATE"
   },
   {
@@ -3408,7 +3408,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_mail_dragondungeon_c_01_boot",
+    "imgId": "193715",
     "armorType": "MAIL"
   },
   {
@@ -3418,7 +3418,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_10_dungeonjewelry_explorer_ring_1_color1",
+    "imgId": "193708",
     "miscType": "FINGER"
   },
   {
@@ -3428,7 +3428,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "reliquarybag_icon",
+    "imgId": "193719",
     "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR"]
   },
@@ -3439,7 +3439,7 @@
     "secondaryStats": ["MASTERY"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_misc_head_dragon_green",
+    "imgId": "193718",
     "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
@@ -3450,7 +3450,7 @@
     "secondaryStats": ["MASTERY"],
     "specialEffect": null,
     "lootSource": "AA",
-    "imgId": "inv_misc_enggizmos_18",
+    "imgId": "193701",
     "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -3461,7 +3461,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_mace_83",
+    "imgId": "49802",
     "weaponType": "MACE2H",
     "mainStats": ["STR"]
   },
@@ -3472,7 +3472,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_helmet_130",
+    "imgId": "49819",
     "armorType": "PLATE"
   },
   {
@@ -3482,7 +3482,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_helmet_157",
+    "imgId": "49824",
     "armorType": "MAIL"
   },
   {
@@ -3492,7 +3492,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_jewelry_necklace_22",
+    "imgId": "50228",
     "miscType": "NECK"
   },
   {
@@ -3502,7 +3502,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_shoulder_120",
+    "imgId": "50233",
     "armorType": "MAIL"
   },
   {
@@ -3512,7 +3512,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_shoulder_121",
+    "imgId": "50234",
     "armorType": "PLATE"
   },
   {
@@ -3522,7 +3522,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_chest_cloth_79",
+    "imgId": "49825",
     "armorType": "CLOTH"
   },
   {
@@ -3532,7 +3532,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_chest_plate23",
+    "imgId": "50272",
     "armorType": "PLATE"
   },
   {
@@ -3542,7 +3542,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_bracer_23a",
+    "imgId": "50264",
     "armorType": "LEATHER"
   },
   {
@@ -3552,7 +3552,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_bracer_32a",
+    "imgId": "49809",
     "armorType": "CLOTH"
   },
   {
@@ -3562,7 +3562,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_belt_70",
+    "imgId": "49808",
     "armorType": "PLATE"
   },
   {
@@ -3572,7 +3572,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_belt_69",
+    "imgId": "49810",
     "armorType": "LEATHER"
   },
   {
@@ -3582,7 +3582,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_belt_65",
+    "imgId": "49806",
     "armorType": "LEATHER"
   },
   {
@@ -3592,7 +3592,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_belt_67",
+    "imgId": "50263",
     "armorType": "CLOTH"
   },
   {
@@ -3602,7 +3602,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_pants_leather_30a",
+    "imgId": "49817",
     "armorType": "LEATHER"
   },
   {
@@ -3612,7 +3612,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_pants_mail_33",
+    "imgId": "49811",
     "armorType": "MAIL"
   },
   {
@@ -3622,7 +3622,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_boots_cloth_26",
+    "imgId": "49805",
     "armorType": "CLOTH"
   },
   {
@@ -3632,7 +3632,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_jewelry_ring_42",
+    "imgId": "49812",
     "miscType": "FINGER"
   },
   {
@@ -3642,7 +3642,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_maldraxxusslime_plague",
+    "imgId": "252421",
     "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -3653,7 +3653,7 @@
     "secondaryStats": ["CRIT"],
     "specialEffect": null,
     "lootSource": "POS",
-    "imgId": "inv_datacrystal09",
+    "imgId": "50259",
     "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -3664,7 +3664,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_staff_2h_oribosdungeon_c_01",
+    "imgId": "258514",
     "weaponType": "STAFF",
     "mainStats": ["INT"]
   },
@@ -3675,7 +3675,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_helm_leather_legiondungeon_c_03",
+    "imgId": "151336",
     "armorType": "LEATHER"
   },
   {
@@ -3685,7 +3685,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_helm_plate_legiondungeon_c_03",
+    "imgId": "151333",
     "armorType": "PLATE"
   },
   {
@@ -3695,7 +3695,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_helm_cloth_legiondungeon_c_03",
+    "imgId": "151337",
     "armorType": "CLOTH"
   },
   {
@@ -3705,7 +3705,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_7_0raid_necklace_06d",
+    "imgId": "151309",
     "miscType": "NECK"
   },
   {
@@ -3715,7 +3715,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_shoulder_cloth_legiondungeon_c_03",
+    "imgId": "151299",
     "armorType": "CLOTH"
   },
   {
@@ -3725,7 +3725,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_shoulder_leather_legiondungeon_c_03",
+    "imgId": "151319",
     "armorType": "LEATHER"
   },
   {
@@ -3735,7 +3735,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_shoulder_mail_legiondungeon_c_03",
+    "imgId": "151323",
     "armorType": "MAIL"
   },
   {
@@ -3745,7 +3745,7 @@
     "secondaryStats": ["CRIT", "HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_chest_cloth_legiondungeon_c_03",
+    "imgId": "151303",
     "armorType": "CLOTH"
   },
   {
@@ -3755,7 +3755,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_chest_leather_legiondungeon_c_03",
+    "imgId": "151313",
     "armorType": "LEATHER"
   },
   {
@@ -3765,7 +3765,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_robe_mail_legiondungeon_c_03",
+    "imgId": "151325",
     "armorType": "MAIL"
   },
   {
@@ -3775,7 +3775,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_chest_plate_legiondungeon_c_03",
+    "imgId": "151329",
     "armorType": "PLATE"
   },
   {
@@ -3785,7 +3785,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_bracer_cloth_legiondungeon_c_03",
+    "imgId": "151305",
     "armorType": "CLOTH"
   },
   {
@@ -3795,7 +3795,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_bracer_plate_legiondungeon_c_03",
+    "imgId": "151328",
     "armorType": "PLATE"
   },
   {
@@ -3805,7 +3805,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_bracer_mail_legiondungeon_c_03",
+    "imgId": "151321",
     "armorType": "MAIL"
   },
   {
@@ -3815,7 +3815,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_glove_leather_legiondungeon_c_03",
+    "imgId": "151318",
     "armorType": "LEATHER"
   },
   {
@@ -3825,7 +3825,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_glove_plate_legiondungeon_c_03",
+    "imgId": "151332",
     "armorType": "PLATE"
   },
   {
@@ -3835,7 +3835,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_glove_mail_legiondungeon_c_03",
+    "imgId": "151322",
     "armorType": "MAIL"
   },
   {
@@ -3845,7 +3845,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_glove_cloth_legiondungeon_c_03",
+    "imgId": "151300",
     "armorType": "CLOTH"
   },
   {
@@ -3855,7 +3855,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_belt_plate_legiondungeon_c_03",
+    "imgId": "151327",
     "armorType": "PLATE"
   },
   {
@@ -3865,7 +3865,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_belt_cloth_legiondungeon_c_03",
+    "imgId": "151302",
     "armorType": "CLOTH"
   },
   {
@@ -3875,7 +3875,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_pant_leather_legiondungeon_c_03",
+    "imgId": "151314",
     "armorType": "LEATHER"
   },
   {
@@ -3885,7 +3885,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_boot_mail_legiondungeon_c_03",
+    "imgId": "151320",
     "armorType": "MAIL"
   },
   {
@@ -3895,7 +3895,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_boot_leather_legiondungeon_c_03",
+    "imgId": "151317",
     "armorType": "LEATHER"
   },
   {
@@ -3905,7 +3905,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_boot_cloth_legiondungeon_c_03",
+    "imgId": "151301",
     "armorType": "CLOTH"
   },
   {
@@ -3915,7 +3915,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_boot_plate_legiondungeon_c_03",
+    "imgId": "151330",
     "armorType": "PLATE"
   },
   {
@@ -3925,7 +3925,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_70_dungeon_ring3c",
+    "imgId": "151308",
     "miscType": "FINGER"
   },
   {
@@ -3935,7 +3935,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_70_dungeon_ring2b",
+    "imgId": "151311",
     "miscType": "FINGER"
   },
   {
@@ -3945,7 +3945,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_archaeology_70_highborne_vialofpoison",
+    "imgId": "151312",
     "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -3956,7 +3956,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_enchant_formulaepic_01",
+    "imgId": "151307",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["STR", "AGI"]
   },
@@ -3967,7 +3967,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "achievement_battleground_templeofkotmogu_02_purple",
+    "imgId": "151310",
     "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -3978,7 +3978,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "SEAT",
-    "imgId": "inv_pet_naaru_purple",
+    "imgId": "151340",
     "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
@@ -3989,7 +3989,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_sword_2h_draenordungeon_c_01",
+    "imgId": "258046",
     "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
@@ -4000,7 +4000,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "invstaff_2h_draenordungeon_c_04",
+    "imgId": "258047",
     "weaponType": "STAFF",
     "mainStats": ["INT"]
   },
@@ -4011,7 +4011,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_polearm_2h_draenordungeon_c_01",
+    "imgId": "258484",
     "weaponType": "POLEARM",
     "mainStats": ["AGI"]
   },
@@ -4022,7 +4022,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_shield_draenordungeon_c_03",
+    "imgId": "258049",
     "offhandType": "SHIELD"
   },
   {
@@ -4032,7 +4032,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_helm_mail_draenordungeon_c_01",
+    "imgId": "258585",
     "armorType": "MAIL"
   },
   {
@@ -4042,7 +4042,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_helm_draenordungeon_c_01",
+    "imgId": "258579",
     "armorType": "PLATE"
   },
   {
@@ -4052,7 +4052,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_leather_draenordungeon_c_01shoulder",
+    "imgId": "258581",
     "armorType": "LEATHER"
   },
   {
@@ -4062,7 +4062,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_shoulder_plate_draenordungeon_c_01",
+    "imgId": "258587",
     "armorType": "PLATE"
   },
   {
@@ -4072,7 +4072,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_cloth_draenordungeon_c_01shoulder",
+    "imgId": "258578",
     "armorType": "CLOTH"
   },
   {
@@ -4082,7 +4082,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_leather_draenordungeon_c_01chest",
+    "imgId": "258586",
     "armorType": "LEATHER"
   },
   {
@@ -4092,7 +4092,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_chest_mail_draenordungeon_c_01",
+    "imgId": "258576",
     "armorType": "MAIL"
   },
   {
@@ -4102,7 +4102,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_cloth_draenordungeon_c_01bracer",
+    "imgId": "258580",
     "armorType": "CLOTH"
   },
   {
@@ -4112,7 +4112,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_glove_plate_draenordungeon_c_01",
+    "imgId": "258583",
     "armorType": "PLATE"
   },
   {
@@ -4122,7 +4122,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_cloth_draenordungeon_c_01pant",
+    "imgId": "258574",
     "armorType": "CLOTH"
   },
   {
@@ -4132,7 +4132,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_cloth_draenordungeon_c_01boot",
+    "imgId": "258584",
     "armorType": "CLOTH"
   },
   {
@@ -4142,7 +4142,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_boot_mail_draenordungeon_c_01",
+    "imgId": "258582",
     "armorType": "MAIL"
   },
   {
@@ -4152,7 +4152,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_leather_draenordungeon_c_01boot",
+    "imgId": "258577",
     "armorType": "LEATHER"
   },
   {
@@ -4162,7 +4162,7 @@
     "secondaryStats": ["VERS"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_elemental_primal_fire",
+    "imgId": "252418",
     "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -4173,7 +4173,7 @@
     "secondaryStats": ["CRIT"],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_enchant_shardbrilliantlarge",
+    "imgId": "252420",
     "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -4184,7 +4184,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "SR",
-    "imgId": "inv_qirajidol_sun",
+    "imgId": "252411",
     "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
@@ -4198,7 +4198,7 @@
       "raid": "DR",
       "bossName": "CHIMAERUS"
     },
-    "imgId": "inv_12_trinket_raid_dreamrift-_physdps2_umdreamtgodsoozingvestige",
+    "imgId": "249805",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["STR", "AGI"]
   },
@@ -4212,7 +4212,7 @@
       "raid": "DR",
       "bossName": "CHIMAERUS"
     },
-    "imgId": "inv_staff_2h_raidmidnight_d_01",
+    "imgId": "249278",
     "weaponType": "STAFF",
     "mainStats": ["AGI"]
   },
@@ -4226,7 +4226,7 @@
       "raid": "DR",
       "bossName": "CHIMAERUS"
     },
-    "imgId": "inv_boot_cloth_raidmagemidnight_d_01",
+    "imgId": "249373",
     "armorType": "CLOTH"
   },
   {
@@ -4239,7 +4239,7 @@
       "raid": "DR",
       "bossName": "CHIMAERUS"
     },
-    "imgId": "inv_12_trinket_raid_dreamrift_gazeofthealnseer",
+    "imgId": "249343",
     "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": []
   },
@@ -4253,7 +4253,7 @@
       "raid": "DR",
       "bossName": "CHIMAERUS"
     },
-    "imgId": "inv_boot_plate_raidwarriormidnight_d_01",
+    "imgId": "249381",
     "armorType": "PLATE"
   },
   {
@@ -4266,7 +4266,7 @@
       "raid": "DR",
       "bossName": "CHIMAERUS"
     },
-    "imgId": "inv_belt_leather_raidmonkmidnight_d_01",
+    "imgId": "249374",
     "armorType": "LEATHER"
   },
   {
@@ -4279,7 +4279,7 @@
       "raid": "DR",
       "bossName": "CHIMAERUS"
     },
-    "imgId": "inv_belt_mail_raidhuntermidnight_d_01",
+    "imgId": "249371",
     "armorType": "MAIL"
   },
   {
@@ -4292,7 +4292,7 @@
       "raid": "VS",
       "bossName": "AVERZIAN"
     },
-    "imgId": "inv_shield_1h_raidmidnight_d_01",
+    "imgId": "249275",
     "offhandType": "SHIELD"
   },
   {
@@ -4305,7 +4305,7 @@
       "raid": "VS",
       "bossName": "AVERZIAN"
     },
-    "imgId": "inv_helm_leather_raiddemonhuntermidnight_d_01",
+    "imgId": "249306",
     "armorType": "LEATHER"
   },
   {
@@ -4318,7 +4318,7 @@
       "raid": "VS",
       "bossName": "AVERZIAN"
     },
-    "imgId": "inv_belt_cloth_raidpriestmidnight_d_01",
+    "imgId": "249319",
     "armorType": "CLOTH"
   },
   {
@@ -4331,7 +4331,7 @@
       "raid": "VS",
       "bossName": "AVERZIAN"
     },
-    "imgId": "inv_pant_cloth_raidmagemidnight_d_01",
+    "imgId": "249323",
     "armorType": "CLOTH"
   },
   {
@@ -4344,7 +4344,7 @@
       "raid": "VS",
       "bossName": "AVERZIAN"
     },
-    "imgId": "inv_12_trinket_raid_voidspire_physdps1_armyoflightbanner",
+    "imgId": "249344",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["STR", "AGI"]
   },
@@ -4358,7 +4358,7 @@
       "raid": "VS",
       "bossName": "AVERZIAN"
     },
-    "imgId": "inv_shoulder_plate_raidpaladinmidnight_d_01",
+    "imgId": "249313",
     "armorType": "PLATE"
   },
   {
@@ -4371,7 +4371,7 @@
       "raid": "VS",
       "bossName": "AVERZIAN"
     },
-    "imgId": "inv_bracer_plate_raidwarriormidnight_d_01",
+    "imgId": "249326",
     "armorType": "PLATE"
   },
   {
@@ -4384,7 +4384,7 @@
       "raid": "VS",
       "bossName": "AVERZIAN"
     },
-    "imgId": "inv_robe_mail_raidshamanmidnight_d_01",
+    "imgId": "249310",
     "armorType": "MAIL"
   },
   {
@@ -4397,7 +4397,7 @@
       "raid": "VS",
       "bossName": "AVERZIAN"
     },
-    "imgId": "inv_boot_mail_raidevokermidnight_d_01",
+    "imgId": "249320",
     "armorType": "MAIL"
   },
   {
@@ -4410,7 +4410,7 @@
       "raid": "VS",
       "bossName": "VORASIUS"
     },
-    "imgId": "inv_helm_mail_raidevokermidnight_d_01",
+    "imgId": "249317",
     "armorType": "MAIL"
   },
   {
@@ -4423,7 +4423,7 @@
       "raid": "VS",
       "bossName": "VORASIUS"
     },
-    "imgId": "inv_bracer_cloth_raidpriestmidnight_d_01",
+    "imgId": "249315",
     "armorType": "CLOTH"
   },
   {
@@ -4436,7 +4436,7 @@
       "raid": "VS",
       "bossName": "VORASIUS"
     },
-    "imgId": "inv_bracer_leather_raidroguemidnight_d_01",
+    "imgId": "249327",
     "armorType": "LEATHER"
   },
   {
@@ -4449,7 +4449,7 @@
       "raid": "VS",
       "bossName": "VORASIUS"
     },
-    "imgId": "inv_12_jewelry_devouringhost_ring_silver2",
+    "imgId": "249336",
     "miscType": "FINGER"
   },
   {
@@ -4462,7 +4462,7 @@
       "raid": "VS",
       "bossName": "VORASIUS"
     },
-    "imgId": "inv_boot_plate_raidpaladinmidnight_d_01",
+    "imgId": "249332",
     "armorType": "PLATE"
   },
   {
@@ -4475,7 +4475,7 @@
       "raid": "VS",
       "bossName": "VORASIUS"
     },
-    "imgId": "inv_polearm_2h_raidmidnight_d_01",
+    "imgId": "249302",
     "weaponType": "POLEARM",
     "mainStats": ["AGI"]
   },
@@ -4489,7 +4489,7 @@
       "raid": "VS",
       "bossName": "VORASIUS"
     },
-    "imgId": "inv_12_trinket_raid_voidspire_strdps_hearthofancienthunger",
+    "imgId": "249342",
     "roles": ["DPS_MELEE", "TANK"],
     "mainStats": ["STR"]
   },
@@ -4503,7 +4503,7 @@
       "raid": "VS",
       "bossName": "FALLEN_SALHADAAR"
     },
-    "imgId": "inv_12_trinket_raid_voidspire_intdps1_wrapsofcosmicmadness",
+    "imgId": "249340",
     "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -4517,7 +4517,7 @@
       "raid": "VS",
       "bossName": "FALLEN_SALHADAAR"
     },
-    "imgId": "inv_12_trinket_raid_voidspire_healer1_volatilevoidsuffuser",
+    "imgId": "249341",
     "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
@@ -4531,7 +4531,7 @@
       "raid": "VS",
       "bossName": "FALLEN_SALHADAAR"
     },
-    "imgId": "inv_belt_leather_raiddemonhuntermidnight_d_01",
+    "imgId": "249314",
     "armorType": "LEATHER"
   },
   {
@@ -4544,7 +4544,7 @@
       "raid": "VS",
       "bossName": "FALLEN_SALHADAAR"
     },
-    "imgId": "inv_12_jewelry_devouringhost_necklace_bronze",
+    "imgId": "249337",
     "miscType": "NECK"
   },
   {
@@ -4557,7 +4557,7 @@
       "raid": "VS",
       "bossName": "FALLEN_SALHADAAR"
     },
-    "imgId": "inv_bracer_mail_raidshamanmidnight_d_01",
+    "imgId": "249304",
     "armorType": "MAIL"
   },
   {
@@ -4570,7 +4570,7 @@
       "raid": "VS",
       "bossName": "FALLEN_SALHADAAR"
     },
-    "imgId": "inv_robe_cloth_raidpriestmidnight_d_01",
+    "imgId": "249308",
     "armorType": "CLOTH"
   },
   {
@@ -4583,7 +4583,7 @@
       "raid": "VS",
       "bossName": "FALLEN_SALHADAAR"
     },
-    "imgId": "inv_plate_raiddeathknightmidnight_d_01_helm",
+    "imgId": "249316",
     "armorType": "PLATE"
   },
   {
@@ -4596,7 +4596,7 @@
       "raid": "VS",
       "bossName": "VAELGOR"
     },
-    "imgId": "inv_12_trinket_raid_voidspire_int1_voiddragoneye",
+    "imgId": "249346",
     "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -4610,7 +4610,7 @@
       "raid": "VS",
       "bossName": "VAELGOR"
     },
-    "imgId": "inv_glove_leather_raiddruidmidnight_d_01",
+    "imgId": "249321",
     "armorType": "LEATHER"
   },
   {
@@ -4623,7 +4623,7 @@
       "raid": "VS",
       "bossName": "VAELGOR"
     },
-    "imgId": "inv_boot_cloth_raidwarlockmidnight_d_01",
+    "imgId": "249305",
     "armorType": "CLOTH"
   },
   {
@@ -4636,7 +4636,7 @@
       "raid": "VS",
       "bossName": "VAELGOR"
     },
-    "imgId": "inv_shoulder_mail_raidevokermidnight_d_01",
+    "imgId": "249318",
     "armorType": "MAIL"
   },
   {
@@ -4649,7 +4649,7 @@
       "raid": "VS",
       "bossName": "VAELGOR"
     },
-    "imgId": "inv_12_trinket_raid_voidspire_tank1_smolderinggloomscale",
+    "imgId": "249339",
     "roles": ["TANK"],
     "mainStats": []
   },
@@ -4663,7 +4663,7 @@
       "raid": "VS",
       "bossName": "VAELGOR"
     },
-    "imgId": "inv_belt_plate_raidwarriormidnight_d_01",
+    "imgId": "249331",
     "armorType": "PLATE"
   },
   {
@@ -4676,7 +4676,7 @@
       "raid": "VS",
       "bossName": "LIGHT_VANGUARD"
     },
-    "imgId": "inv_mace_2h_raidmidnight_d_01",
+    "imgId": "249277",
     "weaponType": "MACE2H",
     "mainStats": ["STR"]
   },
@@ -4690,7 +4690,7 @@
       "raid": "VS",
       "bossName": "LIGHT_VANGUARD"
     },
-    "imgId": "inv_glove_cloth_raidwarlockmidnight_d_01",
+    "imgId": "249330",
     "armorType": "CLOTH"
   },
   {
@@ -4703,7 +4703,7 @@
       "raid": "VS",
       "bossName": "LIGHT_VANGUARD"
     },
-    "imgId": "inv_belt_mail_raidevokermidnight_d_01",
+    "imgId": "249303",
     "armorType": "MAIL"
   },
   {
@@ -4716,7 +4716,7 @@
       "raid": "VS",
       "bossName": "LIGHT_VANGUARD"
     },
-    "imgId": "inv_12_trinket_raid_voidspire_healer2_litanyoflightblindwrath",
+    "imgId": "249808",
     "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
@@ -4730,7 +4730,7 @@
       "raid": "VS",
       "bossName": "LIGHT_VANGUARD"
     },
-    "imgId": "inv_pant_plate_raidpaladinmidnight_d_01",
+    "imgId": "249311",
     "armorType": "PLATE"
   },
   {
@@ -4743,7 +4743,7 @@
       "raid": "VS",
       "bossName": "LIGHT_VANGUARD"
     },
-    "imgId": "inv_12_jewelry_silvermoonelf_ring_blue1",
+    "imgId": "249369",
     "miscType": "FINGER"
   },
   {
@@ -4756,7 +4756,7 @@
       "raid": "VS",
       "bossName": "LIGHT_VANGUARD"
     },
-    "imgId": "inv_shoulder_leather_raiddruidmidnight_d_01",
+    "imgId": "249333",
     "armorType": "LEATHER"
   },
   {
@@ -4769,7 +4769,7 @@
       "raid": "VS",
       "bossName": "CROWN_COSMOS"
     },
-    "imgId": "inv_glove_mail_raidhuntermidnight_d_01",
+    "imgId": "249325",
     "armorType": "MAIL"
   },
   {
@@ -4782,7 +4782,7 @@
       "raid": "VS",
       "bossName": "CROWN_COSMOS"
     },
-    "imgId": "inv_chest_plate_raidpaladinmidnight_d_01",
+    "imgId": "249309",
     "armorType": "PLATE"
   },
   {
@@ -4795,7 +4795,7 @@
       "raid": "VS",
       "bossName": "CROWN_COSMOS"
     },
-    "imgId": "inv_12_trinket_raid_voidspire_agidps_rangercaptainsinsignia",
+    "imgId": "249345",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["AGI"]
   },
@@ -4809,7 +4809,7 @@
       "raid": "VS",
       "bossName": "CROWN_COSMOS"
     },
-    "imgId": "inv_pant_leather_raidroguemidnight_d_01",
+    "imgId": "249312",
     "armorType": "LEATHER"
   },
   {
@@ -4822,7 +4822,7 @@
       "raid": "VS",
       "bossName": "CROWN_COSMOS"
     },
-    "imgId": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon",
+    "imgId": "249809",
     "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -4836,7 +4836,7 @@
       "raid": "VS",
       "bossName": "CROWN_COSMOS"
     },
-    "imgId": "inv_plate_raiddeathknightmidnight_d_01_belt",
+    "imgId": "249380",
     "armorType": "PLATE"
   },
   {
@@ -4849,7 +4849,7 @@
       "raid": "VS",
       "bossName": "CROWN_COSMOS"
     },
-    "imgId": "inv_helm_cloth_raidwarlockmidnight_d_01",
+    "imgId": "249329",
     "armorType": "CLOTH"
   },
   {
@@ -4862,7 +4862,7 @@
       "raid": "VS",
       "bossName": "CROWN_COSMOS"
     },
-    "imgId": "inv_12_jewelry_silvermoonelf_necklace_blue1",
+    "imgId": "249368",
     "miscType": "NECK"
   },
   {
@@ -4875,7 +4875,7 @@
       "raid": "VS",
       "bossName": "CROWN_COSMOS"
     },
-    "imgId": "inv_boot_leather_raiddruidmidnight_d_01",
+    "imgId": "249382",
     "armorType": "LEATHER"
   },
   {
@@ -4888,7 +4888,7 @@
       "raid": "MQD",
       "bossName": "BELOREN"
     },
-    "imgId": "inv_belt_cloth_raidmagemidnight_d_01",
+    "imgId": "249376",
     "armorType": "CLOTH"
   },
   {
@@ -4901,7 +4901,7 @@
       "raid": "MQD",
       "bossName": "BELOREN"
     },
-    "imgId": "inv_12_trinket_raid_darkwell_tank2_phoenixegg",
+    "imgId": "249807",
     "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -4915,7 +4915,7 @@
       "raid": "MQD",
       "bossName": "BELOREN"
     },
-    "imgId": "inv_12_dualityphoenix_holy_feather",
+    "imgId": "249806",
     "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -4929,7 +4929,7 @@
       "raid": "MQD",
       "bossName": "BELOREN"
     },
-    "imgId": "inv_12_dualityphoenix_void_feather",
+    "imgId": "260235",
     "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -4943,7 +4943,7 @@
       "raid": "MQD",
       "bossName": "BELOREN"
     },
-    "imgId": "inv_12_jewelry_silvermoonelf_ring_red1",
+    "imgId": "249919",
     "miscType": "FINGER"
   },
   {
@@ -4956,7 +4956,7 @@
       "raid": "MQD",
       "bossName": "BELOREN"
     },
-    "imgId": "inv_glove_plate_raidpaladinmidnight_d_01",
+    "imgId": "249307",
     "armorType": "PLATE"
   },
   {
@@ -4969,7 +4969,7 @@
       "raid": "MQD",
       "bossName": "BELOREN"
     },
-    "imgId": "inv_boot_mail_raidhuntermidnight_d_01",
+    "imgId": "249377",
     "armorType": "MAIL"
   },
   {
@@ -4982,7 +4982,7 @@
       "raid": "MQD",
       "bossName": "BELOREN"
     },
-    "imgId": "inv_pant_mail_raidhuntermidnight_d_01",
+    "imgId": "249324",
     "armorType": "MAIL"
   },
   {
@@ -4995,7 +4995,7 @@
       "raid": "MQD",
       "bossName": "BELOREN"
     },
-    "imgId": "inv_chest_leather_raidmonkmidnight_d_01",
+    "imgId": "249322",
     "armorType": "LEATHER"
   },
   {
@@ -5008,7 +5008,7 @@
       "raid": "MQD",
       "bossName": "BELOREN"
     },
-    "imgId": "inv_shoulder_cloth_raidmagemidnight_d_01",
+    "imgId": "249328",
     "armorType": "CLOTH"
   },
   {
@@ -5021,7 +5021,7 @@
       "raid": "MQD",
       "bossName": "BELOREN"
     },
-    "imgId": "inv_shield_1h_raidmidnight_d_01",
+    "imgId": "249921",
     "offhandType": "SHIELD"
   },
   {
@@ -5034,7 +5034,7 @@
       "raid": "MQD",
       "bossName": "MIDNIGHT_FALLS"
     },
-    "imgId": "inv_staff_2h_raidmidnight_d_02",
+    "imgId": "249286",
     "weaponType": "STAFF",
     "mainStats": ["INT"]
   },
@@ -5048,7 +5048,7 @@
       "raid": "MQD",
       "bossName": "MIDNIGHT_FALLS"
     },
-    "imgId": "inv_axe_2h_raidmidnight_d_01",
+    "imgId": "249296",
     "weaponType": "AXE2H",
     "mainStats": ["STR"]
   },
@@ -5062,7 +5062,7 @@
       "raid": "MQD",
       "bossName": "MIDNIGHT_FALLS"
     },
-    "imgId": "inv_12_trinket_raid_darkwell_intdps2",
+    "imgId": "249810",
     "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -5076,7 +5076,7 @@
       "raid": "MQD",
       "bossName": "MIDNIGHT_FALLS"
     },
-    "imgId": "inv_12_trinket_raid_darkwelle_healer3_cosmiccrescendo",
+    "imgId": "249811",
     "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
@@ -5090,7 +5090,7 @@
       "raid": "MQD",
       "bossName": "MIDNIGHT_FALLS"
     },
-    "imgId": "inv_12_jewelry_devouringhost_ring_bronze",
+    "imgId": "249920",
     "miscType": "FINGER"
   },
   {
@@ -5103,7 +5103,7 @@
       "raid": "MQD",
       "bossName": "MIDNIGHT_FALLS"
     },
-    "imgId": "inv_12_jewelry_devouringhost_necklace_bronze2",
+    "imgId": "250247",
     "miscType": "NECK"
   },
   {
@@ -5116,7 +5116,7 @@
       "raid": "MQD",
       "bossName": "MIDNIGHT_FALLS"
     },
-    "imgId": "inv_plate_raiddeathknightmidnight_d_01_pant",
+    "imgId": "249915",
     "armorType": "PLATE"
   },
   {
@@ -5129,7 +5129,7 @@
       "raid": "MQD",
       "bossName": "MIDNIGHT_FALLS"
     },
-    "imgId": "inv_helm_mail_raidshamanmidnight_d_01",
+    "imgId": "249914",
     "armorType": "MAIL"
   },
   {
@@ -5142,7 +5142,7 @@
       "raid": "MQD",
       "bossName": "MIDNIGHT_FALLS"
     },
-    "imgId": "inv_helm_leather_raidroguemidnight_d_01",
+    "imgId": "249913",
     "armorType": "LEATHER"
   },
   {
@@ -5155,7 +5155,7 @@
       "raid": "MQD",
       "bossName": "MIDNIGHT_FALLS"
     },
-    "imgId": "inv_chest_cloth_raidwarlockmidnight_d_01",
+    "imgId": "249912",
     "armorType": "CLOTH"
   },
   {
@@ -5165,7 +5165,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_chest_plate_dungeonharronir_c_01",
+    "imgId": "251101",
     "armorType": "PLATE"
   },
   {
@@ -5175,7 +5175,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_bracer_leather_dungeonharronir_c_01",
+    "imgId": "251103",
     "armorType": "LEATHER"
   },
   {
@@ -5185,7 +5185,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_belt_cloth_dungeonharronir_c_01",
+    "imgId": "251102",
     "armorType": "CLOTH"
   },
   {
@@ -5195,7 +5195,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MT",
-    "imgId": "inv_pant_mail_dungeonharronir_c_01",
+    "imgId": "251104",
     "armorType": "MAIL"
   },
   {
@@ -5205,7 +5205,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv_staff_2h_domanaar_b_01",
+    "imgId": "251201",
     "weaponType": "STAFF",
     "mainStats": ["INT"]
   },
@@ -5216,7 +5216,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv_12al_armyoflight_defense_shield01",
+    "imgId": "251202",
     "offhandType": "SHIELD"
   },
   {
@@ -5226,7 +5226,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv_bracer_plate_dungeonharronir_c_01",
+    "imgId": "251203",
     "armorType": "PLATE"
   },
   {
@@ -5236,7 +5236,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv_glove_leather_dungeonharronir_c_01",
+    "imgId": "251204",
     "armorType": "LEATHER"
   },
   {
@@ -5246,7 +5246,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "NPX",
-    "imgId": "inv_pant_cloth_dungeonharronir_c_01",
+    "imgId": "251205",
     "armorType": "CLOTH"
   },
   {
@@ -5256,7 +5256,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "WS",
-    "imgId": "inv_glove_plate_dungeonharronir_c_01",
+    "imgId": "251081",
     "armorType": "PLATE"
   },
   {
@@ -5269,7 +5269,7 @@
       "raid": "VS",
       "bossName": "AVERZIAN"
     },
-    "imgId": "inv_boot_leather_raiddemonhuntermidnight_d_01",
+    "imgId": "249334",
     "armorType": "LEATHER"
   },
   {
@@ -5279,7 +5279,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_staff_2h_outdooramaniloa_c_01",
+    "imgId": "273783",
     "weaponType": "STAFF",
     "mainStats": ["AGI"]
   },
@@ -5290,7 +5290,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_polearm_2h_outdooramaniloa_c_01",
+    "imgId": "273782",
     "weaponType": "POLEARM",
     "mainStats": ["STR"]
   },
@@ -5301,7 +5301,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_glaive_1h_outdooramaniloa_c_01",
+    "imgId": "273793",
     "weaponType": "WARGLAIVE",
     "mainStats": ["INT", "AGI"]
   },
@@ -5312,7 +5312,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_knife_1h_zuljin_d_01",
+    "imgId": "273778",
     "weaponType": "DAGGER",
     "mainStats": ["INT"]
   },
@@ -5323,7 +5323,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_knife_1h_zuljin_d_01",
+    "imgId": "275070",
     "weaponType": "DAGGER",
     "mainStats": ["AGI"]
   },
@@ -5334,7 +5334,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_axe_1h_outdooramaniloa_c_01",
+    "imgId": "273780",
     "weaponType": "AXE1H",
     "mainStats": ["INT"]
   },
@@ -5345,7 +5345,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_bow_1h_outdooramaniloa_c_01",
+    "imgId": "273784",
     "weaponType": "BOW",
     "mainStats": ["AGI"]
   },
@@ -5356,7 +5356,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_offhand_1h_outdooramaniloa_c_01",
+    "imgId": "273779",
     "offhandType": "OFFHAND"
   },
   {
@@ -5366,7 +5366,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_helm_leather_outdooramaniloa_c_01",
+    "imgId": "273791",
     "armorType": "LEATHER"
   },
   {
@@ -5376,7 +5376,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_121_jewelry_neck03_teal",
+    "imgId": "273781",
     "miscType": "NECK"
   },
   {
@@ -5386,7 +5386,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_shoulder_leather_outdooramaniloa_c_01",
+    "imgId": "273774",
     "armorType": "LEATHER"
   },
   {
@@ -5396,7 +5396,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_chest_plate_outdooramaniloa_c_01",
+    "imgId": "273787",
     "armorType": "PLATE"
   },
   {
@@ -5406,7 +5406,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_chest_mail_outdooramaniloa_c_01",
+    "imgId": "273789",
     "armorType": "MAIL"
   },
   {
@@ -5416,7 +5416,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_robe_cloth_outdooramaniloa_c_01",
+    "imgId": "273785",
     "armorType": "CLOTH"
   },
   {
@@ -5426,7 +5426,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_bracer_mail_outdooramaniloa_c_01",
+    "imgId": "273775",
     "armorType": "MAIL"
   },
   {
@@ -5436,7 +5436,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_glove_cloth_outdooramaniloa_c_01",
+    "imgId": "273773",
     "armorType": "CLOTH"
   },
   {
@@ -5446,7 +5446,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_pant_plate_outdooramaniloa_c_01",
+    "imgId": "273776",
     "armorType": "PLATE"
   },
   {
@@ -5456,7 +5456,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_pant_cloth_outdooramaniloa_c_01",
+    "imgId": "273786",
     "armorType": "CLOTH"
   },
   {
@@ -5466,7 +5466,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_boot_plate_outdooramaniloa_c_01",
+    "imgId": "273777",
     "armorType": "PLATE"
   },
   {
@@ -5476,7 +5476,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_121_jewelry_ring02_green",
+    "imgId": "273792",
     "miscType": "FINGER"
   },
   {
@@ -5486,7 +5486,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_121_trinket_dungeon_ulatek_fangstone",
+    "imgId": "273795",
     "roles": ["DPS_MELEE", "TANK"],
     "mainStats": ["STR"]
   },
@@ -5497,7 +5497,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_121_trinket_dungeon_ulatek_writhe",
+    "imgId": "273794",
     "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -5508,7 +5508,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_121_trinket_dungeon_ulatek_banner",
+    "imgId": "273797",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["STR", "AGI"]
   },
@@ -5519,7 +5519,7 @@
     "secondaryStats": ["HASTE"],
     "specialEffect": null,
     "lootSource": "AOF",
-    "imgId": "inv_121_trinket_dungeon_ulatek_vile",
+    "imgId": "273796",
     "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   },
@@ -5530,7 +5530,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_polearm_2h_dungeonharronir_c_01",
+    "imgId": "251149",
     "weaponType": "POLEARM",
     "mainStats": ["AGI"]
   },
@@ -5541,7 +5541,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_staff_2h_amani_c_01",
+    "imgId": "251156",
     "weaponType": "STAFF",
     "mainStats": ["INT"]
   },
@@ -5552,7 +5552,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_hand_1h_dungeonharronir_c_01",
+    "imgId": "251143",
     "weaponType": "FIST",
     "mainStats": ["AGI"]
   },
@@ -5563,7 +5563,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_shield_1h_dungeonharronir_c_01",
+    "imgId": "251150",
     "offhandType": "SHIELD"
   },
   {
@@ -5573,7 +5573,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_offhand_1h_dungeonharronir_c_01",
+    "imgId": "271681",
     "offhandType": "OFFHAND"
   },
   {
@@ -5583,7 +5583,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_helm_mail_dungeonharronir_c_01",
+    "imgId": "251158",
     "armorType": "MAIL"
   },
   {
@@ -5593,7 +5593,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_12_jewelry_zulaman_troll_necklace_green1",
+    "imgId": "251173",
     "miscType": "NECK"
   },
   {
@@ -5603,7 +5603,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_shoulder_leather_dungeonharronir_c_01",
+    "imgId": "251146",
     "armorType": "LEATHER"
   },
   {
@@ -5613,7 +5613,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_chest_cloth_dungeonharronir_c_01",
+    "imgId": "251147",
     "armorType": "CLOTH"
   },
   {
@@ -5623,7 +5623,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_chest_plate_dungeonharronir_c_01",
+    "imgId": "251151",
     "armorType": "PLATE"
   },
   {
@@ -5633,7 +5633,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_chest_leather_dungeonharronir_c_01",
+    "imgId": "251159",
     "armorType": "LEATHER"
   },
   {
@@ -5643,7 +5643,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_bracer_cloth_dungeonharronir_c_01",
+    "imgId": "251154",
     "armorType": "CLOTH"
   },
   {
@@ -5653,7 +5653,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_glove_mail_dungeonharronir_c_01",
+    "imgId": "251152",
     "armorType": "MAIL"
   },
   {
@@ -5663,7 +5663,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_glove_plate_dungeonharronir_c_01",
+    "imgId": "251214",
     "armorType": "PLATE"
   },
   {
@@ -5673,7 +5673,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_belt_mail_dungeonharronir_c_01",
+    "imgId": "251155",
     "armorType": "MAIL"
   },
   {
@@ -5683,7 +5683,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_belt_plate_dungeonharronir_c_01",
+    "imgId": "251144",
     "armorType": "PLATE"
   },
   {
@@ -5693,7 +5693,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_pant_cloth_dungeonharronir_c_01",
+    "imgId": "251160",
     "armorType": "CLOTH"
   },
   {
@@ -5703,7 +5703,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_boot_leather_dungeonharronir_c_01",
+    "imgId": "251153",
     "armorType": "LEATHER"
   },
   {
@@ -5713,7 +5713,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_boot_mail_dungeonharronir_c_01",
+    "imgId": "251145",
     "armorType": "MAIL"
   },
   {
@@ -5723,7 +5723,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_12_jewelry_zulaman_troll_ring_green2",
+    "imgId": "251148",
     "miscType": "FINGER"
   },
   {
@@ -5733,7 +5733,7 @@
     "secondaryStats": ["CRIT"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv12_jewelrytrinkets_dungeon_permafrostreservoir",
+    "imgId": "250244",
     "roles": ["TANK"],
     "mainStats": []
   },
@@ -5744,7 +5744,7 @@
     "secondaryStats": ["CRIT"],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv12_jewelrytrinkets_dungeon_idolofthewargod",
+    "imgId": "250229",
     "roles": ["DPS_MELEE"],
     "mainStats": ["STR"]
   },
@@ -5755,7 +5755,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "DON",
-    "imgId": "inv_misc_starspecklemushroom",
+    "imgId": "250248",
     "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
@@ -5766,7 +5766,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_staff_2h_dungeonharronir_c_02",
+    "imgId": "251123",
     "weaponType": "STAFF",
     "mainStats": ["INT"]
   },
@@ -5777,7 +5777,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_axe_2h_dungeonharronir_c_01",
+    "imgId": "251134",
     "weaponType": "AXE2H",
     "mainStats": ["STR"]
   },
@@ -5788,7 +5788,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_knife_1h_dungeonharronir_c_01",
+    "imgId": "251128",
     "weaponType": "DAGGER",
     "mainStats": ["AGI"]
   },
@@ -5799,7 +5799,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_firearm_2h_undergroundquest_b_01",
+    "imgId": "271680",
     "weaponType": "GUN",
     "mainStats": ["AGI"]
   },
@@ -5810,7 +5810,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_helm_plate_dungeonharronir_c_01",
+    "imgId": "251126",
     "armorType": "PLATE"
   },
   {
@@ -5820,7 +5820,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_helm_leather_dungeonharronir_c_01",
+    "imgId": "251140",
     "armorType": "LEATHER"
   },
   {
@@ -5830,7 +5830,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_12_jewelry_silvermoonelf_necklace_green",
+    "imgId": "251142",
     "miscType": "NECK"
   },
   {
@@ -5840,7 +5840,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_shoulder_mail_dungeonharronir_c_01",
+    "imgId": "251131",
     "armorType": "MAIL"
   },
   {
@@ -5850,7 +5850,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_shoulder_plate_dungeonharronir_c_01",
+    "imgId": "251138",
     "armorType": "PLATE"
   },
   {
@@ -5860,7 +5860,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_cape_leather_dungeonharronir_c_01",
+    "imgId": "251132",
     "armorType": "LEATHER"
   },
   {
@@ -5870,7 +5870,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_chest_cloth_dungeonharronir_c_01",
+    "imgId": "251139",
     "armorType": "CLOTH"
   },
   {
@@ -5880,7 +5880,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_bracer_plate_dungeonharronir_c_01",
+    "imgId": "251133",
     "armorType": "PLATE"
   },
   {
@@ -5890,7 +5890,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_bracer_leather_dungeonharronir_c_01",
+    "imgId": "251135",
     "armorType": "LEATHER"
   },
   {
@@ -5900,7 +5900,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_bracer_cloth_dungeonharronir_c_01",
+    "imgId": "251127",
     "armorType": "CLOTH"
   },
   {
@@ -5910,7 +5910,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_glove_cloth_dungeonharronir_c_01",
+    "imgId": "251129",
     "armorType": "CLOTH"
   },
   {
@@ -5920,7 +5920,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_glove_leather_dungeonharronir_c_01",
+    "imgId": "251124",
     "armorType": "LEATHER"
   },
   {
@@ -5930,7 +5930,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_pant_leather_dungeonharronir_c_01",
+    "imgId": "251130",
     "armorType": "LEATHER"
   },
   {
@@ -5940,7 +5940,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_pant_mail_dungeonharronir_c_01",
+    "imgId": "251141",
     "armorType": "MAIL"
   },
   {
@@ -5950,7 +5950,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_boot_mail_dungeonharronir_c_01",
+    "imgId": "251125",
     "armorType": "MAIL"
   },
   {
@@ -5960,7 +5960,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_boot_cloth_dungeonharronir_c_01",
+    "imgId": "251137",
     "armorType": "CLOTH"
   },
   {
@@ -5970,7 +5970,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_12_jewelry_voidelf_ring_teal",
+    "imgId": "251136",
     "miscType": "FINGER"
   },
   {
@@ -5980,7 +5980,7 @@
     "secondaryStats": ["CRIT"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_alchemy_90_flask_red",
+    "imgId": "250215",
     "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER"],
     "mainStats": ["INT", "AGI"]
   },
@@ -5991,7 +5991,7 @@
     "secondaryStats": ["CRIT"],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_alchemy_90_stone_green",
+    "imgId": "250228",
     "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -6002,7 +6002,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "tooltip_crystallizedfel",
+    "imgId": "250255",
     "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -6013,7 +6013,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "MR",
-    "imgId": "inv_ember_fel",
+    "imgId": "250243",
     "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -6024,7 +6024,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_polearm_2h_rutaani_b_01",
+    "imgId": "251181",
     "weaponType": "POLEARM",
     "mainStats": ["STR"]
   },
@@ -6035,7 +6035,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_staff_2h_dungeonharronir_c_01",
+    "imgId": "251192",
     "weaponType": "STAFF",
     "mainStats": ["AGI"]
   },
@@ -6046,7 +6046,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_hand_1h_dungeonharronir_c_01",
+    "imgId": "251186",
     "weaponType": "FIST",
     "mainStats": ["AGI"]
   },
@@ -6057,7 +6057,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_sword_1h_dungeonharronir_c_01",
+    "imgId": "251195",
     "weaponType": "SWORD1H",
     "mainStats": ["STR"]
   },
@@ -6068,7 +6068,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_knife_1h_rutaani_b_01",
+    "imgId": "251180",
     "weaponType": "DAGGER",
     "mainStats": ["AGI"]
   },
@@ -6079,7 +6079,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_crossbow_2h_dungeonharronir_c_01",
+    "imgId": "251187",
     "weaponType": "CROSSBOW",
     "mainStats": ["AGI"]
   },
@@ -6090,7 +6090,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_wand_1h_dungeonharronir_c_01",
+    "imgId": "251188",
     "weaponType": "WAND",
     "mainStats": ["INT"]
   },
@@ -6101,7 +6101,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_shield_1h_rutaani_b_01",
+    "imgId": "251196",
     "offhandType": "SHIELD"
   },
   {
@@ -6111,7 +6111,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_offhand_1h_dungeonharronir_c_01",
+    "imgId": "251191",
     "offhandType": "OFFHAND"
   },
   {
@@ -6121,7 +6121,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_helm_cloth_dungeonharronir_c_01",
+    "imgId": "251199",
     "armorType": "CLOTH"
   },
   {
@@ -6131,7 +6131,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_shoulder_mail_dungeonharronir_c_01",
+    "imgId": "251184",
     "armorType": "MAIL"
   },
   {
@@ -6141,7 +6141,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_cape_mail_dungeonharronir_c_01",
+    "imgId": "251190",
     "armorType": "MAIL"
   },
   {
@@ -6151,7 +6151,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_chest_plate_dungeonharronir_c_01",
+    "imgId": "251193",
     "armorType": "PLATE"
   },
   {
@@ -6161,7 +6161,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_bracer_leather_dungeonharronir_c_01",
+    "imgId": "251183",
     "armorType": "LEATHER"
   },
   {
@@ -6171,7 +6171,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_bracer_mail_dungeonharronir_c_01",
+    "imgId": "251200",
     "armorType": "MAIL"
   },
   {
@@ -6181,7 +6181,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_glove_mail_dungeonharronir_c_01",
+    "imgId": "251165",
     "armorType": "MAIL"
   },
   {
@@ -6191,7 +6191,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_glove_plate_dungeonharronir_c_01",
+    "imgId": "251197",
     "armorType": "PLATE"
   },
   {
@@ -6201,7 +6201,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_belt_cloth_dungeonharronir_c_01",
+    "imgId": "251185",
     "armorType": "CLOTH"
   },
   {
@@ -6211,7 +6211,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_belt_leather_dungeonharronir_c_01",
+    "imgId": "251189",
     "armorType": "LEATHER"
   },
   {
@@ -6221,7 +6221,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_pant_leather_dungeonharronir_c_01",
+    "imgId": "251198",
     "armorType": "LEATHER"
   },
   {
@@ -6231,7 +6231,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_pant_plate_dungeonharronir_c_01",
+    "imgId": "251182",
     "armorType": "PLATE"
   },
   {
@@ -6241,7 +6241,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv12_jewelrytrinkets_rutaani_ring_yellow",
+    "imgId": "251194",
     "miscType": "FINGER"
   },
   {
@@ -6251,7 +6251,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv12_jewelrytrinkets_dungeon_seedofradianthope",
+    "imgId": "250254",
     "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
@@ -6262,7 +6262,7 @@
     "secondaryStats": ["MASTERY"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv12_jewelrytrinkets_dungeon_seedofthedevouringwild",
+    "imgId": "250238",
     "roles": ["DPS_MELEE"],
     "mainStats": ["STR"]
   },
@@ -6273,7 +6273,7 @@
     "secondaryStats": ["MASTERY"],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_enchant_essenceastrallarge",
+    "imgId": "250214",
     "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER"],
     "mainStats": ["INT", "AGI"]
   },
@@ -6284,7 +6284,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "TBV",
-    "imgId": "inv_misc_herb_nightmarevine",
+    "imgId": "250259",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["INT", "STR", "AGI"]
   },
@@ -6295,7 +6295,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_polearm_2h_domanaar_b_01",
+    "imgId": "251230",
     "weaponType": "POLEARM",
     "mainStats": ["STR"]
   },
@@ -6306,7 +6306,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_knife_1h_dungeonharronir_c_02",
+    "imgId": "251225",
     "weaponType": "DAGGER",
     "mainStats": ["INT"]
   },
@@ -6317,7 +6317,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_sword_1h_domanaar_b_01",
+    "imgId": "251218",
     "weaponType": "SWORD1H",
     "mainStats": ["STR"]
   },
@@ -6328,7 +6328,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_glaive_1h_dungeonharronir_c_01",
+    "imgId": "251231",
     "weaponType": "WARGLAIVE",
     "mainStats": ["INT", "AGI"]
   },
@@ -6339,7 +6339,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_axe_1h_dungeonharronir_c_01",
+    "imgId": "251224",
     "weaponType": "AXE1H",
     "mainStats": ["AGI"]
   },
@@ -6350,7 +6350,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_helm_mail_dungeonharronir_c_01",
+    "imgId": "251220",
     "armorType": "MAIL"
   },
   {
@@ -6360,7 +6360,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_helm_cloth_dungeonharronir_c_01",
+    "imgId": "251232",
     "armorType": "CLOTH"
   },
   {
@@ -6370,7 +6370,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_helm_armor_domanaar_d_01",
+    "imgId": "251229",
     "armorType": "PLATE"
   },
   {
@@ -6380,7 +6380,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_12_jewelry_devouringhost_necklace_silver2",
+    "imgId": "251234",
     "miscType": "NECK"
   },
   {
@@ -6390,7 +6390,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_shoulder_leather_dungeonharronir_c_01",
+    "imgId": "251223",
     "armorType": "LEATHER"
   },
   {
@@ -6400,7 +6400,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_shoulder_cloth_dungeonharronir_c_01",
+    "imgId": "251227",
     "armorType": "CLOTH"
   },
   {
@@ -6410,7 +6410,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_chest_leather_dungeonharronir_c_01",
+    "imgId": "251226",
     "armorType": "LEATHER"
   },
   {
@@ -6420,7 +6420,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_chest_mail_dungeonharronir_c_01",
+    "imgId": "251233",
     "armorType": "MAIL"
   },
   {
@@ -6430,7 +6430,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_glove_plate_dungeonharronir_c_01",
+    "imgId": "251221",
     "armorType": "PLATE"
   },
   {
@@ -6440,7 +6440,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_belt_mail_dungeonharronir_c_01",
+    "imgId": "251228",
     "armorType": "MAIL"
   },
   {
@@ -6450,7 +6450,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_belt_cloth_dungeonharronir_c_01",
+    "imgId": "251222",
     "armorType": "CLOTH"
   },
   {
@@ -6460,7 +6460,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_belt_leather_dungeonharronir_c_01",
+    "imgId": "251235",
     "armorType": "LEATHER"
   },
   {
@@ -6470,7 +6470,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_boot_cloth_dungeonharronir_c_01",
+    "imgId": "251219",
     "armorType": "CLOTH"
   },
   {
@@ -6480,7 +6480,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_staff_2h_questbloodelf_b_01",
+    "imgId": "251258",
     "weaponType": "STAFF",
     "mainStats": ["AGI"]
   },
@@ -6491,7 +6491,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_inscription_80_warscroll_intellect",
+    "imgId": "250225",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["INT", "AGI"]
   },
@@ -6502,7 +6502,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "inv_icon_shadowcouncilorb_purple",
+    "imgId": "250224",
     "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -6513,7 +6513,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "VA",
-    "imgId": "ability_pet_baneling",
+    "imgId": "250245",
     "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -6524,7 +6524,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_polearm_2h_zandalariguard_b_01",
+    "imgId": "159642",
     "weaponType": "POLEARM",
     "mainStats": ["AGI"]
   },
@@ -6535,7 +6535,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_sword_2h_battledungeon_c_01",
+    "imgId": "159644",
     "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
@@ -6546,7 +6546,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_mace_1h_battledungeon_c_01",
+    "imgId": "159645",
     "weaponType": "MACE1H",
     "mainStats": ["AGI"]
   },
@@ -6557,7 +6557,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_knife_1h_battledungeon_c_01",
+    "imgId": "159136",
     "weaponType": "DAGGER",
     "mainStats": ["AGI"]
   },
@@ -6568,7 +6568,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_sword_1h_battledungeon_c_02",
+    "imgId": "160216",
     "weaponType": "SWORD1H",
     "mainStats": ["INT"]
   },
@@ -6579,7 +6579,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_knife_1h_battledungeon_c_01",
+    "imgId": "159137",
     "weaponType": "DAGGER",
     "mainStats": ["INT"]
   },
@@ -6590,7 +6590,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_bow_2h_crossbow_pandaraid_d_01",
+    "imgId": "159643",
     "weaponType": "CROSSBOW",
     "mainStats": ["AGI"]
   },
@@ -6601,7 +6601,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_offhand_1h_battledungeon_c_02",
+    "imgId": "159667",
     "offhandType": "OFFHAND"
   },
   {
@@ -6611,7 +6611,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_helm_cloth_zandalardungeon_c_01",
+    "imgId": "239047",
     "armorType": "CLOTH"
   },
   {
@@ -6621,7 +6621,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_helm_plate_zandalardungeon_c_01",
+    "imgId": "239050",
     "armorType": "PLATE"
   },
   {
@@ -6631,7 +6631,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_shoulder_cloth_zandalardungeon_c_01",
+    "imgId": "239045",
     "armorType": "CLOTH"
   },
   {
@@ -6641,7 +6641,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_shoulder_plate_zandalardungeon_c_01",
+    "imgId": "239051",
     "armorType": "PLATE"
   },
   {
@@ -6651,7 +6651,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_shoulder_mail_zandalardungeon_c_01",
+    "imgId": "239049",
     "armorType": "MAIL"
   },
   {
@@ -6661,7 +6661,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_cape_mail_zandalardungeon_c_01",
+    "imgId": "159288",
     "armorType": "MAIL"
   },
   {
@@ -6671,7 +6671,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_chest_mail_zandalardungeon_c_01",
+    "imgId": "239046",
     "armorType": "MAIL"
   },
   {
@@ -6681,7 +6681,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_chest_leather_zandalardungeon_c_01",
+    "imgId": "239048",
     "armorType": "LEATHER"
   },
   {
@@ -6691,7 +6691,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_bracer_plate_zandalardungeon_c_01",
+    "imgId": "159409",
     "armorType": "PLATE"
   },
   {
@@ -6701,7 +6701,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_bracer_leather_zandalardungeon_c_01",
+    "imgId": "159300",
     "armorType": "LEATHER"
   },
   {
@@ -6711,7 +6711,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_glove_plate_zandalardungeon_c_01",
+    "imgId": "159413",
     "armorType": "PLATE"
   },
   {
@@ -6721,7 +6721,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_glove_mail_zandalardungeon_c_01",
+    "imgId": "160213",
     "armorType": "MAIL"
   },
   {
@@ -6731,7 +6731,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_glove_leather_zandalardungeon_c_01",
+    "imgId": "159312",
     "armorType": "LEATHER"
   },
   {
@@ -6741,7 +6741,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_belt_plate_zandalardungeon_c_01",
+    "imgId": "159418",
     "armorType": "PLATE"
   },
   {
@@ -6751,7 +6751,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_belt_mail_zandalardungeon_c_01",
+    "imgId": "159369",
     "armorType": "MAIL"
   },
   {
@@ -6761,7 +6761,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_belt_leather_zandalardungeon_c_01",
+    "imgId": "159301",
     "armorType": "LEATHER"
   },
   {
@@ -6771,7 +6771,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_pant_cloth_zandalardungeon_c_01",
+    "imgId": "159234",
     "armorType": "CLOTH"
   },
   {
@@ -6781,7 +6781,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_pant_leather_zandalardungeon_c_01",
+    "imgId": "159313",
     "armorType": "LEATHER"
   },
   {
@@ -6791,7 +6791,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_boot_cloth_zandalardungeon_c_01",
+    "imgId": "159243",
     "armorType": "CLOTH"
   },
   {
@@ -6801,7 +6801,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_boot_mail_zandalardungeon_c_01",
+    "imgId": "159371",
     "armorType": "MAIL"
   },
   {
@@ -6811,7 +6811,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_boot_plate_zandalardungeon_c_01",
+    "imgId": "159412",
     "armorType": "PLATE"
   },
   {
@@ -6821,7 +6821,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_boot_leather_zandalardungeon_c_01",
+    "imgId": "159304",
     "armorType": "LEATHER"
   },
   {
@@ -6831,7 +6831,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_ring_80_03e",
+    "imgId": "159459",
     "miscType": "FINGER"
   },
   {
@@ -6841,7 +6841,7 @@
     "secondaryStats": ["HASTE"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_7_0raid_necklace_14a",
+    "imgId": "273649",
     "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -6852,7 +6852,7 @@
     "secondaryStats": ["VERS"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_icon_feather06a",
+    "imgId": "159617",
     "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["AGI"]
   },
@@ -6863,7 +6863,7 @@
     "secondaryStats": ["VERS"],
     "specialEffect": null,
     "lootSource": "KR",
-    "imgId": "inv_misc_emberweavebandagelight",
+    "imgId": "159618",
     "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -6874,7 +6874,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_staff_2h_dragondungeon_c_02",
+    "imgId": "193761",
     "weaponType": "STAFF",
     "mainStats": ["INT"]
   },
@@ -6885,7 +6885,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_axe_2h_drakonoid_c_01",
+    "imgId": "193755",
     "weaponType": "AXE2H",
     "mainStats": ["STR"]
   },
@@ -6896,7 +6896,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_knife_1h_dragondungeon_c_02",
+    "imgId": "193756",
     "weaponType": "DAGGER",
     "mainStats": ["AGI"]
   },
@@ -6907,7 +6907,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_mace_1h_dragondungeon_c_02",
+    "imgId": "193767",
     "weaponType": "MACE1H",
     "mainStats": ["AGI"]
   },
@@ -6918,7 +6918,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_shield_1h_drakonid_c_01",
+    "imgId": "193754",
     "offhandType": "SHIELD"
   },
   {
@@ -6928,7 +6928,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_offhand_1h_drakonid_c_01",
+    "imgId": "193766",
     "offhandType": "OFFHAND"
   },
   {
@@ -6938,7 +6938,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_mail_dragondungeon_c_01_helm",
+    "imgId": "193765",
     "armorType": "MAIL"
   },
   {
@@ -6948,7 +6948,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_leather_dragondungeon_c_01_helm",
+    "imgId": "193751",
     "armorType": "LEATHER"
   },
   {
@@ -6958,7 +6958,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_mail_dragondungeon_c_01_cape",
+    "imgId": "193763",
     "armorType": "MAIL"
   },
   {
@@ -6968,7 +6968,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_leather_dragondungeon_c_01_chest",
+    "imgId": "193764",
     "armorType": "LEATHER"
   },
   {
@@ -6978,7 +6978,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_plate_dragondungeon_c_01_chest",
+    "imgId": "193753",
     "armorType": "PLATE"
   },
   {
@@ -6988,7 +6988,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_leather_dragondungeon_c_01_glove",
+    "imgId": "193758",
     "armorType": "LEATHER"
   },
   {
@@ -6998,7 +6998,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_mail_dragondungeon_c_01_glove",
+    "imgId": "193752",
     "armorType": "MAIL"
   },
   {
@@ -7008,7 +7008,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_belt_dragondungeon_c_01",
+    "imgId": "193691",
     "armorType": "CLOTH"
   },
   {
@@ -7018,7 +7018,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_mail_dragondungeon_c_01_pant",
+    "imgId": "193759",
     "armorType": "MAIL"
   },
   {
@@ -7028,7 +7028,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_pant_cloth_dragondungeon_c_01",
+    "imgId": "193750",
     "armorType": "CLOTH"
   },
   {
@@ -7038,7 +7038,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_plate_dragondungeon_c_01_boot",
+    "imgId": "193728",
     "armorType": "PLATE"
   },
   {
@@ -7048,7 +7048,7 @@
     "secondaryStats": ["HASTE"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_10_dungeonjewelry_primalist_trinket_2_fire",
+    "imgId": "193762",
     "roles": ["DPS_MELEE", "TANK"],
     "mainStats": ["STR"]
   },
@@ -7059,7 +7059,7 @@
     "secondaryStats": ["CRIT"],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_10_dungeonjewelry_primalist_trinket_4_fire",
+    "imgId": "193748",
     "roles": ["HEALER"],
     "mainStats": []
   },
@@ -7070,7 +7070,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "RLP",
-    "imgId": "inv_item_dragonegg_redbroken01",
+    "imgId": "193757",
     "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   },
@@ -7081,7 +7081,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_staff_2h_battledungeon_c_04",
+    "imgId": "159636",
     "weaponType": "STAFF",
     "mainStats": ["INT"]
   },
@@ -7092,7 +7092,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_polearm_2h_snakeman_c_01",
+    "imgId": "158370",
     "weaponType": "POLEARM",
     "mainStats": ["AGI"]
   },
@@ -7103,7 +7103,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_sword_1h_battledungeon_c_02",
+    "imgId": "158714",
     "weaponType": "SWORD1H",
     "mainStats": ["AGI"]
   },
@@ -7114,7 +7114,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_mace_1h_pandaraid_d_01",
+    "imgId": "158369",
     "weaponType": "MACE1H",
     "mainStats": ["INT"]
   },
@@ -7125,7 +7125,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_sword_1h_battledungeon_c_02",
+    "imgId": "158373",
     "weaponType": "SWORD1H",
     "mainStats": ["STR"]
   },
@@ -7136,7 +7136,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_bow_1h_battledungeon_c_01",
+    "imgId": "159637",
     "weaponType": "BOW",
     "mainStats": ["AGI"]
   },
@@ -7147,7 +7147,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_shield_1h_battledungeon_c_02",
+    "imgId": "159664",
     "offhandType": "SHIELD"
   },
   {
@@ -7157,7 +7157,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_helm_mail_zandalardungeon_c_01",
+    "imgId": "239035",
     "armorType": "MAIL"
   },
   {
@@ -7167,7 +7167,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_helm_leather_zandalardungeon_c_01",
+    "imgId": "239033",
     "armorType": "LEATHER"
   },
   {
@@ -7177,7 +7177,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_shoulder_plate_zandalardungeon_c_01",
+    "imgId": "239037",
     "armorType": "PLATE"
   },
   {
@@ -7187,7 +7187,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_shoulder_cloth_zandalardungeon_c_01",
+    "imgId": "239031",
     "armorType": "CLOTH"
   },
   {
@@ -7197,7 +7197,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_chest_cloth_zandalardungeon_c_01",
+    "imgId": "239032",
     "armorType": "CLOTH"
   },
   {
@@ -7207,7 +7207,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_chest_mail_zandalardungeon_c_01",
+    "imgId": "239034",
     "armorType": "MAIL"
   },
   {
@@ -7217,7 +7217,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_chest_plate_zandalardungeon_c_01",
+    "imgId": "239036",
     "armorType": "PLATE"
   },
   {
@@ -7227,7 +7227,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_bracer_cloth_zandalardungeon_c_01",
+    "imgId": "159263",
     "armorType": "CLOTH"
   },
   {
@@ -7237,7 +7237,7 @@
     "secondaryStats": ["HASTE", "VERS"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_bracer_plate_zandalardungeon_c_01",
+    "imgId": "159425",
     "armorType": "PLATE"
   },
   {
@@ -7247,7 +7247,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_bracer_mail_zandalardungeon_c_01",
+    "imgId": "159380",
     "armorType": "MAIL"
   },
   {
@@ -7257,7 +7257,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_glove_cloth_zandalardungeon_c_01",
+    "imgId": "159247",
     "armorType": "CLOTH"
   },
   {
@@ -7267,7 +7267,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_glove_leather_zandalardungeon_c_01",
+    "imgId": "159337",
     "armorType": "LEATHER"
   },
   {
@@ -7277,7 +7277,7 @@
     "secondaryStats": ["HASTE", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_belt_leather_zandalardungeon_c_01",
+    "imgId": "159317",
     "armorType": "LEATHER"
   },
   {
@@ -7287,7 +7287,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_belt_plate_zandalardungeon_c_01",
+    "imgId": "159442",
     "armorType": "PLATE"
   },
   {
@@ -7297,7 +7297,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_belt_cloth_zandalardungeon_c_01",
+    "imgId": "159255",
     "armorType": "CLOTH"
   },
   {
@@ -7307,7 +7307,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_pant_leather_zandalardungeon_c_01",
+    "imgId": "159329",
     "armorType": "LEATHER"
   },
   {
@@ -7317,7 +7317,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_pant_mail_zandalardungeon_c_01",
+    "imgId": "159375",
     "armorType": "MAIL"
   },
   {
@@ -7327,7 +7327,7 @@
     "secondaryStats": ["CRIT", "VERS"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_pant_plate_zandalardungeon_c_01",
+    "imgId": "159435",
     "armorType": "PLATE"
   },
   {
@@ -7337,7 +7337,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_boot_mail_zandalardungeon_c_01",
+    "imgId": "159388",
     "armorType": "MAIL"
   },
   {
@@ -7347,7 +7347,7 @@
     "secondaryStats": ["CRIT", "HASTE"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_boot_cloth_zandalardungeon_c_01",
+    "imgId": "159259",
     "armorType": "CLOTH"
   },
   {
@@ -7357,7 +7357,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_boot_leather_zandalardungeon_c_01",
+    "imgId": "159327",
     "armorType": "LEATHER"
   },
   {
@@ -7367,7 +7367,7 @@
     "secondaryStats": ["VERS", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_ring_80_04c",
+    "imgId": "162544",
     "miscType": "FINGER"
   },
   {
@@ -7377,7 +7377,7 @@
     "secondaryStats": ["CRIT", "MASTERY"],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_ring_80_03d",
+    "imgId": "158366",
     "miscType": "FINGER"
   },
   {
@@ -7387,7 +7387,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_misc_food_87_sporelingsnack",
+    "imgId": "158367",
     "roles": ["DPS_MELEE"],
     "mainStats": ["STR"]
   },
@@ -7398,7 +7398,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_alchemy_71_potion4",
+    "imgId": "158374",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["AGI"]
   },
@@ -7409,7 +7409,7 @@
     "secondaryStats": [],
     "specialEffect": null,
     "lootSource": "TOS",
-    "imgId": "inv_staff_2h_snakeman_c_01",
+    "imgId": "158368",
     "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -7423,7 +7423,7 @@
       "raid": "TG",
       "bossName": "NYMRISSA"
     },
-    "imgId": "inv_staff_2h_ulatek_d_01",
+    "imgId": "268199",
     "weaponType": "STAFF",
     "mainStats": ["AGI"]
   },
@@ -7437,7 +7437,7 @@
       "raid": "TG",
       "bossName": "NYMRISSA"
     },
-    "imgId": "inv_shield_1h_ulatek_d_01",
+    "imgId": "268262",
     "offhandType": "SHIELD"
   },
   {
@@ -7450,7 +7450,7 @@
       "raid": "TG",
       "bossName": "NYMRISSA"
     },
-    "imgId": "inv_offhand_1h_ulatek_d_01",
+    "imgId": "268263",
     "offhandType": "OFFHAND"
   },
   {
@@ -7463,7 +7463,7 @@
       "raid": "TG",
       "bossName": "NYMRISSA"
     },
-    "imgId": "inv_shoulder_plate_raidpaladinulatek_d_01",
+    "imgId": "268226",
     "armorType": "PLATE"
   },
   {
@@ -7476,7 +7476,7 @@
       "raid": "TG",
       "bossName": "NYMRISSA"
     },
-    "imgId": "inv_robe_cloth_raidwarlockulatek_d_01",
+    "imgId": "268221",
     "armorType": "CLOTH"
   },
   {
@@ -7489,7 +7489,7 @@
       "raid": "TG",
       "bossName": "NYMRISSA"
     },
-    "imgId": "inv_bracer_mail_raidhunterulatek_d_01",
+    "imgId": "268217",
     "armorType": "MAIL"
   },
   {
@@ -7502,7 +7502,7 @@
       "raid": "TG",
       "bossName": "NYMRISSA"
     },
-    "imgId": "inv_glove_mail_raidevokerulatek_d_01",
+    "imgId": "268238",
     "armorType": "MAIL"
   },
   {
@@ -7515,7 +7515,7 @@
       "raid": "TG",
       "bossName": "NYMRISSA"
     },
-    "imgId": "inv_belt_cloth_raidmageulatek_d_01",
+    "imgId": "268232",
     "armorType": "CLOTH"
   },
   {
@@ -7528,7 +7528,7 @@
       "raid": "TG",
       "bossName": "NYMRISSA"
     },
-    "imgId": "inv_belt_plate_raiddeathknightulatek_d_01",
+    "imgId": "268244",
     "armorType": "PLATE"
   },
   {
@@ -7541,7 +7541,7 @@
       "raid": "TG",
       "bossName": "NYMRISSA"
     },
-    "imgId": "inv_pant_leather_raidmonkulatek_d_01",
+    "imgId": "268225",
     "armorType": "LEATHER"
   },
   {
@@ -7554,7 +7554,7 @@
       "raid": "TG",
       "bossName": "NYMRISSA"
     },
-    "imgId": "inv_boot_leather_raiddemonhunterulatek_d_01",
+    "imgId": "268247",
     "armorType": "LEATHER"
   },
   {
@@ -7567,7 +7567,7 @@
       "raid": "TG",
       "bossName": "NYMRISSA"
     },
-    "imgId": "inv_70_raid_ring8c",
+    "imgId": "268266",
     "miscType": "FINGER"
   },
   {
@@ -7580,7 +7580,7 @@
       "raid": "TG",
       "bossName": "NYMRISSA"
     },
-    "imgId": "inv_tradeskillitem_sorcererswater",
+    "imgId": "270167",
     "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -7594,7 +7594,7 @@
       "raid": "TVA",
       "bossName": "NEKZALI"
     },
-    "imgId": "inv_knife_1h_ulatek_d_02",
+    "imgId": "268203",
     "weaponType": "DAGGER",
     "mainStats": ["INT"]
   },
@@ -7608,7 +7608,7 @@
       "raid": "TVA",
       "bossName": "NEKZALI"
     },
-    "imgId": "inv_axe_1h_ulatek_d_01",
+    "imgId": "268208",
     "weaponType": "AXE1H",
     "mainStats": ["STR"]
   },
@@ -7622,7 +7622,7 @@
       "raid": "TVA",
       "bossName": "NEKZALI"
     },
-    "imgId": "inv_hand_1h_ulatek_d_01",
+    "imgId": "270930",
     "weaponType": "FIST",
     "mainStats": ["AGI"]
   },
@@ -7636,7 +7636,7 @@
       "raid": "TVA",
       "bossName": "NEKZALI"
     },
-    "imgId": "inv_helm_plate_raiddeathknightulatek_d_01",
+    "imgId": "268229",
     "armorType": "PLATE"
   },
   {
@@ -7649,7 +7649,7 @@
       "raid": "TVA",
       "bossName": "NEKZALI"
     },
-    "imgId": "inv_shoulder_mail_raidshamanulatek_d_01",
+    "imgId": "268231",
     "armorType": "MAIL"
   },
   {
@@ -7662,7 +7662,7 @@
       "raid": "TVA",
       "bossName": "NEKZALI"
     },
-    "imgId": "inv_cape_leather_raidmonkulatek_d_01",
+    "imgId": "268248",
     "armorType": "LEATHER"
   },
   {
@@ -7675,7 +7675,7 @@
       "raid": "TVA",
       "bossName": "NEKZALI"
     },
-    "imgId": "inv_robe_leather_raiddruidulatek_d_01",
+    "imgId": "268235",
     "armorType": "LEATHER"
   },
   {
@@ -7688,7 +7688,7 @@
       "raid": "TVA",
       "bossName": "NEKZALI"
     },
-    "imgId": "8095063",
+    "imgId": "268240",
     "armorType": "LEATHER"
   },
   {
@@ -7701,7 +7701,7 @@
       "raid": "TVA",
       "bossName": "NEKZALI"
     },
-    "imgId": "inv_belt_mail_raidevokerulatek_d_01",
+    "imgId": "268216",
     "armorType": "MAIL"
   },
   {
@@ -7714,7 +7714,7 @@
       "raid": "TVA",
       "bossName": "NEKZALI"
     },
-    "imgId": "inv_pant_cloth_raidpriestulatek_d_01",
+    "imgId": "268236",
     "armorType": "CLOTH"
   },
   {
@@ -7727,7 +7727,7 @@
       "raid": "TVA",
       "bossName": "NEKZALI"
     },
-    "imgId": "inv_boot_plate_raidwarriorulatek_d_01",
+    "imgId": "268245",
     "armorType": "PLATE"
   },
   {
@@ -7740,7 +7740,7 @@
       "raid": "TVA",
       "bossName": "NEKZALI"
     },
-    "imgId": "inv_boot_cloth_raidpriestulatek_d_01",
+    "imgId": "268218",
     "armorType": "CLOTH"
   },
   {
@@ -7753,7 +7753,7 @@
       "raid": "TVA",
       "bossName": "NEKZALI"
     },
-    "imgId": "inv_121_trinket_raid_ulatek_ritualvessel",
+    "imgId": "270162",
     "roles": ["HEALER"],
     "mainStats": ["INT"]
   },
@@ -7768,7 +7768,7 @@
       "raid": "TVA",
       "bossName": "ENTOMBED_SENTINELS"
     },
-    "imgId": "inv_jewelcrafting_goldenserpent"
+    "imgId": "270912"
   },
   {
     "name": "Venomcured Idol",
@@ -7781,7 +7781,7 @@
       "raid": "TVA",
       "bossName": "ENTOMBED_SENTINELS"
     },
-    "imgId": "inv_jewelcrafting_purpleserpent"
+    "imgId": "270911"
   },
   {
     "name": "Venomforged Idol",
@@ -7794,7 +7794,7 @@
       "raid": "TVA",
       "bossName": "ENTOMBED_SENTINELS"
     },
-    "imgId": "inv_jewelcrafting_rubyserpent"
+    "imgId": "270913"
   },
   {
     "name": "Venomwoven Idol",
@@ -7807,7 +7807,7 @@
       "raid": "TVA",
       "bossName": "ENTOMBED_SENTINELS"
     },
-    "imgId": "inv_jewelcrafting_azureserpent"
+    "imgId": "270910"
   },
   {
     "name": "Caustic Keeper-Crusher",
@@ -7819,7 +7819,7 @@
       "raid": "TVA",
       "bossName": "ENTOMBED_SENTINELS"
     },
-    "imgId": "inv_mace_2h_ulatek_d_01",
+    "imgId": "268198",
     "weaponType": "MACE2H",
     "mainStats": ["STR"]
   },
@@ -7833,7 +7833,7 @@
       "raid": "TVA",
       "bossName": "ENTOMBED_SENTINELS"
     },
-    "imgId": "inv_knife_1h_ulatek_d_01",
+    "imgId": "268204",
     "weaponType": "DAGGER",
     "mainStats": ["AGI"]
   },
@@ -7847,7 +7847,7 @@
       "raid": "TVA",
       "bossName": "ENTOMBED_SENTINELS"
     },
-    "imgId": "inv_offhand_1h_ulatek_d_01",
+    "imgId": "268197",
     "offhandType": "OFFHAND"
   },
   {
@@ -7860,7 +7860,7 @@
       "raid": "TVA",
       "bossName": "ENTOMBED_SENTINELS"
     },
-    "imgId": "inv_helm_mail_raidshamanulatek_d_01",
+    "imgId": "268230",
     "armorType": "MAIL"
   },
   {
@@ -7873,7 +7873,7 @@
       "raid": "TVA",
       "bossName": "ENTOMBED_SENTINELS"
     },
-    "imgId": "inv_helm_leather_raidrogueulatek_d_01",
+    "imgId": "268219",
     "armorType": "LEATHER"
   },
   {
@@ -7886,7 +7886,7 @@
       "raid": "TVA",
       "bossName": "ENTOMBED_SENTINELS"
     },
-    "imgId": "inv_121_jewelry_neck02_green",
+    "imgId": "268250",
     "miscType": "NECK"
   },
   {
@@ -7899,7 +7899,7 @@
       "raid": "TVA",
       "bossName": "ENTOMBED_SENTINELS"
     },
-    "imgId": "inv_bracer_cloth_raidmageulatek_d_01",
+    "imgId": "268228",
     "armorType": "CLOTH"
   },
   {
@@ -7912,7 +7912,7 @@
       "raid": "TVA",
       "bossName": "ENTOMBED_SENTINELS"
     },
-    "imgId": "inv_pant_plate_raidwarriorulatek_d_01",
+    "imgId": "268224",
     "armorType": "PLATE"
   },
   {
@@ -7925,7 +7925,7 @@
       "raid": "TVA",
       "bossName": "ENTOMBED_SENTINELS"
     },
-    "imgId": "inv_121_trinket_raid_ulatek_golemhearts_green",
+    "imgId": "270165",
     "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -7940,7 +7940,7 @@
       "raid": "TVA",
       "bossName": "VASHNIK"
     },
-    "imgId": "inv_jewelcrafting_goldenserpent"
+    "imgId": "270928"
   },
   {
     "name": "Venomcured Icon",
@@ -7953,7 +7953,7 @@
       "raid": "TVA",
       "bossName": "VASHNIK"
     },
-    "imgId": "inv_jewelcrafting_purpleserpent"
+    "imgId": "270927"
   },
   {
     "name": "Venomforged Icon",
@@ -7966,7 +7966,7 @@
       "raid": "TVA",
       "bossName": "VASHNIK"
     },
-    "imgId": "inv_jewelcrafting_rubyserpent"
+    "imgId": "270929"
   },
   {
     "name": "Venomwoven Icon",
@@ -7979,7 +7979,7 @@
       "raid": "TVA",
       "bossName": "VASHNIK"
     },
-    "imgId": "inv_jewelcrafting_azureserpent"
+    "imgId": "270926"
   },
   {
     "name": "Malignant Toothed Edge",
@@ -7991,7 +7991,7 @@
       "raid": "TVA",
       "bossName": "VASHNIK"
     },
-    "imgId": "inv_sword_2h_ulatek_d_01",
+    "imgId": "268214",
     "weaponType": "SWORD2H",
     "mainStats": ["STR"]
   },
@@ -8005,7 +8005,7 @@
       "raid": "TVA",
       "bossName": "VASHNIK"
     },
-    "imgId": "inv_staff_2h_ulatek_d_02",
+    "imgId": "268205",
     "weaponType": "STAFF",
     "mainStats": ["INT"]
   },
@@ -8019,7 +8019,7 @@
       "raid": "TVA",
       "bossName": "VASHNIK"
     },
-    "imgId": "inv_shoulder_leather_raiddemonhunterulatek_d_01",
+    "imgId": "268246",
     "armorType": "LEATHER"
   },
   {
@@ -8032,7 +8032,7 @@
       "raid": "TVA",
       "bossName": "VASHNIK"
     },
-    "imgId": "inv_belt_mail_raidshamanulatek_d_01",
+    "imgId": "268254",
     "armorType": "MAIL"
   },
   {
@@ -8045,7 +8045,7 @@
       "raid": "TVA",
       "bossName": "VASHNIK"
     },
-    "imgId": "inv_boot_plate_raidpaladinulatek_d_01",
+    "imgId": "268260",
     "armorType": "PLATE"
   },
   {
@@ -8058,7 +8058,7 @@
       "raid": "TVA",
       "bossName": "VASHNIK"
     },
-    "imgId": "inv_121_jewelry_ring01_purple",
+    "imgId": "268249",
     "miscType": "FINGER"
   },
   {
@@ -8071,7 +8071,7 @@
       "raid": "TVA",
       "bossName": "VASHNIK"
     },
-    "imgId": "inv_121_trinket_raid_ulatek_fang_purple",
+    "imgId": "270161",
     "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -8085,7 +8085,7 @@
       "raid": "TVA",
       "bossName": "VASHNIK"
     },
-    "imgId": "inv_11_0_raid_gruesomesyringe_blue",
+    "imgId": "270166",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["AGI"]
   },
@@ -8100,7 +8100,7 @@
       "raid": "TVA",
       "bossName": "LOST_EXPLORERS"
     },
-    "imgId": "inv_jewelcrafting_goldenserpent"
+    "imgId": "270924"
   },
   {
     "name": "Venomcured Remnant",
@@ -8113,7 +8113,7 @@
       "raid": "TVA",
       "bossName": "LOST_EXPLORERS"
     },
-    "imgId": "inv_jewelcrafting_purpleserpent"
+    "imgId": "270923"
   },
   {
     "name": "Venomforged Remnant",
@@ -8126,7 +8126,7 @@
       "raid": "TVA",
       "bossName": "LOST_EXPLORERS"
     },
-    "imgId": "inv_jewelcrafting_rubyserpent"
+    "imgId": "270925"
   },
   {
     "name": "Venomwoven Remnant",
@@ -8139,7 +8139,7 @@
       "raid": "TVA",
       "bossName": "LOST_EXPLORERS"
     },
-    "imgId": "inv_jewelcrafting_azureserpent"
+    "imgId": "270922"
   },
   {
     "name": "Malevolent Spiritcudgel",
@@ -8151,7 +8151,7 @@
       "raid": "TVA",
       "bossName": "LOST_EXPLORERS"
     },
-    "imgId": "inv_mace_1h_ulatek_d_01",
+    "imgId": "268210",
     "weaponType": "MACE1H",
     "mainStats": ["INT"]
   },
@@ -8165,7 +8165,7 @@
       "raid": "TVA",
       "bossName": "LOST_EXPLORERS"
     },
-    "imgId": "inv_firearm_2h_ulatek_d_01",
+    "imgId": "268200",
     "weaponType": "GUN",
     "mainStats": ["AGI"]
   },
@@ -8179,7 +8179,7 @@
       "raid": "TVA",
       "bossName": "LOST_EXPLORERS"
     },
-    "imgId": "inv_shield_1h_ulatek_d_01",
+    "imgId": "268196",
     "offhandType": "SHIELD"
   },
   {
@@ -8192,7 +8192,7 @@
       "raid": "TVA",
       "bossName": "LOST_EXPLORERS"
     },
-    "imgId": "inv_helm_cloth_raidpriestulatek_d_01",
+    "imgId": "268242",
     "armorType": "CLOTH"
   },
   {
@@ -8205,7 +8205,7 @@
       "raid": "TVA",
       "bossName": "LOST_EXPLORERS"
     },
-    "imgId": "inv_bracer_plate_raiddeathknightulatek_d_01",
+    "imgId": "268239",
     "armorType": "PLATE"
   },
   {
@@ -8218,7 +8218,7 @@
       "raid": "TVA",
       "bossName": "LOST_EXPLORERS"
     },
-    "imgId": "inv_belt_leather_raidrogueulatek_d_01",
+    "imgId": "268227",
     "armorType": "LEATHER"
   },
   {
@@ -8231,7 +8231,7 @@
       "raid": "TVA",
       "bossName": "LOST_EXPLORERS"
     },
-    "imgId": "inv_boot_mail_raidevokerulatek_d_01",
+    "imgId": "268258",
     "armorType": "MAIL"
   },
   {
@@ -8244,7 +8244,7 @@
       "raid": "TVA",
       "bossName": "LOST_EXPLORERS"
     },
-    "imgId": "inv_cape_special_turtleshell_c_02",
+    "imgId": "270160",
     "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -8258,7 +8258,7 @@
       "raid": "TVA",
       "bossName": "LOST_EXPLORERS"
     },
-    "imgId": "inv_10_tailoring_bag1_color2",
+    "imgId": "270164",
     "roles": ["DPS_MELEE", "DPS_RANGED", "TANK", "HEALER"],
     "mainStats": ["INT", "STR", "AGI"]
   },
@@ -8273,7 +8273,7 @@
       "raid": "TVA",
       "bossName": "SSZORAK"
     },
-    "imgId": "inv_jewelcrafting_goldenserpent"
+    "imgId": "270920"
   },
   {
     "name": "Venomcured Relic",
@@ -8286,7 +8286,7 @@
       "raid": "TVA",
       "bossName": "SSZORAK"
     },
-    "imgId": "inv_jewelcrafting_purpleserpent"
+    "imgId": "270919"
   },
   {
     "name": "Venomforged Relic",
@@ -8299,7 +8299,7 @@
       "raid": "TVA",
       "bossName": "SSZORAK"
     },
-    "imgId": "inv_jewelcrafting_rubyserpent"
+    "imgId": "270921"
   },
   {
     "name": "Venomwoven Relic",
@@ -8312,7 +8312,7 @@
       "raid": "TVA",
       "bossName": "SSZORAK"
     },
-    "imgId": "inv_jewelcrafting_azureserpent"
+    "imgId": "270918"
   },
   {
     "name": "Slithering Savage's Gavel",
@@ -8324,7 +8324,7 @@
       "raid": "TVA",
       "bossName": "SSZORAK"
     },
-    "imgId": "inv_mace_1h_ulatek_d_01",
+    "imgId": "268206",
     "weaponType": "MACE1H",
     "mainStats": ["AGI"]
   },
@@ -8338,7 +8338,7 @@
       "raid": "TVA",
       "bossName": "SSZORAK"
     },
-    "imgId": "inv_glaive_1h_ulatek_d_01",
+    "imgId": "268201",
     "weaponType": "WARGLAIVE",
     "mainStats": ["INT", "AGI"]
   },
@@ -8352,7 +8352,7 @@
       "raid": "TVA",
       "bossName": "SSZORAK"
     },
-    "imgId": "inv_glove_leather_raiddemonhunterulatek_d_01",
+    "imgId": "268234",
     "armorType": "LEATHER"
   },
   {
@@ -8365,7 +8365,7 @@
       "raid": "TVA",
       "bossName": "SSZORAK"
     },
-    "imgId": "inv_belt_cloth_raidwarlockulatek_d_01",
+    "imgId": "268257",
     "armorType": "CLOTH"
   },
   {
@@ -8378,7 +8378,7 @@
       "raid": "TVA",
       "bossName": "SSZORAK"
     },
-    "imgId": "inv_boot_mail_raidhunterulatek_d_01",
+    "imgId": "268233",
     "armorType": "MAIL"
   },
   {
@@ -8391,7 +8391,7 @@
       "raid": "TVA",
       "bossName": "SSZORAK"
     },
-    "imgId": "inv_121_jewelry_ring03_red",
+    "imgId": "268252",
     "miscType": "FINGER"
   },
   {
@@ -8404,7 +8404,7 @@
       "raid": "TVA",
       "bossName": "SSZORAK"
     },
-    "imgId": "inv_jewelcrafting_jadeserpent",
+    "imgId": "270174",
     "roles": ["TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -8418,7 +8418,7 @@
       "raid": "TVA",
       "bossName": "SSZORAK"
     },
-    "imgId": "inv_121_trinket_raid_ulatek_ulatekclaw",
+    "imgId": "270163",
     "roles": ["DPS_MELEE"],
     "mainStats": ["STR"]
   },
@@ -8433,7 +8433,7 @@
       "raid": "TVA",
       "bossName": "TWIN_FANGS"
     },
-    "imgId": "inv_jewelcrafting_goldenserpent"
+    "imgId": "270916"
   },
   {
     "name": "Venomcured Effigy",
@@ -8446,7 +8446,7 @@
       "raid": "TVA",
       "bossName": "TWIN_FANGS"
     },
-    "imgId": "inv_jewelcrafting_purpleserpent"
+    "imgId": "270915"
   },
   {
     "name": "Venomforged Effigy",
@@ -8459,7 +8459,7 @@
       "raid": "TVA",
       "bossName": "TWIN_FANGS"
     },
-    "imgId": "inv_jewelcrafting_rubyserpent"
+    "imgId": "270917"
   },
   {
     "name": "Venomwoven Effigy",
@@ -8472,7 +8472,7 @@
       "raid": "TVA",
       "bossName": "TWIN_FANGS"
     },
-    "imgId": "inv_jewelcrafting_azureserpent"
+    "imgId": "270914"
   },
   {
     "name": "Ravenous Feaster's Fang",
@@ -8484,7 +8484,7 @@
       "raid": "TVA",
       "bossName": "TWIN_FANGS"
     },
-    "imgId": "inv_knife_1h_ulatek_d_02",
+    "imgId": "268264",
     "weaponType": "DAGGER",
     "mainStats": ["AGI"]
   },
@@ -8498,7 +8498,7 @@
       "raid": "TVA",
       "bossName": "TWIN_FANGS"
     },
-    "imgId": "inv_121_jewelry_neck01_red",
+    "imgId": "268251",
     "miscType": "NECK"
   },
   {
@@ -8511,7 +8511,7 @@
       "raid": "TVA",
       "bossName": "TWIN_FANGS"
     },
-    "imgId": "inv_shoulder_cloth_raidmageulatek_d_01",
+    "imgId": "268241",
     "armorType": "CLOTH"
   },
   {
@@ -8524,7 +8524,7 @@
       "raid": "TVA",
       "bossName": "TWIN_FANGS"
     },
-    "imgId": "inv_chest_mail_raidhunterulatek_d_01",
+    "imgId": "268223",
     "armorType": "MAIL"
   },
   {
@@ -8537,7 +8537,7 @@
       "raid": "TVA",
       "bossName": "TWIN_FANGS"
     },
-    "imgId": "inv_glove_plate_raidpaladinulatek_d_01",
+    "imgId": "268220",
     "armorType": "PLATE"
   },
   {
@@ -8550,7 +8550,7 @@
       "raid": "TVA",
       "bossName": "TWIN_FANGS"
     },
-    "imgId": "inv_boot_leather_raidmonkulatek_d_01",
+    "imgId": "268261",
     "armorType": "LEATHER"
   },
   {
@@ -8563,7 +8563,7 @@
       "raid": "TVA",
       "bossName": "TWIN_FANGS"
     },
-    "imgId": "inv_11_0_dungeon_tentaclevial_green",
+    "imgId": "270171",
     "roles": ["HEALER"],
     "mainStats": []
   },
@@ -8577,7 +8577,7 @@
       "raid": "TVA",
       "bossName": "TWIN_FANGS"
     },
-    "imgId": "inv_11_0_misc_organmass_color3",
+    "imgId": "270170",
     "roles": ["DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -8591,7 +8591,7 @@
       "raid": "TVA",
       "bossName": "COILED_ALTAR"
     },
-    "imgId": "inv_sword_1h_ulatek_d_01",
+    "imgId": "268211",
     "weaponType": "SWORD1H",
     "mainStats": ["INT"]
   },
@@ -8605,7 +8605,7 @@
       "raid": "TVA",
       "bossName": "COILED_ALTAR"
     },
-    "imgId": "inv_cape_leather_raidrogueulatek_d_01",
+    "imgId": "268253",
     "armorType": "LEATHER"
   },
   {
@@ -8618,7 +8618,7 @@
       "raid": "TVA",
       "bossName": "COILED_ALTAR"
     },
-    "imgId": "inv_chest_plate_raidwarriorulatek_d_01",
+    "imgId": "268222",
     "armorType": "PLATE"
   },
   {
@@ -8631,7 +8631,7 @@
       "raid": "TVA",
       "bossName": "COILED_ALTAR"
     },
-    "imgId": "inv_glove_cloth_raidwarlockulatek_d_01",
+    "imgId": "268243",
     "armorType": "CLOTH"
   },
   {
@@ -8644,7 +8644,7 @@
       "raid": "TVA",
       "bossName": "COILED_ALTAR"
     },
-    "imgId": "inv_belt_plate_raidpaladinulatek_d_01",
+    "imgId": "268259",
     "armorType": "PLATE"
   },
   {
@@ -8657,7 +8657,7 @@
       "raid": "TVA",
       "bossName": "COILED_ALTAR"
     },
-    "imgId": "inv_belt_leather_raiddruidulatek_d_01",
+    "imgId": "268256",
     "armorType": "LEATHER"
   },
   {
@@ -8670,7 +8670,7 @@
       "raid": "TVA",
       "bossName": "COILED_ALTAR"
     },
-    "imgId": "inv_pant_mail_raidevokerulatek_d_01",
+    "imgId": "268237",
     "armorType": "MAIL"
   },
   {
@@ -8683,7 +8683,7 @@
       "raid": "TVA",
       "bossName": "COILED_ALTAR"
     },
-    "imgId": "inv_boot_cloth_raidmageulatek_d_01",
+    "imgId": "268255",
     "armorType": "CLOTH"
   },
   {
@@ -8696,7 +8696,7 @@
       "raid": "TVA",
       "bossName": "COILED_ALTAR"
     },
-    "imgId": "inv_archaeology_orcclans_crackedidol",
+    "imgId": "270169",
     "roles": ["HEALER", "DPS_RANGED"],
     "mainStats": ["INT"]
   },
@@ -8710,7 +8710,7 @@
       "raid": "TVA",
       "bossName": "COILED_ALTAR"
     },
-    "imgId": "inv_121_trinket_raid_ulatek_trolltablet",
+    "imgId": "270173",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": ["STR", "AGI"]
   },
@@ -8724,7 +8724,7 @@
       "raid": "TVA",
       "bossName": "COILED_ALTAR"
     },
-    "imgId": "inv_axe_2h_ulatek_d_01",
+    "imgId": "268213",
     "weaponType": "AXE2H",
     "mainStats": ["STR"]
   },
@@ -8738,7 +8738,7 @@
       "raid": "TVA",
       "bossName": "COILED_ALTAR"
     },
-    "imgId": "inv_axe_1h_ulatek_d_01",
+    "imgId": "268209",
     "weaponType": "AXE1H",
     "mainStats": ["AGI"]
   },
@@ -8752,7 +8752,7 @@
       "raid": "TVA",
       "bossName": "ULATEK"
     },
-    "imgId": "inv_polearm_2h_ulatek_d_01",
+    "imgId": "268215",
     "weaponType": "POLEARM",
     "mainStats": ["AGI"]
   },
@@ -8766,7 +8766,7 @@
       "raid": "TVA",
       "bossName": "ULATEK"
     },
-    "imgId": "inv_sword_1h_ulatek_d_01",
+    "imgId": "268202",
     "weaponType": "SWORD1H",
     "mainStats": ["STR"]
   },
@@ -8780,7 +8780,7 @@
       "raid": "TVA",
       "bossName": "ULATEK"
     },
-    "imgId": "inv_bow_1h_ulatek_d_01",
+    "imgId": "268207",
     "weaponType": "BOW",
     "mainStats": ["AGI"]
   },
@@ -8794,7 +8794,7 @@
       "raid": "TVA",
       "bossName": "ULATEK"
     },
-    "imgId": "inv_helm_leather_raiddruidulatek_d_01",
+    "imgId": "271875",
     "armorType": "LEATHER"
   },
   {
@@ -8807,7 +8807,7 @@
       "raid": "TVA",
       "bossName": "ULATEK"
     },
-    "imgId": "inv_helm_cloth_raidwarlockulatek_d_01",
+    "imgId": "271874",
     "armorType": "CLOTH"
   },
   {
@@ -8820,7 +8820,7 @@
       "raid": "TVA",
       "bossName": "ULATEK"
     },
-    "imgId": "inv_121_jewelry_neck03_green",
+    "imgId": "268265",
     "miscType": "NECK"
   },
   {
@@ -8833,7 +8833,7 @@
       "raid": "TVA",
       "bossName": "ULATEK"
     },
-    "imgId": "inv_chest_mail_raidevokerulatek_d_01",
+    "imgId": "271876",
     "armorType": "MAIL"
   },
   {
@@ -8846,7 +8846,7 @@
       "raid": "TVA",
       "bossName": "ULATEK"
     },
-    "imgId": "inv_pant_plate_raiddeathknightulatek_d_01",
+    "imgId": "271878",
     "armorType": "PLATE"
   },
   {
@@ -8859,7 +8859,7 @@
       "raid": "TVA",
       "bossName": "ULATEK"
     },
-    "imgId": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green",
+    "imgId": "270168",
     "roles": ["DPS_MELEE", "DPS_RANGED"],
     "mainStats": []
   },
@@ -8873,7 +8873,7 @@
       "raid": "TVA",
       "bossName": "ULATEK"
     },
-    "imgId": "inv_121_trinket_raid_ulatek_heart",
+    "imgId": "270175",
     "roles": ["DPS_MELEE", "DPS_RANGED", "TANK"],
     "mainStats": ["STR", "AGI"]
   },
@@ -8887,7 +8887,7 @@
       "raid": "TVA",
       "bossName": "ULATEK"
     },
-    "imgId": "inv_knife_1h_ulatekfang_d_01_poison",
+    "imgId": "271093",
     "weaponType": "DAGGER",
     "mainStats": ["AGI"]
   },
@@ -8901,7 +8901,7 @@
       "raid": "TVA",
       "bossName": "ULATEK"
     },
-    "imgId": "inv_knife_1h_ulatekfang_d_01_spirit",
+    "imgId": "271092",
     "weaponType": "DAGGER",
     "mainStats": ["INT"]
   },
@@ -8915,7 +8915,7 @@
       "raid": "SF",
       "bossName": "ROTMIRE"
     },
-    "imgId": "inv_helm_leather_raiddruidmidnight_d_01",
+    "imgId": "268283",
     "armorType": "LEATHER"
   },
   {
@@ -8928,7 +8928,7 @@
       "raid": "SF",
       "bossName": "ROTMIRE"
     },
-    "imgId": "inv_12_jewelry_rutaani_necklace_blue",
+    "imgId": "268291",
     "miscType": "NECK"
   },
   {
@@ -8941,7 +8941,7 @@
       "raid": "SF",
       "bossName": "ROTMIRE"
     },
-    "imgId": "inv_chest_cloth_raidmagemidnight_d_01",
+    "imgId": "268284",
     "armorType": "CLOTH"
   },
   {
@@ -8954,7 +8954,7 @@
       "raid": "SF",
       "bossName": "ROTMIRE"
     },
-    "imgId": "inv_plate_raiddeathknightmidnight_d_01_chest",
+    "imgId": "268285",
     "armorType": "PLATE"
   },
   {
@@ -8967,7 +8967,7 @@
       "raid": "SF",
       "bossName": "ROTMIRE"
     },
-    "imgId": "inv_belt_plate_raidpaladinmidnight_d_01",
+    "imgId": "268289",
     "armorType": "PLATE"
   },
   {
@@ -8980,7 +8980,7 @@
       "raid": "SF",
       "bossName": "ROTMIRE"
     },
-    "imgId": "inv_belt_leather_raidroguemidnight_d_01",
+    "imgId": "268286",
     "armorType": "LEATHER"
   },
   {
@@ -8993,7 +8993,7 @@
       "raid": "SF",
       "bossName": "ROTMIRE"
     },
-    "imgId": "inv_pant_mail_raidevokermidnight_d_01",
+    "imgId": "268288",
     "armorType": "MAIL"
   },
   {
@@ -9006,7 +9006,7 @@
       "raid": "SF",
       "bossName": "ROTMIRE"
     },
-    "imgId": "inv_boot_mail_raidshamanmidnight_d_01",
+    "imgId": "268287",
     "armorType": "MAIL"
   },
   {
@@ -9019,7 +9019,7 @@
       "raid": "SF",
       "bossName": "ROTMIRE"
     },
-    "imgId": "inv_boot_cloth_raidpriestmidnight_d_01",
+    "imgId": "268282",
     "armorType": "CLOTH"
   },
   {
@@ -9032,7 +9032,7 @@
       "raid": "SF",
       "bossName": "ROTMIRE"
     },
-    "imgId": "inv_12_jewelry_rutaani_ring_blue",
+    "imgId": "268290",
     "miscType": "FINGER"
   },
   {
@@ -9045,7 +9045,7 @@
       "raid": "SF",
       "bossName": "ROTMIRE"
     },
-    "imgId": "inv_1207_fungarianraid_trinket",
+    "imgId": "268292",
     "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
     "mainStats": ["INT", "STR", "AGI"]
   }
