@@ -9152,7 +9152,7 @@
       "bossName": "KITHIX"
     },
     "imgId": "280617",
-    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
+    "roles": ["TANK"],
     "mainStats": ["AGI", "STR"]
   },
   {
@@ -9180,7 +9180,7 @@
       "bossName": "KITHIX"
     },
     "imgId": "280835",
-    "roles": ["DPS_MELEE", "DPS_RANGED", "HEALER", "TANK"],
+    "roles": ["HEALER"],
     "mainStats": ["INT"]
   }
 ]
