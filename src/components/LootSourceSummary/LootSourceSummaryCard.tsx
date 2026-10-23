@@ -2,7 +2,6 @@ import { Collapse, Box, IconButton, Stack, Typography, useTheme } from '@mui/mat
 import { memo, useState } from 'react';
 import { useGetLootSourceFrequency } from './hooks/UseGetLootSourceFrequency';
 import { KeyboardArrowUp, KeyboardArrowDown } from '@mui/icons-material';
-import { useGetTopLootSource } from './hooks/UseGetTopLootSourceInfo';
 import { GetLootSourceImage } from './utils';
 
 const COLLAPSED_ITEM_COUNT = 3;
@@ -15,8 +14,7 @@ export const LootSourceSummaryCard = memo(() => {
   const isExpandable = recommendationDisplayData.length > COLLAPSED_ITEM_COUNT;
   const alwaysVisibleData = recommendationDisplayData.slice(0, COLLAPSED_ITEM_COUNT);
   const collapsedData = recommendationDisplayData.slice(COLLAPSED_ITEM_COUNT);
-  const topSource = useGetTopLootSource();
-  const topSourceImg = GetLootSourceImage(topSource);
+  const topSourceImg = GetLootSourceImage(recommendationDisplayData[0]?.lootSource ?? null);
 
   return (
     <Stack
